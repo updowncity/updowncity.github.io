@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html><head>
+<title>故纸堆系列#1</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+<link rel="stylesheet" href="/scss/journal.min.08613f62a752519690a58273cac05052aae3e105abe641850ff17b73c71ce0f5.css" integrity="sha256-CGE/YqdSUZaQpYJzysBQUqrj4QWr5kGFD/F7c8cc4PU=" media="screen">
+
+
+
+<link rel="stylesheet" href="/scss/dark-mode.min.063ceaa4fd33774ce4d2c35ed52e97f9f889411b4f49c0cd2cb80933ed2a9db9.css" integrity="sha256-BjzqpP0zd0zk0sNe1S6X&#43;fiJQRtPScDNLLgJM&#43;0qnbk=" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+<script async src="js/cursor/fireworks.js"></script>
+<link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/">
+                    默認
+                </a>
+                
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    時間軸/posts
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/friends">
+                    友鏈
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/moults">
+                    蟲蛻
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/bupropion">
+                    關於我是誰
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/changelog">
+                    網站裝配日誌/changelog
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/categories">
+                    分類/categories
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    標籤/tags
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="http://example.org/">
+            你快樂嗎
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="http://example.org/">
+        <div class="single-column-header-title">你快樂嗎</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    故纸堆系列#1
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2023-03-05 22:42
+                        </time>
+                        
+
+                        
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>翻箱倒柜找高中毕业证的时候在一堆作业纸里发现的。很明显它不是（现在的）我写的。我对这段文本的记忆就像那张高中毕业证一样已经不知道消失在哪里去了。无法根据笔记判断具体的时间。尽可能保留原状（无法彻底保留原状或者按照撰写的时间顺序录入文本：就连我自己也不知道怎么对付那些箭头（用电脑写东西的时候至少它们是排版友好的括号群…可这堆箭头……呃…）写完留学文书后处于一种精神被耗竭的状态，又一次陷入文本搬运与interface configuration这些机械行为的黑洞。无法忍受有人在我身后走来走去，只好把整个工作台搬到床上，每天和草稿纸睡在一起。我也不去图书馆自习，因为会经常有人从我旁边经过。真的很羡慕那些能够正常去图书馆或者自习室学习的人（不会轻易陷入痛苦不堪的状态），那些不会因为强迫行为交不上作业的人。从很久以前便是如此。
+或许我会重置它，赋予它（至少我觉得）更加有趣的解释。但毕竟它不是「我」写的。而我已经不再想要将过去一笔勾销。To be honest，录入这个东西的时候我真的很嫌弃它：没有check定义就乱写自己没有完全搞清楚的东西，名词党的臭毛病。</p>
+<p>它是一部我从一个免费游戏网站上下载的单机RPG，介绍页面很普通，感觉作者很懒，但挺擅长画画的，人物立绘和CG预览都很好。下载量很低。
+最初我以为这部完成度如此高的游戏免费发布有些可惜，后来想到我和我的朋友们的写作：像乞讨一样恳求路人阅读我们的作品，我们可怜的生活报告。
+这位作者也是一样。他（也许是她）更擅长编程与故弄玄虚。我想他放出表现完成度的预览图是为了阻止网站管理员删除它。
+背景是一所无法判别是中学还是大学的学校，角色甚至没有名字，对话框上方只是「你」。我根本不知道要我做什么。游戏的标签是解密，以平淡的日常作为开端。
+很常见，很快就会出现吓人一跳的<del>按键</del>案件，比如同学的失踪或跳楼。
+它让我想到一些新浪潮的电影。极其琐碎的日常。我知道这部游戏来自一位十分钦佩的朋友，她称赞它，而她很少接触游戏，我一直觉得有些可惜。
+琐碎到令人感到作者对所处世界的厌恶。同一个房间里别人走来走去的声音令人作呕<code>sancheck</code>。
+自己肉体的存在
+「你」一天要诅咒你的肉体三十次
+牙膏从牙刷的刷毛上滑落
+中间有许多选择肢，比如去哪里，去教室，去图书馆，去上厕所，去宿舍，第一天无事发生
+这是我接触到的第一部将失眠的细节给描写出来的。无法快进或是存档，我几乎失去了耐心。终于，第2天，选择肢消失，更像是视觉小说，去这些地方的顺序也是固定的。一些细节分差，TRPG要素，也许是为了让游戏不会过分沉闷。第3天依旧，且没有快进，我只能快速敲击键盘。Endless
+第4天，消失的选择支重现
+第六天以后我不再玩了。
+在游戏评论区有位技术大佬称他拆了游戏包，在第2天以后以为是重复，TRPG要素，加上一些细微分差，随机，用有限模拟无穷，利用玩家缺乏耐心，不会有人玩到十天以后。而发现重复一般需要两千多天。它躺在我的硬盘里很久了，作者只是在模仿一些神经官能症患者的征状，比如刻板行为。
+后来我发现它可能并不是单机游戏。我对电脑一窍不通，但不想让别人的延伸触摸我硬盘这片处女地，每次它出故障都这样。从搜索引擎上找解决方法，而非求助他人。宁可失去所有存档，也不想面对好奇的询问，回答那些该死的问题。
+由此多少了解到用命令行检查网络使用情况的方法。游戏在联网方面做得很隐蔽。我感到诧异的地方是，当我断开网络连接以后它依旧可以连上。一个小把戏，修改图形界面的显示，移走按钮以欺骗我。
+也许它在窃取我的信息，也许我应该向网站管理员报告这件事，但无关紧要，一个孤独的偷窥狂。谁也〔看不懂这几个字写的是什么〕与开发者见面发生在</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2023-03-05</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="/posts/stacked-logs-02/">
+			Next<br>log-2023-03-08
+                </a>
+                
+                
+                
+                <a class="older-posts" href="/posts/funny-things/">
+			Previous<br>funny-things
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="http://example.org/">
+    
+        <div class="nav-title">
+            你快樂嗎
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/">
+                默認
+            </a>
+            
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                時間軸/posts
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/friends">
+                友鏈
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/moults">
+                蟲蛻
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/bupropion">
+                關於我是誰
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/changelog">
+                網站裝配日誌/changelog
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/categories">
+                分類/categories
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                標籤/tags
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2023 你快樂嗎
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2023 你快樂嗎
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>

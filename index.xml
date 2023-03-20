@@ -1,0 +1,195 @@
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>你快樂嗎</title>
+    <link>http://example.org/</link>
+    <description>Recent content on 你快樂嗎</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 20 Mar 2023 17:33:42 +0800</lastBuildDate>
+    
+        <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Moved to Hugo</title>
+        <link>http://example.org/posts/moved-to-hugo/</link>
+        <pubDate>Mon, 20 Mar 2023 17:33:42 +0800</pubDate>
+        
+        <guid>http://example.org/posts/moved-to-hugo/</guid>
+        <description>你快樂嗎 http://example.org/posts/moved-to-hugo/ -&lt;p&gt;test&lt;/p&gt;
+- http://example.org/posts/moved-to-hugo/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>my-thesis-vanished</title>
+        <link>http://example.org/posts/my-thesis-vanished/</link>
+        <pubDate>Sun, 19 Mar 2023 23:45:35 +0000</pubDate>
+        
+        <guid>http://example.org/posts/my-thesis-vanished/</guid>
+        <description>你快樂嗎 http://example.org/posts/my-thesis-vanished/ -&lt;p&gt;我的论文消失了：打开发现只剩下一片狼藉（头文件）或許是按錯了熱鍵，或許是（空缺的主語）在提醒我不可以那樣爲了寫論文停在原地。我現在對$\mathcal{D}$-module很好奇。（論文應該是建立在日常的積累之上的，而不是臨時生搬硬湊的。我其實是有筆記的，只是它們混亂到讓人窒息（事實上我很少碰它們）。因爲過去的記錄太過混亂，所以無力去整理和搜索，每次只好再重寫一遍，這種重複又帶來新的混亂。）&lt;/p&gt;- http://example.org/posts/my-thesis-vanished/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>虛構回憶</title>
+        <link>http://example.org/posts/fictional-memory/</link>
+        <pubDate>Sun, 19 Mar 2023 03:55:00 +0000</pubDate>
+        
+        <guid>http://example.org/posts/fictional-memory/</guid>
+        <description>你快樂嗎 http://example.org/posts/fictional-memory/ -- http://example.org/posts/fictional-memory/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>日誌</title>
+        <link>http://example.org/changelog/</link>
+        <pubDate>Sat, 18 Mar 2023 22:41:49 +0000</pubDate>
+        
+        <guid>http://example.org/changelog/</guid>
+        <description>你快樂嗎 http://example.org/changelog/ -&lt;p&gt;2023-03-20&lt;/p&gt;
+&lt;p&gt;放置了一个&lt;strong&gt;加载非常缓慢且很可能除了报错什么也不会&lt;/strong&gt;的留言板；
+&lt;!-- raw HTML omitted --&gt;备份&lt;!-- raw HTML omitted --&gt;默认的字体配置（目前我只在后面加了微软雅黑（阻止衬线与等宽的中文fallback到宋体）。不过很难期待ugly-blue的作者会愿意认真考虑可读性问题。）&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;font-sans&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-apple-system&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;BlinkMacSystemFont&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Segoe UI&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Roboto&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Oxygen&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Ubuntu&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Cantarell&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Fira Sans&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Droid Sans&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Microsoft Yahei&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;sans-serif&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;font-serif&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;Georgia&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Times New Roman&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Microsoft Yahei&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;serif&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;font-mono&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Source Code Pro&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;Consolas&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;Monaco&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;Menlo&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;Consolas&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Microsoft Yahei&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;monospace&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;font-icon&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;FontAwesome&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;font-icon-path&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;fonts/fontawesome-webfont&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;font-icon-version&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;4.7.0&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;font-size&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;14px&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;line-height&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;1&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;6em&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;line-height-title&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;1&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;1em&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;2023-03-29&lt;/p&gt;
+&lt;p&gt;通過沙盒回歸舊的景觀，緩慢搬運。果然我不喜歡我的「醜陋的憂鬱」。&lt;code&gt;2023-03-19&lt;/code&gt;
+第一次添加友鏈（又是丟失的時間戳，就像那些蟲蛻。）
+把原本裝在injector裡的內容取出然後放入主題文件夾裡的&lt;code&gt;head.ejs&lt;/code&gt;（……因爲landscape已經很久都沒有更新了，我可以放心地改主題文件，無需考慮更新時我的配置被覆寫什麼的。）
+换掉了changelog页(爲什麼); （時間戳丟失）&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;寫論文摸魚的時候逛&lt;a href=&#34;https://hexo.io/themes/&#34;&gt;Hexo主题&lt;/a&gt;，始终没有找到合我心意的主题。於是动手制作这个臨時被我命名为&lt;code&gt;ugly-blue&lt;/code&gt;的主题（原名是&lt;code&gt;ugly-html&lt;/code&gt;，但它並不是純HTML所以就改成了现在这个「醜陋的憂鬱」…另一个待选名称是&lt;code&gt;it-just-works&lt;/code&gt;，目前整个文件夹只有&lt;code&gt;2.47KB&lt;/code&gt;(&amp;hellip;CSS什么的都被我喂进了&lt;code&gt;injector.js&lt;/code&gt;)&amp;hellip;效果近似于破损的默认主题，但它至少是能用的。（…就像觉得perverse sheaf难听的人可以选择用hypersheaf这个名字）目前想做的是仿照Emacs默认主题配置按钮。
+加入了&lt;code&gt;moults&lt;/code&gt;虫蜕页面，用来记录那些死去[?]并且被我遗忘的網站（或许某一天我会像说“太阳升起来了”一样说这些网站是属于我的…），想法来自disroot bin的&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;这条留言&lt;/a&gt;。我的记忆力有时相当糟糕，有时我甚至感到我的生命是不连续的。&lt;/p&gt;
+- http://example.org/changelog/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>寫點什麼</title>
+        <link>http://example.org/posts/emacs-initialization/</link>
+        <pubDate>Fri, 17 Mar 2023 23:59:59 +0000</pubDate>
+        
+        <guid>http://example.org/posts/emacs-initialization/</guid>
+        <description>你快樂嗎 http://example.org/posts/emacs-initialization/ -&lt;p&gt;如果你发现我突然失踪从网络空间失踪，&lt;del&gt;就像死了一样&lt;/del&gt;留言板里也没有任何回应，那么情况很可能是：我的状态太糟糕了，只好把所有的文字触须都蜷缩起来，临时切断我与我所爱的世界的联系，直到我能够重新頂著發燙的腦袋出去。
+默认主题landscape壞了：用了一整天的時間寫Hexo主題，然後整理好發佈到独立的&lt;a href=&#34;ugly&#34;&gt;GitHub倉庫&lt;/a&gt;裡。從&lt;code&gt;ugly-blue&lt;/code&gt;（醜陋的憂鬱）這個名字就可以看出作者對世界的惡意。（最早的名字是&lt;code&gt;ugly-html&lt;/code&gt;，後來也想过&lt;code&gt;ugly-emacs-style&lt;/code&gt;（因为这个主题的终极目标(?)是仿制Emacs默认UI），也有一个比较友好的名字是&lt;code&gt;it-just-works&lt;/code&gt;（就像hypersheaf之於perverse sheaf…）。
+寫博客主題就像涂秘密花园。然而，最初用landscape时的那种安心感无论如何都已经不复存在了。某种意义上，我更愿意使用别人制作好的东西，以削弱时光虚掷的负罪感（我終於寫出來了：这种负罪感本身的不堪使得它难以被文字所固定。它通常会滑向那句抽象废话：我不想成为我自己。）&lt;/p&gt;
+&lt;p&gt;去年接触Emacs是从入门到放弃，今年&lt;a href=&#34;http://www.stallman.cn/19&#34;&gt;这位神人的文章&lt;/a&gt;重新触发了我对Emacs的兴趣（甚至开始想学Lisp）&lt;code&gt;2023-03-14&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;貼一個醜醜的雨傘 2023-03-19
+&lt;img src=&#34;http://example.org/images/2023-03/WhitneysUmbrella_700.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+- http://example.org/posts/emacs-initialization/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>將我遺忘在海邊吧</title>
+        <link>http://example.org/bupropion/</link>
+        <pubDate>Fri, 17 Mar 2023 22:57:31 +0000</pubDate>
+        
+        <guid>http://example.org/bupropion/</guid>
+        <description>你快樂嗎 http://example.org/bupropion/ -&lt;h2 id=&#34;留言&#34;&gt;留言&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;
+邮箱 &lt;code&gt;jamais-vu@tutanota.com&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;關鍵字&#34;&gt;關鍵字&lt;/h2&gt;
+&lt;h3 id=&#34;ugly-blue&#34;&gt;&lt;code&gt;ugly-blue&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;ugly-blue&lt;/code&gt;是一个只用了两天就被换掉的自制hexo主题，其实它也没有那么丑，&lt;code&gt;ugly&lt;/code&gt;可以理解为前缀或语气词。它被换掉只是因为站长比较依恋默认主题的安心感。2023-03-20&lt;/p&gt;
+&lt;h3 id=&#34;蟲蛻&#34;&gt;蟲蛻&lt;/h3&gt;
+&lt;p&gt;站长的记忆力非常糟糕以至于经常感到生命是不连续的：如果将普通的睡眠（带来的不连续）比作关机重启，那么这里的不连续可以理解为各种原因带来的文件丢失（有时这种丢失甚至是难以觉察的。）2023-03-20&lt;/p&gt;
+&lt;h3 id=&#34;站长是谁&#34;&gt;站长是谁&lt;/h3&gt;
+&lt;p&gt;按&lt;code&gt;Ctrl+C&lt;/code&gt;你会得到一个HTML文件（以及掉在旁边的一个文件夹），站长就是这个鬼东西。2023-03-20&lt;/p&gt;
+&lt;h3 id=&#34;我是谁&#34;&gt;我是谁&lt;/h3&gt;
+&lt;p&gt;前两天我的校园卡丢了但没有发现直到晚上打开洗澡用的企业微信发现里面有一条消息让我去指定的一栋宿舍楼去领回，去年的比这稍晚些的时候，学校通知打第三针疫苗然后我发现身份证已经像旧的眼镜那样被搞丢了。不过即便这两件事情同时发生（也就是存在某个时间段我既找不到身份证也找不到校园卡），我也依旧能够回到这里（也就是你刚才下载的那个HTML文件（或许你不会真的下载它）的路。（我不是故意的……自然状态下我的语言就是这个样子的你在别处看到能够阅读的段落是因为我认真地进行了断句和整理。）2023-03-20 (你同样无法期待这个掉落过很多虫蜕的作者会有一个固定的时间戳格式) 这段保留未经整理的形状的文本可以作为我的sample。&lt;/p&gt;
+&lt;h3 id=&#34;你是谁&#34;&gt;你是谁&lt;/h3&gt;
+&lt;p&gt;如果你想回答这个问题可以使用下面的留言板或者（如果Valine坏了）&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;
+&lt;a href=&#34;http://example.org/truth&#34;&gt;隱藏&lt;/a&gt;&lt;/p&gt;
+- http://example.org/bupropion/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>虫蜕</title>
+        <link>http://example.org/moults/</link>
+        <pubDate>Fri, 17 Mar 2023 02:00:29 +0000</pubDate>
+        
+        <guid>http://example.org/moults/</guid>
+        <description>你快樂嗎 http://example.org/moults/ -&lt;p&gt;如果你发现了这里没有列出的虫蜕请到&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;留言&lt;code&gt;^_^&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;爲了找到這些蟲蛻我需要：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;蒐集儘可能多的&lt;code&gt;kdbx&lt;/code&gt;文件，然後猜出它們的密碼；&lt;/li&gt;
+&lt;li&gt;觸摸那些損毀的&lt;code&gt;kdbx&lt;/code&gt;文件，就像觸摸電腦屏幕。&lt;/li&gt;
+&lt;li&gt;（上面兩個句子沒有對齊。）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://moresci.sale/@1272556031&#34;&gt;@1272556031@moresci.sale&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kernelcore.neocities.org/&#34;&gt;kernelcore.neocities.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://th.hashi.icu/digitalwastedland/&#34;&gt;th.hashi.icu/digitalwastedland&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://writee.org/digitalwastedland/&#34;&gt;writee.org/digitalwasteland&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+- http://example.org/moults/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>發生了什麼</title>
+        <link>http://example.org/posts/what-happened/</link>
+        <pubDate>Sun, 12 Mar 2023 00:41:57 +0000</pubDate>
+        
+        <guid>http://example.org/posts/what-happened/</guid>
+        <description>你快樂嗎 http://example.org/posts/what-happened/ -&lt;p&gt;又一次搞砸了，只好刪庫重來。（然後換了這樣一個很溫柔的主題。（……而這兩件事的關聯）&lt;/p&gt;
+&lt;p&gt;曾經放棄過，註冊了新的github帳號，甚至買了域名（雖然我打死也不說那個域名是什麼…它是我名字的縮寫加我喜歡的人兩年前的(一個)ID。能夠進入那個網站的人也只會以爲那是我爲了省錢而在名字縮寫後面加的隨機數。那邊沒有CJK所以字體也就調到16px（我對微軟雅黑14px時的hint有奇怪的執念）。雖然我很討厭這種類似於將工作與休閒分隔開來的處理，但那邊的強光會讓人感到很不舒服。或者說，那邊用來存放「幸福的閃電」，這邊則是「熟悉的黑夜」。當然那邊現在還是不會有訪客的（至少要等我寫出第一個…會讓別人感興趣的理論）。&lt;/p&gt;
+- http://example.org/posts/what-happened/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>友鏈</title>
+        <link>http://example.org/friends/</link>
+        <pubDate>Sun, 12 Mar 2023 00:38:32 +0000</pubDate>
+        
+        <guid>http://example.org/friends/</guid>
+        <description>你快樂嗎 http://example.org/friends/ -&lt;p&gt;&lt;a href=&#34;https://avianreport.github.io/&#34;&gt;this terrible chamber&lt;/a&gt; - yet eidetically you&lt;/p&gt;
+&lt;p&gt;留言请到&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;&lt;/p&gt;
+- http://example.org/friends/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>log-2023-03-08</title>
+        <link>http://example.org/posts/stacked-logs-02/</link>
+        <pubDate>Wed, 08 Mar 2023 10:00:59 +0000</pubDate>
+        
+        <guid>http://example.org/posts/stacked-logs-02/</guid>
+        <description>你快樂嗎 http://example.org/posts/stacked-logs-02/ -&lt;p&gt;想了想还是把声明里的那段关于授权的文字给删掉了（因为它让我感到非常不安）。我本该像远离知乎一样远离Twitter中文圈的某类话题的。那些对好奇心与热情的嫉妒与敌意真的很可怕。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在「发明」了许多数学概念以后，我终于意识到没有什么东西是属于我的。那些绝妙的想法（能够明显感觉到它与那些穿凿附会的解释之间强度上的差异）往往带有强烈的异质感，我永远不会声称那幸福的闪电属于我。因此我拒绝设置任何lisence。取而代之的是个人的请求：不要做会给我带来麻烦和困扰的事，也请不要把本站连接分享给会给我带来麻烦与困扰的人（……比如在线下世界中认识我的人。）你们所看到的我可以链接到线下世界的我（比如给我寄过东西的人会知道我的学校名字和手机号），但反过来（对我来说）真的很恐怖。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;部署失败：&lt;code&gt;Failed to connect to github.com port 443 after 2035 ms: Couldn&#39;t connect to server&lt;/code&gt;。
+这段时间总是很无力，不知道怎样做才能驱动我走向未来。就连敲下这段文字的时候也突然陷入停滞的状态。s&lt;/p&gt;
+- http://example.org/posts/stacked-logs-02/ - </description>
+        </item>
+    
+    
+  </channel>
+</rss> 

@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html><head>
+<title>网站装配记录</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+<link rel="stylesheet" href="/scss/journal.min.08613f62a752519690a58273cac05052aae3e105abe641850ff17b73c71ce0f5.css" integrity="sha256-CGE/YqdSUZaQpYJzysBQUqrj4QWr5kGFD/F7c8cc4PU=" media="screen">
+
+
+
+<link rel="stylesheet" href="/scss/dark-mode.min.063ceaa4fd33774ce4d2c35ed52e97f9f889411b4f49c0cd2cb80933ed2a9db9.css" integrity="sha256-BjzqpP0zd0zk0sNe1S6X&#43;fiJQRtPScDNLLgJM&#43;0qnbk=" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+<script async src="js/cursor/fireworks.js"></script>
+<link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/">
+                    默認
+                </a>
+                
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    時間軸/posts
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/friends">
+                    友鏈
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/moults">
+                    蟲蛻
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/bupropion">
+                    關於我是誰
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/changelog">
+                    網站裝配日誌/changelog
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/categories">
+                    分類/categories
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    標籤/tags
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    RSS
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="http://example.org/">
+            你快樂嗎
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="http://example.org/">
+        <div class="single-column-header-title">你快樂嗎</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    网站装配记录
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2023-02-16 09:14
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/%E5%9B%9E%E6%94%B6%E7%AB%99">回收站</a>
+                                &nbsp;
+                        
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>旧的changelog：我到底在干什么
+<code>&lt;!-- more --&gt;</code>
+2023-03-08</p>
+<p>重置了post文件名（用<code>log-yyyy-MM-dd</code>替换掉那些乱七八糟的文件名）；删掉了本站说明页的那段关于授权的文本（<a href="https://updowncity.github.io/2023/03/08/log-2023-03-08/">存档</a>）</p>
+<p>2023-03-03 day?</p>
+<p>移除了看板娘……这个太拖慢<code>hexo g</code>了。</p>
+<p>2023-03-01 day ?</p>
+<p>禁止搜索引擎建立索引：注入#noindex 参考<!-- raw HTML omitted -->blog.icpz.dev<!-- raw HTML omitted --></p>
+<p>2023-02-23 day 8</p>
+<ul>
+<li>放置z-16看板娘；</li>
+<li>突发奇想做了个萌备（无意间点进去，然后发现有我想要的数字）；</li>
+<li>舊的評論系統NekoBox停止服務；</li>
+<li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2674825159">從雨</a>好可愛…然而Hexo插件<code>hexo-helper-live2d</code>無法適配moc3&hellip;）找了很多參考資料依舊做不出來
+<ul>
+<li><a href="https://github.com/LitStronger/live2d-moc3/issues/2">请问如何在hexo里使用moc3 #2</a></li>
+<li><a href="https://github.com/Weidows-projects/Live2dLoader">Weidows-projects/Live2dLoader: 易用且适用于所有模型的live2d-web库, 手把手教做人(</a></li>
+<li><a href="https://garen-wang.github.io/2021/07/23/Hexo-Live2d-moc3-Configuration/">Hexo Live2d moc3 Configuration</a></li>
+<li><a href="https://www.cnblogs.com/Arisf/p/14347362.html">在博客园主页添加一个Live2D moc3</a></li>
+<li><a href="https://www.cnblogs.com/wstong/p/12874732.html">live2d web端加载moc3模型</a></li>
+<li><a href="https://blog.csdn.net/weixin_44919664/article/details/117070414">网站上部署Live2D模型（moc3格式）</a></li>
+<li><a href="https://blog.csdn.net/weixin_43641850/article/details/108154098">网页/博客Hexo添加live2d游戏角色看板娘,简易添加，碧蓝航线等live2d新型游戏角色模型（moc3）</a></li>
+<li><a href="https://blog.csdn.net/weixin_44128558/article/details/104792345">笔记：live2d4.0 sdk 博客园网页动画</a></li>
+<li><a href="https://www.bilibili.com/read/cv6839709">给你的博客园添加一只萌萌的洛天依吧！（live2d-自制v3版本模型）</a></li>
+<li><a href="https://www.bilibili.com/read/cv4812803/">给你的网站加上Live2D看板娘(上)</a></li>
+<li><a href="https://blog.csdn.net/qq_37735413/article/details/104769280">Live2D(WebSDK 4.X)网页看板娘设置（一）</a>
+（以及分享一個資源demo站(?):<a href="https://eikanya.github.io/">Eikanya‘s Blog</a></li>
+</ul>
+</li>
+<li>還想做一個音樂播放器（請放心<strong>它不會自動播放</strong>，利用插件<a href="https://github.com/MoePlayer/hexo-tag-aplayer">hexo-tag-aplayer</a></li>
+<li>以及jsDelivr對靜態資源的CDN加速（……你爲什麼不先整理一下那堆醜陋的代碼?）</li>
+<li>以及<del>想辦法修復</del><a href="https://valine.js.org/">Valine</a>評論系統（……To be honest我不打算做了。第一，<a href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta">Disroot Bin</a>作爲匿名留言板已經足夠充當這個博客的評論系統了；第二，我目前見到過的Valine都壞掉了（401錯誤…）。也見到過基於<a href="https://docs.github.com/en/discussions">GitHub Discussions</a>的評論系統（比如<a href="https://giscus.app">giscus</a>），不過似乎需要OAuth授權，而<!-- raw HTML omitted -->我對博客評論系統的選擇原則：匿名且無需驗證，這很重要，因爲我真的非常想收到留言。登錄帳號或者人機認證會讓人感到掃興。<!-- raw HTML omitted --></li>
+</ul>
+<p>接下來會有很長一段時間我不再對這個博客進行裝修，因爲要忙畢業論文與留學申請的事。（我似乎…只有拖到無可再拖的時候（比如即將錯過申請的DDL）纔會有足夠的能動性push我自己去做事。）</p>
+<p>2023-02-18 day 3</p>
+<p>丢掉了banner（加载太慢）
+微改主题</p>
+<p>2023-02-17 day 2</p>
+<p>照搬<!-- raw HTML omitted -->yearito<!-- raw HTML omitted -->的代码做了一个鼠标点击的烟花特效</p>
+<p>2023-02-16 day 1</p>
+<p>将匿名提问箱NekoBox用作静态博客的评论系统;
+配置顶部导航栏;
+希望有人愿意和我交换友链;
+很久以前我就想做个人博客，可总是因为在配置过程中迷路而半途而废；目前无法解释这样做的动机（或许我只是想要与他人分享我所看到的世界（然而这种解释很可疑：因为它所基于的是对我来说非常陌生的感受，分享某样东西的愿望在我过去的生命中是经常被诋毁为虚荣心与优越感的（两个被赋予了道德指责的词语）;
+或许这个用来记录网站装配的页面所装配的是我自己;</p>
+<p>2023-02-15 day 0</p>
+<p>网站诞生的第0天;
+配置MathJax;</p>
+<hr>
+<p>留言請按<!-- raw HTML omitted -->這裡<!-- raw HTML omitted --></p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2023-02-16</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="/posts/old-links/">
+			Next<br>会有人愿意和我交换友链吗?
+                </a>
+                
+                
+                
+                <a class="older-posts" href="/posts/cokernels/">
+			Previous<br>在消失的差異與鏡面的空白之間
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="http://example.org/">
+    
+        <div class="nav-title">
+            你快樂嗎
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/">
+                默認
+            </a>
+            
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                時間軸/posts
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/friends">
+                友鏈
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/moults">
+                蟲蛻
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/bupropion">
+                關於我是誰
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/changelog">
+                網站裝配日誌/changelog
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/categories">
+                分類/categories
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                標籤/tags
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                RSS
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2023 你快樂嗎
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2023 你快樂嗎
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>

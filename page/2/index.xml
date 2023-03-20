@@ -1,0 +1,265 @@
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>你快樂嗎</title>
+    <link>http://example.org/</link>
+    <description>Recent content on 你快樂嗎</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 20 Mar 2023 17:33:42 +0800</lastBuildDate>
+    
+        <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>故纸堆系列#1</title>
+        <link>http://example.org/posts/jamais-vu/</link>
+        <pubDate>Sun, 05 Mar 2023 22:42:49 +0000</pubDate>
+        
+        <guid>http://example.org/posts/jamais-vu/</guid>
+        <description>你快樂嗎 http://example.org/posts/jamais-vu/ -&lt;p&gt;翻箱倒柜找高中毕业证的时候在一堆作业纸里发现的。很明显它不是（现在的）我写的。我对这段文本的记忆就像那张高中毕业证一样已经不知道消失在哪里去了。无法根据笔记判断具体的时间。尽可能保留原状（无法彻底保留原状或者按照撰写的时间顺序录入文本：就连我自己也不知道怎么对付那些箭头（用电脑写东西的时候至少它们是排版友好的括号群…可这堆箭头……呃…）写完留学文书后处于一种精神被耗竭的状态，又一次陷入文本搬运与interface configuration这些机械行为的黑洞。无法忍受有人在我身后走来走去，只好把整个工作台搬到床上，每天和草稿纸睡在一起。我也不去图书馆自习，因为会经常有人从我旁边经过。真的很羡慕那些能够正常去图书馆或者自习室学习的人（不会轻易陷入痛苦不堪的状态），那些不会因为强迫行为交不上作业的人。从很久以前便是如此。
+或许我会重置它，赋予它（至少我觉得）更加有趣的解释。但毕竟它不是「我」写的。而我已经不再想要将过去一笔勾销。To be honest，录入这个东西的时候我真的很嫌弃它：没有check定义就乱写自己没有完全搞清楚的东西，名词党的臭毛病。&lt;/p&gt;
+&lt;p&gt;它是一部我从一个免费游戏网站上下载的单机RPG，介绍页面很普通，感觉作者很懒，但挺擅长画画的，人物立绘和CG预览都很好。下载量很低。
+最初我以为这部完成度如此高的游戏免费发布有些可惜，后来想到我和我的朋友们的写作：像乞讨一样恳求路人阅读我们的作品，我们可怜的生活报告。
+这位作者也是一样。他（也许是她）更擅长编程与故弄玄虚。我想他放出表现完成度的预览图是为了阻止网站管理员删除它。
+背景是一所无法判别是中学还是大学的学校，角色甚至没有名字，对话框上方只是「你」。我根本不知道要我做什么。游戏的标签是解密，以平淡的日常作为开端。
+很常见，很快就会出现吓人一跳的&lt;del&gt;按键&lt;/del&gt;案件，比如同学的失踪或跳楼。
+它让我想到一些新浪潮的电影。极其琐碎的日常。我知道这部游戏来自一位十分钦佩的朋友，她称赞它，而她很少接触游戏，我一直觉得有些可惜。
+琐碎到令人感到作者对所处世界的厌恶。同一个房间里别人走来走去的声音令人作呕&lt;code&gt;sancheck&lt;/code&gt;。
+自己肉体的存在
+「你」一天要诅咒你的肉体三十次
+牙膏从牙刷的刷毛上滑落
+中间有许多选择肢，比如去哪里，去教室，去图书馆，去上厕所，去宿舍，第一天无事发生
+这是我接触到的第一部将失眠的细节给描写出来的。无法快进或是存档，我几乎失去了耐心。终于，第2天，选择肢消失，更像是视觉小说，去这些地方的顺序也是固定的。一些细节分差，TRPG要素，也许是为了让游戏不会过分沉闷。第3天依旧，且没有快进，我只能快速敲击键盘。Endless
+第4天，消失的选择支重现
+第六天以后我不再玩了。
+在游戏评论区有位技术大佬称他拆了游戏包，在第2天以后以为是重复，TRPG要素，加上一些细微分差，随机，用有限模拟无穷，利用玩家缺乏耐心，不会有人玩到十天以后。而发现重复一般需要两千多天。它躺在我的硬盘里很久了，作者只是在模仿一些神经官能症患者的征状，比如刻板行为。
+后来我发现它可能并不是单机游戏。我对电脑一窍不通，但不想让别人的延伸触摸我硬盘这片处女地，每次它出故障都这样。从搜索引擎上找解决方法，而非求助他人。宁可失去所有存档，也不想面对好奇的询问，回答那些该死的问题。
+由此多少了解到用命令行检查网络使用情况的方法。游戏在联网方面做得很隐蔽。我感到诧异的地方是，当我断开网络连接以后它依旧可以连上。一个小把戏，修改图形界面的显示，移走按钮以欺骗我。
+也许它在窃取我的信息，也许我应该向网站管理员报告这件事，但无关紧要，一个孤独的偷窥狂。谁也〔看不懂这几个字写的是什么〕与开发者见面发生在&lt;/p&gt;
+- http://example.org/posts/jamais-vu/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>funny-things</title>
+        <link>http://example.org/posts/funny-things/</link>
+        <pubDate>Wed, 01 Mar 2023 18:25:09 +0000</pubDate>
+        
+        <guid>http://example.org/posts/funny-things/</guid>
+        <description>你快樂嗎 http://example.org/posts/funny-things/ -&lt;p&gt;能够理解，最后这个「给我留下语音邮件，指责我是中情局特工，作为一个巨大的种族主义阴谋的一部分而封锁Facebook（是的，这真的发生了）。」……笑死我了&lt;img src=&#34;https://pic.imgdb.cn/item/63ff279ff144a01007e359dd.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+- http://example.org/posts/funny-things/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>再見NekoBox</title>
+        <link>http://example.org/posts/sayounara-neko-box/</link>
+        <pubDate>Thu, 23 Feb 2023 20:38:55 +0000</pubDate>
+        
+        <guid>http://example.org/posts/sayounara-neko-box/</guid>
+        <description>你快樂嗎 http://example.org/posts/sayounara-neko-box/ -&lt;p&gt;睡醒一觉起来发现NekoBox提问箱因为不可抗力因素关闭了。虽然邮箱里还能找到收到的提问，但我的回复全都已经无法找回了。想到我开这个博客的契机也是NekoBox：好奇心使然地点开页尾的链接，找到开发者的个人博客，读到他毕业后写的&lt;a href=&#34;https://github.red/bye-hdu/&#34;&gt;关于大学四年的碎碎念&lt;/a&gt;，于是萌发了(再次)搭建个人博客的想法。这次很顺利，没有迷路。我想要一个initialization不那么轻松的个人博客，因为初始化时遇到的困难可以阻止我冲动之下把它销毁掉（我注销过很多个WriteFreely博客…）。NekoBox是我的第一个评论系统。既然开发者的Twitter简介里提到「不谈政治」，我也就不再这个post里谈论言论审查之类的话题了。&lt;/p&gt;
+&lt;p&gt;{% blockquote 一只大茄瓜🍆 @wuhan005 &lt;a href=&#34;https://twitter.com/wuhan005/status/1628696994226257921&#34;&gt;https://twitter.com/wuhan005/status/1628696994226257921&lt;/a&gt; %}
+今天突然接到网信办的电话，大致是我开发运营的一个站下面有人发敏感内容。&lt;!-- raw HTML omitted --&gt;工作人员态度真心很好，他们的难处我也理解。配合完工作后还是关掉了运营三年的网站，凄惨。&lt;!-- raw HTML omitted --&gt;一个人收拾收拾出门喝酒了。😢
+{% endblockquote %}&lt;/p&gt;
+&lt;p&gt;这条Twitter让我想到去年这个时候想过的：虽然我们很厌恶state apparatus，但遇到的具体的人往往很nice。反抗行政机器就意味着要伤害这些曾经温柔地对待过我们的人们。（或许这种优柔寡断对其他没有孤独到放弃单数第一人称代词的人来说是难以理解的…）&lt;/p&gt;
+&lt;p&gt;{% blockquote 明流 @myouryu1 &lt;a href=&#34;https://twitter.com/myouryu1/status/1628698895349084161&#34;&gt;https://twitter.com/myouryu1/status/1628698895349084161&lt;/a&gt; %}
+😭😭😭刚点开就发现站无了，nekobox 真的非常优秀诶，推荐给了很多朋友，这样的结局让人很不舍……开发这样一个良好的平台很费心力，看日志和主页也能感受在上面花了很多力气和感情，对于开发它的您只能表达痛惜……
+{% endblockquote %}&lt;/p&gt;
+&lt;p&gt;我也真的很羡慕这样能够自然地使用语言的人（以一种不那么perverse的方式传达自己的感情……）&lt;/p&gt;
+- http://example.org/posts/sayounara-neko-box/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>關於我與女性主義的關係</title>
+        <link>http://example.org/posts/dialog-between-chizuko-ueno-and-quan-xixi/</link>
+        <pubDate>Tue, 21 Feb 2023 21:15:21 +0000</pubDate>
+        
+        <guid>http://example.org/posts/dialog-between-chizuko-ueno-and-quan-xixi/</guid>
+        <description>你快樂嗎 http://example.org/posts/dialog-between-chizuko-ueno-and-quan-xixi/ -&lt;p&gt;我逐渐意识到我经常省略一些「在我看来理所当然不需要额外解释但对他人来说未必如此」的前置说明，比如，我的女性主义立场是先验的而不是习得的，因此我认为反抗父权主义是所有女性与生俱来的本能，（而厌女症来自于父权主义环境对这种本能的破坏）。这是个相当糟糕的indication，幼稚且coarse，然而它是被我惯性使然地当做所有思考的前提来使用着的东西。于是对于女性主义，我总是批判大于行动。我没有付诸行动的意志力，所以能量只好用在fancy的激进说辞上。我深知我所说的「直接废除父权主义的话语体系」，实际上只不过是在讨论怎样巧妙地通过蜷缩身体来缓解痛苦，怎样用奇淫技巧伪造出自己的尊严。&lt;/p&gt;
+&lt;h2 id=&#34;關於全嘻嘻和她的朋友們與上野千鶴子的對話&#34;&gt;關於全嘻嘻和她的朋友們與上野千鶴子的對話&lt;/h2&gt;
+&lt;p&gt;为什么上野千鶴子说的基本上是在重复《始于极限》那本全嘻嘻和她的两位朋友已经读过的书里的内容。虽然识别出「言外之意」对我来说非常困难（所以那个视频本身在我眼中就真的只是一场（不同世界的人之间）真诚的对话），我只能看到事物的表面，深层结构是陌生而遥远的东西，然而在此之前我已经看到很多对则视频的争议，于是我开始怀疑这里的重复暗示了预设的台本的存在。我无法选择攻击全嘻嘻和她的朋友們的立场（又是一个多义句），因为面对冲突，我同样选择回避而非对决，就像我曾经做过的那样：将我的生命以2016年为标记切割为泾渭分明的两段，构建一个不属于我的关于家庭的开明与幸福的神话。因为我是有死者。因为我是有死者，所以选择逃避无可厚非。即便我写过「我不相信爱与希望是不被允许相信爱与希望」，我也从未真诚地相信过上野千鶴子所暗示的对话的可能性：因为（我认为）这种可能性得以实现的前提是我的死亡。（我也从未想过出柜…）
+如果女性主义要分三六九等，那么行动者永远是高于我这种空谈者的。（很少出现在我的语言里的判断句。…我讨厌判断句，它们太刺眼。）&lt;/p&gt;
+- http://example.org/posts/dialog-between-chizuko-ueno-and-quan-xixi/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>關於我</title>
+        <link>http://example.org/posts/old-about/</link>
+        <pubDate>Sat, 18 Feb 2023 20:50:42 +0000</pubDate>
+        
+        <guid>http://example.org/posts/old-about/</guid>
+        <description>你快樂嗎 http://example.org/posts/old-about/ -&lt;p&gt;[常用]标签：&lt;/p&gt;
+&lt;p&gt;#文学沙盒 用于存放不负责任的思考与感受&lt;/p&gt;
+&lt;p&gt;此博客作案工具：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Visual Studio Code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;突然想要放弃「您好，我也不知道我是谁」这个开场白。我是一个inverse/projective limit，虽然这句话适用于每一个人，但它对我来说格外清晰。2023-02-18&lt;/p&gt;
+- http://example.org/posts/old-about/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>时间戳部分遗失的文本碎块，或者是stack形状的无名日记</title>
+        <link>http://example.org/posts/stacked-logs-01/</link>
+        <pubDate>Thu, 16 Feb 2023 21:52:31 +0000</pubDate>
+        
+        <guid>http://example.org/posts/stacked-logs-01/</guid>
+        <description>你快樂嗎 http://example.org/posts/stacked-logs-01/ -&lt;p&gt;Akashi
+Laffey
+Unicorn&lt;/p&gt;
+&lt;p&gt;无意中点进一个叫墨滴的社区，然后看到一篇&lt;a href=&#34;https://mdnice.com/writing/49a6ad19dfe64c4a8007245f3121f221&#34;&gt;声讨Notepad++的文章&lt;/a&gt;。作者嫌弃Notepad++的政治倾向，不类似于我嫌弃同路人&lt;a href=&#34;https://updowncity.github.io/2023/02/16/log1/&#34;&gt;对那些ugly序结构的兴趣&lt;/a&gt;吗。2023-02-20 20:34&lt;/p&gt;
+&lt;p&gt;当阅读这种风格的数学时，我感到我正在被我们的语言所背叛。2023-02-20 12:30&lt;/p&gt;
+&lt;p&gt;你们所见到的，是我所发明的客体。然而当你向这个客体提问时，处理信息并发送反馈的却是这个主体。主体是一个极限，无限倒退的极限（projective/inverse limit）。当我说「我是我所发明与扮演的客体」时，说话者同样是这样一个刻意的角色（deliberiated character）。这个回退系统并不是为了「寻找真实的自我」，而是为了处理「说谎带来的罪恶感（guilty）」。我不再将能动性的缺失（lack of agency）与这种guilty用depression混为一谈。它们的原理与解决方案是不同的。（你是否会对这种语言风格感到奇怪?…你知道吗，对我来说，将自己想象为机械是一种救赎。）&lt;/p&gt;
+&lt;p&gt;依旧为毕业论文开题报告的事情焦虑。&lt;/p&gt;
+&lt;p&gt;查东西的时候看到又一次看到这种比较谁强谁弱的&lt;a href=&#34;https://www.zhihu.com/question/436551699&#34;&gt;问题&lt;/a&gt;：「有哪些没有拿菲尔兹奖的数学家，他们的数学贡献并不比菲尔兹奖获得者弱？（设立此奖之后）？」…………我很想吐槽：作为数学人你们是怎么忍得了这种confusing到粗鲁的语言的。（只是个虚弱的吐槽…这种表达在生活中太常见，我还不至于像两年前在教材里看到ugly的定义的时候那样血压升高。）&lt;/p&gt;
+- http://example.org/posts/stacked-logs-01/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>關於寫博客的動機</title>
+        <link>http://example.org/posts/motivation-of-this-blog/</link>
+        <pubDate>Thu, 16 Feb 2023 16:50:01 +0000</pubDate>
+        
+        <guid>http://example.org/posts/motivation-of-this-blog/</guid>
+        <description>你快樂嗎 http://example.org/posts/motivation-of-this-blog/ -&lt;p&gt;受到&lt;a href=&#34;https://box.n3ko.co/&#34;&gt;NekoBox&lt;/a&gt;站长的个人博客&lt;a href=&#34;https://github.red/&#34;&gt;Light Cube&lt;/a&gt;的影响，又一次尝试建站。这回没有迷路，很快就配置成功了。或许是因为电脑里已经安装了依赖项（在过去那些半途而废的尝试里）。接下来就是多写点东西充实这个新的小窝。&lt;/p&gt;
+&lt;p&gt;我曾在用来记录网站配置更新的&lt;a href=&#34;https://updowncity.github.io/logs/&#34;&gt;页面&lt;/a&gt;里写，无法理解我这样做的动机，就像一个偷东西被抓到的小孩子的辩解：「很久以前我就想做个人博客，可总是因为在配置过程中迷路而半途而废；目前无法解释这样做的动机（或许我只是想要与他人分享我所看到的世界（然而这种解释很可疑：因为它所基于的是对我来说非常陌生的感受，分享某样东西的愿望在我过去的生命中是经常被诋毁为虚荣心与优越感的（两个被赋予了道德指责的词语）;」&lt;/p&gt;
+&lt;p&gt;虽然只过了几个小时，但是此刻的心境已经与那时截然不同，现在的我可以很平静(?)地反问，为什么非要在某个熟悉的语言体系里找到可以再现这些陌生的欲望与感受的东西。或许是因为，下午的时候我终于搞清楚derived category到底是什么了。（这些数学发现有时会被我用来赋予自己在这个社会上如此存在着的正当性：当这个正当性不复存在的时候，等待我的就只有那个「关于禁闭与死亡的噩梦」。（为什么不用大家更熟悉的语言解释这个：你只是想要说服你自己，你依旧拥有继续活下去的资格。（到这里我似乎已经在谈论别的什么东西了。）&lt;/p&gt;
+&lt;p&gt;我一直不知道怎样才能做到将文字与思绪固定在某个主题之下。我擅长于发现事物之间的关联，然而我的思考是不定形的：因此我想找到将不定形的思考进行输出的方法。（我不愿意改变，不愿意修剪这些根茎式的思绪，以适应那些约定俗成的表达规范。）前途一片渺茫，但至少在这里我是自由的。&lt;/p&gt;
+- http://example.org/posts/motivation-of-this-blog/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>会有人愿意和我交换友链吗?</title>
+        <link>http://example.org/posts/old-links/</link>
+        <pubDate>Thu, 16 Feb 2023 09:33:09 +0000</pubDate>
+        
+        <guid>http://example.org/posts/old-links/</guid>
+        <description>你快樂嗎 http://example.org/posts/old-links/ -&lt;p&gt;旧的链接页，蒐集过一些（或許）有趣的网页。
+&lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt;
+&lt;!-- raw HTML omitted --&gt;林奕含的FACEBOOK&lt;!-- raw HTML omitted --&gt;豆瓣&lt;/p&gt;
+&lt;p&gt;我是个不会配置留言系统的菜鸟…所以想要留言的话请移步NekoBox&lt;!-- raw HTML omitted --&gt;匿名提问箱&lt;!-- raw HTML omitted --&gt;
+樓上的提問箱已經無法使用，請點這個&lt;!-- raw HTML omitted --&gt;新的留言板&lt;!-- raw HTML omitted --&gt;
+贴一些有趣的博客（想蹭友链）
+&lt;!-- raw HTML omitted --&gt;天仙子&lt;!-- raw HTML omitted --&gt; - 秦海碗的个人主页
+&lt;!-- raw HTML omitted --&gt;this terrible chamber&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;桜庭夜🎐杂话铺子&lt;!-- raw HTML omitted --&gt; - 一间由桜庭夜经营的贩售闲言碎语的小店
+&lt;!-- raw HTML omitted --&gt;Light Cube&lt;!-- raw HTML omitted --&gt; - 当真心想要做成一件事的时候，人总是孤独的。&lt;/p&gt;
+&lt;p&gt;这里是我发现的各种有趣的网站
+&lt;!-- raw HTML omitted --&gt;島嶼邊緣&lt;!-- raw HTML omitted --&gt; - 曾經是最重要的文化運動刊物&amp;ndash;影響了整整一個世代
+&lt;!-- raw HTML omitted --&gt;荒原效應&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;时间物质&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+- http://example.org/posts/old-links/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>网站装配记录</title>
+        <link>http://example.org/posts/old-logs/</link>
+        <pubDate>Thu, 16 Feb 2023 09:14:37 +0000</pubDate>
+        
+        <guid>http://example.org/posts/old-logs/</guid>
+        <description>你快樂嗎 http://example.org/posts/old-logs/ -&lt;p&gt;旧的changelog：我到底在干什么
+&lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt;
+2023-03-08&lt;/p&gt;
+&lt;p&gt;重置了post文件名（用&lt;code&gt;log-yyyy-MM-dd&lt;/code&gt;替换掉那些乱七八糟的文件名）；删掉了本站说明页的那段关于授权的文本（&lt;a href=&#34;https://updowncity.github.io/2023/03/08/log-2023-03-08/&#34;&gt;存档&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;2023-03-03 day?&lt;/p&gt;
+&lt;p&gt;移除了看板娘……这个太拖慢&lt;code&gt;hexo g&lt;/code&gt;了。&lt;/p&gt;
+&lt;p&gt;2023-03-01 day ?&lt;/p&gt;
+&lt;p&gt;禁止搜索引擎建立索引：注入#noindex 参考&lt;!-- raw HTML omitted --&gt;blog.icpz.dev&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;2023-02-23 day 8&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;放置z-16看板娘；&lt;/li&gt;
+&lt;li&gt;突发奇想做了个萌备（无意间点进去，然后发现有我想要的数字）；&lt;/li&gt;
+&lt;li&gt;舊的評論系統NekoBox停止服務；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://steamcommunity.com/sharedfiles/filedetails/?id=2674825159&#34;&gt;從雨&lt;/a&gt;好可愛…然而Hexo插件&lt;code&gt;hexo-helper-live2d&lt;/code&gt;無法適配moc3&amp;hellip;）找了很多參考資料依舊做不出來
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/LitStronger/live2d-moc3/issues/2&#34;&gt;请问如何在hexo里使用moc3 #2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Weidows-projects/Live2dLoader&#34;&gt;Weidows-projects/Live2dLoader: 易用且适用于所有模型的live2d-web库, 手把手教做人(&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://garen-wang.github.io/2021/07/23/Hexo-Live2d-moc3-Configuration/&#34;&gt;Hexo Live2d moc3 Configuration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/Arisf/p/14347362.html&#34;&gt;在博客园主页添加一个Live2D moc3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/wstong/p/12874732.html&#34;&gt;live2d web端加载moc3模型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_44919664/article/details/117070414&#34;&gt;网站上部署Live2D模型（moc3格式）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_43641850/article/details/108154098&#34;&gt;网页/博客Hexo添加live2d游戏角色看板娘,简易添加，碧蓝航线等live2d新型游戏角色模型（moc3）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_44128558/article/details/104792345&#34;&gt;笔记：live2d4.0 sdk 博客园网页动画&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/read/cv6839709&#34;&gt;给你的博客园添加一只萌萌的洛天依吧！（live2d-自制v3版本模型）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/read/cv4812803/&#34;&gt;给你的网站加上Live2D看板娘(上)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/qq_37735413/article/details/104769280&#34;&gt;Live2D(WebSDK 4.X)网页看板娘设置（一）&lt;/a&gt;
+（以及分享一個資源demo站(?):&lt;a href=&#34;https://eikanya.github.io/&#34;&gt;Eikanya‘s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;還想做一個音樂播放器（請放心&lt;strong&gt;它不會自動播放&lt;/strong&gt;，利用插件&lt;a href=&#34;https://github.com/MoePlayer/hexo-tag-aplayer&#34;&gt;hexo-tag-aplayer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;以及jsDelivr對靜態資源的CDN加速（……你爲什麼不先整理一下那堆醜陋的代碼?）&lt;/li&gt;
+&lt;li&gt;以及&lt;del&gt;想辦法修復&lt;/del&gt;&lt;a href=&#34;https://valine.js.org/&#34;&gt;Valine&lt;/a&gt;評論系統（……To be honest我不打算做了。第一，&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;作爲匿名留言板已經足夠充當這個博客的評論系統了；第二，我目前見到過的Valine都壞掉了（401錯誤…）。也見到過基於&lt;a href=&#34;https://docs.github.com/en/discussions&#34;&gt;GitHub Discussions&lt;/a&gt;的評論系統（比如&lt;a href=&#34;https://giscus.app&#34;&gt;giscus&lt;/a&gt;），不過似乎需要OAuth授權，而&lt;!-- raw HTML omitted --&gt;我對博客評論系統的選擇原則：匿名且無需驗證，這很重要，因爲我真的非常想收到留言。登錄帳號或者人機認證會讓人感到掃興。&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;接下來會有很長一段時間我不再對這個博客進行裝修，因爲要忙畢業論文與留學申請的事。（我似乎…只有拖到無可再拖的時候（比如即將錯過申請的DDL）纔會有足夠的能動性push我自己去做事。）&lt;/p&gt;
+&lt;p&gt;2023-02-18 day 3&lt;/p&gt;
+&lt;p&gt;丢掉了banner（加载太慢）
+微改主题&lt;/p&gt;
+&lt;p&gt;2023-02-17 day 2&lt;/p&gt;
+&lt;p&gt;照搬&lt;!-- raw HTML omitted --&gt;yearito&lt;!-- raw HTML omitted --&gt;的代码做了一个鼠标点击的烟花特效&lt;/p&gt;
+&lt;p&gt;2023-02-16 day 1&lt;/p&gt;
+&lt;p&gt;将匿名提问箱NekoBox用作静态博客的评论系统;
+配置顶部导航栏;
+希望有人愿意和我交换友链;
+很久以前我就想做个人博客，可总是因为在配置过程中迷路而半途而废；目前无法解释这样做的动机（或许我只是想要与他人分享我所看到的世界（然而这种解释很可疑：因为它所基于的是对我来说非常陌生的感受，分享某样东西的愿望在我过去的生命中是经常被诋毁为虚荣心与优越感的（两个被赋予了道德指责的词语）;
+或许这个用来记录网站装配的页面所装配的是我自己;&lt;/p&gt;
+&lt;p&gt;2023-02-15 day 0&lt;/p&gt;
+&lt;p&gt;网站诞生的第0天;
+配置MathJax;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;留言請按&lt;!-- raw HTML omitted --&gt;這裡&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+- http://example.org/posts/old-logs/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>在消失的差異與鏡面的空白之間</title>
+        <link>http://example.org/posts/cokernels/</link>
+        <pubDate>Fri, 26 Aug 2022 22:08:26 +0000</pubDate>
+        
+        <guid>http://example.org/posts/cokernels/</guid>
+        <description>你快樂嗎 http://example.org/posts/cokernels/ -&lt;blockquote&gt;
+&lt;p&gt;Summary
+或許可以理解爲平行世界的一個小故事：不同於《神譴》，這裏路西法變成的是一個與伊薩爾年齡差不多的(美)少年：冒充的不再是那個不請自來的小屁頭，而是一個神祕的轉校生（當然名字依舊叫路西菲爾）。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;寫於2021年9月；&lt;/li&gt;
+&lt;li&gt;是一個不會填的坑：我已經不再是一年前寫下它的那個人，所以沒有資格隨意填補/破壞那個人留下的坑。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;「我小時候你是不是其實很討厭我，只是爲了裝風度才沒有明顯地表現出來？」&lt;/p&gt;
+&lt;p&gt;突然被這樣問，我不知道該怎樣回答。他小的時候我幾乎不認識他，只是由於他父親的緣故與他有過幾面之緣。見面也無非是和雷諾還有愛麗絲說些客套話，他過生日的時候按照慣例送些適合小孩子的禮物。具體是什麼早就想不起來了。&lt;/p&gt;
+&lt;p&gt;不過對最後一次見到他的情形我記得很深。那是在光暗三戰的最後，我去耶路撒冷的路上。他淋得溼透，等他父親回來，而我要做的是用摧毀整個耶路撒冷的方式結束戰爭，他的父親會和敵人一同被我殺死。當時不想對小孩子直接說他父親已經回不來了，讓他別再等下去。於是我告訴他，等泥坑被水填滿，他父親就會回來。&lt;/p&gt;
+&lt;p&gt;後來耶路撒冷變成蒸汽，我飛回聖浮里亞。毀滅一座城市無論是對於我還是對於耶和華而言都是極平常的事，耶和華修改他的新作時剛用硫磺和火讓索多瑪和蛾摩拉變成灰燼。那傢伙對偶像崇拜特別敏感，生怕被某個確鑿的形象取而代之。&lt;/p&gt;
+&lt;p&gt;從遠處看到他還站在水坑旁邊淋雨的時候，卻突然感受到了內疚，一種對於那時的我而言極爲陌生的情緒。後來也是如此，我所有的悔恨都來自於他。&lt;/p&gt;
+&lt;p&gt;回到光耀殿時我發現自己下意識地繞了很遠的路，不讓自己出現在那孩子的視野中。那個比喻再明顯不過，我不知道他究竟是沒有聽懂我說的話，還是什麼都已明瞭，卻選擇繼續他無望的期待。這個疑問一直沒有得到確認，因爲在那以後他就失蹤了。聖浮里亞沒有人去找他。彷彿他從未存在過，或者很久以前就已經死了。我查過米迦勒出生的年份，發現他的童年比我還要長，就好像註定會永遠留在童年一樣。他失蹤時看上去和我後來變成小孩住在伊撒爾家里時差不多大。出於這個原因，我對他感到有些親近。當時我以爲他死去了，只是聖浮里亞不想爲小孩子辦葬禮，就當成失蹤，因爲沒過多久『與神相似者』這個名字就變成了從創世以來便一直空缺着的稱號。&lt;/p&gt;
+&lt;p&gt;耶和華說米迦勒是祂的敗筆，在幼年階段卡了一千多年總是無法長出六翼，兩千多歲還是個愚癡的孩童。那時我還沒有發現耶和華與米迦勒之間真正的關聯，只預言到自己會和叫這個名字的天使有一段刻骨銘心的愛戀，最終的謀反時與他對峙並被他打敗，他成爲繼任天使長，之後的兩萬年我們的關係則處於偶爾在魔界偷情的狀態，再往後就越來越模糊了。&lt;/p&gt;
+&lt;p&gt;爲情所困的低級錯誤嗎？連個預言都比梅丹佐的笑話好笑不知道多少倍。&lt;/p&gt;
+&lt;p&gt;所有神族都習慣使然地對預言無動於衷，我也是直到出現反叛天界的念頭的時候才感到這種無動於衷有點奇怪。而我是除耶和華以外惟一掌握時間系魔法的神族，因此惟一的對手便是耶和華。當時我不會意識到這句話是多麼地有預言感。耶和華與我對峙時使用的身份就是那個被我一笑置之的預言里的米迦勒。&lt;/p&gt;
+&lt;p&gt;兩千多年後，耶和華突然變得遲鈍到像是腦子生鏽或者進水了，總是保持沉默，問什麼都是耶穌在回答。從當祂的副君開始，這是第一次出現五個月以來都沒人和我鬥嘴的情況。實在百無聊賴，我就去下層閒蕩。在希瑪發現希瑪人邋遢得無可救藥，在耶路撒冷發現耶路撒冷人比希瑪人還要無可救藥。三戰時只是在高空很遠地看到這座城市，上一次來這裡還只有荒原。我做夢也沒有想到接下來自己會住在耶路撒冷，以爲回去以後就再也不想來這鬼地方了。&lt;/p&gt;
+&lt;p&gt;然後我見到了眼睛像太陽一樣明亮的紅髮天使，是剛長成少年的米迦勒，依舊只有四翼。於是我收起一對翅膀跟在他後面，維持一段既不會被發現也不會跟丟的距離。他一定不願意見到我，雷諾的死法是天界的常識，他很清楚他父親是誰殺死的。&lt;/p&gt;
+&lt;p&gt;我就這樣跟了他一整天，他回家睡覺，我還不想回光耀殿，就在他住的小區里轉了一圈熟悉地形，又溜到他窗戶面前看一眼他睡覺的樣子，才回聖浮里亞。&lt;/p&gt;
+&lt;p&gt;第二天我就蹺了朝會溜去前一天很嫌棄的耶路撒冷，那是個晝夜交替的城市，我趕到時沒有錯過日出。米迦勒很能睡，一覺睡到中午，早飯和午飯作一頓吃。我在他屋頂的拐角蹲了一上午。下午他去小餐館打工，那鬼地方又臟又沒地方可藏，只好又等一個下午。後來我知道他並不缺錢，他從耶穌那裡得到祕密的經濟支持，但數額控制得剛好只夠他日常生活，談戀愛送禮物就得去打工。晚上他去書店，躲在一個老闆發現不了的角落偷看小黃書。他並不笨，佔據了整間書店惟一的理想死角。結果我險些被他和老闆同時發現。&lt;/p&gt;
+&lt;p&gt;第三天是耶和華的休息日，我旁觀了他和情人的約會。他現在的名字是『伊撒爾』，耶和華送給雅各的名字。或許那不是情人，只是他的同班同學。他們走遍中心城區的大街小巷，他從路邊攤買了些小禮物送给那女孩，聊的話題卻無外乎作業與考試。他很紧张，小心翼翼地搜索話題。有時他講的冷笑話只比梅丹佐略勝一籌，有時能逗得那個女孩咯咯直笑。傍晚在中心廣場分別後他進書店繼續看前一天晚上的小黃書。整個白天他們都只是在斷斷續續地聊天，沒有牽手也沒有接吻。這一天我經常莫名奇妙地陷入神遊，有時甚至兜帽掉下來都沒有意識到。於是伊撒爾發現他被跟蹤了，他檢查過兩遍門鎖和窗戶的插銷，把錢包摟在懷裡才關燈睡覺。&lt;/p&gt;
+&lt;p&gt;第四天耶穌杵在我門口，我不想和他吵架，只好去朝會，坐在莫名奇妙變成呆子的耶和華旁邊發呆。&lt;/p&gt;
+- http://example.org/posts/cokernels/ - </description>
+        </item>
+    
+    
+  </channel>
+</rss> 
