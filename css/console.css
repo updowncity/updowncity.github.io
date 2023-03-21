@@ -34,13 +34,15 @@
     --global-font-size: 14px;
     --global-font-color: #444;
     --mono-font-stack: "iA Writer Duo S", "Microsoft Yahei", serif;
-    --font-stack: "Segoe UI", "iA Writer Duo S", "Microsoft Yahei", serif;
+    --font-stack: "iA Writer Duo S", "Microsoft Yahei", serif;
+    --text-font-stack: "Segoe UI", "Microsoft Yahei", serif;
     --global-line-height: 1.4em;
     --page-width: 70em;
     --display-h1-decoration: 1;
     --code-bg-color: #fff;
+    --display-h1-decoration: none;
+    --waline-font-size: 14px;
 }
-
 @media only screen and (max-width: 850px) {
     :root {
         --global-font-size: 14px;
@@ -91,12 +93,23 @@ h6,
 .h6 {
     font-family: var(--font-stack);
     clear: both;
+    position: relative;
+    margin-bottom: var(--global-line-height);
+    font-weight: 600
 }
-
+p{
+    font-family: var(--text-font-stack);
+}
 h1 {
     margin-bottom: 150px;
 }
-
+h1::after {
+    content: "====================================================================================================";
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    display: var(--display-h1-decoration)
+}
 .content-column-content p,
 .content-column-content li {
     color: #666;
@@ -166,6 +179,7 @@ figure {
     padding-top: 10px;;
     border-top: 1px solid var(--secondary-color);
     color: var(--global-font-color);
+    font-family: 'iA Writer Duo S';
 }
 .image-grid {
     display: grid;
@@ -269,10 +283,12 @@ figure {
         padding-top: 0;
         display: none;
     }
-
-
     .footer {
         margin-top: 50px;
-        padding-top: 5px;;
+        padding-top: 5px;
     }
+}
+
+div.footer{
+    font-family: 'iA Writer Duo S';
 }
