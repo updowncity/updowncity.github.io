@@ -1,73 +1,22 @@
 <!DOCTYPE html>
-<html><head>
-<title>寫點什麼</title>
-
-
-
-
-<meta charset="utf-8">
-<meta name="X-UA-Compatible" content="IE=edge">
-<meta name="google-site-verification" content="">
-<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-<meta content="telephone=no" name="format-detection">
-<meta name="description" content="">
-<meta name="renderer" content="webkit">
-<meta name="theme-color" content="#ffffff">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-<link rel="icon" href="http://updowncity.github.io/images/favicon.jpg">
-
-
-
-      <script src="/js/toc.js"></script>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>你快樂嗎/posts/emacs-initialization/</title>
+    <meta name="description" content="我不知道你在說什麼">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <link rel="stylesheet" href="http://updowncity.github.io/hugo-theme-console/css/terminal-0.7.2.min.css">
+    <link rel="stylesheet" href="http://updowncity.github.io/hugo-theme-console/css/animate-4.1.1.min.css">
+    <link rel="stylesheet" href="http://updowncity.github.io/hugo-theme-console/css/console.css">
     
-    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
-<link rel="stylesheet" href="/scss/journal.min.f7e00bdf884e3b735b811feee9f9258ddf7bccda44f581a5b159bf2ce08a5421.css" integrity="sha256-9&#43;AL34hOO3NbgR/u6fkljd97zNpE9YGlsVm/LOCKVCE=" media="screen">
-
-
-
-<link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Material+Icons">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/@waline/client@v2/dist/waline.css"
-  />
-
-
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script>
   MathJax = {
@@ -82,432 +31,84 @@
 <script type="text/javascript" id="MathJax-script" async
  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
-<style>
-  :root{
-  --waline-font-size: 14px;
-  --waline-theme-color: #0969da;
-  --waline-active-color: #0969da;
-  }
-</style>
-<script async src="js/cursor/fireworks.js"></script>
+<script async src="js/cursor/fireworks.js"></script><link rel="icon" type="image/x-icon" href="images/favicon.jpg"><meta property="og:title" content="寫點什麼" />
+<meta property="og:description" content="我不知道你在說什麼" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://updowncity.github.io/posts/emacs-initialization/" /><meta property="article:published_time" content="2023-03-17T23:59:59+00:00" />
+
+
+
+<meta name="twitter:title" content="寫點什麼"/>
+<meta name="twitter:description" content="tags: 日誌 如果你发现我突然失踪从网络空间失踪，就像死了一样留言板里也没有任何回应，那么情况很可能是：我的状态太糟糕了，只好把所有的文字触须都蜷缩起来，临时切断我与我所爱的世界的联系，直到我能够重新頂著發燙的腦袋出去。 默认主题landscape壞了：用了一整天的時間寫Hexo主題，然後整理好發佈到独立的GitHub倉庫裡。從ugly-blue（醜陋的憂鬱）這個名字就可以看出作者對世界的惡意。（最早的名字是ugly-html，後來也想过ugly-emacs-style（因为这个主题的终极目标(?)是仿制Emacs默认UI），也有一个比较友好的名字是it-just-works（就像hypersheaf之於perverse sheaf…）。 寫博客主題就像涂秘密花园。然而，最初用landscape时的那种安心感无论如何都已经不复存在了。某种意义上，我更愿意使用别人制作好的东西，以削弱时光虚掷的负罪感（我終於寫出來了：这种负罪感本身的不堪使得它难以被文字所固定。它通常会滑向那句抽象废话：我不想成为我自己。）
+去年接触Emacs是从入门到放弃，今年这位神人的文章重新触发了我对Emacs的兴趣（甚至开始想学Lisp）2023-03-14
+貼一個醜醜的雨傘 2023-03-19 "/>
+
 </head>
-
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-</script>
-<script type="text/javascript" id="MathJax-script" async
- src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script>
-<style>
-  :root{
-  --waline-font-size: 14px;
-  --waline-theme-color: #0969da;
-  --waline-active-color: #0969da;
-  }
-</style>
-<script async src="js/cursor/fireworks.js"></script><body>
-    	<div id="app"><div class="single-column-drawer-container" id="drawer"
-     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
-    <div class="drawer-content">
-        <div class="drawer-menu">
-            
-            
-            
+<body class="terminal">
+    <div class="container">
+        <div class="terminal-nav">
+          <header class="terminal-logo">
+            <div class="logo terminal-prompt">
+              
+              
+              <a href="http://updowncity.github.io/" class="no-style site-name">你快樂嗎</a>:~# 
+              <a href='http://updowncity.github.io/posts'>posts</a>/<a href='http://updowncity.github.io/posts/emacs-initialization'>emacs-initialization</a>/</div></header>
+          <nav class="terminal-menu">
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
                 
+                <li><a href="http://updowncity.github.io/" typeof="ListItem">默认</a></li>
                 
+                <li><a href="http://updowncity.github.io/posts" typeof="ListItem">归档</a></li>
                 
-                    
+                <li><a href="http://updowncity.github.io/friends" typeof="ListItem">友链</a></li>
                 
+                <li><a href="http://updowncity.github.io/moults" typeof="ListItem">虫蜕</a></li>
                 
+                <li><a href="http://updowncity.github.io/changelog" typeof="ListItem">日誌</a></li>
                 
-                <a class="a-block drawer-menu-item active" href="/">
-                    默認
-                </a>
+                <li><a href="http://updowncity.github.io/bupropion" typeof="ListItem">疑问</a></li>
                 
-            
+                <li><a href="http://updowncity.github.io/tags" typeof="ListItem">标签</a></li>
                 
+                <li><a href="http://updowncity.github.io/index.xml" typeof="ListItem">RSS</a></li>
                 
+                <li><a href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta" typeof="ListItem">留言</a></li>
                 
-                    
-                
-                
-                
-                <a class="a-block drawer-menu-item active" href="/posts">
-                    時間軸/posts
-                </a>
-                
-            
-                
-                
-                
-                
-                
-                <a class="a-block drawer-menu-item false" href="/friends">
-                    友鏈
-                </a>
-                
-            
-                
-                
-                
-                
-                
-                <a class="a-block drawer-menu-item false" href="/moults">
-                    蟲蛻
-                </a>
-                
-            
-                
-                
-                
-                
-                
-                <a class="a-block drawer-menu-item false" href="/bupropion">
-                    關於我是誰
-                </a>
-                
-            
-                
-                
-                
-                
-                
-                <a class="a-block drawer-menu-item false" href="/changelog">
-                    網站裝配日誌/changelog
-                </a>
-                
-            
-                
-                
-                
-                
-                
-                <a class="a-block drawer-menu-item false" href="/tags">
-                    標籤/tags
-                </a>
-                
-            
-                
-                
-                
-                
-                
-                <a class="a-block drawer-menu-item false" href="/index.xml">
-                    RSS
-                </a>
-                
-            
-                
-                
-                
-                
-                
-                <a class="a-block drawer-menu-item false" href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta">
-                    留言/Disroot Bin
-                </a>
-                
-            
-            
-            <div class="toc">
-
-
-</div>
-            
+            </ul>
+          </nav>
         </div>
     </div>
-</div>
-<transition name="fade">
-    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
-</transition>
-<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
-    <div id="navBackground" class="nav-background"></div>
-    <div class="container container-narrow nav-content">
-        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
-            <i class="material-icons">
-                menu
-            </i>
-        </button>
-        <a id="navTitle" class="navbar-brand" href="http://updowncity.github.io/">
-            你快樂嗎
-        </a>
+
+    <div class="container " >
         
-    </div>
-</nav>
-<div class="single-column-header-container" id="pageHead"
-     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
-    <a href="http://updowncity.github.io/">
-        <div class="single-column-header-title">你快樂嗎</div>
-        
-        <div class="single-column-header-subtitle">我不知道你在說什麼</div>
-        
+<h1>寫點什麼</h1>
 
-    </a>
-</div>
+Mar. 17, 2023
 
-            <div id="content">
-                <div id="streamContainer" class="stream-container">
 
-    <div class="post-list-container post-list-container-shadow">
-        <div class="post">
-            
-            
-            
-
-            <div class="post-head-wrapper-text-only"
-                
-            >
-                <div class="post-title">
-                    寫點什麼
-                    
-                    <div class="post-meta">
-                        
-                        <time itemprop="datePublished">
-                            2023-03-17 23:59
-                        </time>
-                        
-
-                        
-
-                        
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="post-body-wrapper">
-                
-                <div class="post-body" v-pre>
-                
-                    <p>tags: 日誌
+<br/><br/>
+<p>tags: 日誌
 如果你发现我突然失踪从网络空间失踪，<del>就像死了一样</del>留言板里也没有任何回应，那么情况很可能是：我的状态太糟糕了，只好把所有的文字触须都蜷缩起来，临时切断我与我所爱的世界的联系，直到我能够重新頂著發燙的腦袋出去。
 默认主题landscape壞了：用了一整天的時間寫Hexo主題，然後整理好發佈到独立的<a href="ugly">GitHub倉庫</a>裡。從<code>ugly-blue</code>（醜陋的憂鬱）這個名字就可以看出作者對世界的惡意。（最早的名字是<code>ugly-html</code>，後來也想过<code>ugly-emacs-style</code>（因为这个主题的终极目标(?)是仿制Emacs默认UI），也有一个比较友好的名字是<code>it-just-works</code>（就像hypersheaf之於perverse sheaf…）。
 寫博客主題就像涂秘密花园。然而，最初用landscape时的那种安心感无论如何都已经不复存在了。某种意义上，我更愿意使用别人制作好的东西，以削弱时光虚掷的负罪感（我終於寫出來了：这种负罪感本身的不堪使得它难以被文字所固定。它通常会滑向那句抽象废话：我不想成为我自己。）</p>
 <p>去年接触Emacs是从入门到放弃，今年<a href="http://www.stallman.cn/19">这位神人的文章</a>重新触发了我对Emacs的兴趣（甚至开始想学Lisp）<code>2023-03-14</code></p>
 <p>貼一個醜醜的雨傘 2023-03-19
 <img src="/images/2023-03/WhitneysUmbrella_700.svg" alt=""></p>
-
-                    
-                    <HR width="100%" id="EOF">
-		    <p style="color:#777;">最后修改于 2023-03-17</p>
-                    
-                </div>
-            </div>
-            
-            
-            <nav class="post-pagination">
-
-                
-                <a class="newer-posts" href="/changelog/">
-			下回<br>日誌
-                </a>
-                
-                
-                
-                <a class="older-posts" href="/bupropion/">
-			上回<br>將我遺忘在海邊吧
-                </a>
-                
-            </nav>
-            <div class="post-comment-wrapper">
-                
-
-
-
-
-
-
-
-
 <div id="waline"></div>
-<script>
-    Waline.init({
-        el: '#waline',
-        
-        dark: "body.night",
-        reaction: false,
-        serverURL: 'https://updowncity-waline-pgdfj5d15-updowncity.vercel.app',
+<script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://updowncity-waline-pgdfj5d15-updowncity.vercel.app',
+      reaction: false,
+      search: false,
     });
-    </script>
+</script>
 
-
-
-
-            </div>
-        </div>
-    </div>
-
-
-                    </div>
-            </div><div id="sideContainer" class="side-container">
-    
-    <a class="a-block nav-head false" href="http://updowncity.github.io/">
-    
-        <div class="nav-title">
-            你快樂嗎
-        </div>
-        
-        <div class="nav-subtitle">
-            我不知道你在說什麼
-        </div>
-        
-    </a>
-
-    <div class="nav-link-list">
-        
-        
-            
-            
-            
-                
-            
-            
-            
-            <a class="a-block nav-link-item active" href="/">
-                默認
-            </a>
-            
-        
-            
-            
-            
-                
-            
-            
-            
-            <a class="a-block nav-link-item active" href="/posts">
-                時間軸/posts
-            </a>
-            
-        
-            
-            
-            
-            
-            
-            <a class="a-block nav-link-item false" href="/friends">
-                友鏈
-            </a>
-            
-        
-            
-            
-            
-            
-            
-            <a class="a-block nav-link-item false" href="/moults">
-                蟲蛻
-            </a>
-            
-        
-            
-            
-            
-            
-            
-            <a class="a-block nav-link-item false" href="/bupropion">
-                關於我是誰
-            </a>
-            
-        
-            
-            
-            
-            
-            
-            <a class="a-block nav-link-item false" href="/changelog">
-                網站裝配日誌/changelog
-            </a>
-            
-        
-            
-            
-            
-            
-            
-            <a class="a-block nav-link-item false" href="/tags">
-                標籤/tags
-            </a>
-            
-        
-            
-            
-            
-            
-            
-            <a class="a-block nav-link-item false" href="/index.xml">
-                RSS
-            </a>
-            
-        
-            
-            
-            
-            
-            
-            <a class="a-block nav-link-item false" href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta">
-                留言/Disroot Bin
-            </a>
-            
-        
-    </div>
-
-    
-
-    <div class="nav-footer">
-        
-Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
-<br>
-移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
-<br>
-
-&copy;
-	
-	2023 你快樂嗎
-	
-
-    </div>
-    
-</div><div id="extraContainer" class="extra-container">
-    <div class="toc-wrapper">
-        
-
-        
-        <div class="toc">
-
-
+        <div class="footer">
+    <i>/lzx/</i>
 </div>
-        
     </div>
-    <div class="pagination">
-        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
-            :class="{ invisible: scrollY == 0 }">
-            <i class="material-icons pagination-action-icon">
-                keyboard_arrow_up
-            </i>
-        </a>
-        
-        
-    </div>
-</div><div id="single-column-footer">
-Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
-<br>
-移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
-<br>
-
-&copy;
-	
-	2023 你快樂嗎
-	
-</div>
-            </div>
-    
-    <script src="/js/journal.js"></script></body>
+  </body>
 </html>
