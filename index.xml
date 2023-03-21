@@ -2,72 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>你快樂嗎</title>
-    <link>http://example.org/</link>
+    <link>http://updowncity.github.io/</link>
     <description>Recent content on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Mon, 20 Mar 2023 17:33:42 +0800</lastBuildDate>
     
-        <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://updowncity.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     
         <item>
-        <title>Moved to Hugo</title>
-        <link>http://example.org/posts/moved-to-hugo/</link>
+        <title>搬家到Hogo</title>
+        <link>http://updowncity.github.io/posts/moved-to-hugo/</link>
         <pubDate>Mon, 20 Mar 2023 17:33:42 +0800</pubDate>
         
-        <guid>http://example.org/posts/moved-to-hugo/</guid>
-        <description>你快樂嗎 http://example.org/posts/moved-to-hugo/ -&lt;p&gt;test&lt;/p&gt;
-- http://example.org/posts/moved-to-hugo/ - </description>
+        <guid>http://updowncity.github.io/posts/moved-to-hugo/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/moved-to-hugo/ -&lt;p&gt;因爲快&lt;/p&gt;
+- http://updowncity.github.io/posts/moved-to-hugo/ - </description>
         </item>
     
     
     
         <item>
         <title>my-thesis-vanished</title>
-        <link>http://example.org/posts/my-thesis-vanished/</link>
+        <link>http://updowncity.github.io/posts/my-thesis-vanished/</link>
         <pubDate>Sun, 19 Mar 2023 23:45:35 +0000</pubDate>
         
-        <guid>http://example.org/posts/my-thesis-vanished/</guid>
-        <description>你快樂嗎 http://example.org/posts/my-thesis-vanished/ -&lt;p&gt;我的论文消失了：打开发现只剩下一片狼藉（头文件）或許是按錯了熱鍵，或許是（空缺的主語）在提醒我不可以那樣爲了寫論文停在原地。我現在對$\mathcal{D}$-module很好奇。（論文應該是建立在日常的積累之上的，而不是臨時生搬硬湊的。我其實是有筆記的，只是它們混亂到讓人窒息（事實上我很少碰它們）。因爲過去的記錄太過混亂，所以無力去整理和搜索，每次只好再重寫一遍，這種重複又帶來新的混亂。）&lt;/p&gt;- http://example.org/posts/my-thesis-vanished/ - </description>
+        <guid>http://updowncity.github.io/posts/my-thesis-vanished/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/my-thesis-vanished/ -&lt;p&gt;我的论文消失了：打开发现只剩下一片狼藉（头文件）或許是按錯了熱鍵，或許是（空缺的主語）在提醒我不可以那樣爲了寫論文停在原地。我現在對$\mathcal{D}$-module很好奇。（論文應該是建立在日常的積累之上的，而不是臨時生搬硬湊的。我其實是有筆記的，只是它們混亂到讓人窒息（事實上我很少碰它們）。因爲過去的記錄太過混亂，所以無力去整理和搜索，每次只好再重寫一遍，這種重複又帶來新的混亂。）&lt;/p&gt;- http://updowncity.github.io/posts/my-thesis-vanished/ - </description>
         </item>
     
     
     
         <item>
         <title>虛構回憶</title>
-        <link>http://example.org/posts/fictional-memory/</link>
+        <link>http://updowncity.github.io/posts/fictional-memory/</link>
         <pubDate>Sun, 19 Mar 2023 03:55:00 +0000</pubDate>
         
-        <guid>http://example.org/posts/fictional-memory/</guid>
-        <description>你快樂嗎 http://example.org/posts/fictional-memory/ -- http://example.org/posts/fictional-memory/ - </description>
+        <guid>http://updowncity.github.io/posts/fictional-memory/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/fictional-memory/ -- http://updowncity.github.io/posts/fictional-memory/ - </description>
         </item>
     
     
     
         <item>
         <title>日誌</title>
-        <link>http://example.org/changelog/</link>
+        <link>http://updowncity.github.io/changelog/</link>
         <pubDate>Sat, 18 Mar 2023 22:41:49 +0000</pubDate>
         
-        <guid>http://example.org/changelog/</guid>
-        <description>你快樂嗎 http://example.org/changelog/ -&lt;p&gt;2023-03-20&lt;/p&gt;
+        <guid>http://updowncity.github.io/changelog/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/changelog/ -&lt;p&gt;2023-03-20&lt;/p&gt;
+&lt;p&gt;搬家到Hugo（…因爲快）&lt;/p&gt;
 &lt;p&gt;放置了一个&lt;strong&gt;加载非常缓慢且很可能除了报错什么也不会&lt;/strong&gt;的留言板；
 &lt;!-- raw HTML omitted --&gt;备份&lt;!-- raw HTML omitted --&gt;默认的字体配置（目前我只在后面加了微软雅黑（阻止衬线与等宽的中文fallback到宋体）。不过很难期待ugly-blue的作者会愿意认真考虑可读性问题。）&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;font-sans&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-apple-system&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;BlinkMacSystemFont&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Segoe UI&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Roboto&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Oxygen&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Ubuntu&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Cantarell&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Fira Sans&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Droid Sans&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Microsoft Yahei&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;sans-serif&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;font-serif&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;Georgia&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Times New Roman&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Microsoft Yahei&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;serif&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;font-mono&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Source Code Pro&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;Consolas&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;Monaco&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;Menlo&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;Consolas&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Microsoft Yahei&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;monospace&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;font-icon&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;FontAwesome&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;font-icon-path&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;fonts/fontawesome-webfont&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;font-icon-version&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;4.7.0&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;font-size&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;14px&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;line-height&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;1&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;6em&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;line-height-title&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;1&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;1em&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;2023-03-29&lt;/p&gt;
+&lt;p&gt;2023-03-29&lt;/p&gt;
 &lt;p&gt;通過沙盒回歸舊的景觀，緩慢搬運。果然我不喜歡我的「醜陋的憂鬱」。&lt;code&gt;2023-03-19&lt;/code&gt;
 第一次添加友鏈（又是丟失的時間戳，就像那些蟲蛻。）
 把原本裝在injector裡的內容取出然後放入主題文件夾裡的&lt;code&gt;head.ejs&lt;/code&gt;（……因爲landscape已經很久都沒有更新了，我可以放心地改主題文件，無需考慮更新時我的配置被覆寫什麼的。）
@@ -76,35 +65,35 @@
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;寫論文摸魚的時候逛&lt;a href=&#34;https://hexo.io/themes/&#34;&gt;Hexo主题&lt;/a&gt;，始终没有找到合我心意的主题。於是动手制作这个臨時被我命名为&lt;code&gt;ugly-blue&lt;/code&gt;的主题（原名是&lt;code&gt;ugly-html&lt;/code&gt;，但它並不是純HTML所以就改成了现在这个「醜陋的憂鬱」…另一个待选名称是&lt;code&gt;it-just-works&lt;/code&gt;，目前整个文件夹只有&lt;code&gt;2.47KB&lt;/code&gt;(&amp;hellip;CSS什么的都被我喂进了&lt;code&gt;injector.js&lt;/code&gt;)&amp;hellip;效果近似于破损的默认主题，但它至少是能用的。（…就像觉得perverse sheaf难听的人可以选择用hypersheaf这个名字）目前想做的是仿照Emacs默认主题配置按钮。
 加入了&lt;code&gt;moults&lt;/code&gt;虫蜕页面，用来记录那些死去[?]并且被我遗忘的網站（或许某一天我会像说“太阳升起来了”一样说这些网站是属于我的…），想法来自disroot bin的&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;这条留言&lt;/a&gt;。我的记忆力有时相当糟糕，有时我甚至感到我的生命是不连续的。&lt;/p&gt;
-- http://example.org/changelog/ - </description>
+- http://updowncity.github.io/changelog/ - </description>
         </item>
     
     
     
         <item>
         <title>寫點什麼</title>
-        <link>http://example.org/posts/emacs-initialization/</link>
+        <link>http://updowncity.github.io/posts/emacs-initialization/</link>
         <pubDate>Fri, 17 Mar 2023 23:59:59 +0000</pubDate>
         
-        <guid>http://example.org/posts/emacs-initialization/</guid>
-        <description>你快樂嗎 http://example.org/posts/emacs-initialization/ -&lt;p&gt;如果你发现我突然失踪从网络空间失踪，&lt;del&gt;就像死了一样&lt;/del&gt;留言板里也没有任何回应，那么情况很可能是：我的状态太糟糕了，只好把所有的文字触须都蜷缩起来，临时切断我与我所爱的世界的联系，直到我能够重新頂著發燙的腦袋出去。
+        <guid>http://updowncity.github.io/posts/emacs-initialization/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/emacs-initialization/ -&lt;p&gt;如果你发现我突然失踪从网络空间失踪，&lt;del&gt;就像死了一样&lt;/del&gt;留言板里也没有任何回应，那么情况很可能是：我的状态太糟糕了，只好把所有的文字触须都蜷缩起来，临时切断我与我所爱的世界的联系，直到我能够重新頂著發燙的腦袋出去。
 默认主题landscape壞了：用了一整天的時間寫Hexo主題，然後整理好發佈到独立的&lt;a href=&#34;ugly&#34;&gt;GitHub倉庫&lt;/a&gt;裡。從&lt;code&gt;ugly-blue&lt;/code&gt;（醜陋的憂鬱）這個名字就可以看出作者對世界的惡意。（最早的名字是&lt;code&gt;ugly-html&lt;/code&gt;，後來也想过&lt;code&gt;ugly-emacs-style&lt;/code&gt;（因为这个主题的终极目标(?)是仿制Emacs默认UI），也有一个比较友好的名字是&lt;code&gt;it-just-works&lt;/code&gt;（就像hypersheaf之於perverse sheaf…）。
 寫博客主題就像涂秘密花园。然而，最初用landscape时的那种安心感无论如何都已经不复存在了。某种意义上，我更愿意使用别人制作好的东西，以削弱时光虚掷的负罪感（我終於寫出來了：这种负罪感本身的不堪使得它难以被文字所固定。它通常会滑向那句抽象废话：我不想成为我自己。）&lt;/p&gt;
 &lt;p&gt;去年接触Emacs是从入门到放弃，今年&lt;a href=&#34;http://www.stallman.cn/19&#34;&gt;这位神人的文章&lt;/a&gt;重新触发了我对Emacs的兴趣（甚至开始想学Lisp）&lt;code&gt;2023-03-14&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;貼一個醜醜的雨傘 2023-03-19
-&lt;img src=&#34;http://example.org/images/2023-03/WhitneysUmbrella_700.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-- http://example.org/posts/emacs-initialization/ - </description>
+&lt;img src=&#34;http://updowncity.github.io/images/2023-03/WhitneysUmbrella_700.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+- http://updowncity.github.io/posts/emacs-initialization/ - </description>
         </item>
     
     
     
         <item>
         <title>將我遺忘在海邊吧</title>
-        <link>http://example.org/bupropion/</link>
+        <link>http://updowncity.github.io/bupropion/</link>
         <pubDate>Fri, 17 Mar 2023 22:57:31 +0000</pubDate>
         
-        <guid>http://example.org/bupropion/</guid>
-        <description>你快樂嗎 http://example.org/bupropion/ -&lt;h2 id=&#34;留言&#34;&gt;留言&lt;/h2&gt;
+        <guid>http://updowncity.github.io/bupropion/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/bupropion/ -&lt;h2 id=&#34;留言&#34;&gt;留言&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;
 邮箱 &lt;code&gt;jamais-vu@tutanota.com&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;關鍵字&#34;&gt;關鍵字&lt;/h2&gt;
@@ -118,19 +107,19 @@
 &lt;p&gt;前两天我的校园卡丢了但没有发现直到晚上打开洗澡用的企业微信发现里面有一条消息让我去指定的一栋宿舍楼去领回，去年的比这稍晚些的时候，学校通知打第三针疫苗然后我发现身份证已经像旧的眼镜那样被搞丢了。不过即便这两件事情同时发生（也就是存在某个时间段我既找不到身份证也找不到校园卡），我也依旧能够回到这里（也就是你刚才下载的那个HTML文件（或许你不会真的下载它）的路。（我不是故意的……自然状态下我的语言就是这个样子的你在别处看到能够阅读的段落是因为我认真地进行了断句和整理。）2023-03-20 (你同样无法期待这个掉落过很多虫蜕的作者会有一个固定的时间戳格式) 这段保留未经整理的形状的文本可以作为我的sample。&lt;/p&gt;
 &lt;h3 id=&#34;你是谁&#34;&gt;你是谁&lt;/h3&gt;
 &lt;p&gt;如果你想回答这个问题可以使用下面的留言板或者（如果Valine坏了）&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;
-&lt;a href=&#34;http://example.org/truth&#34;&gt;隱藏&lt;/a&gt;&lt;/p&gt;
-- http://example.org/bupropion/ - </description>
+&lt;a href=&#34;http://updowncity.github.io/truth&#34;&gt;隱藏&lt;/a&gt;&lt;/p&gt;
+- http://updowncity.github.io/bupropion/ - </description>
         </item>
     
     
     
         <item>
         <title>虫蜕</title>
-        <link>http://example.org/moults/</link>
+        <link>http://updowncity.github.io/moults/</link>
         <pubDate>Fri, 17 Mar 2023 02:00:29 +0000</pubDate>
         
-        <guid>http://example.org/moults/</guid>
-        <description>你快樂嗎 http://example.org/moults/ -&lt;p&gt;如果你发现了这里没有列出的虫蜕请到&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;留言&lt;code&gt;^_^&lt;/code&gt;&lt;/p&gt;
+        <guid>http://updowncity.github.io/moults/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/moults/ -&lt;p&gt;如果你发现了这里没有列出的虫蜕请到&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;留言&lt;code&gt;^_^&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;爲了找到這些蟲蛻我需要：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;蒐集儘可能多的&lt;code&gt;kdbx&lt;/code&gt;文件，然後猜出它們的密碼；&lt;/li&gt;
@@ -143,51 +132,480 @@
 &lt;li&gt;&lt;a href=&#34;https://kernelcore.neocities.org/&#34;&gt;kernelcore.neocities.org&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://th.hashi.icu/digitalwastedland/&#34;&gt;th.hashi.icu/digitalwastedland&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://writee.org/digitalwastedland/&#34;&gt;writee.org/digitalwasteland&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-- http://example.org/moults/ - </description>
+&lt;/ul&gt;- http://updowncity.github.io/moults/ - </description>
         </item>
     
     
     
         <item>
         <title>發生了什麼</title>
-        <link>http://example.org/posts/what-happened/</link>
+        <link>http://updowncity.github.io/posts/what-happened/</link>
         <pubDate>Sun, 12 Mar 2023 00:41:57 +0000</pubDate>
         
-        <guid>http://example.org/posts/what-happened/</guid>
-        <description>你快樂嗎 http://example.org/posts/what-happened/ -&lt;p&gt;又一次搞砸了，只好刪庫重來。（然後換了這樣一個很溫柔的主題。（……而這兩件事的關聯）&lt;/p&gt;
+        <guid>http://updowncity.github.io/posts/what-happened/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/what-happened/ -&lt;p&gt;又一次搞砸了，只好刪庫重來。（然後換了這樣一個很溫柔的主題。（……而這兩件事的關聯）&lt;/p&gt;
 &lt;p&gt;曾經放棄過，註冊了新的github帳號，甚至買了域名（雖然我打死也不說那個域名是什麼…它是我名字的縮寫加我喜歡的人兩年前的(一個)ID。能夠進入那個網站的人也只會以爲那是我爲了省錢而在名字縮寫後面加的隨機數。那邊沒有CJK所以字體也就調到16px（我對微軟雅黑14px時的hint有奇怪的執念）。雖然我很討厭這種類似於將工作與休閒分隔開來的處理，但那邊的強光會讓人感到很不舒服。或者說，那邊用來存放「幸福的閃電」，這邊則是「熟悉的黑夜」。當然那邊現在還是不會有訪客的（至少要等我寫出第一個…會讓別人感興趣的理論）。&lt;/p&gt;
-- http://example.org/posts/what-happened/ - </description>
+- http://updowncity.github.io/posts/what-happened/ - </description>
         </item>
     
     
     
         <item>
         <title>友鏈</title>
-        <link>http://example.org/friends/</link>
+        <link>http://updowncity.github.io/friends/</link>
         <pubDate>Sun, 12 Mar 2023 00:38:32 +0000</pubDate>
         
-        <guid>http://example.org/friends/</guid>
-        <description>你快樂嗎 http://example.org/friends/ -&lt;p&gt;&lt;a href=&#34;https://avianreport.github.io/&#34;&gt;this terrible chamber&lt;/a&gt; - yet eidetically you&lt;/p&gt;
+        <guid>http://updowncity.github.io/friends/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/friends/ -&lt;p&gt;&lt;a href=&#34;https://avianreport.github.io/&#34;&gt;this terrible chamber&lt;/a&gt; - yet eidetically you&lt;/p&gt;
 &lt;p&gt;留言请到&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;&lt;/p&gt;
-- http://example.org/friends/ - </description>
+- http://updowncity.github.io/friends/ - </description>
         </item>
     
     
     
         <item>
         <title>log-2023-03-08</title>
-        <link>http://example.org/posts/stacked-logs-02/</link>
+        <link>http://updowncity.github.io/posts/stacked-logs-02/</link>
         <pubDate>Wed, 08 Mar 2023 10:00:59 +0000</pubDate>
         
-        <guid>http://example.org/posts/stacked-logs-02/</guid>
-        <description>你快樂嗎 http://example.org/posts/stacked-logs-02/ -&lt;p&gt;想了想还是把声明里的那段关于授权的文字给删掉了（因为它让我感到非常不安）。我本该像远离知乎一样远离Twitter中文圈的某类话题的。那些对好奇心与热情的嫉妒与敌意真的很可怕。&lt;/p&gt;
+        <guid>http://updowncity.github.io/posts/stacked-logs-02/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/stacked-logs-02/ -&lt;p&gt;想了想还是把声明里的那段关于授权的文字给删掉了（因为它让我感到非常不安）。我本该像远离知乎一样远离Twitter中文圈的某类话题的。那些对好奇心与热情的嫉妒与敌意真的很可怕。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;在「发明」了许多数学概念以后，我终于意识到没有什么东西是属于我的。那些绝妙的想法（能够明显感觉到它与那些穿凿附会的解释之间强度上的差异）往往带有强烈的异质感，我永远不会声称那幸福的闪电属于我。因此我拒绝设置任何lisence。取而代之的是个人的请求：不要做会给我带来麻烦和困扰的事，也请不要把本站连接分享给会给我带来麻烦与困扰的人（……比如在线下世界中认识我的人。）你们所看到的我可以链接到线下世界的我（比如给我寄过东西的人会知道我的学校名字和手机号），但反过来（对我来说）真的很恐怖。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;部署失败：&lt;code&gt;Failed to connect to github.com port 443 after 2035 ms: Couldn&#39;t connect to server&lt;/code&gt;。
 这段时间总是很无力，不知道怎样做才能驱动我走向未来。就连敲下这段文字的时候也突然陷入停滞的状态。s&lt;/p&gt;
-- http://example.org/posts/stacked-logs-02/ - </description>
+- http://updowncity.github.io/posts/stacked-logs-02/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>故纸堆系列#1</title>
+        <link>http://updowncity.github.io/posts/jamais-vu/</link>
+        <pubDate>Sun, 05 Mar 2023 22:42:49 +0000</pubDate>
+        
+        <guid>http://updowncity.github.io/posts/jamais-vu/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/jamais-vu/ -&lt;p&gt;翻箱倒柜找高中毕业证的时候在一堆作业纸里发现的。很明显它不是（现在的）我写的。我对这段文本的记忆就像那张高中毕业证一样已经不知道消失在哪里去了。无法根据笔记判断具体的时间。尽可能保留原状（无法彻底保留原状或者按照撰写的时间顺序录入文本：就连我自己也不知道怎么对付那些箭头（用电脑写东西的时候至少它们是排版友好的括号群…可这堆箭头……呃…）写完留学文书后处于一种精神被耗竭的状态，又一次陷入文本搬运与interface configuration这些机械行为的黑洞。无法忍受有人在我身后走来走去，只好把整个工作台搬到床上，每天和草稿纸睡在一起。我也不去图书馆自习，因为会经常有人从我旁边经过。真的很羡慕那些能够正常去图书馆或者自习室学习的人（不会轻易陷入痛苦不堪的状态），那些不会因为强迫行为交不上作业的人。从很久以前便是如此。
+或许我会重置它，赋予它（至少我觉得）更加有趣的解释。但毕竟它不是「我」写的。而我已经不再想要将过去一笔勾销。To be honest，录入这个东西的时候我真的很嫌弃它：没有check定义就乱写自己没有完全搞清楚的东西，名词党的臭毛病。&lt;/p&gt;
+&lt;p&gt;它是一部我从一个免费游戏网站上下载的单机RPG，介绍页面很普通，感觉作者很懒，但挺擅长画画的，人物立绘和CG预览都很好。下载量很低。
+最初我以为这部完成度如此高的游戏免费发布有些可惜，后来想到我和我的朋友们的写作：像乞讨一样恳求路人阅读我们的作品，我们可怜的生活报告。
+这位作者也是一样。他（也许是她）更擅长编程与故弄玄虚。我想他放出表现完成度的预览图是为了阻止网站管理员删除它。
+背景是一所无法判别是中学还是大学的学校，角色甚至没有名字，对话框上方只是「你」。我根本不知道要我做什么。游戏的标签是解密，以平淡的日常作为开端。
+很常见，很快就会出现吓人一跳的&lt;del&gt;按键&lt;/del&gt;案件，比如同学的失踪或跳楼。
+它让我想到一些新浪潮的电影。极其琐碎的日常。我知道这部游戏来自一位十分钦佩的朋友，她称赞它，而她很少接触游戏，我一直觉得有些可惜。
+琐碎到令人感到作者对所处世界的厌恶。同一个房间里别人走来走去的声音令人作呕&lt;code&gt;sancheck&lt;/code&gt;。
+自己肉体的存在
+「你」一天要诅咒你的肉体三十次
+牙膏从牙刷的刷毛上滑落
+中间有许多选择肢，比如去哪里，去教室，去图书馆，去上厕所，去宿舍，第一天无事发生
+这是我接触到的第一部将失眠的细节给描写出来的。无法快进或是存档，我几乎失去了耐心。终于，第2天，选择肢消失，更像是视觉小说，去这些地方的顺序也是固定的。一些细节分差，TRPG要素，也许是为了让游戏不会过分沉闷。第3天依旧，且没有快进，我只能快速敲击键盘。Endless
+第4天，消失的选择支重现
+第六天以后我不再玩了。
+在游戏评论区有位技术大佬称他拆了游戏包，在第2天以后以为是重复，TRPG要素，加上一些细微分差，随机，用有限模拟无穷，利用玩家缺乏耐心，不会有人玩到十天以后。而发现重复一般需要两千多天。它躺在我的硬盘里很久了，作者只是在模仿一些神经官能症患者的征状，比如刻板行为。
+后来我发现它可能并不是单机游戏。我对电脑一窍不通，但不想让别人的延伸触摸我硬盘这片处女地，每次它出故障都这样。从搜索引擎上找解决方法，而非求助他人。宁可失去所有存档，也不想面对好奇的询问，回答那些该死的问题。
+由此多少了解到用命令行检查网络使用情况的方法。游戏在联网方面做得很隐蔽。我感到诧异的地方是，当我断开网络连接以后它依旧可以连上。一个小把戏，修改图形界面的显示，移走按钮以欺骗我。
+也许它在窃取我的信息，也许我应该向网站管理员报告这件事，但无关紧要，一个孤独的偷窥狂。谁也〔看不懂这几个字写的是什么〕与开发者见面发生在&lt;/p&gt;- http://updowncity.github.io/posts/jamais-vu/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>funny-things</title>
+        <link>http://updowncity.github.io/posts/funny-things/</link>
+        <pubDate>Wed, 01 Mar 2023 18:25:09 +0000</pubDate>
+        
+        <guid>http://updowncity.github.io/posts/funny-things/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/funny-things/ -&lt;p&gt;能够理解，最后这个「给我留下语音邮件，指责我是中情局特工，作为一个巨大的种族主义阴谋的一部分而封锁Facebook（是的，这真的发生了）。」……笑死我了&lt;img src=&#34;https://pic.imgdb.cn/item/63ff279ff144a01007e359dd.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+- http://updowncity.github.io/posts/funny-things/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>再見NekoBox</title>
+        <link>http://updowncity.github.io/posts/sayounara-neko-box/</link>
+        <pubDate>Thu, 23 Feb 2023 20:38:55 +0000</pubDate>
+        
+        <guid>http://updowncity.github.io/posts/sayounara-neko-box/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/sayounara-neko-box/ -&lt;p&gt;睡醒一觉起来发现NekoBox提问箱因为不可抗力因素关闭了。虽然邮箱里还能找到收到的提问，但我的回复全都已经无法找回了。想到我开这个博客的契机也是NekoBox：好奇心使然地点开页尾的链接，找到开发者的个人博客，读到他毕业后写的&lt;a href=&#34;https://github.red/bye-hdu/&#34;&gt;关于大学四年的碎碎念&lt;/a&gt;，于是萌发了(再次)搭建个人博客的想法。这次很顺利，没有迷路。我想要一个initialization不那么轻松的个人博客，因为初始化时遇到的困难可以阻止我冲动之下把它销毁掉（我注销过很多个WriteFreely博客…）。NekoBox是我的第一个评论系统。既然开发者的Twitter简介里提到「不谈政治」，我也就不再这个post里谈论言论审查之类的话题了。&lt;/p&gt;
+&lt;p&gt;{% blockquote 一只大茄瓜🍆 @wuhan005 &lt;a href=&#34;https://twitter.com/wuhan005/status/1628696994226257921&#34;&gt;https://twitter.com/wuhan005/status/1628696994226257921&lt;/a&gt; %}
+今天突然接到网信办的电话，大致是我开发运营的一个站下面有人发敏感内容。&lt;!-- raw HTML omitted --&gt;工作人员态度真心很好，他们的难处我也理解。配合完工作后还是关掉了运营三年的网站，凄惨。&lt;!-- raw HTML omitted --&gt;一个人收拾收拾出门喝酒了。😢
+{% endblockquote %}&lt;/p&gt;
+&lt;p&gt;这条Twitter让我想到去年这个时候想过的：虽然我们很厌恶state apparatus，但遇到的具体的人往往很nice。反抗行政机器就意味着要伤害这些曾经温柔地对待过我们的人们。（或许这种优柔寡断对其他没有孤独到放弃单数第一人称代词的人来说是难以理解的…）&lt;/p&gt;
+&lt;p&gt;{% blockquote 明流 @myouryu1 &lt;a href=&#34;https://twitter.com/myouryu1/status/1628698895349084161&#34;&gt;https://twitter.com/myouryu1/status/1628698895349084161&lt;/a&gt; %}
+😭😭😭刚点开就发现站无了，nekobox 真的非常优秀诶，推荐给了很多朋友，这样的结局让人很不舍……开发这样一个良好的平台很费心力，看日志和主页也能感受在上面花了很多力气和感情，对于开发它的您只能表达痛惜……
+{% endblockquote %}&lt;/p&gt;
+&lt;p&gt;我也真的很羡慕这样能够自然地使用语言的人（以一种不那么perverse的方式传达自己的感情……）&lt;/p&gt;
+- http://updowncity.github.io/posts/sayounara-neko-box/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>關於我與女性主義的關係</title>
+        <link>http://updowncity.github.io/posts/dialog-between-chizuko-ueno-and-quan-xixi/</link>
+        <pubDate>Tue, 21 Feb 2023 21:15:21 +0000</pubDate>
+        
+        <guid>http://updowncity.github.io/posts/dialog-between-chizuko-ueno-and-quan-xixi/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/dialog-between-chizuko-ueno-and-quan-xixi/ -&lt;p&gt;我逐渐意识到我经常省略一些「在我看来理所当然不需要额外解释但对他人来说未必如此」的前置说明，比如，我的女性主义立场是先验的而不是习得的，因此我认为反抗父权主义是所有女性与生俱来的本能，（而厌女症来自于父权主义环境对这种本能的破坏）。这是个相当糟糕的indication，幼稚且coarse，然而它是被我惯性使然地当做所有思考的前提来使用着的东西。于是对于女性主义，我总是批判大于行动。我没有付诸行动的意志力，所以能量只好用在fancy的激进说辞上。我深知我所说的「直接废除父权主义的话语体系」，实际上只不过是在讨论怎样巧妙地通过蜷缩身体来缓解痛苦，怎样用奇淫技巧伪造出自己的尊严。&lt;/p&gt;
+&lt;h2 id=&#34;關於全嘻嘻和她的朋友們與上野千鶴子的對話&#34;&gt;關於全嘻嘻和她的朋友們與上野千鶴子的對話&lt;/h2&gt;
+&lt;p&gt;为什么上野千鶴子说的基本上是在重复《始于极限》那本全嘻嘻和她的两位朋友已经读过的书里的内容。虽然识别出「言外之意」对我来说非常困难（所以那个视频本身在我眼中就真的只是一场（不同世界的人之间）真诚的对话），我只能看到事物的表面，深层结构是陌生而遥远的东西，然而在此之前我已经看到很多对则视频的争议，于是我开始怀疑这里的重复暗示了预设的台本的存在。我无法选择攻击全嘻嘻和她的朋友們的立场（又是一个多义句），因为面对冲突，我同样选择回避而非对决，就像我曾经做过的那样：将我的生命以2016年为标记切割为泾渭分明的两段，构建一个不属于我的关于家庭的开明与幸福的神话。因为我是有死者。因为我是有死者，所以选择逃避无可厚非。即便我写过「我不相信爱与希望是不被允许相信爱与希望」，我也从未真诚地相信过上野千鶴子所暗示的对话的可能性：因为（我认为）这种可能性得以实现的前提是我的死亡。（我也从未想过出柜…）
+如果女性主义要分三六九等，那么行动者永远是高于我这种空谈者的。（很少出现在我的语言里的判断句。…我讨厌判断句，它们太刺眼。）&lt;/p&gt;
+- http://updowncity.github.io/posts/dialog-between-chizuko-ueno-and-quan-xixi/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>關於我</title>
+        <link>http://updowncity.github.io/posts/old-about/</link>
+        <pubDate>Sat, 18 Feb 2023 20:50:42 +0000</pubDate>
+        
+        <guid>http://updowncity.github.io/posts/old-about/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/old-about/ -&lt;p&gt;[常用]标签：&lt;/p&gt;
+&lt;p&gt;#文学沙盒 用于存放不负责任的思考与感受&lt;/p&gt;
+&lt;p&gt;此博客作案工具：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Visual Studio Code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;突然想要放弃「您好，我也不知道我是谁」这个开场白。我是一个inverse/projective limit，虽然这句话适用于每一个人，但它对我来说格外清晰。2023-02-18&lt;/p&gt;
+- http://updowncity.github.io/posts/old-about/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>时间戳部分遗失的文本碎块，或者是stack形状的无名日记</title>
+        <link>http://updowncity.github.io/posts/stacked-logs-01/</link>
+        <pubDate>Thu, 16 Feb 2023 21:52:31 +0000</pubDate>
+        
+        <guid>http://updowncity.github.io/posts/stacked-logs-01/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/stacked-logs-01/ -&lt;p&gt;无意中点进一个叫墨滴的社区，然后看到一篇&lt;a href=&#34;https://mdnice.com/writing/49a6ad19dfe64c4a8007245f3121f221&#34;&gt;声讨Notepad++的文章&lt;/a&gt;。作者嫌弃Notepad++的政治倾向，不类似于我嫌弃同路人&lt;a href=&#34;https://updowncity.github.io/2023/02/16/log1/&#34;&gt;对那些ugly序结构的兴趣&lt;/a&gt;吗。2023-02-20 20:34&lt;/p&gt;
+&lt;p&gt;当阅读这种风格的数学时，我感到我正在被我们的语言所背叛。2023-02-20 12:30&lt;/p&gt;
+&lt;p&gt;你们所见到的，是我所发明的客体。然而当你向这个客体提问时，处理信息并发送反馈的却是这个主体。主体是一个极限，无限倒退的极限（projective/inverse limit）。当我说「我是我所发明与扮演的客体」时，说话者同样是这样一个刻意的角色（deliberiated character）。这个回退系统并不是为了「寻找真实的自我」，而是为了处理「说谎带来的罪恶感（guilty）」。我不再将能动性的缺失（lack of agency）与这种guilty用depression混为一谈。它们的原理与解决方案是不同的。（你是否会对这种语言风格感到奇怪?…你知道吗，对我来说，将自己想象为机械是一种救赎。）&lt;/p&gt;
+&lt;p&gt;依旧为毕业论文开题报告的事情焦虑。&lt;/p&gt;
+&lt;p&gt;查东西的时候看到又一次看到这种比较谁强谁弱的&lt;a href=&#34;https://www.zhihu.com/question/436551699&#34;&gt;问题&lt;/a&gt;：「有哪些没有拿菲尔兹奖的数学家，他们的数学贡献并不比菲尔兹奖获得者弱？（设立此奖之后）？」…………我很想吐槽：作为数学人你们是怎么忍得了这种confusing到粗鲁的语言的。（只是个虚弱的吐槽…这种表达在生活中太常见，我还不至于像两年前在教材里看到ugly的定义的时候那样血压升高。）&lt;/p&gt;
+- http://updowncity.github.io/posts/stacked-logs-01/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>關於寫博客的動機</title>
+        <link>http://updowncity.github.io/posts/motivation-of-this-blog/</link>
+        <pubDate>Thu, 16 Feb 2023 16:50:01 +0000</pubDate>
+        
+        <guid>http://updowncity.github.io/posts/motivation-of-this-blog/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/motivation-of-this-blog/ -&lt;p&gt;受到&lt;a href=&#34;https://box.n3ko.co/&#34;&gt;NekoBox&lt;/a&gt;站长的个人博客&lt;a href=&#34;https://github.red/&#34;&gt;Light Cube&lt;/a&gt;的影响，又一次尝试建站。这回没有迷路，很快就配置成功了。或许是因为电脑里已经安装了依赖项（在过去那些半途而废的尝试里）。接下来就是多写点东西充实这个新的小窝。&lt;/p&gt;
+&lt;p&gt;我曾在用来记录网站配置更新的&lt;a href=&#34;https://updowncity.github.io/logs/&#34;&gt;页面&lt;/a&gt;里写，无法理解我这样做的动机，就像一个偷东西被抓到的小孩子的辩解：「很久以前我就想做个人博客，可总是因为在配置过程中迷路而半途而废；目前无法解释这样做的动机（或许我只是想要与他人分享我所看到的世界（然而这种解释很可疑：因为它所基于的是对我来说非常陌生的感受，分享某样东西的愿望在我过去的生命中是经常被诋毁为虚荣心与优越感的（两个被赋予了道德指责的词语）;」&lt;/p&gt;
+&lt;p&gt;虽然只过了几个小时，但是此刻的心境已经与那时截然不同，现在的我可以很平静(?)地反问，为什么非要在某个熟悉的语言体系里找到可以再现这些陌生的欲望与感受的东西。或许是因为，下午的时候我终于搞清楚derived category到底是什么了。（这些数学发现有时会被我用来赋予自己在这个社会上如此存在着的正当性：当这个正当性不复存在的时候，等待我的就只有那个「关于禁闭与死亡的噩梦」。（为什么不用大家更熟悉的语言解释这个：你只是想要说服你自己，你依旧拥有继续活下去的资格。（到这里我似乎已经在谈论别的什么东西了。）&lt;/p&gt;
+&lt;p&gt;我一直不知道怎样才能做到将文字与思绪固定在某个主题之下。我擅长于发现事物之间的关联，然而我的思考是不定形的：因此我想找到将不定形的思考进行输出的方法。（我不愿意改变，不愿意修剪这些根茎式的思绪，以适应那些约定俗成的表达规范。）前途一片渺茫，但至少在这里我是自由的。&lt;/p&gt;
+- http://updowncity.github.io/posts/motivation-of-this-blog/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>会有人愿意和我交换友链吗?</title>
+        <link>http://updowncity.github.io/posts/old-links/</link>
+        <pubDate>Thu, 16 Feb 2023 09:33:09 +0000</pubDate>
+        
+        <guid>http://updowncity.github.io/posts/old-links/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/old-links/ -&lt;p&gt;旧的链接页，蒐集过一些（或許）有趣的网页。
+&lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt;
+&lt;!-- raw HTML omitted --&gt;林奕含的FACEBOOK&lt;!-- raw HTML omitted --&gt;豆瓣&lt;/p&gt;
+&lt;p&gt;我是个不会配置留言系统的菜鸟…所以想要留言的话请移步NekoBox&lt;!-- raw HTML omitted --&gt;匿名提问箱&lt;!-- raw HTML omitted --&gt;
+樓上的提問箱已經無法使用，請點這個&lt;!-- raw HTML omitted --&gt;新的留言板&lt;!-- raw HTML omitted --&gt;
+贴一些有趣的博客（想蹭友链）
+&lt;!-- raw HTML omitted --&gt;天仙子&lt;!-- raw HTML omitted --&gt; - 秦海碗的个人主页
+&lt;!-- raw HTML omitted --&gt;this terrible chamber&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;桜庭夜🎐杂话铺子&lt;!-- raw HTML omitted --&gt; - 一间由桜庭夜经营的贩售闲言碎语的小店
+&lt;!-- raw HTML omitted --&gt;Light Cube&lt;!-- raw HTML omitted --&gt; - 当真心想要做成一件事的时候，人总是孤独的。&lt;/p&gt;
+&lt;p&gt;这里是我发现的各种有趣的网站
+&lt;!-- raw HTML omitted --&gt;島嶼邊緣&lt;!-- raw HTML omitted --&gt; - 曾經是最重要的文化運動刊物&amp;ndash;影響了整整一個世代
+&lt;!-- raw HTML omitted --&gt;荒原效應&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;时间物质&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+- http://updowncity.github.io/posts/old-links/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>网站装配记录</title>
+        <link>http://updowncity.github.io/posts/old-logs/</link>
+        <pubDate>Thu, 16 Feb 2023 09:14:37 +0000</pubDate>
+        
+        <guid>http://updowncity.github.io/posts/old-logs/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/old-logs/ -&lt;p&gt;旧的changelog：我到底在干什么
+&lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt;
+2023-03-08&lt;/p&gt;
+&lt;p&gt;重置了post文件名（用&lt;code&gt;log-yyyy-MM-dd&lt;/code&gt;替换掉那些乱七八糟的文件名）；删掉了本站说明页的那段关于授权的文本（&lt;a href=&#34;https://updowncity.github.io/2023/03/08/log-2023-03-08/&#34;&gt;存档&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;2023-03-03 day?&lt;/p&gt;
+&lt;p&gt;移除了看板娘……这个太拖慢&lt;code&gt;hexo g&lt;/code&gt;了。&lt;/p&gt;
+&lt;p&gt;2023-03-01 day ?&lt;/p&gt;
+&lt;p&gt;禁止搜索引擎建立索引：注入#noindex 参考&lt;!-- raw HTML omitted --&gt;blog.icpz.dev&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;2023-02-23 day 8&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;放置z-16看板娘；&lt;/li&gt;
+&lt;li&gt;突发奇想做了个萌备（无意间点进去，然后发现有我想要的数字）；&lt;/li&gt;
+&lt;li&gt;舊的評論系統NekoBox停止服務；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://steamcommunity.com/sharedfiles/filedetails/?id=2674825159&#34;&gt;從雨&lt;/a&gt;好可愛…然而Hexo插件&lt;code&gt;hexo-helper-live2d&lt;/code&gt;無法適配moc3&amp;hellip;）找了很多參考資料依舊做不出來
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/LitStronger/live2d-moc3/issues/2&#34;&gt;请问如何在hexo里使用moc3 #2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Weidows-projects/Live2dLoader&#34;&gt;Weidows-projects/Live2dLoader: 易用且适用于所有模型的live2d-web库, 手把手教做人(&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://garen-wang.github.io/2021/07/23/Hexo-Live2d-moc3-Configuration/&#34;&gt;Hexo Live2d moc3 Configuration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/Arisf/p/14347362.html&#34;&gt;在博客园主页添加一个Live2D moc3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/wstong/p/12874732.html&#34;&gt;live2d web端加载moc3模型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_44919664/article/details/117070414&#34;&gt;网站上部署Live2D模型（moc3格式）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_43641850/article/details/108154098&#34;&gt;网页/博客Hexo添加live2d游戏角色看板娘,简易添加，碧蓝航线等live2d新型游戏角色模型（moc3）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_44128558/article/details/104792345&#34;&gt;笔记：live2d4.0 sdk 博客园网页动画&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/read/cv6839709&#34;&gt;给你的博客园添加一只萌萌的洛天依吧！（live2d-自制v3版本模型）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/read/cv4812803/&#34;&gt;给你的网站加上Live2D看板娘(上)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/qq_37735413/article/details/104769280&#34;&gt;Live2D(WebSDK 4.X)网页看板娘设置（一）&lt;/a&gt;
+（以及分享一個資源demo站(?):&lt;a href=&#34;https://eikanya.github.io/&#34;&gt;Eikanya‘s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;還想做一個音樂播放器（請放心&lt;strong&gt;它不會自動播放&lt;/strong&gt;，利用插件&lt;a href=&#34;https://github.com/MoePlayer/hexo-tag-aplayer&#34;&gt;hexo-tag-aplayer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;以及jsDelivr對靜態資源的CDN加速（……你爲什麼不先整理一下那堆醜陋的代碼?）&lt;/li&gt;
+&lt;li&gt;以及&lt;del&gt;想辦法修復&lt;/del&gt;&lt;a href=&#34;https://valine.js.org/&#34;&gt;Valine&lt;/a&gt;評論系統（……To be honest我不打算做了。第一，&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;作爲匿名留言板已經足夠充當這個博客的評論系統了；第二，我目前見到過的Valine都壞掉了（401錯誤…）。也見到過基於&lt;a href=&#34;https://docs.github.com/en/discussions&#34;&gt;GitHub Discussions&lt;/a&gt;的評論系統（比如&lt;a href=&#34;https://giscus.app&#34;&gt;giscus&lt;/a&gt;），不過似乎需要OAuth授權，而&lt;!-- raw HTML omitted --&gt;我對博客評論系統的選擇原則：匿名且無需驗證，這很重要，因爲我真的非常想收到留言。登錄帳號或者人機認證會讓人感到掃興。&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;接下來會有很長一段時間我不再對這個博客進行裝修，因爲要忙畢業論文與留學申請的事。（我似乎…只有拖到無可再拖的時候（比如即將錯過申請的DDL）纔會有足夠的能動性push我自己去做事。）&lt;/p&gt;
+&lt;p&gt;2023-02-18 day 3&lt;/p&gt;
+&lt;p&gt;丢掉了banner（加载太慢）
+微改主题&lt;/p&gt;
+&lt;p&gt;2023-02-17 day 2&lt;/p&gt;
+&lt;p&gt;照搬&lt;!-- raw HTML omitted --&gt;yearito&lt;!-- raw HTML omitted --&gt;的代码做了一个鼠标点击的烟花特效&lt;/p&gt;
+&lt;p&gt;2023-02-16 day 1&lt;/p&gt;
+&lt;p&gt;将匿名提问箱NekoBox用作静态博客的评论系统;
+配置顶部导航栏;
+希望有人愿意和我交换友链;
+很久以前我就想做个人博客，可总是因为在配置过程中迷路而半途而废；目前无法解释这样做的动机（或许我只是想要与他人分享我所看到的世界（然而这种解释很可疑：因为它所基于的是对我来说非常陌生的感受，分享某样东西的愿望在我过去的生命中是经常被诋毁为虚荣心与优越感的（两个被赋予了道德指责的词语）;
+或许这个用来记录网站装配的页面所装配的是我自己;&lt;/p&gt;
+&lt;p&gt;2023-02-15 day 0&lt;/p&gt;
+&lt;p&gt;网站诞生的第0天;
+配置MathJax;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;留言請按&lt;!-- raw HTML omitted --&gt;這裡&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+- http://updowncity.github.io/posts/old-logs/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>在消失的差異與鏡面的空白之間</title>
+        <link>http://updowncity.github.io/posts/cokernels/</link>
+        <pubDate>Fri, 26 Aug 2022 22:08:26 +0000</pubDate>
+        
+        <guid>http://updowncity.github.io/posts/cokernels/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/cokernels/ -&lt;blockquote&gt;
+&lt;p&gt;Summary
+或許可以理解爲平行世界的一個小故事：不同於《神譴》，這裏路西法變成的是一個與伊薩爾年齡差不多的(美)少年：冒充的不再是那個不請自來的小屁頭，而是一個神祕的轉校生（當然名字依舊叫路西菲爾）。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;寫於2021年9月；&lt;/li&gt;
+&lt;li&gt;是一個不會填的坑：我已經不再是一年前寫下它的那個人，所以沒有資格隨意填補/破壞那個人留下的坑。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;「我小時候你是不是其實很討厭我，只是爲了裝風度才沒有明顯地表現出來？」&lt;/p&gt;
+&lt;p&gt;突然被這樣問，我不知道該怎樣回答。他小的時候我幾乎不認識他，只是由於他父親的緣故與他有過幾面之緣。見面也無非是和雷諾還有愛麗絲說些客套話，他過生日的時候按照慣例送些適合小孩子的禮物。具體是什麼早就想不起來了。&lt;/p&gt;
+&lt;p&gt;不過對最後一次見到他的情形我記得很深。那是在光暗三戰的最後，我去耶路撒冷的路上。他淋得溼透，等他父親回來，而我要做的是用摧毀整個耶路撒冷的方式結束戰爭，他的父親會和敵人一同被我殺死。當時不想對小孩子直接說他父親已經回不來了，讓他別再等下去。於是我告訴他，等泥坑被水填滿，他父親就會回來。&lt;/p&gt;
+&lt;p&gt;後來耶路撒冷變成蒸汽，我飛回聖浮里亞。毀滅一座城市無論是對於我還是對於耶和華而言都是極平常的事，耶和華修改他的新作時剛用硫磺和火讓索多瑪和蛾摩拉變成灰燼。那傢伙對偶像崇拜特別敏感，生怕被某個確鑿的形象取而代之。&lt;/p&gt;
+&lt;p&gt;從遠處看到他還站在水坑旁邊淋雨的時候，卻突然感受到了內疚，一種對於那時的我而言極爲陌生的情緒。後來也是如此，我所有的悔恨都來自於他。&lt;/p&gt;
+&lt;p&gt;回到光耀殿時我發現自己下意識地繞了很遠的路，不讓自己出現在那孩子的視野中。那個比喻再明顯不過，我不知道他究竟是沒有聽懂我說的話，還是什麼都已明瞭，卻選擇繼續他無望的期待。這個疑問一直沒有得到確認，因爲在那以後他就失蹤了。聖浮里亞沒有人去找他。彷彿他從未存在過，或者很久以前就已經死了。我查過米迦勒出生的年份，發現他的童年比我還要長，就好像註定會永遠留在童年一樣。他失蹤時看上去和我後來變成小孩住在伊撒爾家里時差不多大。出於這個原因，我對他感到有些親近。當時我以爲他死去了，只是聖浮里亞不想爲小孩子辦葬禮，就當成失蹤，因爲沒過多久『與神相似者』這個名字就變成了從創世以來便一直空缺着的稱號。&lt;/p&gt;
+&lt;p&gt;耶和華說米迦勒是祂的敗筆，在幼年階段卡了一千多年總是無法長出六翼，兩千多歲還是個愚癡的孩童。那時我還沒有發現耶和華與米迦勒之間真正的關聯，只預言到自己會和叫這個名字的天使有一段刻骨銘心的愛戀，最終的謀反時與他對峙並被他打敗，他成爲繼任天使長，之後的兩萬年我們的關係則處於偶爾在魔界偷情的狀態，再往後就越來越模糊了。&lt;/p&gt;
+&lt;p&gt;爲情所困的低級錯誤嗎？連個預言都比梅丹佐的笑話好笑不知道多少倍。&lt;/p&gt;
+&lt;p&gt;所有神族都習慣使然地對預言無動於衷，我也是直到出現反叛天界的念頭的時候才感到這種無動於衷有點奇怪。而我是除耶和華以外惟一掌握時間系魔法的神族，因此惟一的對手便是耶和華。當時我不會意識到這句話是多麼地有預言感。耶和華與我對峙時使用的身份就是那個被我一笑置之的預言里的米迦勒。&lt;/p&gt;
+&lt;p&gt;兩千多年後，耶和華突然變得遲鈍到像是腦子生鏽或者進水了，總是保持沉默，問什麼都是耶穌在回答。從當祂的副君開始，這是第一次出現五個月以來都沒人和我鬥嘴的情況。實在百無聊賴，我就去下層閒蕩。在希瑪發現希瑪人邋遢得無可救藥，在耶路撒冷發現耶路撒冷人比希瑪人還要無可救藥。三戰時只是在高空很遠地看到這座城市，上一次來這裡還只有荒原。我做夢也沒有想到接下來自己會住在耶路撒冷，以爲回去以後就再也不想來這鬼地方了。&lt;/p&gt;
+&lt;p&gt;然後我見到了眼睛像太陽一樣明亮的紅髮天使，是剛長成少年的米迦勒，依舊只有四翼。於是我收起一對翅膀跟在他後面，維持一段既不會被發現也不會跟丟的距離。他一定不願意見到我，雷諾的死法是天界的常識，他很清楚他父親是誰殺死的。&lt;/p&gt;
+&lt;p&gt;我就這樣跟了他一整天，他回家睡覺，我還不想回光耀殿，就在他住的小區里轉了一圈熟悉地形，又溜到他窗戶面前看一眼他睡覺的樣子，才回聖浮里亞。&lt;/p&gt;
+&lt;p&gt;第二天我就蹺了朝會溜去前一天很嫌棄的耶路撒冷，那是個晝夜交替的城市，我趕到時沒有錯過日出。米迦勒很能睡，一覺睡到中午，早飯和午飯作一頓吃。我在他屋頂的拐角蹲了一上午。下午他去小餐館打工，那鬼地方又臟又沒地方可藏，只好又等一個下午。後來我知道他並不缺錢，他從耶穌那裡得到祕密的經濟支持，但數額控制得剛好只夠他日常生活，談戀愛送禮物就得去打工。晚上他去書店，躲在一個老闆發現不了的角落偷看小黃書。他並不笨，佔據了整間書店惟一的理想死角。結果我險些被他和老闆同時發現。&lt;/p&gt;
+&lt;p&gt;第三天是耶和華的休息日，我旁觀了他和情人的約會。他現在的名字是『伊撒爾』，耶和華送給雅各的名字。或許那不是情人，只是他的同班同學。他們走遍中心城區的大街小巷，他從路邊攤買了些小禮物送给那女孩，聊的話題卻無外乎作業與考試。他很紧张，小心翼翼地搜索話題。有時他講的冷笑話只比梅丹佐略勝一籌，有時能逗得那個女孩咯咯直笑。傍晚在中心廣場分別後他進書店繼續看前一天晚上的小黃書。整個白天他們都只是在斷斷續續地聊天，沒有牽手也沒有接吻。這一天我經常莫名奇妙地陷入神遊，有時甚至兜帽掉下來都沒有意識到。於是伊撒爾發現他被跟蹤了，他檢查過兩遍門鎖和窗戶的插銷，把錢包摟在懷裡才關燈睡覺。&lt;/p&gt;
+&lt;p&gt;第四天耶穌杵在我門口，我不想和他吵架，只好去朝會，坐在莫名奇妙變成呆子的耶和華旁邊發呆。&lt;/p&gt;- http://updowncity.github.io/posts/cokernels/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>樂不思蜀</title>
+        <link>http://updowncity.github.io/posts/ewige-wiederkunft/</link>
+        <pubDate>Fri, 26 Aug 2022 21:09:17 +0000</pubDate>
+        
+        <guid>http://updowncity.github.io/posts/ewige-wiederkunft/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/ewige-wiederkunft/ -&lt;blockquote&gt;
+&lt;p&gt;Summary
+另一個穿越到伊薩爾身上的吐槽役。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;去年九月寫的。我已經不再是當時的那個人，因此沒有資格進行改動。原樣上傳。&lt;/li&gt;
+&lt;li&gt;雖然標註的是 Abandoned Work - Unfinished and Discontinued，但實際上能寫的我已經全都寫完了，只是不知道如何收尾。&lt;/li&gt;
+&lt;li&gt;因爲一次操作失誤，現在 Chapter 3 已經無法找到：或許這就是我把它存檔在這個地方的動機。【現在已經找到了。謝天謝地。】&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;chapter-1&#34;&gt;Chapter 1&lt;/h1&gt;
+&lt;p&gt;「路西法陛下，過去我的確對您做了些很猥瑣的事情。」
+我本想直接跟他說我什麼都想不起來了現在根本不認識您，但想到在天界我老實交代什麼都不記得了以後除了梅丹佐和拉斐爾以外所有大天使都嘲笑我又成了腦殘，於是就此打住。
+路西法愣勒一下後退一步，但很快就恢復了他的日常屄格：
+「米迦勒殿下，您想說什麼？我不想敘舊。」
+「不是不是……我知道事到如今又說這種話真的很猥瑣。但您也說了那些都是過去的事了。所以，過去的事情我們就一筆勾銷吧。好聚好散。從今往後我們就只是敵人，沒什麼可顧慮的了。」
+一陣令人尷尬的沉默。我說了讓人誤解的話。從頭到尾都是。好在我的下屬在門口等着，魔王辦公室的隔音效果也應該是很靠譜的。
+我盯着路西法身後的牆壁，儘管牆壁上一片黑暗空空如也。即便他黑衣黑髮，幾乎成爲了漆黑背景的一部分，我也沒有足夠的精神力來長久地注視他的臉。即便只是從天界的畫像中見到他舊日大天使長的模樣，也會立刻移開視線。過了很久才看清他的相貌。我無法理解。他這麼漂亮，正常情況下我的反應應該是像色鬼一樣死盯着人家不放纔對。
+而且他的聲音。我想快點結束談判不然我一定會死在這個房間的。見鬼我難道除了白癡以外還是個花癡嗎。話說性取向真的是個很玄學的東西。我原本認爲自己是純粹的異性戀，直到遇見那個人。我們後來分手了，具體的原因已經想不起來，我只記得是我提出分手的，但直到現在我也依舊很想念他。到底是什麼時候的事？我怎麼連他的名字和面孔都回想不起來。倒也難怪，我連自己的名字都想不起來了。那期末怎麼辦？如果我能想起自己的學號，至少面對無名試卷的時候我們的倒霉助教可以通過學號確定我是誰。然後我試著回憶一下學號，又是一片令人絕望的空白。
+見鬼。兩句話不到卻感覺比我兩週的考試周還長。爲了維持鎮靜，我又開始思考那僥倖躲過了的考試周：躲得了初一躲不了十五，萬一某天又掉回地球，要考的東西早已忘得一乾二淨，我就只剩下死路一條，比眼前的倒霉魔王還倒霉。
+來這之前我斷斷續續聽說過不少路西法的事蹟也讀了八卦大師尚達奉的書，感覺他是個情種，而且真的很倒霉。幾千年前米迦勒去魔界一趟就帶回了一千年的停戰協議，路西法因此差點被魔族趕下臺。不過記述里說他很強，沒有缺陷，僅有的弱點就是米迦勒，也就是在下。還有他曾經爲了見我一面溜進天界結果倒霉得被神族直接抓住。讓天界和魔界都笑了幾百年。我想他既然這麼倒霉又經常鬧笑話，一定沒有他們說得那樣可怕，大概和我笨得不相上下。我從未想過自己會緊張到這副鬼樣。
+彷彿過了一整個考試周的時間，路西法開口：
+「伊撒爾，過去的事情，我很抱歉。」
+他溫軟的聲音可以直接讓我死在這個房間里。他在說什麼，又爲什麼他要向我道歉，難道曾經發生過一些連尚達奉大師也不知道的事。來魔界之前梅丹佐向我交代了些情況，避免我表現得像個腦殘，他說，『伊撒爾』是你窮困潦倒時期使用的名字，那是路西法在你剛出生時給你取的小名。我小聲說了句，尻。他沒理會我的口頭語，繼續說，你手上的銀鍊也是他送的，用魔法都取不下來，他也有一條和你一模一樣的。我重複，尻。之前聽他們說路西法的黑魔法強到變態，我不以爲然，沒想到他的魔法比我的要強。梅丹佐嘆氣，小米迦勒，我不是打擊你的自信，他的魔法遠比你強。言外之意，別找他ＰＫ，對嗎。梅丹佐笑笑表示默認。之後我想，或許這回可以拜託他幫我把鍊子取下來還給他。
+「你還在用這個名字……」
+「抱歉，米迦勒殿下，我剛纔忘記您已經不再使用這個名字了。」
+「沒關係沒關係，一時口誤很正常嘛。」
+又是一陣尷尬的沉默。我該說什麼。又不能繼續問他在爲什麼事情道歉，他會發現我什麼都想不起來此時此刻跟白癡沒什麼區別：一方面，連蒙帶猜再加上新手指南梅丹佐的幫助，我才看懂這回帶來的破協議到底寫了什麼；另一方面作爲一個體測永遠擦邊及格的菜雞，我根本就不知道怎麼用那把重得要死的佩劍。某次朝會上梅丹佐看到我就一副欠扁的表情走過來，小米迦勒，你的劍放歪了，然後直接靠近幫我重新掛好。大庭廣衆之下突然對我動手動腳。我瞪了他一眼。不知道爲什麼，梅丹佐日常那副臭屁的花花公子模樣總是讓我感到很安心，彷彿我們是一起逛過窯子的老朋友。從各處搜刮來的資料得知，米迦勒和梅丹佐在一起上萬年了，有個叫哈尼雅的兒子，如今在那個名字巨長的學校閉關學習，米迦勒和路西法破鏡重圓了兩次，也就是綠了梅丹佐兩次，但梅丹佐並不生氣，因爲他的情人不只米迦勒一個，拉斐爾也是他的戀人。墮天前路西法睡過的天使多到連神和尚達奉都數不清。哦，原來天國居民不講究戀人的一一對應。
+我只好硬着頭皮上，掏出那張用了一整個下午外加一整個晚上才搞懂的協議，對路西法說這是天界提出的方案，請您過目。停戰以及恢復貿易嗎？可以。然後他就簽字了。乾脆利索。簡直就像臨時抱佛腳搞會的那點少得可憐的東西正好組成了考題，太他媽走運了吧。我告訴自己冷靜冷靜別表現得像個高興過頭的腦殘，可還是……
+「您很高興嗎？」
+太尷尬了。
+但他笑的樣子好漂亮。溫柔地說話的聲音也……我有點理解爲什麼米迦勒要反覆綠梅丹佐了。
+「嗯……如果陛下沒有其他的事，我就先回去了。」
+溜之大吉。出門以後才放肆地露出高興過頭的腦殘般的笑臉。
+回接待所的路上我依舊在糾結自己的倒霉期末。原本我即將面臨我一年二度的日常災難，也就是和體測一樣每次都有驚無險地苟過去的考試周，結果一覺醒來發現我上了天堂。我試圖想起來到底發生勒什麼，是我一個翻身從上鋪掉下來摔死了，還是這倒霉宿舍樓質量太差天花板掉下來把我給砸死了。總之我掉進了《失樂園》裡的天堂，而且我的身份個叫什麼天國副君，地位很高也很有錢，且日常很輕閒，跟冷笑話專家梅丹佐插科打諢，定期去開個幾乎簽了到就可以開溜的什麼熾天使朝會。於是我本以爲這地方很輕鬆散漫沒什麼規矩，直到後來梅丹佐告訴我，能在例會隨時開溜的只有我一個，因爲我是這對熾天使的頭兒，名稱叫大天使長。原來如此，這鬼地方和地球上沒什麼兩樣。我並不是像口頭說的那樣討厭他。在天國的兩個月我過得很輕鬆，只是有點無聊，總體上我還是覺得很愉快，總比回去面對期末好。就像百無聊賴的漫長假期。而且我不知道這個假期什麼時候結束，這讓我更珍惜在天國逍遙自在的時日。要考的東西和自己的姓名學號全都忘得一乾二盡，回去就算老師在怎麼聽着大悲咒發揮菩薩心腸地撈我，我也及不了格。
+我突然想到一件細思極恐的事。出門時我聽到路西法和他下屬對話的聲音。那個房間不是他的私人辦公室而是會客室，只是擺得有點像辦公室而已。說不定我以爲是牆壁上浮雕的東西是活人，哦，不，是活的魔鬼。
+我本想明天就打道回府，但想起漏掉一件重要的事。完成任務高興過頭，結果忘記讓好說話的黑魔法大師幫我把手鍊去掉了。下次來又是不知道什麼時候，從記錄上推測大概是幾千年後。再說我也想在魔界多玩幾天。又有正當的理由：正常情況下哪有這麼快就談判完簽好協議的，只要賄賂下跟我來的那幾個四隻翅膀的天使就可以在這邊遊山玩水半個月。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;很久以後某次在紅海漂流，我們依偎躺在小船里，路西法對我說，這次是他極少數的失誤，直到我離開以後他才意識到我又把所有東西都給忘掉了：
+「不然你會跳到桌子上對我大吼，這麼多年藏到哪裡去了，再躲的話，就算把魔界翻個底朝天也要把我找出來。」
+「我找你找到天界到處都是我留在這邊當魔后的謠言。而且那時候大天使長在魔界的名聲就像當年能天使伊撒爾在天界的名聲一樣臭，要麼一問三不知，要麼一臉鄙視地走掉。」&lt;/p&gt;
+&lt;h1 id=&#34;chapter-2&#34;&gt;Chapter 2&lt;/h1&gt;
+&lt;p&gt;回到拜修殿，我試着重新梳理思路。米迦勒是誰，從哪裡來，要到哪裡去。首先是年齡，乖乖，兩千伯度，一伯度是129億年，地球的年齡才45億年。我這是變成了什麼鬼東西。只是個吐槽，我很走運，天國副君總不至於捉襟見肘拎個黃色塑料袋滿世界撿酒瓶。&lt;/p&gt;
+&lt;p&gt;道聽途說經常與親眼所見相去甚遠，比如，無論是神族還是魔族都說路西法是個幾乎從不出門的死宅，在天界除了去聖殿例常朝會以外從來不出光耀殿的門，還經常蹺掉朝會；在魔界開會的地方就在他住的卡德殿，於是比以前更加死宅。可我幾乎天天都能碰到他在魔界景點散步，當我對着地圖一臉絕望的時候他還提出要爲我帶路，起初有點不好意思，我從收集到的資料中瞭解到魔王路西法是個工作狂，和神族一天到晚沒事可幹變成白癡也沒什麼大不了的天國副君大天使長不同。但他說他也是來散步，沒什麼要緊事。&lt;/p&gt;
+&lt;p&gt;我們漸漸熟識，他並沒有傳聞中那樣可怕，我討厭『陛下』這個後綴，直接叫他路西法，於是他就叫我伊撒爾。其實我有點想叫他路路，但剛認識就給人家取外號太不禮貌了。&lt;/p&gt;
+&lt;p&gt;伊撒爾，Israel，以色列，二戰後猶太人建立的獨立國家；耶和華在伯特利賜給雅各的新名字，意思是『太陽的光輝』；雅各是以撒的兒子，亞伯拉罕的孫子。&lt;/p&gt;
+&lt;p&gt;魔界遠比沉悶的聖浮里亞要好玩，我也稍微有點理解爲什麼路西法要叛變了。天界太無聊，他待不下去了，於是想換個地方，近乎無盡的生命如何打發實在是個難題，我想到講永生人的那部小說《人都是要死的》，感到這是個我永遠都無法理解的地方。或許路西法這麼有耐心是因爲生命實在太長了，往前往後都是相當於無窮無盡的時間。不過這有點說不通，我見過許多年齡上千伯度的神族與魔族，他們和我在地球上熟悉的人類沒什麼兩樣，照樣會表現得很煩躁，原來和平是無論走到那裡都很難實現的東西。我盡力讓自己不要多想，因爲我和路西法的過去已經一筆勾銷了，我們只是短暫地進行友好談判的天魔二界首腦，隨時有短兵相接的可能性。對，每天都要把這句話對自己重複四千遍。&lt;/p&gt;
+&lt;p&gt;路西法手下的三個撒旦見到我總是一臉怨恨。可以理解，畢竟米迦勒曾經坑過魔界，過程我不清楚。但當時我們可是敵人啊，敵人不就是用來坑的嗎。神族是怎樣的我還是沒搞清楚，但你們很顯然根本不屬於那種迂腐到會講究武德的種族。&lt;/p&gt;
+&lt;p&gt;我也決定不跟他提手鍊的事，畢竟那麼整天麻煩人家放棄僅有的閒逛時間帶我這個看不懂地圖的路癡到處轉悠。而且我經常固執得要死，無視路西法是對魔界再熟悉不過的老司機，堅持說我選的岔路是對的，結果兩個讓走了許多冤枉路。我很感謝他。要是我在地球上的朋友，早就罵我該死的腦殘然後再也不幫我了。&lt;/p&gt;
+&lt;p&gt;時間過得飛快。我意識到的時候已經在魔界遊山玩水一個多月了。心想這回完蛋了，回去要被耶和華罵樂不思蜀就知道玩把工作忘得一乾二淨，雖然我還不知道耶和華會不會直接對我們說話。我已經焦慮到把路西法看成友軍，對他說，完了，回去以後所有人都要找我算賬。結果他真的像友軍一樣幫我，第二天給我了一張寫了字的紙，讓我抄一遍然後寄到聖浮里亞去。就像死線將至時把作業借給我抄的菩薩室友。&lt;/p&gt;
+&lt;p&gt;他的字很漂亮，我把那張紙疊得整整齊齊藏在外衣內襯的口袋里。魔界日遊的紀念品。&lt;/p&gt;
+&lt;p&gt;或許是因爲被他撈過一回，我對路西法信任到把自己什麼都想不起來的事告訴了他，結果他一副早就知道的樣子，還說這回是他失誤，直到我從會議室離開以後他才意識到我又把記憶給丟掉了。那時我們在紅海漂流，躺在解開繩索朝不可知的方向遠去的小船里。他說蔥這裡可以清晰地星星，羅德歐加的只不過是些冒牌貨。我想起四處搜刮來的資料中提到路西法很久以前有過老婆，是個借用薩麥爾老婆的身體製作出的傀儡。原來他被驅逐到這沒有光明的世界之後也會懷舊，試圖用魔法模擬出舊日黃金時代天國的種種風俗面貌。&lt;/p&gt;
+&lt;p&gt;路西法問我想去哪裡，他可以帶我去過去與未來的任何地方。你的意思是你可以回到過去也可以去往未來？我將信將疑，說我想去黃金時代的希瑪。其實我也不知道自己想去什麼地方，之前去希瑪閒逛的時候蠻開心的，和耶路撒冷不同，我在希瑪沒有迷路，在耶路撒冷那張該死的地圖差點把我帶進河裡，幸好我及時想起自己會飛，不然真的會一頭栽進河裡。&lt;/p&gt;
+&lt;p&gt;隔着眼皮都能感受到光線的刺眼，我用手遮住雙眼，過了很久才緩慢地把手移開，再緩慢地睜開眼。原來習慣黑暗以後眼會變得這麼怕光，臨回去的時候得想辦法找副墨鏡。在無光可遮的世界找墨鏡。又想到自己的名字『太陽的光輝』，我恨伊撒爾。&lt;/p&gt;
+&lt;p&gt;似曾相識的地方。我曾經到過這裡。是舊日的回憶嗎？不對，前段時間我剛抓着地圖在希瑪閒蕩過，造訪過所有地圖上特別標註的點，難怪眼熟。只不過黃金時代的氣息與我所造訪的希瑪截然不同，那時的神族無憂無慮，居於世界的中心，又有長到近乎厭煩的生命。&lt;/p&gt;
+&lt;p&gt;我感到路西法的能力真的很作弊。他可以隨心所欲地製造足夠逼真的幻景，可以永遠活在他想要的夢里，重複體驗那早已流逝的過往，在以假亂真的夢里讓舊愛回到身邊，一切從頭再來。&lt;/p&gt;
+&lt;p&gt;我忽然想到自己眼下的生活也像是一場夢，心想事成到對週遭的一切都感到有些飄渺，險些掉進河裡時想要是會飛就好了，結果我真的會飛；帶着協議書在會議室坐立不安的時候想要是路西法能乾脆利索地直接簽字就好了，結果他真的直接簽了字；面對魔界比耶路撒冷複雜一萬倍的地形和比那張被我罵了一萬遍的耶路撒冷地圖還要坑的魔界地圖時想要是有好心人能帶我一程就好了，結果真的來了個好心的魔王；玩得忘乎所以意識到的時候已經處在隨時會被幾個熾天使揪回去的境地時想要是有什麼辦法能讓神族不追究我的過失就好了，結果就有了可以直接照抄的請假信。&lt;/p&gt;
+&lt;p&gt;很可能這真的只是一場夢，醒來以後我會想起考試的內容與自己的名字，滾回地球面對我的倒霉考試周。有蚊帳兜着有欄杆擋着很難從上鋪掉下去；學校也沒有建在地震帶上。或許正因爲感到這是一場夢，纔會像現在這樣隨心所欲地跟着路西法漫遊，因爲一遇到可怕的後果我就可以從夢中驚醒回歸沉悶但平穩的日常。我不至於聽了羊角耳環的話以後還腦殘到以爲魔王的日常就是滿世界閒逛。或許這種縹緲不定便是實現純粹快樂爲數不多的可能途徑之一。此刻我全部的憂懼就是幻覺魔法隨時會驟然結束，我醒來又會回到那個我所熟悉的寂寞又沉悶的世界。刷牙洗臉後我就會忘記有形的故事，也無法確認縹緲不定的內在體驗是否殘留了下來。&lt;/p&gt;
+&lt;p&gt;而路西法可以反覆做同一個夢。&lt;/p&gt;
+&lt;p&gt;須臾的光熄滅以後可以閉上眼在屏蔽所有干擾的徹底黑暗中見到忽暗忽明的景觀。&lt;/p&gt;
+&lt;p&gt;我總是感到困惑，想問他爲何能夠忍受近乎永恆的時間，然後想到我和其他不死的神族都早已接受了它，想到當了幾千個伯度冷笑話大師兼帝都第一色魔的梅丹佐，於是作罷。&lt;/p&gt;
+&lt;p&gt;路西法變成了舊日熾天使的樣子，很漂亮，比畫像里漂亮。而我變成了格衣着樸素的少年，背上只有兩對翅膀。&lt;/p&gt;
+&lt;p&gt;「你會懷念這個樣子的我們嗎？」&lt;/p&gt;
+&lt;p&gt;「你猜。」&lt;/p&gt;
+&lt;p&gt;可我已經什麼都想不起來了。如果這是他用上萬年的時間來懷念的舊日，爲什麼我會選擇將記憶悉數丟棄？&lt;/p&gt;
+&lt;p&gt;「你會將這不過兩年的回憶懷念上一萬年嗎？ 」&lt;/p&gt;
+&lt;p&gt;「一萬年很長嗎？」&lt;/p&gt;
+&lt;p&gt;想到我們以百億年爲單位計數的壽命，對我們來說真的很短。不知道爲什麼我又問了不合時宜的話：&lt;/p&gt;
+&lt;p&gt;「那麼……你會想我多少年？」&lt;/p&gt;
+&lt;p&gt;「應該說多少個伯度。」&lt;/p&gt;
+&lt;p&gt;「你真的會把我記一百億年嗎？不可思議。」&lt;/p&gt;
+&lt;p&gt;「你的年齡不也已經到兩千伯度了嗎？你只是暫時忘記了而已。」&lt;/p&gt;
+&lt;p&gt;「那好吧，你會想我多少伯度？兩千伯度？不至於吧。」&lt;/p&gt;
+&lt;p&gt;「猜一下我的年齡。」&lt;/p&gt;
+&lt;p&gt;「誒我可不是白癡隨便撈本天界的歷史書都能知道你是第一個千伯度出生的，現在已經是快八千多伯度的老人了。」&lt;/p&gt;
+&lt;p&gt;「我的年齡不太容易計算。事實上我也無法追溯出具體有多長了。」&lt;/p&gt;
+&lt;p&gt;「什麼意思？」&lt;/p&gt;
+&lt;p&gt;「我只數到了四十五萬伯度，具體幾千幾百實在忘記了。」&lt;/p&gt;
+&lt;p&gt;「怎麼可能？你是在嘲笑我是個弱智嗎。宇宙的年齡都還沒到九千伯度。」&lt;/p&gt;
+&lt;p&gt;「你繞着湖走一圈，回到出發點，難道就要視作一步也沒走嗎？」&lt;/p&gt;
+&lt;p&gt;「原來你是把做夢的時間也算進去了。」&lt;/p&gt;
+&lt;p&gt;「夢？……這樣理解其實也沒關係。」&lt;/p&gt;
+&lt;p&gt;我表示聽得一頭霧水。他說，如果沒記錯，這是他第一次向我提及這些，以後有機會的話我會想明白的。&lt;/p&gt;
+&lt;p&gt;我們獨處時對話總是用天語，有其他人在場則切回魔語。然後我用魔語告訴他，儘管失憶了我還是聽得懂魔語。於是我們就把兩種語言摻在一起講，合併而成的新語無論是說還是寫都很搞笑。從一萬多年前開始天語便在以極緩慢的速度發生改變，我們意識到時發現它已經和黃金時代的天語截然不同，謙敬詞氾濫，語法越來越複雜，無所事事的神族熱衷於玩文字遊戲，到處都是一詞多意和多詞一意。所以聽說有魔族學天語的時候我徹底震驚。而放在一起我們舊日所熟悉的語言就會看起來更接近於魔語而非現用的天語。而魔語是路西法叛變以後搞出來的，他真的很愛折騰。&lt;/p&gt;
+&lt;p&gt;突然意識到這是比喻。米迦勒隨時會死去，伊撒爾隨時會回歸神體。生命就像一場夢。路西法是可以反覆做同一個夢。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;chapter-3&#34;&gt;Chapter 3&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Notes:
+從郵箱底部(?)找到了一個備份。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;後來我們不再依賴於所謂偶遇，直接約定什麼時候到什麼地點掩人耳目地見面。路西法想到的地點總是千奇百怪，不過在魔界晃悠了這麼久，我也已經不再是剛開始那個丟人的路癡了。&lt;/p&gt;
+&lt;p&gt;當然我的生活不止是遊山玩水，還得給領導也就是只聽到過聲音沒見過臉的耶和華寫報告用傳遞魔法送到天界。我能撈到的情報太少平常也沒什麼可寫，只好描地圖。耶和華大概會懷疑我在魔界充當測繪地圖的臨時工。不過有時真的需要到處跑修正舊地圖寫錯或沒來得及更新的地方。不然這種東西隨便去家書店都能買一箱寄回去，敷衍工作會被罵死。當然我只是猜。我連耶和華的聲音都沒聽過，到現在也搞不清楚神座上的究竟是一個和我們類似的意識體還是一個抽象概念。但總是寄亂七八糟的東西回去就會倍烏列找麻煩是真的。他是我的下屬卻從來都不尊敬我，要麼說些陰陽怪氣的話，要麼嘲笑我是個走關係上位的。他對別人不是這樣的啊至少會維持明面上的友好。米迦勒沒有在下屬們面前樹立威信真是麻煩。後來梅丹佐私下告訴我，烏列因爲路西法的事跟我有仇。我尻。怎麼接替個職位就得仇恨都接替下來。總之玩得忘乎所以什麼報告都沒交就像小時候沒寫暑假作業後果很嚴重。打遊戲一時爽，補作業火葬場。&lt;/p&gt;
+&lt;p&gt;然後發生過很尷尬的事情，我在羅德歐加驗證幾家商店的名字與地址的時候把和路西法的約定忘得一乾二淨。想起來的時候已經過了四個小時，魔王陛下不至於笨到在蠱惑之路的入口蹲四個小時。於是我直接回拜修殿寫報告去了。寫的時候感到越來越良心不安，決定還是去找人家爲放鴿子的事賠禮道歉，結果卡德殿我進不去，門衛說路西法出去以後就一直沒回來。我心下一涼，壞了。他該不會真的等了五個小時吧。爲以最快的速度飛到依布海村。那傢伙真的坐在石橋邊上。太尷尬了我簡直想連行李都不要了直接一鼓作氣飛回聖浮里亞。見到我一副窘得要死的表情路西法只是走過來說了句，你來了，那我們出發吧。之後夜遊魔界邊境線時他一直沒提我遲到的事。最後還是我沉不住氣先爲放鴿子的事道歉。結果路西法語出驚人「六個小時六千年六千個伯度之類的時間都並不長。」要不是他語調這麼溫柔我一定會認爲他是在懟我。說到底即便在天界收集了那麼多亂七八糟的資料，我對他依舊是一無所知。我直感尚達奉與梅丹佐都沒有觸及到故事的開端。&lt;/p&gt;
+&lt;p&gt;那時我還無法理解無始無終的故事是什麼。我們走過的是連綿不絕的高原。&lt;/p&gt;
+&lt;p&gt;我們陸續去過許多地方。我不知道是路西法的記憶力太好還是想象力太豐富，他用魔法變出過六千伯度前的雪月森林。那時所羅河兩岸還是徹底的荒原，魔界還是一片無比空曠的處女地。&lt;/p&gt;
+&lt;p&gt;後來或許是他的工作突然變忙，而之前不過是短暫的休憩，他總是要求我在天黑之前回去。我們見面的頻率也開始變低。我去卡德殿找他，輪流被三個撒旦拒之門外，他們一臉怨恨地說他們陛下身體不適目前在休息。有個口風不嚴的透露出一句魔法使用過度。很奇怪，變出幻景明明是很稀疏平常的魔法，羅德歐加的星空也是用魔法維持的，路西法那種強得變態的巫師怎麼可能因爲這個就魔法使用過度了。畢竟我在天界預先瞭解過他的戰鬥數據。我開始懷疑他是裝病不見我，然後用同樣的方法泡別人去了，畢竟是帝都色魔第三名。我試圖從窗戶飛進去，結果他們三個一起上把我逮住了。我有點憤怒，你們難道連天國使節來探病都不歡迎嗎。羊角撒旦立刻接了句沒錯。我也沒話可說了。我的優點之一是臉皮厚、鍥而不捨，多去幾次羊角撒旦就不耐煩了：&lt;/p&gt;
+&lt;p&gt;「陛下正在休息，將政務全權交由瑪門殿下代理，您如果什麼需要，可以去第四獄找瑪門殿下。只是我不知道他是否樂意接待您。」&lt;/p&gt;
+&lt;p&gt;「那個瑪門殿下……是誰？…………我和他難道有過什麼恩怨嗎？」&lt;/p&gt;
+&lt;p&gt;糟了。我在路西法直系下屬面前表現得像個腦袋被車撞癟狗屁不通的白癡，丟人丟到盡了。&lt;/p&gt;
+&lt;p&gt;「您是他的父親。……米迦勒殿下，您是否又將所有的事都給忘了？」&lt;/p&gt;
+&lt;p&gt;我在魔界造孽到留過種。有些接受不了。接受這個比接受哈尼雅是我兒子還難。我的新手指南全都一個二個不靠譜。還有……我上了誰？&lt;/p&gt;
+&lt;p&gt;沒辦法，只能硬着頭皮說完客套話然後回拜修殿。&lt;/p&gt;
+&lt;p&gt;「如您所見。」&lt;/p&gt;
+&lt;p&gt;「原來如此。那您還記得過去您和陛下的事嗎？」&lt;/p&gt;
+&lt;p&gt;「如您所見，一點都想不起來了。但來這裏之前我從天界的資料中瞭解過，大致知道發生過什麼，具體細節就不太清楚了。」&lt;/p&gt;
+&lt;p&gt;「所以現在您只知道您是正義慈悲的大天使長？尊敬的米迦勒殿下。」&lt;/p&gt;
+&lt;p&gt;這貨陰陽怪氣的程度和烏列不相上下。好想把他打一頓。理論上他的階位比我低，跟他PK要是輸了比承認腦袋一時進水還要丟人現眼。『驚！天國副君敗給阿茲撒勒，果然神族草包輩出。』&lt;/p&gt;
+&lt;p&gt;我問過路西法爲什麼有時拒絕見我，他諏的回答連我都能一眼看穿，既然如此我也沒有過問的必要，原本我們就已經越界了。&lt;/p&gt;
+&lt;p&gt;不過我還是很好奇，在卡德殿附近蹲點，結果真的像他們說的那樣路西法徹底閉門謝客好幾天都沒人進去也沒人出來。&lt;/p&gt;
+&lt;p&gt;很久以後（至少對我來說是很久以後）我在天界找到了所有問題的解答。關於悔恨與遺忘的祕密。&lt;/p&gt;
+&lt;p&gt;後來路西法又恢復了精神，除了莫名奇妙像個地球上設門禁時間的家長一樣要求我天黑前回拜修殿。我纔不聽他的，見他走遠就溜出去四處晃悠。不過很無聊啦。即便沒有語言障礙我也無法和當地居民閒聊，因爲魔族討厭或者說鄙視神族，他們無法接受我的秩序，我也無法適應他們的放蕩。&lt;/p&gt;
+&lt;p&gt;化妝舞會上我見到戴着面具只露出半張臉的路西法。很漂亮，想娶回天界當老婆。我們很默契地中途開溜，在屋頂的平臺上淋雪。路西法說如果想念可以隨時來魔界看雪，我想回應，如果想念是否可以隨時來魔界看你。當然我只是點頭默認，什麼多餘的話也沒說。我又盯着戴面具的路西法看，突然靈光一閃：歌劇魅影！於是我冷不防摘掉他的面具，他根本來不及反應。然後我意識到這回闖禍了。他遮住的半面臉腐爛到只剩下裸露的白骨。我又想到歌劇魅影。完蛋了。我打不過他，雖然他很瘦力氣沒我大但黑魔法強到變態。此時的我連怎麼把聖劍拔出來都不知道。想逃也來不及。他發火的話我只有死路一條。怎麼辦。還能怎麼辦，站好等死。&lt;/p&gt;
+&lt;p&gt;「還給我。」他的聲音很平靜，我從中聽不出任何情緒。&lt;/p&gt;
+&lt;p&gt;我立刻丟給他，別過頭去，低聲道歉，不該隨便摘掉別人面具這個偷窺別人洗澡一樣屬於很猥瑣的刺探別人隱私的行爲。&lt;/p&gt;
+&lt;p&gt;他轉移話題，問我更想看星還是看雪。在天界隨時可以看到星但見不到雪，所以我更想看雪。&lt;/p&gt;
+&lt;p&gt;那時我的歸期已經定下，是在幾日以後。很奇怪，目前明晰的記憶里我在天界與在魔界待的時間一樣長，但我總是感到天界是我的家，我在魔界自始至終都只能是遠行的客。明明在這兩個地方我都只是做夢的旅客而已，我的家在地球，可我並不想念它。不知道從什麼時候起，人間的記憶離我越來越遠，我已經很久都沒有想到期末考的事情了，就好像我在那邊纔是遠行的客。回到聖浮里亞，回到光耀殿，我感覺回到了久違的家。其實和路西法待在一起時我也感到很放鬆。不過這種放鬆與和梅丹佐待在一起時的放鬆截然不同。或許是因爲我和梅丹佐有無窮無盡的時間可以共處，而與路西法我深知天下沒有不散的宴席。我需要在沒有越過界限太遠的時候回到天界。我們沒有做過愛，至多依偎，十指相扣與接吻。真不像魔界。&lt;/p&gt;
+&lt;p&gt;我終於理解人品守恆定律是怎樣的真理：回到天界以後我就開始倒霉起來，除了炮友梅丹佐以外所有人都在針對我，說我和路西法餘情未了隨時可能背叛天界與他破鏡重圓。TNND我撿了這麼一個大便宜回天界，他們就這樣對我。梅丹佐私下告訴我，當時給我的協議是預留了討價還價餘地的版本，這回只是讓我去打頭陣探探情況，沒有異想天開以爲路西法會簽字。也正因如此他們允許我一個人去魔界，不帶隨從，他們隨時會讓人將修正後的版本交給我。&lt;/p&gt;
+&lt;p&gt;而且，我有種直感，得罪他們的下場要比搞砸整個期末還要慘六十萬倍。搞砸考試只不過補考，再搞砸只不過重修，依舊搞砸只不過放棄幾個學分，在怎麼也不至於丟掉小命。我想起回來的時候路西法很罕見地堅決要求我不要一個人回去，讓我往聖浮里亞發消息然後等梅丹佐接我回去。他說，拜託了，我沒辦法去天界，你一個人回去會很危險。我實在沒辦法拒絕，只好照做。當時氣得要死在心裏罵了三十遍路西法你少瞧不起人你也不過是米迦勒的手下敗將。我靈光一現，或許他是想讓我多留幾天又不好意思直說。可之後的幾天我一直沒有見到路西法，回去的時候他也沒出來跟我道別。路西法手下那幾個眼神兇惡對我有迷之懷感的撒旦都說他身體不適在屋裏休息，日常事務都交給馬門和他們幾個來辦，不能待客。於是我問那個金眼撒旦是否可以去探視，他一口回絕，說他們陛下交代過絕對不可以讓我進卡德殿都門。尻，這一個二個葫蘆里賣的都是什麼藥。最後幾天我有點煩悶，在魔界遛達來遛達去，罵了四千邊梅丹佐你他老母的怎麼這麼磨嘰。期間有點感到好奇，試圖偷偷溜進卡德殿看看到底怎麼回事，結果每次都被那三個兇惡都傢伙給逮住了。我現在連腰上的劍怎麼拔出來都沒搞清楚，和他們打只有直接被秒爲天魔二界提供可以玩兩萬年的梗。除了溜還能幹嘛。我業不知道自己怎麼腦子進水到每天晚上都去碰運氣每天晚上都被逮然後灰溜溜地飛走。&lt;/p&gt;
+&lt;p&gt;我根本沒有預料到，回去路上差點被烏列弄死，要不是有好隊友梅丹佐和我一起，現在我的靈魂恐怕要彌散在宇宙當中了。有點不甘，但不得不承認是路西法救了我的小命。這人情先欠着，以後他要是遇到什麼倒霉事我就去撈他一把。&lt;/p&gt;
+&lt;p&gt;即便如此，我還是經常控制不住自己和烏列吵起來，似乎從未學會怎樣和平解決衝突。我開始懷念每天爲死線與考試憂慮的日子。在魔界的兩個月簡直像在做夢，所以這時候懷念它就有點太貪得無厭了。似乎魔界與天界的單位時間長度不太一樣，我清楚地記得自己在那邊玩了兩個月，回到這裏卻發現時間只過去了兩個星期。或許是晝夜長短差異之類的原因吧。我在光輝書塔找有關於兩界曆法差異的書，一無所獲。於是我問萬能的新手指南，魔界的一天相當於天界的多少小時？梅丹佐擦着他的新眼鏡，說兩個地方的時鐘和日曆都是同步的，不然怎麼簽協議？也對。我沒再多說。回去以後掏出路西法寫好給我抄的假條，發現其中並未提到準確的時間，看來路西法是個糊弄學大師。意識到我在糾結於時間對應不上的問題，突然有點想笑，明明那時候我總是認爲當前的生活是一場夢，我隨時會醒來回去面對考試周。現在已經很久都沒有過這種念頭了，因爲現在我巴不得早點醒來，與應對天國高層人際關係相比考試周實在友好得多。&lt;/p&gt;
+&lt;p&gt;不過由於離得太遠，我得以心平氣和地思考與路西法有關的種種。我們舊日的戀愛，真假參半的歷史。&lt;/p&gt;
+&lt;p&gt;相處的兩個月我終於徹底理解爲什麼路西法的原罪是驕傲。他長得很媚宅對我又極溫柔，但骨子裏是瞧不起神族的。羅德歐加的星空，萊姆城冰原與熔岩的交界，我實在難以想象自己正在遊覽的自然風物是我的同遊者用黑魔法創造出來的。第二次去蠱惑之路的時候我問他，這些奇跡是自然形成的還是人爲製造的？他笑了，你說的自然形成，意思是蠱惑之路是你們的耶和華製造出來的，對嗎？很有道理，當我們說什麼是自然的，其實就是在說它是遠古時期的神創造的。&lt;/p&gt;
+&lt;p&gt;「很遺憾，蠱惑之路是我造的。」&lt;/p&gt;
+&lt;p&gt;他笑得很驕傲，這讓我感到自尊心有受到打擊，於是接了一句：&lt;/p&gt;
+&lt;p&gt;「你真的把自己當成神了嗎？」&lt;/p&gt;
+&lt;p&gt;完了，我可不想和他吵起來。&lt;/p&gt;
+&lt;p&gt;「你誤會了，我對這個不感興趣。」&lt;/p&gt;
+&lt;p&gt;「你爲什麼這樣討厭耶和華？」&lt;/p&gt;
+&lt;p&gt;「祂總是以爲我們都只不過是他操控的傀儡，以爲整個世界都只不過是祂做過的一場夢。」&lt;/p&gt;
+&lt;p&gt;和千萬伯度間演進得越來越複雜晦澀的天語不同，新生的魔語在傳遞信息方面做得很清晰。『傀儡』是單數，『做過的一場夢』是過去時。&lt;/p&gt;
+&lt;p&gt;多年以後我問路西法，如果沒有忠誠之血的制約，是否存在着我與你一同墮天的可能性。他聳聳肩笑了笑回答，「沒有」。「就這麼絕對？」我質問他。他答非所問：「你不會讓自己找不到回去的路。」&lt;/p&gt;
+&lt;p&gt;我逐漸適應了天國副君的生活，每天的日常便是處理工作以及和梅丹佐插科打諢。我與梅丹佐的關係與其說是戀人不如說是純粹的家人，我總會將他的存在視爲理所當然的一部分。在魔界的時候我也並不想念他，或許他會想念我，或許不會。無論是天界還是魔界都流行開放性關係，和那個有期末等我的世界不同，我們會吃醋但不在乎忠貞。我想到路西法，即便他不是強到變態的魔王，就憑那副無性別分化的絕美軀殼，各種性別的情人都會有一大堆，聚集起來說不定能站滿他的卡德殿。他活了那麼久，不知道愛過多少人，尚大師蒐集來的八卦也都只不過是些在魔界衆所周知的事實。可爲什麼倒霉的米迦勒只愛過路西法和梅丹佐兩個。&lt;/p&gt;
+&lt;p&gt;發呆的時候總是在想他。我記得捉弄路西法冷不防揭掉他面具的那個夜晚，我突然變得很難過，不知道是不是意識到即將別離的緣故。我好幾次想走，卻被他攔住抓住了手。隔着手套我也能明顯地感覺到他的手只剩下了骨頭。不知道爲什麼，我連開口問他這是不是用來在化妝舞會上嚇唬人的魔法的意志力都沒有。忽暗忽明的燈光下，他的表情看上去是反常的釋然。他把我攏進懷裏，我抱緊他，發現他的身體也多半變得只有骨頭，在所羅河我們依偎在小船里時還不是這樣。後來他提前回了卡德殿，我待得無趣也很快就回拜修殿睡覺去了。第二天見到路西法的時候我又支支吾吾地提起前一晚的事，就好像在驗證那是不是我做的一個夢。他笑我，沒想到你會被這麼低級的魔法騙到。我感到事情並非如此，但什麼也問不出口。&lt;/p&gt;
+&lt;h1 id=&#34;chapter-4&#34;&gt;Chapter 4&lt;/h1&gt;
+&lt;p&gt;我終於理解人品守恆定律是怎樣的真理：回到天界以後我就開始倒霉起來，除了炮友梅丹佐以外所有人都在針對我，說我和路西法餘情未了隨時可能背叛天界與他破鏡重圓。TNND我撿了這麼一個大便宜回天界，他們就這樣對我。梅丹佐私下告訴我，當時給我的協議是預留了討價還價餘地的版本，這回只是讓我去打頭陣探探情況，沒有異想天開以爲路西法會簽字。也正因如此他們允許我一個人去魔界，不帶隨從，他們隨時會讓人將修正後的版本交給我。&lt;/p&gt;
+&lt;p&gt;而且，我有種直感，得罪他們的下場要比搞砸整個期末還要慘六十萬倍。搞砸考試只不過補考，再搞砸只不過重修，依舊搞砸只不過放棄幾個學分，在怎麼也不至於丟掉小命。我想起回來的時候路西法很罕見地堅決要求我不要一個人回去，讓我往聖浮里亞發消息然後等梅丹佐接我回去。他說，拜託了，我沒辦法去天界，你一個人回去會很危險。我實在沒辦法拒絕，只好照做。當時氣得要死在心裡罵了三十遍路西法你少瞧不起人你也不過是米迦勒的手下敗將。我靈光一現，或許他是想讓我多留幾天又不好意思直說。可之後的幾天我一直沒有見到路西法，回去的時候他也沒出來跟我道別。路西法手下那幾個眼神兇惡對我有迷之懷感的撒旦都說他身體不適在屋裡休息，日常事務都交給馬門和他們幾個來辦，不能待客。於是我問那個金眼撒旦是否可以去探視，他一口回絕，說他們陛下交代過絕對不可以讓我進卡德殿都門。尻，這一個二個葫蘆里賣的都是什麼藥。最後幾天我有點煩悶，在魔界遛達來遛達去，罵了四千邊梅丹佐你他老母的怎麼這麼磨嘰。期間有點感到好奇，試圖偷偷溜進卡德殿看看到底怎麼回事，結果每次都被那三個兇惡都傢伙給逮住了。我現在連腰上的劍怎麼拔出來都沒搞清楚，和他們打只有直接被秒爲天魔二界提供可以玩兩萬年的梗。除了溜還能幹嘛。我業不知道自己怎麼腦子進水到每天晚上都去碰運氣每天晚上都被逮然後灰溜溜地飛走。&lt;/p&gt;
+&lt;p&gt;我根本沒有預料到，回去路上差點被烏列弄死，要不是有好隊友梅丹佐和我一起，現在我的靈魂恐怕要彌散在宇宙當中了。有點不甘，但不得不承認是路西法救了我的小命。這人情先欠着，以後他要是遇到什麼倒霉事我就去撈他一把。&lt;/p&gt;
+&lt;p&gt;即便如此，我還是經常控制不住自己和烏列吵起來，似乎從未學會怎樣和平解決衝突。我開始懷念每天爲死線與考試憂慮的日子。在魔界的兩個月簡直像在做夢，所以這時候懷念它就有點太貪得無厭了。似乎魔界與天界的單位時間長度不太一樣，我清楚地記得自己在那邊玩了兩個月，回到這裡卻發現時間只過去了兩個星期。或許是晝夜長短差異之類的原因吧。我在光輝書塔找有關於兩界曆法差異的書，一無所獲。於是我問萬能的新手指南，魔界的一天相當於天界的多少小時？梅丹佐擦着他的新眼鏡，說兩個地方的時鐘和日曆都是同步的，不然怎麼簽協議？也對。我沒再多說。回去以後掏出路西法寫好給我抄的假條，發現其中並未提到準確的時間，看來路西法是個糊弄學大師。意識到我在糾結於時間對應不上的問題，突然有點想笑，明明那時候我總是認爲當前的生活是一場夢，我隨時會醒來回去面對考試周。現在已經很久都沒有過這種念頭了，因爲現在我巴不得早點醒來，與應對天國高層人際關係相比考試周實在友好得多。&lt;/p&gt;
+&lt;p&gt;不過由於離得太遠，我得以心平氣和地思考與路西法有關的種種。我們舊日的戀愛，真假參半的歷史。&lt;/p&gt;
+&lt;p&gt;相處的兩個月我終於徹底理解爲什麼路西法的原罪是驕傲。他長得很媚宅對我又極溫柔，但骨子裡是瞧不起神族的。羅德歐加的星空，萊姆城冰原與熔岩的交界，我實在難以想象自己正在遊覽的自然風物是我的同遊者用黑魔法創造出來的。第二次去蠱惑之路的時候我問他，這些奇跡是自然形成的還是人爲製造的？他笑了，你說的自然形成，意思是蠱惑之路是你們的耶和華製造出來的，對嗎？很有道理，當我們說什麼是自然的，其實就是在說它是遠古時期的神創造的。&lt;/p&gt;
+&lt;p&gt;「很遺憾，蠱惑之路是我造的。」&lt;/p&gt;
+&lt;p&gt;他笑得很驕傲，這讓我感到自尊心有受到打擊，於是接了一句：&lt;/p&gt;
+&lt;p&gt;「你真的把自己當成神了嗎？」&lt;/p&gt;
+&lt;p&gt;完了，我可不想和他吵起來。&lt;/p&gt;
+&lt;p&gt;「你誤會了，我對這個不感興趣。」&lt;/p&gt;
+&lt;p&gt;「你爲什麼這樣討厭耶和華？」&lt;/p&gt;
+&lt;p&gt;「祂總是以爲我們都只不過是他操控的傀儡，以爲整個世界都只不過是祂做過的一場夢。」&lt;/p&gt;
+&lt;p&gt;和千萬伯度間演進得越來越複雜晦澀的天語不同，新生的魔語在傳遞信息方面做得很清晰。『傀儡』是單數，『做過的一場夢』是過去時。&lt;/p&gt;
+&lt;p&gt;多年以後我問路西法，如果沒有忠誠之血的制約，是否存在着我與你一同墮天的可能性。他聳聳肩笑了笑回答，「沒有」。「就這麼絕對？」我質問他。他答非所問：「你不會讓自己找不到回去的路。」&lt;/p&gt;
+&lt;p&gt;我逐漸適應了天國副君的生活，每天的日常便是處理工作以及和梅丹佐插科打諢。我與梅丹佐的關係與其說是戀人不如說是純粹的家人，我總會將他的存在視爲理所當然的一部分。在魔界的時候我也並不想念他，或許他會想念我，或許不會。無論是天界還是魔界都流行開放性關係，和那個有期末等我的世界不同，我們會吃醋但不在乎忠貞。我想到路西法，即便他不是強到變態的魔王，就憑那副無性別分化的絕美軀殼，各種性別的情人都會有一大堆，聚集起來說不定能站滿他的卡德殿。他活了那麼久，不知道愛過多少人，尚大師蒐集來的八卦也都只不過是些在魔界衆所周知的事實。可爲什麼倒霉的米迦勒只愛過路西法和梅丹佐兩個。&lt;/p&gt;
+&lt;p&gt;發呆的時候總是在想他。我記得捉弄路西法冷不防揭掉他面具的那個夜晚，我突然變得很難過，不知道是不是意識到即將別離的緣故。我好幾次想走，卻被他攔住抓住了手。隔着手套我也能明顯地感覺到他的手只剩下了骨頭。不知道爲什麼，我連開口問他這是不是用來在化妝舞會上嚇唬人的魔法的意志力都沒有。忽暗忽明的燈光下，他的表情看上去是反常的釋然。他把我攏進懷裡，我抱緊他，發現他的身體也多半變得只有骨頭，在所羅河我們依偎在小船里時還不是這樣。後來他提前回了卡德殿，我待得無趣也很快就回拜修殿睡覺去了。第二天見到路西法的時候我又支支吾吾地提起前一晚的事，就好像在驗證那是不是我做的一個夢。他笑我，沒想到你會被這麼低級的魔法騙到。我感到事情並非如此，但什麼也問不出口。&lt;/p&gt;
+&lt;h1 id=&#34;chapter-5&#34;&gt;Chapter 5&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Notes:
+丢了，或者根本没写。&lt;code&gt;2023-03-20&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;- http://updowncity.github.io/posts/ewige-wiederkunft/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>因為一切快樂要求永恆</title>
+        <link>http://updowncity.github.io/posts/everless/</link>
+        <pubDate>Fri, 17 Sep 2021 05:26:00 +0000</pubDate>
+        
+        <guid>http://updowncity.github.io/posts/everless/</guid>
+        <description>你快樂嗎 http://updowncity.github.io/posts/everless/ -&lt;p&gt;搬运自&lt;a href=&#34;https://archiveofourown.org/works/41209500&#34;&gt;Ao3&lt;/a&gt;，metadata里的日期也手动调成2021年9月，17日选的是一个bloomsday（记下bloomsday具体日期的习惯到了2022就渐渐被遗忘了。）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Summary:
+寫於2021年9月的天神右翼同人；保持原樣直接上傳不敢亂改。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我將所有無關緊要的記憶從身體里抽離，然後將黏稠的液塊封裝進路西法四年前送給我的水晶球里。當時我幾乎是逼問出了他的真名和住址，然後我們坐在公寓屋頂徹夜長談。裝載了單一軌跡的水晶球意外地清晰明亮，相比之下那些用來預測未來的空白水晶球就顯得晦暗模糊了。
+完成以後我感到一切都很完整，並沒有失去什麼。我似乎突發奇想地開始打掃起倉庫來，扔掉了些無關緊要的雜物。&lt;/p&gt;
+&lt;p&gt;路西法變得很奇怪，我剛從下層天搬到聖浮里亞，就算認識他，也只不過是很小的時候因爲父親的緣故與他有過幾面之緣，他卻發瘋地敲我的門，說我丟棄了他所能獻上的最大一份美好。是很久以前的禮物嗎，我問他。他突然握住我的手腕，問我既然如此爲什麼還要留下這個。右手上有一條很陌生的銀鍊，是他以前送的禮物嗎，於是我摘下還給他，儘可能禮貌地向他解釋我絕對沒有偷他的東西，根本不知道銀鍊爲什麼會出現在我的手上。不知道他受了什麼刺激，作爲天國副君，整個世界幾乎都是他的，他隨時可以得到他想要的一切，不至於因爲丟了東西就找陌生人發瘋。他叫我『伊撒爾』。不認識，您找錯人了，我叫米迦勒·亞特拉，如果您需要找人，我願意效勞。話雖如此我只想儘快送客。沒記錯的話，路西法應該是我的頂頭上司，我真的不想剛來就冒犯他。他握得很緊，手腕很痛，我試圖後退，腦袋磕到了櫃門，慘叫一聲，在心底罵了句白癡房東。路西法見狀鬆開了我的手，試圖摸我的後腦，見我要躲就收回了手，只是站得離我很近，定定地看着我，眼眶通紅，臉色蒼白。我不知道他是快哭了還是快發瘋了。後來他搖搖晃晃地離開，在樓道里似乎沒站穩摔了一跤。很奇怪，他身上沒有酒味，所以應該不是喝多了。我就算天界第一呆，也不敢把副君殿下找錯人還表現得這麼丟臉的事說出去。&lt;/p&gt;
+&lt;p&gt;後來聽說路西法失蹤了，是他的追隨者之一阿撒茲勒在耶路撒冷一個犄角旮旯的小公寓里找到。據小道消息稱，當時他倒在地上昏迷不醒，手心里緊緊攥著一條和手腕上戴着的一模一樣的銀鍊。不知道這故事是不是口耳相傳中被添油加醋過。銀鍊的事應該是真的。但我真的沒偷他東西啊。&lt;/p&gt;- http://updowncity.github.io/posts/everless/ - </description>
         </item>
     
     

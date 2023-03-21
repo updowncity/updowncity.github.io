@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>回收站 on 你快樂嗎</title>
-    <link>http://example.org/categories/%E5%9B%9E%E6%94%B6%E7%AB%99/</link>
+    <link>http://updowncity.github.io/categories/%E5%9B%9E%E6%94%B6%E7%AB%99/</link>
     <description>Recent content in 回收站 on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 18 Feb 2023 20:50:42 +0000</lastBuildDate><atom:link href="http://example.org/categories/%E5%9B%9E%E6%94%B6%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Feb 2023 20:50:42 +0000</lastBuildDate><atom:link href="http://updowncity.github.io/categories/%E5%9B%9E%E6%94%B6%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>關於我</title>
-      <link>http://example.org/posts/old-about/</link>
+      <link>http://updowncity.github.io/posts/old-about/</link>
       <pubDate>Sat, 18 Feb 2023 20:50:42 +0000</pubDate>
       
-      <guid>http://example.org/posts/old-about/</guid>
+      <guid>http://updowncity.github.io/posts/old-about/</guid>
       <description>[常用]标签：
 #文学沙盒 用于存放不负责任的思考与感受
 此博客作案工具：
@@ -21,10 +21,10 @@ Visual Studio Code 突然想要放弃「您好，我也不知道我是谁」这�
     
     <item>
       <title>会有人愿意和我交换友链吗?</title>
-      <link>http://example.org/posts/old-links/</link>
+      <link>http://updowncity.github.io/posts/old-links/</link>
       <pubDate>Thu, 16 Feb 2023 09:33:09 +0000</pubDate>
       
-      <guid>http://example.org/posts/old-links/</guid>
+      <guid>http://updowncity.github.io/posts/old-links/</guid>
       <description>旧的链接页，蒐集过一些（或許）有趣的网页。 &amp;lt;!-- more --&amp;gt; 林奕含的FACEBOOK豆瓣
 我是个不会配置留言系统的菜鸟…所以想要留言的话请移步NekoBox匿名提问箱 樓上的提問箱已經無法使用，請點這個新的留言板 贴一些有趣的博客（想蹭友链） 天仙子 - 秦海碗的个人主页 this terrible chamber 桜庭夜🎐杂话铺子 - 一间由桜庭夜经营的贩售闲言碎语的小店 Light Cube - 当真心想要做成一件事的时候，人总是孤独的。
 这里是我发现的各种有趣的网站 島嶼邊緣 - 曾經是最重要的文化運動刊物&amp;ndash;影響了整整一個世代 荒原效應 时间物质</description>
@@ -32,10 +32,10 @@ Visual Studio Code 突然想要放弃「您好，我也不知道我是谁」这�
     
     <item>
       <title>网站装配记录</title>
-      <link>http://example.org/posts/old-logs/</link>
+      <link>http://updowncity.github.io/posts/old-logs/</link>
       <pubDate>Thu, 16 Feb 2023 09:14:37 +0000</pubDate>
       
-      <guid>http://example.org/posts/old-logs/</guid>
+      <guid>http://updowncity.github.io/posts/old-logs/</guid>
       <description>旧的changelog：我到底在干什么 &amp;lt;!-- more --&amp;gt; 2023-03-08
 重置了post文件名（用log-yyyy-MM-dd替换掉那些乱七八糟的文件名）；删掉了本站说明页的那段关于授权的文本（存档）
 2023-03-03 day?

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>網站 on 你快樂嗎</title>
+    <link>http://updowncity.github.io/tags/%E7%B6%B2%E7%AB%99/</link>
+    <description>Recent content in 網站 on 你快樂嗎</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 18 Mar 2023 22:41:49 +0000</lastBuildDate><atom:link href="http://updowncity.github.io/tags/%E7%B6%B2%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日誌</title>
+      <link>http://updowncity.github.io/changelog/</link>
+      <pubDate>Sat, 18 Mar 2023 22:41:49 +0000</pubDate>
+      
+      <guid>http://updowncity.github.io/changelog/</guid>
+      <description>2023-03-20
+搬家到Hugo（…因爲快）
+放置了一个加载非常缓慢且很可能除了报错什么也不会的留言板； 备份默认的字体配置（目前我只在后面加了微软雅黑（阻止衬线与等宽的中文fallback到宋体）。不过很难期待ugly-blue的作者会愿意认真考虑可读性问题。）
+2023-03-29
+通過沙盒回歸舊的景觀，緩慢搬運。果然我不喜歡我的「醜陋的憂鬱」。2023-03-19 第一次添加友鏈（又是丟失的時間戳，就像那些蟲蛻。） 把原本裝在injector裡的內容取出然後放入主題文件夾裡的head.ejs（……因爲landscape已經很久都沒有更新了，我可以放心地改主題文件，無需考慮更新時我的配置被覆寫什麼的。） 换掉了changelog页(爲什麼); （時間戳丟失）
+寫論文摸魚的時候逛Hexo主题，始终没有找到合我心意的主题。於是动手制作这个臨時被我命名为ugly-blue的主题（原名是ugly-html，但它並不是純HTML所以就改成了现在这个「醜陋的憂鬱」…另一个待选名称是it-just-works，目前整个文件夹只有2.47KB(&amp;hellip;CSS什么的都被我喂进了injector.js)&amp;hellip;效果近似于破损的默认主题，但它至少是能用的。（…就像觉得perverse sheaf难听的人可以选择用hypersheaf这个名字）目前想做的是仿照Emacs默认主题配置按钮。 加入了moults虫蜕页面，用来记录那些死去[?]并且被我遗忘的網站（或许某一天我会像说“太阳升起来了”一样说这些网站是属于我的…），想法来自disroot bin的这条留言。我的记忆力有时相当糟糕，有时我甚至感到我的生命是不连续的。</description>
+    </item>
+    
+  </channel>
+</rss>
