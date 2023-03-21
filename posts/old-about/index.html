@@ -39,7 +39,7 @@
       <script src="/js/toc.js"></script>
     
     <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
-<link rel="stylesheet" href="/scss/journal.min.0c3459b6c100b6541087632feb1a1efbabed0c5858479f69d5986c0373ebcce9.css" integrity="sha256-DDRZtsEAtlQQh2Mv6xoe&#43;6vtDFhYR59p1ZhsA3PrzOk=" media="screen">
+<link rel="stylesheet" href="/scss/journal.min.f7e00bdf884e3b735b811feee9f9258ddf7bccda44f581a5b159bf2ce08a5421.css" integrity="sha256-9&#43;AL34hOO3NbgR/u6fkljd97zNpE9YGlsVm/LOCKVCE=" media="screen">
 
 
 
@@ -60,6 +60,12 @@
 
 
 
+<script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+  />
+
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -76,11 +82,14 @@
 <script type="text/javascript" id="MathJax-script" async
  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
+<style>
+  :root{
+  --waline-font-size: 14px;
+  --waline-theme-color: #0969da;
+  --waline-active-color: #0969da;
+  }
+</style>
 <script async src="js/cursor/fireworks.js"></script>
-<link
-rel="stylesheet"
-href="https://unpkg.com/@waline/client@v2/dist/waline.css"
-/>
 </head>
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -98,11 +107,14 @@ href="https://unpkg.com/@waline/client@v2/dist/waline.css"
 <script type="text/javascript" id="MathJax-script" async
  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
-<script async src="js/cursor/fireworks.js"></script>
-<link
-rel="stylesheet"
-href="https://unpkg.com/@waline/client@v2/dist/waline.css"
-/><body>
+<style>
+  :root{
+  --waline-font-size: 14px;
+  --waline-theme-color: #0969da;
+  --waline-active-color: #0969da;
+  }
+</style>
+<script async src="js/cursor/fireworks.js"></script><body>
     	<div id="app"><div class="single-column-drawer-container" id="drawer"
      v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
     <div class="drawer-content">
@@ -315,24 +327,19 @@ href="https://unpkg.com/@waline/client@v2/dist/waline.css"
 
 
 
+<div id="waline"></div>
+<script>
+    Waline.init({
+        el: '#waline',
+        
+        dark: "body.night",
+        reaction: false,
+        serverURL: 'https://updowncity-waline-pgdfj5d15-updowncity.vercel.app',
+    });
+    </script>
 
 
 
-<script src="https://giscus.app/client.js"
-        data-repo="updowncity/updowncity-giscus"
-        data-repo-id="R_kgDOJMMYWA"
-        data-category-id="DIC_kwDOJMMYWM4CVBGf"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="light"
-        data-lang="zh-CN"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
 
             </div>
         </div>
