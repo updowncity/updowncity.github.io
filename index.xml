@@ -30,7 +30,8 @@
         <pubDate>Sun, 19 Mar 2023 23:45:35 +0000</pubDate>
         
         <guid>http://updowncity.github.io/posts/my-thesis-vanished/</guid>
-        <description>你快樂嗎 http://updowncity.github.io/posts/my-thesis-vanished/ -&lt;p&gt;我的论文消失了：打开发现只剩下一片狼藉（头文件）或許是按錯了熱鍵，或許是（空缺的主語）在提醒我不可以那樣爲了寫論文停在原地。我現在對$\mathcal{D}$-module很好奇。（論文應該是建立在日常的積累之上的，而不是臨時生搬硬湊的。我其實是有筆記的，只是它們混亂到讓人窒息（事實上我很少碰它們）。因爲過去的記錄太過混亂，所以無力去整理和搜索，每次只好再重寫一遍，這種重複又帶來新的混亂。）&lt;/p&gt;- http://updowncity.github.io/posts/my-thesis-vanished/ - </description>
+        <description>你快樂嗎 http://updowncity.github.io/posts/my-thesis-vanished/ -&lt;p&gt;tags: 日誌
+我的论文消失了：打开发现只剩下一片狼藉（头文件）或許是按錯了熱鍵，或許是（空缺的主語）在提醒我不可以那樣爲了寫論文停在原地。我現在對$\mathcal{D}$-module很好奇。（論文應該是建立在日常的積累之上的，而不是臨時生搬硬湊的。我其實是有筆記的，只是它們混亂到讓人窒息（事實上我很少碰它們）。因爲過去的記錄太過混亂，所以無力去整理和搜索，每次只好再重寫一遍，這種重複又帶來新的混亂。）&lt;/p&gt;- http://updowncity.github.io/posts/my-thesis-vanished/ - </description>
         </item>
     
     
@@ -52,7 +53,9 @@
         <pubDate>Sat, 18 Mar 2023 22:41:49 +0000</pubDate>
         
         <guid>http://updowncity.github.io/changelog/</guid>
-        <description>你快樂嗎 http://updowncity.github.io/changelog/ -&lt;p&gt;2023-03-20&lt;/p&gt;
+        <description>你快樂嗎 http://updowncity.github.io/changelog/ -&lt;p&gt;categories: &amp;ldquo;stack&amp;rdquo;
+tags: [&amp;ldquo;碎碎唸&amp;rdquo;, &amp;ldquo;網站&amp;rdquo;]
+2023-03-20&lt;/p&gt;
 &lt;p&gt;搬家到Hugo（…因爲快）&lt;/p&gt;
 &lt;p&gt;放置了一个&lt;strong&gt;加载非常缓慢且很可能除了报错什么也不会&lt;/strong&gt;的留言板；
 &lt;!-- raw HTML omitted --&gt;备份&lt;!-- raw HTML omitted --&gt;默认的字体配置（目前我只在后面加了微软雅黑（阻止衬线与等宽的中文fallback到宋体）。不过很难期待ugly-blue的作者会愿意认真考虑可读性问题。）&lt;/p&gt;
@@ -76,7 +79,8 @@
         <pubDate>Fri, 17 Mar 2023 23:59:59 +0000</pubDate>
         
         <guid>http://updowncity.github.io/posts/emacs-initialization/</guid>
-        <description>你快樂嗎 http://updowncity.github.io/posts/emacs-initialization/ -&lt;p&gt;如果你发现我突然失踪从网络空间失踪，&lt;del&gt;就像死了一样&lt;/del&gt;留言板里也没有任何回应，那么情况很可能是：我的状态太糟糕了，只好把所有的文字触须都蜷缩起来，临时切断我与我所爱的世界的联系，直到我能够重新頂著發燙的腦袋出去。
+        <description>你快樂嗎 http://updowncity.github.io/posts/emacs-initialization/ -&lt;p&gt;tags: 日誌
+如果你发现我突然失踪从网络空间失踪，&lt;del&gt;就像死了一样&lt;/del&gt;留言板里也没有任何回应，那么情况很可能是：我的状态太糟糕了，只好把所有的文字触须都蜷缩起来，临时切断我与我所爱的世界的联系，直到我能够重新頂著發燙的腦袋出去。
 默认主题landscape壞了：用了一整天的時間寫Hexo主題，然後整理好發佈到独立的&lt;a href=&#34;ugly&#34;&gt;GitHub倉庫&lt;/a&gt;裡。從&lt;code&gt;ugly-blue&lt;/code&gt;（醜陋的憂鬱）這個名字就可以看出作者對世界的惡意。（最早的名字是&lt;code&gt;ugly-html&lt;/code&gt;，後來也想过&lt;code&gt;ugly-emacs-style&lt;/code&gt;（因为这个主题的终极目标(?)是仿制Emacs默认UI），也有一个比较友好的名字是&lt;code&gt;it-just-works&lt;/code&gt;（就像hypersheaf之於perverse sheaf…）。
 寫博客主題就像涂秘密花园。然而，最初用landscape时的那种安心感无论如何都已经不复存在了。某种意义上，我更愿意使用别人制作好的东西，以削弱时光虚掷的负罪感（我終於寫出來了：这种负罪感本身的不堪使得它难以被文字所固定。它通常会滑向那句抽象废话：我不想成为我自己。）&lt;/p&gt;
 &lt;p&gt;去年接触Emacs是从入门到放弃，今年&lt;a href=&#34;http://www.stallman.cn/19&#34;&gt;这位神人的文章&lt;/a&gt;重新触发了我对Emacs的兴趣（甚至开始想学Lisp）&lt;code&gt;2023-03-14&lt;/code&gt;&lt;/p&gt;
@@ -186,7 +190,8 @@
         <pubDate>Sun, 05 Mar 2023 22:42:49 +0000</pubDate>
         
         <guid>http://updowncity.github.io/posts/jamais-vu/</guid>
-        <description>你快樂嗎 http://updowncity.github.io/posts/jamais-vu/ -&lt;p&gt;翻箱倒柜找高中毕业证的时候在一堆作业纸里发现的。很明显它不是（现在的）我写的。我对这段文本的记忆就像那张高中毕业证一样已经不知道消失在哪里去了。无法根据笔记判断具体的时间。尽可能保留原状（无法彻底保留原状或者按照撰写的时间顺序录入文本：就连我自己也不知道怎么对付那些箭头（用电脑写东西的时候至少它们是排版友好的括号群…可这堆箭头……呃…）写完留学文书后处于一种精神被耗竭的状态，又一次陷入文本搬运与interface configuration这些机械行为的黑洞。无法忍受有人在我身后走来走去，只好把整个工作台搬到床上，每天和草稿纸睡在一起。我也不去图书馆自习，因为会经常有人从我旁边经过。真的很羡慕那些能够正常去图书馆或者自习室学习的人（不会轻易陷入痛苦不堪的状态），那些不会因为强迫行为交不上作业的人。从很久以前便是如此。
+        <description>你快樂嗎 http://updowncity.github.io/posts/jamais-vu/ -&lt;p&gt;category: 文学沙盒
+翻箱倒柜找高中毕业证的时候在一堆作业纸里发现的。很明显它不是（现在的）我写的。我对这段文本的记忆就像那张高中毕业证一样已经不知道消失在哪里去了。无法根据笔记判断具体的时间。尽可能保留原状（无法彻底保留原状或者按照撰写的时间顺序录入文本：就连我自己也不知道怎么对付那些箭头（用电脑写东西的时候至少它们是排版友好的括号群…可这堆箭头……呃…）写完留学文书后处于一种精神被耗竭的状态，又一次陷入文本搬运与interface configuration这些机械行为的黑洞。无法忍受有人在我身后走来走去，只好把整个工作台搬到床上，每天和草稿纸睡在一起。我也不去图书馆自习，因为会经常有人从我旁边经过。真的很羡慕那些能够正常去图书馆或者自习室学习的人（不会轻易陷入痛苦不堪的状态），那些不会因为强迫行为交不上作业的人。从很久以前便是如此。
 或许我会重置它，赋予它（至少我觉得）更加有趣的解释。但毕竟它不是「我」写的。而我已经不再想要将过去一笔勾销。To be honest，录入这个东西的时候我真的很嫌弃它：没有check定义就乱写自己没有完全搞清楚的东西，名词党的臭毛病。&lt;/p&gt;
 &lt;p&gt;它是一部我从一个免费游戏网站上下载的单机RPG，介绍页面很普通，感觉作者很懒，但挺擅长画画的，人物立绘和CG预览都很好。下载量很低。
 最初我以为这部完成度如此高的游戏免费发布有些可惜，后来想到我和我的朋友们的写作：像乞讨一样恳求路人阅读我们的作品，我们可怜的生活报告。
@@ -263,7 +268,8 @@
         <pubDate>Sat, 18 Feb 2023 20:50:42 +0000</pubDate>
         
         <guid>http://updowncity.github.io/posts/old-about/</guid>
-        <description>你快樂嗎 http://updowncity.github.io/posts/old-about/ -&lt;p&gt;[常用]标签：&lt;/p&gt;
+        <description>你快樂嗎 http://updowncity.github.io/posts/old-about/ -&lt;p&gt;tags: 回收站
+[常用]标签：&lt;/p&gt;
 &lt;p&gt;#文学沙盒 用于存放不负责任的思考与感受&lt;/p&gt;
 &lt;p&gt;此博客作案工具：&lt;/p&gt;
 &lt;ul&gt;
@@ -281,7 +287,8 @@
         <pubDate>Thu, 16 Feb 2023 21:52:31 +0000</pubDate>
         
         <guid>http://updowncity.github.io/posts/stacked-logs-01/</guid>
-        <description>你快樂嗎 http://updowncity.github.io/posts/stacked-logs-01/ -&lt;p&gt;无意中点进一个叫墨滴的社区，然后看到一篇&lt;a href=&#34;https://mdnice.com/writing/49a6ad19dfe64c4a8007245f3121f221&#34;&gt;声讨Notepad++的文章&lt;/a&gt;。作者嫌弃Notepad++的政治倾向，不类似于我嫌弃同路人&lt;a href=&#34;https://updowncity.github.io/2023/02/16/log1/&#34;&gt;对那些ugly序结构的兴趣&lt;/a&gt;吗。2023-02-20 20:34&lt;/p&gt;
+        <description>你快樂嗎 http://updowncity.github.io/posts/stacked-logs-01/ -&lt;p&gt;tags: 日誌
+无意中点进一个叫墨滴的社区，然后看到一篇&lt;a href=&#34;https://mdnice.com/writing/49a6ad19dfe64c4a8007245f3121f221&#34;&gt;声讨Notepad++的文章&lt;/a&gt;。作者嫌弃Notepad++的政治倾向，不类似于我嫌弃同路人&lt;a href=&#34;https://updowncity.github.io/2023/02/16/log1/&#34;&gt;对那些ugly序结构的兴趣&lt;/a&gt;吗。2023-02-20 20:34&lt;/p&gt;
 &lt;p&gt;当阅读这种风格的数学时，我感到我正在被我们的语言所背叛。2023-02-20 12:30&lt;/p&gt;
 &lt;p&gt;你们所见到的，是我所发明的客体。然而当你向这个客体提问时，处理信息并发送反馈的却是这个主体。主体是一个极限，无限倒退的极限（projective/inverse limit）。当我说「我是我所发明与扮演的客体」时，说话者同样是这样一个刻意的角色（deliberiated character）。这个回退系统并不是为了「寻找真实的自我」，而是为了处理「说谎带来的罪恶感（guilty）」。我不再将能动性的缺失（lack of agency）与这种guilty用depression混为一谈。它们的原理与解决方案是不同的。（你是否会对这种语言风格感到奇怪?…你知道吗，对我来说，将自己想象为机械是一种救赎。）&lt;/p&gt;
 &lt;p&gt;依旧为毕业论文开题报告的事情焦虑。&lt;/p&gt;
@@ -297,7 +304,8 @@
         <pubDate>Thu, 16 Feb 2023 16:50:01 +0000</pubDate>
         
         <guid>http://updowncity.github.io/posts/motivation-of-this-blog/</guid>
-        <description>你快樂嗎 http://updowncity.github.io/posts/motivation-of-this-blog/ -&lt;p&gt;受到&lt;a href=&#34;https://box.n3ko.co/&#34;&gt;NekoBox&lt;/a&gt;站长的个人博客&lt;a href=&#34;https://github.red/&#34;&gt;Light Cube&lt;/a&gt;的影响，又一次尝试建站。这回没有迷路，很快就配置成功了。或许是因为电脑里已经安装了依赖项（在过去那些半途而废的尝试里）。接下来就是多写点东西充实这个新的小窝。&lt;/p&gt;
+        <description>你快樂嗎 http://updowncity.github.io/posts/motivation-of-this-blog/ -&lt;p&gt;tags: 随笔&lt;/p&gt;
+&lt;p&gt;受到&lt;a href=&#34;https://box.n3ko.co/&#34;&gt;NekoBox&lt;/a&gt;站长的个人博客&lt;a href=&#34;https://github.red/&#34;&gt;Light Cube&lt;/a&gt;的影响，又一次尝试建站。这回没有迷路，很快就配置成功了。或许是因为电脑里已经安装了依赖项（在过去那些半途而废的尝试里）。接下来就是多写点东西充实这个新的小窝。&lt;/p&gt;
 &lt;p&gt;我曾在用来记录网站配置更新的&lt;a href=&#34;https://updowncity.github.io/logs/&#34;&gt;页面&lt;/a&gt;里写，无法理解我这样做的动机，就像一个偷东西被抓到的小孩子的辩解：「很久以前我就想做个人博客，可总是因为在配置过程中迷路而半途而废；目前无法解释这样做的动机（或许我只是想要与他人分享我所看到的世界（然而这种解释很可疑：因为它所基于的是对我来说非常陌生的感受，分享某样东西的愿望在我过去的生命中是经常被诋毁为虚荣心与优越感的（两个被赋予了道德指责的词语）;」&lt;/p&gt;
 &lt;p&gt;虽然只过了几个小时，但是此刻的心境已经与那时截然不同，现在的我可以很平静(?)地反问，为什么非要在某个熟悉的语言体系里找到可以再现这些陌生的欲望与感受的东西。或许是因为，下午的时候我终于搞清楚derived category到底是什么了。（这些数学发现有时会被我用来赋予自己在这个社会上如此存在着的正当性：当这个正当性不复存在的时候，等待我的就只有那个「关于禁闭与死亡的噩梦」。（为什么不用大家更熟悉的语言解释这个：你只是想要说服你自己，你依旧拥有继续活下去的资格。（到这里我似乎已经在谈论别的什么东西了。）&lt;/p&gt;
 &lt;p&gt;我一直不知道怎样才能做到将文字与思绪固定在某个主题之下。我擅长于发现事物之间的关联，然而我的思考是不定形的：因此我想找到将不定形的思考进行输出的方法。（我不愿意改变，不愿意修剪这些根茎式的思绪，以适应那些约定俗成的表达规范。）前途一片渺茫，但至少在这里我是自由的。&lt;/p&gt;
@@ -312,7 +320,9 @@
         <pubDate>Thu, 16 Feb 2023 09:33:09 +0000</pubDate>
         
         <guid>http://updowncity.github.io/posts/old-links/</guid>
-        <description>你快樂嗎 http://updowncity.github.io/posts/old-links/ -&lt;p&gt;旧的链接页，蒐集过一些（或許）有趣的网页。
+        <description>你快樂嗎 http://updowncity.github.io/posts/old-links/ -&lt;p&gt;tags: 回收站
+categories: 回收站
+旧的链接页，蒐集过一些（或許）有趣的网页。
 &lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt;
 &lt;!-- raw HTML omitted --&gt;林奕含的FACEBOOK&lt;!-- raw HTML omitted --&gt;豆瓣&lt;/p&gt;
 &lt;p&gt;我是个不会配置留言系统的菜鸟…所以想要留言的话请移步NekoBox&lt;!-- raw HTML omitted --&gt;匿名提问箱&lt;!-- raw HTML omitted --&gt;
@@ -337,7 +347,8 @@
         <pubDate>Thu, 16 Feb 2023 09:14:37 +0000</pubDate>
         
         <guid>http://updowncity.github.io/posts/old-logs/</guid>
-        <description>你快樂嗎 http://updowncity.github.io/posts/old-logs/ -&lt;p&gt;旧的changelog：我到底在干什么
+        <description>你快樂嗎 http://updowncity.github.io/posts/old-logs/ -&lt;p&gt;tags: 回收站
+旧的changelog：我到底在干什么
 &lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt;
 2023-03-08&lt;/p&gt;
 &lt;p&gt;重置了post文件名（用&lt;code&gt;log-yyyy-MM-dd&lt;/code&gt;替换掉那些乱七八糟的文件名）；删掉了本站说明页的那段关于授权的文本（&lt;a href=&#34;https://updowncity.github.io/2023/03/08/log-2023-03-08/&#34;&gt;存档&lt;/a&gt;）&lt;/p&gt;
@@ -398,7 +409,8 @@
         <pubDate>Fri, 26 Aug 2022 22:08:26 +0000</pubDate>
         
         <guid>http://updowncity.github.io/posts/cokernels/</guid>
-        <description>你快樂嗎 http://updowncity.github.io/posts/cokernels/ -&lt;blockquote&gt;
+        <description>你快樂嗎 http://updowncity.github.io/posts/cokernels/ -&lt;p&gt;tags: 天神右翼&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;Summary
 或許可以理解爲平行世界的一個小故事：不同於《神譴》，這裏路西法變成的是一個與伊薩爾年齡差不多的(美)少年：冒充的不再是那個不請自來的小屁頭，而是一個神祕的轉校生（當然名字依舊叫路西菲爾）。&lt;/p&gt;
 &lt;ul&gt;

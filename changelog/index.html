@@ -77,6 +77,10 @@
  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 <script async src="js/cursor/fireworks.js"></script>
+<link
+rel="stylesheet"
+href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+/>
 </head>
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -94,7 +98,11 @@
 <script type="text/javascript" id="MathJax-script" async
  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
-<script async src="js/cursor/fireworks.js"></script><body>
+<script async src="js/cursor/fireworks.js"></script>
+<link
+rel="stylesheet"
+href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+/><body>
     	<div id="app"><div class="single-column-drawer-container" id="drawer"
      v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
     <div class="drawer-content">
@@ -261,20 +269,7 @@
                         
 
                         
-                            <i class="material-icons" style="">folder</i>
-                                <a href="/categories/stack">stack</a>
-                                &nbsp;
-                        
 
-                        
-                            <i class="material-icons" style="">label</i>
-                            
-                                <a href="/tags/%E7%A2%8E%E7%A2%8E%E5%94%B8">碎碎唸</a>
-                                &nbsp;
-                            
-                                <a href="/tags/%E7%B6%B2%E7%AB%99">網站</a>
-                                &nbsp;
-                            
                         
                         
                     </div>
@@ -284,7 +279,9 @@
                 
                 <div class="post-body" v-pre>
                 
-                    <p>2023-03-20</p>
+                    <p>categories: &ldquo;stack&rdquo;
+tags: [&ldquo;碎碎唸&rdquo;, &ldquo;網站&rdquo;]
+2023-03-20</p>
 <p>搬家到Hugo（…因爲快）</p>
 <p>放置了一个<strong>加载非常缓慢且很可能除了报错什么也不会</strong>的留言板；
 <!-- raw HTML omitted -->备份<!-- raw HTML omitted -->默认的字体配置（目前我只在后面加了微软雅黑（阻止衬线与等宽的中文fallback到宋体）。不过很难期待ugly-blue的作者会愿意认真考虑可读性问题。）</p>
@@ -322,7 +319,6 @@
             </nav>
             <div class="post-comment-wrapper">
                 
-
 
 
 
