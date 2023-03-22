@@ -179,7 +179,7 @@ figure {
     padding-top: 10px;;
     border-top: 1px solid var(--secondary-color);
     color: var(--global-font-color);
-    font-family: 'iA Writer Duo S';
+    font-family: 'iA Writer Duo S','Microsoft Yahei', serif;
 }
 .image-grid {
     display: grid;
@@ -290,5 +290,5 @@ figure {
 }
 
 div.footer{
-    font-family: 'iA Writer Duo S';
+    font-family: 'iA Writer Duo S','Microsoft Yahei',serif;
 }

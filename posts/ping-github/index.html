@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <title>你快樂嗎/posts/ping-github/</title>
+    <meta name="description" content="我不知道你在說什麼">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href='https://updowncity.github.io/css/terminal-0.7.2.min.css'>
+    <link rel="stylesheet" href='https://updowncity.github.io/css/console.css'>
+    <link rel="stylesheet" href='https://updowncity.github.io/css/animate-4.1.1.min.css'>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+
+<script async src="https://updowncity.github.io/js/cursor/fireworks.js"></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/><link rel="icon" type="image/x-icon" href="https://updowncity.github.io/images/favicon.jpg" />
+<meta property="og:title" content="记录Windows10解决GitHub访问问题的尝试（又名：某人在線賣蠢#01）" />
+<meta property="og:description" content="我不知道你在說什麼" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://updowncity.github.io/posts/ping-github/" /><meta property="article:published_time" content="2023-03-22T15:17:32+08:00" />
+
+
+
+<meta name="twitter:title" content="记录Windows10解决GitHub访问问题的尝试（又名：某人在線賣蠢#01）"/>
+<meta name="twitter:description" content="before 参考CSDN（这个网站使用代理时无法访问） 进入IPAdress.com，搜索github.com获取IP地址140.82.114.3，搜索github.global.ssl.fastly.net获取IP地址151.101.1.194151.101.65.194151.101.129.194151.101.193.194 （再次感慨我真够笨的连手动换行都不会。）一脸问号〔这个格式是什么鬼〕：文字说明是
+The IP addresses 151.101.1.194, 151.101.65.194, 151.101.129.194 and 151.101.193.194 are located in the United States. 然而把表格里的复制粘贴到文本编辑器里就成了151.101.1.194151.101.65.194151.101.129.194151.101.193.194。（我还以为机器能识别这坨粘在一起的鬼东西）还有github.io也是185.199.108.153185.199.110.153185.199.111.153。 然后修改host文件 搜索Git教程的时候从廖雪峰的官方网站看到过「千万不要使用Windows自带的记事本编辑任何文本文件」的提示（这个网站也是使用代理以后打开贼慢所以贴图片） ![/images/2023-03/liaoxuefeng.com-git-intro_DO_NOT_use_default_notepad_in_Windows.png]然后写这个记录的是Google到了洛水.山岭居室的博客里的一篇科普向文章：为什么大佬提醒我们当在Windows运行项目的时候一定一定不要用Windwos自带的记事本编辑配置文件，提到这个BOM的问题在2020年已经解决了。
+当我们用记事本的时候，随便编辑一个，保存为UTF-8文件，然后用winhex打开查看。 不难发现Windows自带的记事本，在保存一个以UTF-8编码的文件时，会在文件开始的地方插入三个不可见的字符（0xEF 0xBB 0xBF，即BOM）。 它是一串隐藏的字符，用于让记事本等编辑器识别这个文件是否以UTF-8编码。对于一般的文件，这样并不会产生什么麻烦。但对于 PHP来说，BOM是个大麻烦。 当然，新版本的Windwos记事本（目前我用的是版本1909 （OS内部版本18363.720））已经解决了这个问题，保存的时候会看到几个选项了。
+Anyway做完这些以后〔关掉代理〕效果如下： "/>
+
+</head>
+<body class="terminal">
+    <div class="container">
+        <div class="terminal-nav">
+          <header class="terminal-logo">
+            <div class="logo terminal-prompt">
+              
+              
+              <a href="https://updowncity.github.io/" class="no-style site-name">你快樂嗎</a>:~# 
+              <a href='https://updowncity.github.io/posts'>posts</a>/<a href='https://updowncity.github.io/posts/ping-github'>ping-github</a>/</div></header>
+          <nav class="terminal-menu">
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                <li><a href="https://updowncity.github.io/" typeof="ListItem">默认</a></li>
+                
+                <li><a href="https://updowncity.github.io/posts" typeof="ListItem">归档</a></li>
+                
+                <li><a href="https://updowncity.github.io/friends" typeof="ListItem">友链</a></li>
+                
+                <li><a href="https://updowncity.github.io/moults" typeof="ListItem">虫蜕</a></li>
+                
+                <li><a href="https://updowncity.github.io/changelog" typeof="ListItem">日誌</a></li>
+                
+                <li><a href="https://updowncity.github.io/bupropion" typeof="ListItem">疑问</a></li>
+                
+                <li><a href="https://updowncity.github.io/tags" typeof="ListItem">标签</a></li>
+                
+                <li><a href="https://updowncity.github.io/index.xml" typeof="ListItem">RSS</a></li>
+                
+                <li><a href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta" typeof="ListItem">留言</a></li>
+                
+            </ul>
+          </nav>
+        </div>
+    </div>
+
+    <div class="container " >
+        
+<h1>记录Windows10解决GitHub访问问题的尝试（又名：某人在線賣蠢#01）</h1>
+
+Mar. 22, 2023
+
+
+<br/><br/>
+<p>before <img src="/images/2023-03/ping_github.com/png" alt="">
+参考<a href="https://blog.csdn.net/qq_44985985/article/details/124178193">CSDN</a>（这个网站使用代理时无法访问）
+进入<a href="https://www.ipaddress.com/">IPAdress.com</a>，搜索<code>github.com</code>获取IP地址<code>140.82.114.3</code>，搜索<code>github.global.ssl.fastly.net</code>获取IP地址<code>151.101.1.194151.101.65.194151.101.129.194151.101.193.194</code>
+（再次感慨我真够笨的连手动换行都不会。）一脸问号〔这个格式是什么鬼〕：文字说明是</p>
+<pre tabindex="0"><code>The IP addresses 151.101.1.194, 151.101.65.194, 151.101.129.194 and 151.101.193.194 are located in the United States.
+</code></pre><p>然而把表格里的<img src="/images/2023-03/IPAdress.com_github.global.ssl.fastly.net.png" alt="">复制粘贴到文本编辑器里就成了<code>151.101.1.194151.101.65.194151.101.129.194151.101.193.194</code>。（我还以为机器能识别这坨粘在一起的鬼东西）还有<code>github.io</code>也是<code>185.199.108.153185.199.110.153185.199.111.153</code>。
+然后修改host文件<img src="/images/2023-03/Windowns-System32-drivers-etc-host.png" alt="">
+搜索Git教程的时候从<a href="https://www.liaoxuefeng.com/wiki/896043488029600/896827951938304">廖雪峰的官方网站</a>看到过「千万不要使用Windows自带的记事本编辑任何文本文件」的提示（这个网站也是使用代理以后打开贼慢所以贴图片）
+![/images/2023-03/liaoxuefeng.com-git-intro_DO_NOT_use_default_notepad_in_Windows.png]然后写这个记录的是Google到了<a href="https://luoshuijs.vip/">洛水.山岭居室的博客</a>里的一篇科普向文章：<a href="https://luoshuijs.vip/windwos-notebook-20200316.html">为什么大佬提醒我们当在Windows运行项目的时候一定一定不要用Windwos自带的记事本编辑配置文件</a>，提到这个BOM的问题在2020年已经解决了。</p>
+<blockquote>
+<p>当我们用记事本的时候，随便编辑一个，保存为UTF-8文件，然后用winhex打开查看。
+不难发现Windows自带的记事本，在保存一个以UTF-8编码的文件时，会在文件开始的地方插入三个不可见的字符（0xEF 0xBB 0xBF，即BOM）。
+它是一串隐藏的字符，用于让记事本等编辑器识别这个文件是否以UTF-8编码。对于一般的文件，这样并不会产生什么麻烦。但对于 PHP来说，BOM是个大麻烦。
+当然，新版本的Windwos记事本（目前我用的是版本1909 （OS内部版本18363.720））已经解决了这个问题，保存的时候会看到几个选项了。</p>
+</blockquote>
+<p>Anyway做完这些以后〔关掉代理〕效果如下：
+<img src="/images/2023-03/ping_github.com_without_VPN.png" alt="Github主站">
+<img src="ping_updowncity.github.io" alt="我的博客"></p>
+<div id="waline"></div>
+<script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://updowncity-waline-pgdfj5d15-updowncity.vercel.app',
+      reaction: false,
+      search: false,
+    });
+</script>
+
+        <div class="footer">
+    <i>/lzx/</i><a href="https://icp.gov.moe/?keyword=20230891" target="_blank">萌ICP备20230897号</a>
+</div>
+        
+    </div>
+  </body>
+</html>

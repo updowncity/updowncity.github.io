@@ -250,7 +250,7 @@ pre code {
 }
 
 .terminal-footer{
-    font-family: 'iA Writer Duo S';
+    font-family: 'iA Writer Duo S','Microsoft Yahei',serif;
 }
 @keyframes cursor {
     0% {
