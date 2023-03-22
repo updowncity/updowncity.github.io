@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 你快樂嗎</title>
-    <link>https://updowncity.github.io/tags/</link>
+    <link>http://updown.city/tags/</link>
     <description>Recent content in Tags on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language><atom:link href="https://updowncity.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh</language><atom:link href="http://updown.city/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
