@@ -6,7 +6,26 @@
     <description>Recent content in Posts on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 22 Mar 2023 15:17:32 +0800</lastBuildDate><atom:link href="https://updown.city/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Mar 2023 23:27:08 +0800</lastBuildDate><atom:link href="https://updown.city/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>兩個改寫：沒有證明因爲我只是把維基百科上的定義抄了一遍</title>
+      <link>https://updown.city/posts/two-rewrites/</link>
+      <pubDate>Wed, 22 Mar 2023 23:27:08 +0800</pubDate>
+      
+      <guid>https://updown.city/posts/two-rewrites/</guid>
+      <description>分別是octahedral axiom與homotopy category（也是为数不多的我怎么也记不住具体内容的（…）隔壁站总是部署失败，所以为了防丢把寫好的小notes（还有一枚）也临时放进updown.city。目前我(面對人類)的勇气(?)也只够发这种没有perspective只有定义改写的小post。（甚至寫了符號映射表）
+octahedral axiom (of triangulated categories) For any morphism $f:T\to S$ in the underlying triangulated category $D$, complete the (distinguished triangle) $T\to S\to R\xrightarrow{+1}$. If there exists a decomposition of $f$, i.e. $\exists X\in\mathrm{ob}(D)$ and $T\xrightarrow{\nu}X\xrightarrow{\gamma}S$ such that $f=\gamma\circ\nu$, then complete the (distinguished) triangles induced by $\nu$ and $\gamma$, i.e. $T \xrightarrow{\nu} X \xrightarrow{\gamma&amp;rsquo;} S&amp;rsquo;\xrightarrow{+1}$ and $T&amp;rsquo; \xrightarrow{\nu&amp;rsquo;} X \xrightarrow{\gamma} S\xrightarrow{+1}$. Do the same operation again, complete the (distinguished) triangle induced by $f&amp;rsquo;=\gamma&amp;rsquo;\circ\nu&amp;rsquo;$, i.</description>
+    </item>
+    
+    <item>
+      <title>編程隨想</title>
+      <link>https://updown.city/posts/program-think/</link>
+      <pubDate>Wed, 22 Mar 2023 15:17:32 +0800</pubDate>
+      
+      <guid>https://updown.city/posts/program-think/</guid>
+      <description>或許編程隨想並不是一個人，就像Bourbaki……</description>
+    </item>
+    
     <item>
       <title>记录Windows10解决GitHub访问问题的尝试（又名：某人在線賣蠢#01）</title>
       <link>https://updown.city/posts/ping-github/</link>

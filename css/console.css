@@ -29,13 +29,37 @@
     font-weight: bold;
     text-rendering: optimizeLegibility;
 }
-
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('../font/SourceSerifPro-Regular') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('../font/SourceSerifPro-Italic') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('../font/SourceSerifPro-SemiBold') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('../font/SourceSerifPro-SemiBoldItalicd') format('truetype');
+    font-style: italic;
+    font-weight: bold;
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 :root {
     --global-font-size: 14px;
     --global-font-color: #444;
-    --mono-font-stack: "iA Writer Duo S", "Microsoft Yahei", serif;
-    --font-stack: "iA Writer Duo S", "Microsoft Yahei", serif;
-    --text-font-stack: "Segoe UI", "Microsoft Yahei", serif;
+    --mono-font-stack: "iA Writer Duo S", "Microsoft Yahei", monospace;
+    --font-stack: "Source Serif Pro", "iA Writer Duo S", "Microsoft Yahei", serif;
+    --text-font-stack: "Source Serif Pro", "Microsoft Yahei", serif;
     --global-line-height: 1.4em;
     --page-width: 70em;
     --display-h1-decoration: 1;
@@ -73,7 +97,9 @@
 }
 
 body {
+    /*
     font-family: var(--font-stack);
+    */
     font-size: var(--global-font-size);
     background-color: #fff;
     margin-bottom: 75px;
@@ -97,18 +123,20 @@ h6,
     margin-bottom: var(--global-line-height);
     font-weight: 600
 }
-p{
+p,.post{
     font-family: var(--text-font-stack);
 }
 h1 {
     margin-bottom: 150px;
 }
 h1::after {
-    content: "====================================================================================================";
-    position: absolute;
-    bottom: 5px;
-    left: 0;
+    content: "===================================================================================================="!important;
+    position: absolute!important;
+    bottom: 5px!important;
+    left: 0!important;
+    /*
     display: var(--display-h1-decoration)
+    */
 }
 .content-column-content p,
 .content-column-content li {
@@ -286,9 +314,13 @@ figure {
     .footer {
         margin-top: 50px;
         padding-top: 5px;
+        font-family: 'iA Writer Duo S', 'Microsoft Yahei',serif!important; 
     }
 }
 
 div.footer{
-    font-family: 'iA Writer Duo S','Microsoft Yahei',serif;
+    font-family: 'iA Writer Duo S','Microsoft Yahei',serif!important;
+}
+mjx-math{
+    font-size: 14px!important;
 }

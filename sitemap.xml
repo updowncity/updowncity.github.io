@@ -5,6 +5,27 @@
         
         <url>
             <loc>https://updown.city/posts/</loc>
+            <lastmod>2023-03-22T23:27:08+08:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://updown.city/posts/two-rewrites/</loc>
+            <lastmod>2023-03-22T23:27:08+08:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://updown.city/</loc>
+            <lastmod>2023-03-22T23:27:08+08:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://updown.city/posts/program-think/</loc>
             <lastmod>2023-03-22T15:17:32+08:00</lastmod>
         </url>
         
@@ -12,13 +33,6 @@
         
         <url>
             <loc>https://updown.city/posts/ping-github/</loc>
-            <lastmod>2023-03-22T15:17:32+08:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://updown.city/</loc>
             <lastmod>2023-03-22T15:17:32+08:00</lastmod>
         </url>
         
@@ -179,7 +193,19 @@
     
         
         <url>
+            <loc>https://updown.city/drafts/domai_information/</loc>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://updown.city/categories/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://updown.city/drafts/</loc>
         </url>
         
     

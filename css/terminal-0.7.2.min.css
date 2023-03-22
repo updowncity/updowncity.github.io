@@ -1,8 +1,65 @@
+@font-face {
+    font-family: 'iA Writer Duo S';
+    src: url('../font/iAWriterDuoS-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'iA Writer Duo S';
+    src: url('../font/iAWriterDuoS-Italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'iA Writer Duo S';
+    src: url('../font/iAWriterDuoS-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'iA Writer Duo S';
+    src: url('../font/iAWriterDuoS-BoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('../font/SourceSerifPro-Regular') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('../font/SourceSerifPro-Italic') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('../font/SourceSerifPro-SemiBold') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('../font/SourceSerifPro-SemiBoldItalicd') format('truetype');
+    font-style: italic;
+    font-weight: bold;
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 :root {
     --global-font-size: 14px;
     --global-line-height: 1.4em;
     --global-space: 10px;
-    --font-stack: "Segoe UI", "iA Writer Duo S", "Microsoft Yahei", serif;
+    --text-font-stack: "Source Serif Pro", "Microsoft Yahei", serif;
+    --font-stack: "Source Serif Pro", "iA Writer Duo S", "Microsoft Yahei", serif;
     --mono-font-stack: "iA Writer Duo S", "Microsoft Yahei", serif;
     --background-color: #fff;
     --page-width: 60em;
@@ -44,7 +101,9 @@
     color: inherit;
     */
 }
-
+p,div.post{
+    font-family: var(--text-font-stack);
+}
 body {
     font-size: var(--global-font-size);
     color: var(--font-color);
@@ -250,7 +309,7 @@ pre code {
 }
 
 .terminal-footer{
-    font-family: 'iA Writer Duo S','Microsoft Yahei',serif;
+    font-family: 'iA Writer Duo S','Microsoft Yahei',serif!important;
 }
 @keyframes cursor {
     0% {
@@ -1003,4 +1062,11 @@ figure>figcaption {
 
 .hljs-strong {
     font-weight: 700
+}
+
+p.latin{
+    font-size: 16px!important;
+}
+mjx-math{
+    font-size: 14px!important;
 }
