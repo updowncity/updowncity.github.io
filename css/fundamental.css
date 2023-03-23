@@ -108,7 +108,6 @@ h6,.h6 {
 
 .terminal .logo,
 .terminal blockquote,
-.terminal code,
 .terminal h1,
 .terminal h2,
 .terminal h3,
@@ -121,17 +120,24 @@ h6,.h6 {
     font-family: var(--font-stack);
     color: var(--font-color);
 }
+.terminal code{
+    font-family: var(--mono-font-stack)!important;
+}
 h1 {
     margin-bottom: 150px;
+    
     position: relative;
     display: inline-block;
     display: table-cell;
+    
     padding: calc(var(--global-space) * 2) 0 calc(var(--global-space) * 2);
     margin: 0;
     overflow: hidden;
     font-weight: 600;
     line-height: var(--global-line-height);
+    /*
     float: none;
+    */
     font-family: var(--font-stack);
     clear: both;
     /*
@@ -189,7 +195,7 @@ blockquote::after {
 code {
     font-weight: inherit;
     background-color: var(--code-bg-color);
-    font-family: var(--mono-font-stack);
+    font-family: var(--mono-font-stack)!important;
     line-height: var(--global-line-height);
     float: none;
     margin: 0;
