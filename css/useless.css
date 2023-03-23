@@ -1,0 +1,46 @@
+/*
+@media only screen and (max-width: 850px) {
+    :root {
+        --global-font-size: 14px;
+        --global-font-color: #444;
+        --global-line-height: 1.4em;
+        --page-width: 70em;
+}
+*/
+/*
+table {
+    width: 100%;
+    border-collapse: collapse;  
+    margin: var(--global-line-height) 0;
+    color: var(--font-color);
+    font-size: var(--global-font-size)
+}
+
+table td,
+table th {
+    vertical-align: top;
+    border: 1px solid var(--font-color);
+    border: 0.5px dashed white!important;
+    line-height: var(--global-line-height);
+    padding: calc(var(--global-space)/ 2);
+    font-size: 1em
+}
+
+table thead th {
+    font-size: 1em
+}
+
+table tfoot tr th {
+    font-weight: 500
+}
+
+table caption {
+    font-size: 1em;
+    margin: 0 0 1em 0
+}
+
+table tbody td:first-child {
+    font-weight: 700;
+    color: var(--secondary-color)
+}
+*/
