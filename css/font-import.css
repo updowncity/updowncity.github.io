@@ -2,7 +2,7 @@
     font-family: 'iA Writer Duo S';
     src: url('../font/iAWriterDuoS-Regular.ttf') format('truetype');
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     text-rendering: optimizeLegibility;
 }
 
@@ -10,7 +10,7 @@
     font-family: 'iA Writer Duo S';
     src: url('../font/iAWriterDuoS-Italic.ttf') format('truetype');
     font-style: italic;
-    font-weight: normal;
+    font-weight: 400;
     text-rendering: optimizeLegibility;
 }
 
@@ -18,7 +18,7 @@
     font-family: 'iA Writer Duo S';
     src: url('../font/iAWriterDuoS-Bold.ttf') format('truetype');
     font-style: normal;
-    font-weight: bold;
+    font-weight: 600;
     text-rendering: optimizeLegibility;
 }
 
@@ -26,32 +26,32 @@
     font-family: 'iA Writer Duo S';
     src: url('../font/iAWriterDuoS-BoldItalic.ttf') format('truetype');
     font-style: italic;
-    font-weight: bold;
+    font-weight: 600;
     text-rendering: optimizeLegibility;
 }
 @font-face {
     font-family: 'Source Serif Pro';
     src: url('../font/SourceSerifPro-Regular.ttf') format('truetype');
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
 }
 @font-face {
     font-family: 'Source Serif Pro';
     src: url('../font/SourceSerifPro-Italic.ttf') format('truetype');
     font-style: italic;
-    font-weight: normal;
+    font-weight: 400;
 }
 @font-face {
     font-family: 'Source Serif Pro';
     src: url('../font/SourceSerifPro-SemiBold.ttf') format('truetype');
     font-style: normal;
-    font-weight: bold;
+    font-weight: 600;
 }
 @font-face {
     font-family: 'Source Serif Pro';
     src: url('../font/SourceSerifPro-SemiBoldItalicd.ttf') format('truetype');
     font-style: italic;
-    font-weight: bold;
+    font-weight: 600;
 }
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 

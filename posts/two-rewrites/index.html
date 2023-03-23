@@ -9,14 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="stylesheet" href='https://updown.city/css/animate-4.1.1.min.css'>
-    <link rel="stylesheet" href='https://updown.city/css/classless.css'>
-    <link rel="stylesheet" href='https://updown.city/css/console.css'>
+    
+    
     <link rel="stylesheet" href='https://updown.city/css/font-import.css'>
     <link rel="stylesheet" href='https://updown.city/css/hljs.css'>
-    <link rel="stylesheet" href='https://updown.city/css/terminal.css'>
-    <link rel="stylesheet" href='https://updown.city/css/textarea.css'>
-    <link rel="stylesheet" href='https://updown.city/css/useless.css'>
+    
+    
+    <link rel="stylesheet" href='https://updown.city/css/terminal-theme.css'>
+    <link rel="stylesheet" href='https://updown.city/css/console-theme.css'>
+    <link rel="stylesheet" href='https://updown.city/css/fundamental.css'>
     <link rel="stylesheet" href='https://updown.city/css/waline.css'>
+    
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script>
@@ -46,8 +49,7 @@
 
 
 <meta name="twitter:title" content="兩個改寫：沒有證明因爲我只是把維基百科上的定義抄了一遍"/>
-<meta name="twitter:description" content="分別是octahedral axiom與homotopy category（也是为数不多的我怎么也记不住具体内容的（…）隔壁站总是部署失败，所以为了防丢把寫好的小notes（还有一枚）也临时放进updown.city。目前我(面對人類)的勇气(?)也只够发这种没有perspective只有定义改写的小post。（甚至寫了符號映射表）
-octahedral axiom (of triangulated categories) For any morphism $f:T\to S$ in the underlying triangulated category $D$, complete the (distinguished triangle) $T\to S\to R\xrightarrow{&#43;1}$. If there exists a decomposition of $f$, i.e. $\exists X\in\mathrm{ob}(D)$ and $T\xrightarrow{\nu}X\xrightarrow{\gamma}S$ such that $f=\gamma\circ\nu$, then complete the (distinguished) triangles induced by $\nu$ and $\gamma$, i.e. $T \xrightarrow{\nu} X \xrightarrow{\gamma&rsquo;} S&rsquo;\xrightarrow{&#43;1}$ and $T&rsquo; \xrightarrow{\nu&rsquo;} X \xrightarrow{\gamma} S\xrightarrow{&#43;1}$. Do the same operation again, complete the (distinguished) triangle induced by $f&rsquo;=\gamma&rsquo;\circ\nu&rsquo;$, i."/>
+<meta name="twitter:description" content="分別是octahedral axiom與homotopy category（也是为数不多的我怎么也记不住具体内容的（…）隔壁站总是部署失败，所以为了防丢把寫好的小notes（还有一枚）也临时放进updown.city。目前我(面對人類)的勇气(?)也只够发这种没有perspective只有定义改写的小post。（甚至寫了符號映射表）"/>
 
 </head>
 <body class="terminal">
@@ -137,8 +139,7 @@ Suppose $\mathcal{A}$ is an exact category such that for any two objects $A$ and
 <p>The classical definition of homtopy category is written by setting an equivalence relation $\sim$ in each $\mathrm{Hom}(A^\bullet,B^\bullet)$, i.e. for any $f^\bullet,g^\bullet\in \mathrm{Hom}(A^\bullet,B^\bullet)$, morphisms $f^\bullet\sim g^\bullet$ if and only if there exists a family of morphisms $s^i\in\mathrm{Hom}(A^i,B^{i-1})$ in such that $f^i-g^i=s^{i+1}\circ d_{A^\bullet}+d_{B^\bullet}^{i-1}\circ s^i$ in $\mathcal{A}$.</p>
 <p>Obversed that if we rewrite each homotopy into $s^i: A^i\to B[-1]^i$, then the equivalence relation $\sim$ becomes $f^i-g^i=s^{i+1}\circ d_{A^\bullet}^i-d_{B^\bullet[-1]}^i\circ s^i$. (Let $d^i_{B[-1]}:=-d_B^{i-1}$ just like what we do when defining triangulated categories.)</p>
 <p>Force $f^\bullet$ equivalent to $g^\bullet$ just like making $(s^i)_{i\in\mathbb{Z}}$ into a morphism between chain complexes, i.e.</p>
-<p>For a morphism $f^\bullet: A^\bullet\to B^\bullet$ we no longer require that the requirement for local commutative square $f^{i+1}\circ d_{A^\bullet}^i-d_{B^\bullet[-1]}^i\circ f^i$.</p>
-<div id="waline"></div>
+<p>For a morphism $f^\bullet: A^\bullet\to B^\bullet$ we no longer require that the requirement for local commutative square $f^{i+1}\circ d_{A^\bullet}^i-d_{B^\bullet[-1]}^i\circ f^i$.</p><div id="waline"></div>
 <script type="module">
     import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
 
@@ -147,6 +148,7 @@ Suppose $\mathcal{A}$ is an exact category such that for any two objects $A$ and
       serverURL: 'https://updowncity-waline-pgdfj5d15-updowncity.vercel.app',
       reaction: false,
       search: false,
+      lang: 'en',
     });
 </script>
 
