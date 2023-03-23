@@ -323,4 +323,14 @@ div.footer{
 }
 mjx-math{
     font-size: 14px!important;
+
 }
+
+table,th,td,tr {
+    table-layout: auto;
+    border: 0!important;
+   }
+   
+   td {
+    border: 0!important;
+   }

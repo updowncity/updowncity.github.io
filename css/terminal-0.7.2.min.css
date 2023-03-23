@@ -535,10 +535,10 @@ img {
     visibility: hidden;
     opacity: 0
 }
-
+/*
 table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: collapse;  
     margin: var(--global-line-height) 0;
     color: var(--font-color);
     font-size: var(--global-font-size)
@@ -548,6 +548,7 @@ table td,
 table th {
     vertical-align: top;
     border: 1px solid var(--font-color);
+    border: 0.5px dashed white!important;
     line-height: var(--global-line-height);
     padding: calc(var(--global-space)/ 2);
     font-size: 1em
@@ -569,6 +570,15 @@ table caption {
 table tbody td:first-child {
     font-weight: 700;
     color: var(--secondary-color)
+}
+*/
+table {
+ table-layout: auto;
+ border: 0!important;
+}
+
+td {
+ border: 0!important;
 }
 .form {
     width: 100%
@@ -608,7 +618,9 @@ input[type=search]:focus,
 input[type=text]:active,
 input[type=text]:focus {
     outline: 0;
+    /*
     -webkit-appearance: none;
+    */
     border: 1px solid var(--font-color)
 }
 
@@ -664,13 +676,17 @@ textarea {
     padding: .5em;
     font-size: 1em;
     font-family: var(--font-stack);
+    /*
     -webkit-appearance: none;
+    */
     border-radius: 0
 }
 
 textarea:focus {
     outline: 0;
+    /*
     -webkit-appearance: none;
+    */
     border: 1px solid var(--font-color)
 }
 
