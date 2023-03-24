@@ -32,7 +32,14 @@
     
         
         <url>
-            <loc>https://updown.city/posts/two-rewrites/</loc>
+            <loc>https://updown.city/drafts/</loc>
+            <lastmod>2023-03-22T23:27:08+08:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://updown.city/drafts/two-rewrites/</loc>
             <lastmod>2023-03-22T23:27:08+08:00</lastmod>
         </url>
         
@@ -214,12 +221,6 @@
         
         <url>
             <loc>https://updown.city/categories/</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://updown.city/drafts/</loc>
         </url>
         
     
