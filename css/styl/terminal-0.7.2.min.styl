@@ -1,10 +1,11 @@
 :root
   --global-font-size: 14px
+  --small-font-size: 12px
   --global-font-color: #444
   --global-line-height: 1.2em
   --global-space: 10px
-  --font-default: "Source Serif Pro", "Microsoft Yahei", "Noto Serif TC", "Noto Serif SC", serif
-  --code-font-family: "iA Writer Duo S", "Microsoft Yahei", "Noto Serif TC", "Noto Serif SC", monospace
+  --font-default: "Source Serif Pro", "Microsoft Yahei", -apple-system, BlinkMacSystemFont,"Noto Serif TC", "Noto Serif SC", serif
+  --font-monospace: "Monaco", Monaco, Consolas, "Microsoft Yahei",-apple-system, BlinkMacSystemFont, "Ubuntu Mono", "Noto Serif TC", "Noto Serif SC", monospace
   --background-color: #f9f9fc
   --page-width: 64em
   --font-color: #151515
@@ -51,7 +52,12 @@ body
   font-family: var(--font-default)
   word-wrap: break-word
   background-color: var(--background-color)
-
+a.scratch
+  color: var(--background-color)
+  background-color: var(--background-color)
+  &:hover
+    color: var(--font-color)
+    background-color: var(--background-color)
 .logo,
 h1,
 h2,
@@ -158,12 +164,18 @@ blockquote::after
   left: 0
   line-height: var(--global-line-height)
   color: #9ca2ab
-
+/*
 code
   font-weight: inherit
   background-color: var(--code-bg-color)
   font-family: var(--font-monospace)
-
+  font-size: cal(var(--global-font-size)*0.8)
+*/
+code,
+pre 
+  font-size: var(--small-font-size)!important
+  font-family: var(--font-monospace)!important
+  color: var(--font-color)
 code::after,
 code::before
   content: "`"
@@ -172,7 +184,7 @@ code::before
 pre code::after,
 pre code::before
   content: ""
-
+/*
 pre
   display: block
   word-break: break-all
@@ -185,7 +197,7 @@ pre
   white-space: -moz-pre-wrap
   white-space: -pre-wrap
   white-space: -o-pre-wrap
-
+/*
 pre code
   overflow-x: scroll
   padding: 0
@@ -193,10 +205,10 @@ pre code
   display: inline-block
   min-width: 100%
   font-family: var(--font-monospace)
-
+  font-size: cal(var(--global-font-size)*0.8)
+*/
 .terminal .logo,
 .terminal blockquote,
-/*.terminal code,*/
 .terminal h1,
 .terminal h2,
 .terminal h3,
@@ -372,9 +384,13 @@ p
 .container-fluid
   margin: 0 auto
   padding: 0 calc(var(--global-space) * 2)
-
+/*
 img
   width: 100%
+*/
+img
+  .thumbnail
+    max-width: 89.7px
 
 .progress-bar
   height: 8px
@@ -457,7 +473,7 @@ fieldset
 label
   font-size: 1em
   color: var(--font-color)
-
+/*
 input[type=email],
 input[type=number],
 input[type=password],
@@ -553,7 +569,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus
   box-shadow: 0 0 0 1000px var(--invert-font-color) inset
   -webkit-box-shadow: 0 0 0 1000px var(--invert-font-color) inset
   transition: background-color 5000s ease-in-out 0s
-
+*/
 .form-group
   margin-bottom: var(--global-line-height)
   overflow: auto

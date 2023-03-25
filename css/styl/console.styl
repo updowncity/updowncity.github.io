@@ -1,29 +1,9 @@
-/* iA Writer Duo S */
-@font-face
-  font-family: 'iA Writer Duo S'
-  src: url('../font/iAWriterDuoS-Regular.ttf') format('truetype')
-  font-style: normal
-  font-weight: 400
-  text-rendering: optimizeLegibility
 @font-face
   font-family: 'iA Writer Duo S'
   src: url('../font/iAWriterDuoS-Italic.ttf') format('truetype')
   font-style: italic
   font-weight: 400
   text-rendering: optimizeLegibility
-@font-face
-  font-family: 'iA Writer Duo S'
-  src: url('../font/iAWriterDuoS-Bold.ttf') format('truetype')
-  font-style: normal
-  font-weight: 600
-  text-rendering: optimizeLegibility
-@font-face
-  font-family: 'iA Writer Duo S'
-  src: url('../font/iAWriterDuoS-BoldItalic.ttf') format('truetype')
-  font-style: italic
-  font-weight: 600
-  text-rendering: optimizeLegibility
-/* Source Serif Pro */
 @font-face
   font-family: 'Source Serif Pro'
   src: url('../font/SourceSerifPro-Regular.ttf') format('truetype')
@@ -53,8 +33,8 @@
   --global-font-color: #444
   --global-line-height: 1.2em
   --global-space: 10px
-  --font-default: "Source Serif Pro", "Microsoft Yahei", "Noto Serif TC", "Noto Serif SC", serif
-  --font-monospace: "iA Writer Duo S", "Microsoft Yahei", "Noto Serif TC", "Noto Serif SC", monospace
+  --font-default: "Source Serif Pro", "Microsoft Yahei", -apple-system, BlinkMacSystemFont, "Noto Serif TC", "Noto Serif SC", serif
+  --font-monospace: "Monaco", Consolas, "Microsoft Yahei", -apple-system, BlinkMacSystemFont, "Ubuntu Mono", "Noto Serif TC", "Noto Serif SC", monospace
   --background-color: #f9f9fc
   --page-width: 64em
   --font-color: #151515
@@ -66,13 +46,13 @@
   --progress-bar-fill: #151515
   --code-bg-color: #e8eff2
   --input-style: solid
-
 @media only screen and (max-width: 850px)
   :root
     --global-font-size: 14px
     --global-font-color: #444
     --global-line-height: 1.2em
     --page-width: 70em
+
 
 .sidebar-heading
   text-transform: none
@@ -133,6 +113,13 @@ h1
 .content-column-content .command
   color: #aaa
 
+a.scratch
+  color: var(--background-color)
+  background-color: var(--background-color)
+  &:hover
+    color: var(--font-color)
+    background-color: var(--background-color)
+
 p.social a
   margin: 0 0 10px 0
   color: #fff
@@ -148,7 +135,6 @@ p.social a
   -webkit-transition: all 0.2s ease-out
   -moz-transition: all 0.2s ease-out
   transition: all 0.2s ease-out
-
 .active a
   text-decoration: underline
 

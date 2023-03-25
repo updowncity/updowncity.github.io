@@ -16,27 +16,7 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-</script>
-<script type="text/javascript" id="MathJax-script" async
- src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script>
-
-
-<script async src="https://updown.city/js/cursor/fireworks.js"></script>
-
-
-<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/><link rel="icon" type="image/x-icon" href="https://updown.city/images/favicon.jpg" />
+    <link rel="icon" type="image/x-icon" href="https://updown.city/images/favicon.jpg" />
 <meta property="og:title" content="日誌" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
@@ -55,7 +35,33 @@
 通過沙盒回歸舊的景觀，緩慢搬運。果然我不喜歡我的「醜陋的憂鬱」。2023-03-19 第一次添加友鏈（又是丟失的時間戳，就像那些蟲蛻。） 把原本裝在injector裡的內容取出然後放入主題文件夾裡的head.ejs（……因爲landscape已經很久都沒有更新了，我可以放心地改主題文件，無需考慮更新時我的配置被覆寫什麼的。） 换掉了changelog页(爲什麼); （時間戳丟失）
 寫論文摸魚的時候逛Hexo主题，始终没有找到合我心意的主题。於是动手制作这个臨時被我命名为ugly-blue的主题（原名是ugly-html，但它並不是純HTML所以就改成了现在这个「醜陋的憂鬱」…另一个待选名称是it-just-works，目前整个文件夹只有2.47KB(&hellip;CSS什么的都被我喂进了injector.js)&hellip;效果近似于破损的默认主题，但它至少是能用的。（…就像觉得perverse sheaf难听的人可以选择用hypersheaf这个名字）目前想做的是仿照Emacs默认主题配置按钮。 加入了moults虫蜕页面，用来记录那些死去[?]并且被我遗忘的網站（或许某一天我会像说“太阳升起来了”一样说这些网站是属于我的…），想法来自disroot bin的这条留言。我的记忆力有时相当糟糕，有时我甚至感到我的生命是不连续的。"/>
 
-</head>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+<style>
+  mjx-math{
+    font-size: 14px!important;
+  }
+</style>
+
+<script async src="https://updown.city/js/cursor/fireworks.js"></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/></head>
 <body class="terminal">
     <div class="container">
         <div class="terminal-nav">
