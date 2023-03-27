@@ -8,6 +8,12 @@
     <loc>https://updown.city/posts/</loc>
     <lastmod>2023-03-27T14:49:57+08:00</lastmod>
   </url><url>
+    <loc>https://updown.city/tags/</loc>
+    <lastmod>2023-03-27T14:49:57+08:00</lastmod>
+  </url><url>
+    <loc>https://updown.city/tags/%E7%95%99%E8%A8%80/</loc>
+    <lastmod>2023-03-27T14:49:57+08:00</lastmod>
+  </url><url>
     <loc>https://updown.city/</loc>
     <lastmod>2023-03-27T14:49:57+08:00</lastmod>
   </url><url>
@@ -101,7 +107,5 @@
     <loc>https://updown.city/drafts/domai_information/</loc>
   </url><url>
     <loc>https://updown.city/categories/</loc>
-  </url><url>
-    <loc>https://updown.city/tags/</loc>
   </url>
 </urlset>
