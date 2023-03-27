@@ -100,7 +100,9 @@
 			<h1 class="post__title">lisp的发现與其他碎碎唸</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-03-23T23:11:05&#43;08:00">2023-03-23</time></div></div>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-03-23T23:11:05&#43;08:00">2023-03-23</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/%E6%97%A5%E8%AA%8C/" rel="category">日誌</a>
+	</span>
+</div></div>
 		</header>
 		<div class="content post__content clearfix">
 			<p>闲逛的时候发现了<a href="https://asciidoc.org/">AsciiDoc</a>这个类似于Markdown优化的文本标记语言，然后想到org-mode：我可以把标题的syntax highlight给去掉，在第一级标题的地方写初始文本，然后从第二级标题开始放我那堆该死的括号<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。很显然it doesn&rsquo;t work因为我的括号是出现在段落内部的，而这些标题是必须位于段首的…寫出來會相當ugly。然后在想：我想要的是利用电脑屏幕(什么鬼)实现括号的折叠与配对（虽然这样一来出现于重叠的右括号的singularity就不复存在了，但至少：(1)阅读友好（幽灵能否读懂这坨狗屎我并不care但我寫論文還是需要把它們整理成條理清晰(至少能夠閱讀)的語言的……（我真的很想把充滿括號stack(s)的原始文本拿出去噁心別人就像現在這樣…）;(2)singularities并不是真的消失，它们只是以被消解(铺开)掉的形式呈现着（比如这种东西（但愿我没数错））））然后………………这TMD不就是lisp吗。（前兩天插上就被我忘掉的flag…）

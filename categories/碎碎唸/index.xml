@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>碎碎唸 on 你快樂嗎</title>
+    <link>https://updown.city/categories/%E7%A2%8E%E7%A2%8E%E5%94%B8/</link>
+    <description>Recent content in 碎碎唸 on 你快樂嗎</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Mar 2023 01:37:47 +0800</lastBuildDate><atom:link href="https://updown.city/categories/%E7%A2%8E%E7%A2%8E%E5%94%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>關於「民科」</title>
+      <link>https://updown.city/posts/crackpots/</link>
+      <pubDate>Sat, 25 Mar 2023 01:37:47 +0800</pubDate>
+      
+      <guid>https://updown.city/posts/crackpots/</guid>
+      <description>&lt;p&gt;我真的很怕這個詞。又一次(?)在不安定間刪掉了一個post。感覺寫那些我就像一個小丑。真的好痛苦。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>編程隨想</title>
+      <link>https://updown.city/posts/program-think/</link>
+      <pubDate>Wed, 22 Mar 2023 15:17:32 +0800</pubDate>
+      
+      <guid>https://updown.city/posts/program-think/</guid>
+      <description>&lt;p&gt;或許編程隨想並不是一個人，就像Bourbaki……&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>搬家到Hogo</title>
+      <link>https://updown.city/posts/moved-to-hugo/</link>
+      <pubDate>Mon, 20 Mar 2023 17:33:42 +0800</pubDate>
+      
+      <guid>https://updown.city/posts/moved-to-hugo/</guid>
+      <description>因爲快</description>
+    </item>
+    
+  </channel>
+</rss>
