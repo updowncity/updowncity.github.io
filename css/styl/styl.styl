@@ -1,32 +1,3 @@
-@font-face
-  font-family: 'iA Writer Duo S'
-  src: url('../font/iAWriterDuoS-Italic.ttf') format('truetype')
-  font-style: italic
-  font-weight: 400
-  text-rendering: optimizeLegibility
-@font-face
-  font-family: 'Source Serif Pro'
-  src: url('../font/SourceSerifPro-Regular.ttf') format('truetype')
-  font-style: normal
-  font-weight: 400
-@font-face
-  font-family: 'Source Serif Pro'
-  src: url('../font/SourceSerifPro-Italic.ttf') format('truetype')
-  font-style: italic
-  font-weight: 400
-@font-face
-  font-family: 'Source Serif Pro'
-  src: url('../font/SourceSerifPro-SemiBold.ttf') format('truetype')
-  font-style: normal
-  font-weight: 600
-@font-face
-  font-family: 'Source Serif Pro'
-  src: url('../font/SourceSerifPro-SemiBoldItalicd.ttf') format('truetype')
-  font-style: italic
-  font-weight: 600
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap')
-/* Noto Serif CJK */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400&family=Noto+Serif+TC:wght@300;400&display=swap')
 :root
   --primary-color: #000b80
   --selected-text-color: #eedc82
@@ -34,9 +5,21 @@
   --waterdrop-color: rgba(0,10,129,.12)
 p 
   text-shadow: #ebebeb 0 1px
+
 *::selection
     color: inherit;
     background-color: var(--selected-text-color);
 *::-moz-selection
     color: inherit;
     background-color: var(--selected-text-color);
+.widget-search__field
+  font-size: 14px;
+
+/*
+*::selection
+    background-color: rgba(56,139,253,0.4);
+    color: inherit
+*::-moz-selection
+    background-color: rgba(56,139,253,0.4);
+    color: inherit
+*/

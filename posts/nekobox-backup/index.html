@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="zh">
+<html class="no-js" lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,12 +22,12 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400&family=Noto+Serif+TC:wght@300;400&display=swap">
 
 	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/styl/styl.css">
+	<link rel="stylesheet" href="/css/styl/styl.css"><link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"><link rel="stylesheet" href="/css/styl/waline.css">
 
-	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="shortcut icon" href="/img/favicon.jpg">
 		
 </head>
 <body class="body">
@@ -46,7 +46,7 @@
 		
 <nav class="menu">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
-		<span class="menu__btn-title" tabindex="-1"></span>
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
@@ -64,23 +64,16 @@
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta">
+			<a class="menu__link" href="/moults">
 				
-				<span class="menu__text">留言</span>
+				<span class="menu__text">虫蜕</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
 			<a class="menu__link" href="/bupropion">
 				
-				<span class="menu__text">疑问</span>
-				
-			</a>
-		</li>
-		<li class="menu__item">
-			<a class="menu__link" href="/moults">
-				
-				<span class="menu__text">虫蜕</span>
+				<span class="menu__text">關於</span>
 				
 			</a>
 		</li>
@@ -105,9 +98,14 @@
 			<h1 class="post__title">Nekobox Backup</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-03-27T14:49:57&#43;08:00">March 27, 2023</time></div></div>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-03-27T14:49:57&#43;08:00">2023-03-27</time></div></div>
 		</header>
-		<div class="content post__content clearfix">
+		
+	<figure class="post__thumbnail thumbnail">
+		
+		<img class="thumbnail__image" src="/images/art.pixilart.com@e1732a4045e2bc7.gif" alt="Nekobox Backup">
+		
+	</figure><div class="content post__content clearfix">
 			<p><a href="https://box.n3ko.cc/">NekoBox</a>復活於是把收到的留言備份過來</p>
 <p>Time: 2/10/2023 3:42
 Question: 祝你身体健康。祝你能去想去的地方。
@@ -149,27 +147,27 @@ Answer:
 	</article>
 </main>
 
-<div class="authorbox clearfix">
-	<figure class="authorbox__avatar">
-		<img alt="? avatar" src="/img/favicon.jpg" class="avatar" height="90" width="90">
-	</figure>
-	<div class="authorbox__header">
-		<span class="authorbox__name"></span>
-	</div>
-	<div class="authorbox__description">
-		這是什麼
-	</div>
-</div>
 
 <nav class="pager flex">
 	<div class="pager__item pager__item--prev">
 		<a class="pager__link" href="/posts/crackpots/" rel="prev">
-			<span class="pager__subtitle">«&thinsp;</span>
+			<span class="pager__subtitle">«&thinsp;Previous</span>
 			<p class="pager__title">關於「民科」</p>
 		</a>
 	</div>
 </nav>
 
+
+
+<div id="waline"></div>
+<script type="module">
+	import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+
+	init({
+		el: '#waline',
+		serverURL: 'https://updowncity.vercel.app',
+	});
+</script>
 
 			</div>
 			
@@ -178,8 +176,8 @@ Answer:
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2023 你快樂嗎.
-			<span class="footer__copyright-credits"></span>
+			&copy; 2023 我無法理解copyright這種東西.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>
 </footer>
