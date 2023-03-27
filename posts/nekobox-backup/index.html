@@ -1,72 +1,97 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Nekobox Backup</title>
-	
-	
-	<link rel="stylesheet" href="/styl/styl.css">
-	
-	
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [['$', '$']],
-        packages: {'[+]': ['amscd']},
-      },
-      svg: {
-        fontCache: 'global',
-      },
-      loader: {
-        load: ['[tex]/amscd']}
-    };
-  </script>
-  <script type="text/javascript" id="MathJax-script" async
-   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-  </script>
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
-  <script async src="https://updown.city/js/cursor.js"></script>
-  <link rel="icon" type="image/x-icon" href="https://updown.city/images/favicon.jpg" />
-  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>你快樂嗎/posts/nekobox-backup/</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <link rel="stylesheet" href="https://updown.city/css/styl/styl.css">
+    <link rel="stylesheet" href="https://updown.city/css/animate-4.1.1.min.css">
+    
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <link rel="icon" type="image/x-icon" href="https://updown.city/images/favicon.jpg" />
+<meta property="og:title" content="Nekobox Backup" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://updown.city/posts/nekobox-backup/" /><meta property="article:published_time" content="2023-03-27T14:49:57+08:00" />
+
+
+
+<meta name="twitter:title" content="Nekobox Backup"/>
+<meta name="twitter:description" content="NekoBox復活於是把收到的留言備份過來"/>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+<style>
+  mjx-math{
+    font-size: 14px!important;
+  }
+</style>
+
+<script async src="https://updown.city/js/cursor.js"></script>
+<script async src="https://updown.city/js/toggle.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
 </head>
-<body>
-	<header>
+<body class="terminal">
+    <div class="container">
+        <div class="terminal-nav">
+          <header class="terminal-logo">
+            <div class="logo terminal-prompt">
+              
+              
+              <a href="https://updown.city" class="no-style ">你快樂嗎</a>:~# 
+              <a href='https://updown.cityposts'>posts</a>/<a href='https://updown.cityposts/nekobox-backup'>nekobox-backup</a>/</div></header>
+          
+              <nav class="terminal-menu">
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+              
+                
+                <li><a href="https://updown.city/" typeof="ListItem">默认</a></li>
+                
+                <li><a href="https://updown.city/friends" typeof="ListItem">友链</a></li>
+                
+                <li><a href="https://updown.city/changelog" typeof="ListItem">日誌</a></li>
+                
+                <li><a href="https://updown.city/bupropion" typeof="ListItem">疑问</a></li>
+                
+                <li><a href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta" typeof="ListItem">留言</a></li>
+                
+            </ul>
+          </nav>
+        </div>
+    </div>
 
-	
-	<nav>
-		<ul>
-			
-			<li><a class="nav-link" href="/friends">友链</a></li>
-			
-			<li><a class="nav-link" href="/changelog">日誌</a></li>
-			
-			<li><a class="nav-link" href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta">留言</a></li>
-			
-			<li><a class="nav-link" href="/bupropion">疑问</a></li>
-			
-			<li><a class="nav-link" href="/moults">虫蜕</a></li>
-			
-			<li><a class="nav-link" href="/">默认</a></li>
-			
-		</ul>
-	</nav>
-	
-	<h3>網站日誌</h3>
-	此人已經激進到設置了一個<code>margin: 0</code>
-</header>
+    <div class="container animated zoomIn fast" >
+        
+<h1>Nekobox Backup</h1>
 
-	
-	<main>
-		<article>
-			<h1>Nekobox Backup</h1>
-			<time datetime="2023-03-27T14:49:57">27.03.2023 14:49</time>
-			<div>
-				<p><a href="https://box.n3ko.cc/">NekoBox</a>復活於是把收到的留言備份過來</p>
+Mar. 27, 2023
+
+
+<br/><br/>
+<p><a href="https://box.n3ko.cc/">NekoBox</a>復活於是把收到的留言備份過來</p>
 <p>Time: 2/10/2023 3:42
 Question: 祝你身体健康。祝你能去想去的地方。
 （迟来的新年祝福，用句号是因为它已经迟到了再情绪激烈的话有点怪
@@ -92,19 +117,21 @@ Answer:
 這裏有個不那麼令人滿意但勉強能用的解釋:我們的*慣性*所要求與實現的永恆輪迴&hellip;(由於結構的變化,現在的我無論如何也無法複製/再現去年的想法)
 關於&rdquo;&quot;(爲什麼會)選擇回去&quot;&ldquo;這兩年來我所找到的(我所能理解的)解釋也就只有慣性(&hellip;這類文本出現得太多,幾乎成了我的固有模式.然而我又總是不太樂意接受它們(至於爲什麼我不願意接受它們,我同樣思考了兩年依舊什麼也沒有找到)&hellip;這些備忘錄的幽靈們)(爲什麼我的語言如此&hellip;臃腫?)
 關於&quot;&ldquo;是或不是&rdquo;&quot;:一邊是&quot;&ldquo;判斷依據&quot;&ldquo;的問題,另一邊是&quot;&ldquo;連續性&quot;&ldquo;的問題&hellip;兩邊並不相通(這對永遠無法演化(被我玩壞)成&quot;&ldquo;一個人打牌&rdquo;&rdquo;..^_^)(CoE原作也有這類討論..從&quot;&ldquo;阿藤春樹是不是磯井晴己&quot;&ldquo;到&quot;&ldquo;阿藤春樹是不是初鳥創&rdquo;&rdquo;)&hellip;我應該是搞錯了:這些抽象廢話是次要的&hellip;我當時的(與現在的)想法應該是&quot;&ldquo;將過去一筆勾銷&quot;&ldquo;和&quot;&ldquo;從頭開始&quot;&ldquo;之類的東西&hellip;類似於,玩壞以後不想修改/修復舊的,直接刪掉配置文件重來;或者&hellip;中途有畫錯的地方就想把整幅畫毀掉重畫;因爲錯字撕掉一整頁紙重寫&hellip;(不知道欸)(&hellip;雖然有&quot;&ldquo;作者已死&quot;&ldquo;的規則,但我現在已經不再是這個東西的作者了,可以隨便廢話^_^)&rdquo;</p>
-			</div>
-			
-			
-		</article>
-	</main>
-<aside>
+<div id="waline"></div>
+<script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
 
-</aside>
-
-
-	<footer>
-	<p>&copy; 2023 <a href="https://updown.city">你快樂嗎</a></p>
-</footer>
-
-</body>
+    init({
+      el: '#waline',
+      serverURL: 'https://updowncity-waline-pgdfj5d15-updowncity.vercel.app',
+      reaction: false,
+      search: false,
+      lang: 'en',
+    });
+</script>
+        <div class="footer">
+    <i>/lzx/</i> <a href="https://icp.gov.moe/?keyword=20230891" target="_blank">萌ICP备20230897号</a>
+</div>
+    </div>
+  </body>
 </html>
