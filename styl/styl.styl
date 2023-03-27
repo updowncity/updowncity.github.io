@@ -1,0 +1,59 @@
+:root
+  --small-font-size: 12px
+  --global-font-size: 14px
+  --code-font-size: 12px
+  --title-font-size: 15px
+  --global-line-height: 1.2em
+  --global-space: 10px
+  --page-width: 64em
+  --font-default: "Source Serif Pro", "Microsoft Yahei", -apple-system, BlinkMacSystemFont,"Noto Serif TC", "Noto Serif SC", serif
+  --font-monospace: "Monaco", Monaco, Consolas, "Microsoft Yahei",-apple-system, BlinkMacSystemFont, "Ubuntu Mono", "Noto Serif TC", "Noto Serif SC", monospace
+  --primary-color: #000b80
+  --selected-text-color: #eedc82
+  --link-hover-background-color: #b4eeb4
+  --waterdrop-color: rgba(0,10,129,.12)
+*::selection
+    color: inherit;
+    background-color: var(--selected-text-color);
+*::-moz-selection
+    color: inherit;
+    background-color: var(--selected-text-color);
+a
+  &:hover
+    text-decoration: none
+    color: var(--link-hover-color)
+    background-color: var(--link-hover-background-color)
+body 
+div
+  font-size: var(--global-font-size)
+  font-family: var(--font-default)
+body 
+  margin: 0
+article
+  h1
+    font-size: var(--title-font-size)
+    a  
+      text-decoration: none
+      border-bottom: 2px dashed
+
+nav 
+  ul 
+    background-color: var(--primary-color)
+    li 
+      display: inline-block
+      a 
+        text-decoration: none
+        /*border-bottom: 1.4px dashed*/
+        color: #fff
+        &:hover
+          color: #000
+          background-color: lightgray
+    margin-top: 0
+    padding-inline-start: 0
+header
+  h3
+    text-decoration: underline!important
+code
+header code
+  font-family: var(--font-monospace)
+  font-size: var(--code-font-size)
