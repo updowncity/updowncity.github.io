@@ -20,11 +20,12 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400&family=Noto+Serif+TC:wght@300;400&display=swap">
 
 	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/styl/styl.css"><link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"><link rel="stylesheet" href="/css/styl/waline.css">
+	<link rel="stylesheet" href="/css/styl/styl.css"><link rel="stylesheet" href="/css/styl/valine.css">
 	<link rel="alternate" type="application/rss+xml" href="/posts/index.xml" title="你快樂嗎">
 
 	<link rel="shortcut icon" href="/img/favicon.jpg">
 		
+	<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -46,30 +47,30 @@
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
-			<a class="menu__link" href="/friends">
+			<a class="menu__link" href="/pinned/friends/">
 				
-				<span class="menu__text">友链</span>
-				
-			</a>
-		</li>
-		<li class="menu__item">
-			<a class="menu__link" href="/changelog">
-				
-				<span class="menu__text">日誌</span>
+				<span class="menu__text">友鏈</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/moults">
+			<a class="menu__link" href="/pinned/moults/">
 				
 				<span class="menu__text">虫蜕</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/bupropion">
+			<a class="menu__link" href="/pinned/changelog/">
 				
-				<span class="menu__text">關於</span>
+				<span class="menu__text">網站日誌</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pinned/bupropion/">
+				
+				<span class="menu__text">關於我</span>
 				
 			</a>
 		</li>
@@ -107,7 +108,9 @@
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		睡醒一觉起来发现NekoBox提问箱因为不可抗力因素关闭了。虽然邮箱里还能找到收到的提问，但我的回复全都已经无法找回了。想到我开这个博客的契机也是NekoBox：好奇心使然地点开页尾的链接，找到开发者的个人博客，读到他毕业后写的关于大学四年的碎碎念，于是萌发了(再次)搭建个人博客的想法。这次很顺利，没有迷路。我想要一个initialization不那么轻松的个人博客，因为初始化时遇到的困难可以阻止我冲动之下把它销毁掉（我注销过很多个WriteFreely博客…）。NekoBox是我的第一个评论系统。既然开发者的Twitter简介里提到「不谈政治」，我也就不再这个post里谈论言论审查之类的话题了。
-{% blockquote 一只大茄瓜🍆 @wuhan005 https://twitter.com/wuhan005/status/1628696994226257921 %} 今天突然接到网信办的电话，大致是我开发运营的一个站下面有人发敏感内容。工作人员态度真心很好，他们的难处我也理解。配合完工作后还是关掉了运营三年的网站，凄惨。一个人收拾收拾出门喝酒了。😢 {% endblockquote %}
+{% blockquote 一只大茄瓜🍆 @wuhan005 https://twitter.com/wuhan005/status/1628696994226257921 %} 今天突然接到网信办的电话，大致是我开发运营的一个站下面有人发敏感内容。
+工作人员态度真心很好，他们的难处我也理解。配合完工作后还是关掉了运营三年的网站，凄惨。
+一个人收拾收拾出门喝酒了。😢 {% endblockquote %}
 这条Twitter让我想到去年这个时候想过的：虽然我们很厌恶state apparatus，但遇到的具体的人往往很nice。反抗行政机器就意味着要伤害这些曾经温柔地对待过我们的人们。（或许这种优柔寡断对其他没有孤独到放弃单数第一人称代词的人来说是难以理解的…）
 {% blockquote 明流 @myouryu1 https://twitter.com/myouryu1/status/1628698895349084161 %} 😭😭😭刚点开就发现站无了，nekobox 真的非常优秀诶，推荐给了很多朋友，这样的结局让人很不舍……开发这样一个良好的平台很费心力，看日志和主页也能感受在上面花了很多力气和感情，对于开发它的您只能表达痛惜…… {% endblockquote %}
 我也真的很羡慕这样能够自然地使用语言的人（以一种不那么perverse的方式传达自己的感情……）
@@ -335,7 +338,7 @@ Visual Studio Code 突然想要放弃「您好，我也不知道我是谁」这�
 
 			</div>
 			
-<aside class="sidebar sidebar--left"><div class="widget-search widget">
+<aside class="sidebar"><div class="widget-search widget">
 	<form class="widget-search__form" role="search" method="get" action="https://bing.com/search">
 		<label>
 			<input class="widget-search__field" type="search" placeholder="SEARCH…" value="" name="q" aria-label="SEARCH…">

@@ -51,10 +51,11 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400&family=Noto+Serif+TC:wght@300;400&display=swap">
 
 	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/styl/styl.css"><link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"><link rel="stylesheet" href="/css/styl/waline.css">
+	<link rel="stylesheet" href="/css/styl/styl.css"><link rel="stylesheet" href="/css/styl/valine.css">
 
 	<link rel="shortcut icon" href="/img/favicon.jpg">
 		
+	<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -76,30 +77,30 @@
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
-			<a class="menu__link" href="/friends">
+			<a class="menu__link" href="/pinned/friends/">
 				
-				<span class="menu__text">友链</span>
-				
-			</a>
-		</li>
-		<li class="menu__item">
-			<a class="menu__link" href="/changelog">
-				
-				<span class="menu__text">日誌</span>
+				<span class="menu__text">友鏈</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/moults">
+			<a class="menu__link" href="/pinned/moults/">
 				
 				<span class="menu__text">虫蜕</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/bupropion">
+			<a class="menu__link" href="/pinned/changelog/">
 				
-				<span class="menu__text">關於</span>
+				<span class="menu__text">網站日誌</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pinned/bupropion/">
+				
+				<span class="menu__text">關於我</span>
 				
 			</a>
 		</li>
@@ -136,7 +137,7 @@
 <p>2023-03-03 day?</p>
 <p>移除了看板娘……这个太拖慢<code>hexo g</code>了。</p>
 <p>2023-03-01 day ?</p>
-<p>禁止搜索引擎建立索引：注入#noindex 参考<!-- raw HTML omitted -->blog.icpz.dev<!-- raw HTML omitted --></p>
+<p>禁止搜索引擎建立索引：注入#noindex 参考<a class="p" href="https://blog.icpz.dev/articles/hexo/hexo-next-add-noindex-meta-tag/">blog.icpz.dev</a></p>
 <p>2023-02-23 day 8</p>
 <ul>
 <li>放置z-16看板娘；</li>
@@ -160,14 +161,14 @@
 </li>
 <li>還想做一個音樂播放器（請放心<strong>它不會自動播放</strong>，利用插件<a href="https://github.com/MoePlayer/hexo-tag-aplayer">hexo-tag-aplayer</a></li>
 <li>以及jsDelivr對靜態資源的CDN加速（……你爲什麼不先整理一下那堆醜陋的代碼?）</li>
-<li>以及<del>想辦法修復</del><a href="https://valine.js.org/">Valine</a>評論系統（……To be honest我不打算做了。第一，<a href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta">Disroot Bin</a>作爲匿名留言板已經足夠充當這個博客的評論系統了；第二，我目前見到過的Valine都壞掉了（401錯誤…）。也見到過基於<a href="https://docs.github.com/en/discussions">GitHub Discussions</a>的評論系統（比如<a href="https://giscus.app">giscus</a>），不過似乎需要OAuth授權，而<!-- raw HTML omitted -->我對博客評論系統的選擇原則：匿名且無需驗證，這很重要，因爲我真的非常想收到留言。登錄帳號或者人機認證會讓人感到掃興。<!-- raw HTML omitted --></li>
+<li>以及<del>想辦法修復</del><a href="https://valine.js.org/">Valine</a>評論系統（……To be honest我不打算做了。第一，<a href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta">Disroot Bin</a>作爲匿名留言板已經足夠充當這個博客的評論系統了；第二，我目前見到過的Valine都壞掉了（401錯誤…）。也見到過基於<a href="https://docs.github.com/en/discussions">GitHub Discussions</a>的評論系統（比如<a href="https://giscus.app">giscus</a>），不過似乎需要OAuth授權，而<b>我對博客評論系統的選擇原則：匿名且無需驗證，這很重要，因爲我真的非常想收到留言。登錄帳號或者人機認證會讓人感到掃興。</b></li>
 </ul>
 <p>接下來會有很長一段時間我不再對這個博客進行裝修，因爲要忙畢業論文與留學申請的事。（我似乎…只有拖到無可再拖的時候（比如即將錯過申請的DDL）纔會有足夠的能動性push我自己去做事。）</p>
 <p>2023-02-18 day 3</p>
 <p>丢掉了banner（加载太慢）
 微改主题</p>
 <p>2023-02-17 day 2</p>
-<p>照搬<!-- raw HTML omitted -->yearito<!-- raw HTML omitted -->的代码做了一个鼠标点击的烟花特效</p>
+<p>照搬<a class="p" href="http://yearito.cn/posts/hexo-theme-beautify.html">yearito</a>的代码做了一个鼠标点击的烟花特效</p>
 <p>2023-02-16 day 1</p>
 <p>将匿名提问箱NekoBox用作静态博客的评论系统;
 配置顶部导航栏;
@@ -178,7 +179,7 @@
 <p>网站诞生的第0天;
 配置MathJax;</p>
 <hr>
-<p>留言請按<!-- raw HTML omitted -->這裡<!-- raw HTML omitted --></p>
+<p>留言請按<a href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta">這裡</a></p>
 
 		</div>
 		<footer class="post__footer">
@@ -213,14 +214,16 @@
 
 
 
-<div id="waline"></div>
-<script type="module">
-	import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
 
-	init({
-		el: '#waline',
-		serverURL: 'https://updowncity.vercel.app',
-	});
+
+<div id="vcomments"></div>
+<script>
+		new Valine({
+				el: '#vcomments',
+				appId: '7jLnVbQbNo9PxLMI9t4cSe9A-MdYXbMMI',
+				appKey: 'qPY4pFLjmbAk5b9AVepNlLZW',
+				avatar: 'identicon'
+		})
 </script>
 
 			</div>
@@ -238,6 +241,13 @@
 	</div>
 <script async defer src="/js/menu.js"></script>
 <script src="/js/cursor.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+  </script>
 </body>
 </html>

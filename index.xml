@@ -5,7 +5,7 @@
     <link>https://updown.city/</link>
     <description>Recent content on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
     <lastBuildDate>Mon, 27 Mar 2023 14:49:57 +0800</lastBuildDate><atom:link href="https://updown.city/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nekobox Backup</title>
@@ -101,10 +101,10 @@
     
     <item>
       <title>日誌</title>
-      <link>https://updown.city/changelog/</link>
+      <link>https://updown.city/pinned/changelog/</link>
       <pubDate>Sat, 18 Mar 2023 22:41:49 +0000</pubDate>
       
-      <guid>https://updown.city/changelog/</guid>
+      <guid>https://updown.city/pinned/changelog/</guid>
       <description>categories: &amp;ldquo;stack&amp;rdquo; tags: [&amp;ldquo;碎碎唸&amp;rdquo;, &amp;ldquo;網站&amp;rdquo;]
 2023-03-22
 從NameSilo買了域名updown.city（爲了防止我刪庫跑路），比隔壁狗爹(GoDaddy)友好很多 除非你很討厭洋文
@@ -113,7 +113,7 @@
 放置了一个加载非常缓慢且很可能除了报错什么也不会的留言板； 备份默认的字体配置（目前我只在后面加了微软雅黑（阻止衬线与等宽的中文fallback到宋体）。不过很难期待ugly-blue的作者会愿意认真考虑可读性问题。）
 2023-03-29
 通過沙盒回歸舊的景觀，緩慢搬運。果然我不喜歡我的「醜陋的憂鬱」。2023-03-19 第一次添加友鏈（又是丟失的時間戳，就像那些蟲蛻。） 把原本裝在injector裡的內容取出然後放入主題文件夾裡的head.ejs（……因爲landscape已經很久都沒有更新了，我可以放心地改主題文件，無需考慮更新時我的配置被覆寫什麼的。） 换掉了changelog页(爲什麼); （時間戳丟失）
-寫論文摸魚的時候逛Hexo主题，始终没有找到合我心意的主题。於是动手制作这个臨時被我命名为ugly-blue的主题（原名是ugly-html，但它並不是純HTML所以就改成了现在这个「醜陋的憂鬱」…另一个待选名称是it-just-works，目前整个文件夹只有2.47KB(&amp;hellip;CSS什么的都被我喂进了injector.js)&amp;hellip;效果近似于破损的默认主题，但它至少是能用的。（…就像觉得perverse sheaf难听的人可以选择用hypersheaf这个名字）目前想做的是仿照Emacs默认主题配置按钮。 加入了moults虫蜕页面，用来记录那些死去[?]并且被我遗忘的網站（或许某一天我会像说“太阳升起来了”一样说这些网站是属于我的…），想法来自disroot bin的这条留言。我的记忆力有时相当糟糕，有时我甚至感到我的生命是不连续的。</description>
+--- title: 裝配記錄 date: 2023-03-12 02:28:47 --- 寫論文摸魚的時候逛Hexo主题，始终没有找到合我心意的主题。於是动手制作这个臨時被我命名为ugly-blue的主题（原名是ugly-html，但它並不是純HTML所以就改成了现在这个「醜陋的憂鬱」…另一个待选名称是it-just-works，目前整个文件夹只有2.47KB(&amp;hellip;CSS什么的都被我喂进了injector.js)&amp;hellip;效果近似于破损的默认主题，但它至少是能用的。（…就像觉得perverse sheaf难听的人可以选择用hypersheaf这个名字）目前想做的是仿照Emacs默认主题配置按钮。 加入了moults虫蜕页面，用来记录那些死去[?]并且被我遗忘的網站（或许某一天我会像说“太阳升起来了”一样说这些网站是属于我的…），想法来自disroot bin的这条留言。我的记忆力有时相当糟糕，有时我甚至感到我的生命是不连续的。</description>
     </item>
     
     <item>
@@ -127,10 +127,10 @@
     
     <item>
       <title>將我遺忘在海邊吧</title>
-      <link>https://updown.city/bupropion/</link>
+      <link>https://updown.city/pinned/bupropion/</link>
       <pubDate>Fri, 17 Mar 2023 22:57:31 +0000</pubDate>
       
-      <guid>https://updown.city/bupropion/</guid>
+      <guid>https://updown.city/pinned/bupropion/</guid>
       <description>简繁切换是手动进行的（因为我很在意文字的形状……）
 我从Waline管理员页面是可以删除评论的，所以如果某一天你想要从我所触及到的世界彻底消失，抹除一切可见的痕迹，可以邮件联系我：jamais-vu@tutanota.com。（就好像寫這樣一個聲明可以帶給訪客安心的感覺。你真的這麼想嗎。）
 Powered by Hugo with Console Theme.
@@ -144,10 +144,10 @@ Powered by Hugo with Console Theme.
     
     <item>
       <title>虫蜕</title>
-      <link>https://updown.city/moults/</link>
+      <link>https://updown.city/pinned/moults/</link>
       <pubDate>Fri, 17 Mar 2023 02:00:29 +0000</pubDate>
       
-      <guid>https://updown.city/moults/</guid>
+      <guid>https://updown.city/pinned/moults/</guid>
       <description>&lt;p&gt;如果你发现了这里没有列出的虫蜕请到&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;留言&lt;code&gt;^_^&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;爲了找到這些蟲蛻我需要：&lt;/p&gt;
 &lt;ul&gt;
@@ -169,10 +169,10 @@ Powered by Hugo with Console Theme.
     
     <item>
       <title>友鏈</title>
-      <link>https://updown.city/friends/</link>
+      <link>https://updown.city/pinned/friends/</link>
       <pubDate>Sun, 12 Mar 2023 00:38:32 +0000</pubDate>
       
-      <guid>https://updown.city/friends/</guid>
+      <guid>https://updown.city/pinned/friends/</guid>
       <description>this terrible chamber - yet eidetically you
 A blog - A的存文地</description>
     </item>
@@ -214,7 +214,9 @@ A blog - A的存文地</description>
       
       <guid>https://updown.city/posts/sayounara-neko-box/</guid>
       <description>睡醒一觉起来发现NekoBox提问箱因为不可抗力因素关闭了。虽然邮箱里还能找到收到的提问，但我的回复全都已经无法找回了。想到我开这个博客的契机也是NekoBox：好奇心使然地点开页尾的链接，找到开发者的个人博客，读到他毕业后写的关于大学四年的碎碎念，于是萌发了(再次)搭建个人博客的想法。这次很顺利，没有迷路。我想要一个initialization不那么轻松的个人博客，因为初始化时遇到的困难可以阻止我冲动之下把它销毁掉（我注销过很多个WriteFreely博客…）。NekoBox是我的第一个评论系统。既然开发者的Twitter简介里提到「不谈政治」，我也就不再这个post里谈论言论审查之类的话题了。
-{% blockquote 一只大茄瓜🍆 @wuhan005 https://twitter.com/wuhan005/status/1628696994226257921 %} 今天突然接到网信办的电话，大致是我开发运营的一个站下面有人发敏感内容。工作人员态度真心很好，他们的难处我也理解。配合完工作后还是关掉了运营三年的网站，凄惨。一个人收拾收拾出门喝酒了。😢 {% endblockquote %}
+{% blockquote 一只大茄瓜🍆 @wuhan005 https://twitter.com/wuhan005/status/1628696994226257921 %} 今天突然接到网信办的电话，大致是我开发运营的一个站下面有人发敏感内容。
+工作人员态度真心很好，他们的难处我也理解。配合完工作后还是关掉了运营三年的网站，凄惨。
+一个人收拾收拾出门喝酒了。😢 {% endblockquote %}
 这条Twitter让我想到去年这个时候想过的：虽然我们很厌恶state apparatus，但遇到的具体的人往往很nice。反抗行政机器就意味着要伤害这些曾经温柔地对待过我们的人们。（或许这种优柔寡断对其他没有孤独到放弃单数第一人称代词的人来说是难以理解的…）
 {% blockquote 明流 @myouryu1 https://twitter.com/myouryu1/status/1628698895349084161 %} 😭😭😭刚点开就发现站无了，nekobox 真的非常优秀诶，推荐给了很多朋友，这样的结局让人很不舍……开发这样一个良好的平台很费心力，看日志和主页也能感受在上面花了很多力气和感情，对于开发它的您只能表达痛惜…… {% endblockquote %}
 我也真的很羡慕这样能够自然地使用语言的人（以一种不那么perverse的方式传达自己的感情……）</description>

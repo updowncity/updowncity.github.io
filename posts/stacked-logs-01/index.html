@@ -33,10 +33,11 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400&family=Noto+Serif+TC:wght@300;400&display=swap">
 
 	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/styl/styl.css"><link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"><link rel="stylesheet" href="/css/styl/waline.css">
+	<link rel="stylesheet" href="/css/styl/styl.css"><link rel="stylesheet" href="/css/styl/valine.css">
 
 	<link rel="shortcut icon" href="/img/favicon.jpg">
 		
+	<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -58,30 +59,30 @@
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
-			<a class="menu__link" href="/friends">
+			<a class="menu__link" href="/pinned/friends/">
 				
-				<span class="menu__text">友链</span>
-				
-			</a>
-		</li>
-		<li class="menu__item">
-			<a class="menu__link" href="/changelog">
-				
-				<span class="menu__text">日誌</span>
+				<span class="menu__text">友鏈</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/moults">
+			<a class="menu__link" href="/pinned/moults/">
 				
 				<span class="menu__text">虫蜕</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/bupropion">
+			<a class="menu__link" href="/pinned/changelog/">
 				
-				<span class="menu__text">關於</span>
+				<span class="menu__text">網站日誌</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pinned/bupropion/">
+				
+				<span class="menu__text">關於我</span>
 				
 			</a>
 		</li>
@@ -139,14 +140,16 @@
 
 
 
-<div id="waline"></div>
-<script type="module">
-	import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
 
-	init({
-		el: '#waline',
-		serverURL: 'https://updowncity.vercel.app',
-	});
+
+<div id="vcomments"></div>
+<script>
+		new Valine({
+				el: '#vcomments',
+				appId: '7jLnVbQbNo9PxLMI9t4cSe9A-MdYXbMMI',
+				appKey: 'qPY4pFLjmbAk5b9AVepNlLZW',
+				avatar: 'identicon'
+		})
 </script>
 
 			</div>
@@ -164,6 +167,13 @@
 	</div>
 <script async defer src="/js/menu.js"></script>
 <script src="/js/cursor.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+  </script>
 </body>
 </html>

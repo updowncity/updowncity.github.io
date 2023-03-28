@@ -29,10 +29,11 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400&family=Noto+Serif+TC:wght@300;400&display=swap">
 
 	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/styl/styl.css"><link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"><link rel="stylesheet" href="/css/styl/waline.css">
+	<link rel="stylesheet" href="/css/styl/styl.css"><link rel="stylesheet" href="/css/styl/valine.css">
 
 	<link rel="shortcut icon" href="/img/favicon.jpg">
 		
+	<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -54,30 +55,30 @@
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
-			<a class="menu__link" href="/friends">
+			<a class="menu__link" href="/pinned/friends/">
 				
-				<span class="menu__text">友链</span>
-				
-			</a>
-		</li>
-		<li class="menu__item">
-			<a class="menu__link" href="/changelog">
-				
-				<span class="menu__text">日誌</span>
+				<span class="menu__text">友鏈</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/moults">
+			<a class="menu__link" href="/pinned/moults/">
 				
 				<span class="menu__text">虫蜕</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/bupropion">
+			<a class="menu__link" href="/pinned/changelog/">
 				
-				<span class="menu__text">關於</span>
+				<span class="menu__text">網站日誌</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pinned/bupropion/">
+				
+				<span class="menu__text">關於我</span>
 				
 			</a>
 		</li>
@@ -111,18 +112,18 @@
 categories: 回收站
 旧的链接页，蒐集过一些（或許）有趣的网页。
 <code>&lt;!-- more --&gt;</code>
-<!-- raw HTML omitted -->林奕含的FACEBOOK<!-- raw HTML omitted -->豆瓣</p>
-<p>我是个不会配置留言系统的菜鸟…所以想要留言的话请移步NekoBox<!-- raw HTML omitted -->匿名提问箱<!-- raw HTML omitted -->
-樓上的提問箱已經無法使用，請點這個<!-- raw HTML omitted -->新的留言板<!-- raw HTML omitted -->
+<a class="p" href="https://www.douban.com/note/667393756/">林奕含的FACEBOOK</a>豆瓣</p>
+<p>我是个不会配置留言系统的菜鸟…所以想要留言的话请移步NekoBox<a class="p" href="https://box.n3ko.co/_/ewi9ewiederkunft">匿名提问箱</a>
+樓上的提問箱已經無法使用，請點這個<a href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta">新的留言板</a>
 贴一些有趣的博客（想蹭友链）
-<!-- raw HTML omitted -->天仙子<!-- raw HTML omitted --> - 秦海碗的个人主页
-<!-- raw HTML omitted -->this terrible chamber<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->桜庭夜🎐杂话铺子<!-- raw HTML omitted --> - 一间由桜庭夜经营的贩售闲言碎语的小店
-<!-- raw HTML omitted -->Light Cube<!-- raw HTML omitted --> - 当真心想要做成一件事的时候，人总是孤独的。</p>
+<a class="p" href="https://tianxianzi.me/">天仙子</a> - 秦海碗的个人主页
+<a class="p" href="https://avianreport.github.io">this terrible chamber</a>
+<a class="p" href="https://yuuikic.com/">桜庭夜🎐杂话铺子</a> - 一间由桜庭夜经营的贩售闲言碎语的小店
+<a class="p" href="https://github.red/">Light Cube</a> - 当真心想要做成一件事的时候，人总是孤独的。</p>
 <p>这里是我发现的各种有趣的网站
-<!-- raw HTML omitted -->島嶼邊緣<!-- raw HTML omitted --> - 曾經是最重要的文化運動刊物&ndash;影響了整整一個世代
-<!-- raw HTML omitted -->荒原效應<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->时间物质<!-- raw HTML omitted --></p>
+<a class="p" href="http://intermargins.net/intermargins/IsleMargin/index.htm">島嶼邊緣</a> - 曾經是最重要的文化運動刊物&ndash;影響了整整一個世代
+<a class="p" href="https://plume.pullopen.xyz/@/Odland042">荒原效應</a>
+<a class="p" href="https://matterofti.me/">时间物质</a></p>
 
 		</div>
 		<footer class="post__footer">
@@ -157,14 +158,16 @@ categories: 回收站
 
 
 
-<div id="waline"></div>
-<script type="module">
-	import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
 
-	init({
-		el: '#waline',
-		serverURL: 'https://updowncity.vercel.app',
-	});
+
+<div id="vcomments"></div>
+<script>
+		new Valine({
+				el: '#vcomments',
+				appId: '7jLnVbQbNo9PxLMI9t4cSe9A-MdYXbMMI',
+				appKey: 'qPY4pFLjmbAk5b9AVepNlLZW',
+				avatar: 'identicon'
+		})
 </script>
 
 			</div>
@@ -182,6 +185,13 @@ categories: 回收站
 	</div>
 <script async defer src="/js/menu.js"></script>
 <script src="/js/cursor.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+  </script>
 </body>
 </html>
