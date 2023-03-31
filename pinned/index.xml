@@ -5,7 +5,6 @@
     <link>https://updown.city/pinned/</link>
     <description>Recent content in Pinneds on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
     <lastBuildDate>Sat, 18 Mar 2023 22:41:49 +0000</lastBuildDate><atom:link href="https://updown.city/pinned/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>日誌</title>
@@ -13,15 +12,7 @@
       <pubDate>Sat, 18 Mar 2023 22:41:49 +0000</pubDate>
       
       <guid>https://updown.city/pinned/changelog/</guid>
-      <description>categories: &amp;ldquo;stack&amp;rdquo; tags: [&amp;ldquo;碎碎唸&amp;rdquo;, &amp;ldquo;網站&amp;rdquo;]
-2023-03-22
-從NameSilo買了域名updown.city（爲了防止我刪庫跑路），比隔壁狗爹(GoDaddy)友好很多 除非你很討厭洋文
-2023-03-20
-搬家到Hugo（…因爲快）
-放置了一个加载非常缓慢且很可能除了报错什么也不会的留言板； 备份默认的字体配置（目前我只在后面加了微软雅黑（阻止衬线与等宽的中文fallback到宋体）。不过很难期待ugly-blue的作者会愿意认真考虑可读性问题。）
-2023-03-29
-通過沙盒回歸舊的景觀，緩慢搬運。果然我不喜歡我的「醜陋的憂鬱」。2023-03-19 第一次添加友鏈（又是丟失的時間戳，就像那些蟲蛻。） 把原本裝在injector裡的內容取出然後放入主題文件夾裡的head.ejs（……因爲landscape已經很久都沒有更新了，我可以放心地改主題文件，無需考慮更新時我的配置被覆寫什麼的。） 换掉了changelog页(爲什麼); （時間戳丟失）
---- title: 裝配記錄 date: 2023-03-12 02:28:47 --- 寫論文摸魚的時候逛Hexo主题，始终没有找到合我心意的主题。於是动手制作这个臨時被我命名为ugly-blue的主题（原名是ugly-html，但它並不是純HTML所以就改成了现在这个「醜陋的憂鬱」…另一个待选名称是it-just-works，目前整个文件夹只有2.47KB(&amp;hellip;CSS什么的都被我喂进了injector.js)&amp;hellip;效果近似于破损的默认主题，但它至少是能用的。（…就像觉得perverse sheaf难听的人可以选择用hypersheaf这个名字）目前想做的是仿照Emacs默认主题配置按钮。 加入了moults虫蜕页面，用来记录那些死去[?]并且被我遗忘的網站（或许某一天我会像说“太阳升起来了”一样说这些网站是属于我的…），想法来自disroot bin的这条留言。我的记忆力有时相当糟糕，有时我甚至感到我的生命是不连续的。</description>
+      <description>categories: &amp;ldquo;stack&amp;rdquo; tags: [&amp;ldquo;碎碎唸&amp;rdquo;, &amp;ldquo;網站&amp;rdquo;] 2023-03-22 從NameSilo買了域名updown.city（爲了防止我</description>
     </item>
     
     <item>
@@ -30,15 +21,7 @@
       <pubDate>Fri, 17 Mar 2023 22:57:31 +0000</pubDate>
       
       <guid>https://updown.city/pinned/bupropion/</guid>
-      <description>简繁切换是手动进行的（因为我很在意文字的形状……）
-我从Waline管理员页面是可以删除评论的，所以如果某一天你想要从我所触及到的世界彻底消失，抹除一切可见的痕迹，可以邮件联系我：jamais-vu@tutanota.com。（就好像寫這樣一個聲明可以帶給訪客安心的感覺。你真的這麼想嗎。）
-Powered by Hugo with Console Theme.
-留言 Disroot Bin 邮箱 jamais-vu@tutanota.com
-關鍵字 ugly-blue ugly-blue是一个只用了两天就被换掉的自制hexo主题，其实它也没有那么丑，ugly可以理解为前缀或语气词。它被换掉只是因为站长比较依恋默认主题的安心感。2023-03-20
-蟲蛻 站长的记忆力非常糟糕以至于经常感到生命是不连续的：如果将普通的睡眠（带来的不连续）比作关机重启，那么这里的不连续可以理解为各种原因带来的文件丢失（有时这种丢失甚至是难以觉察的。）2023-03-20
-站长是谁 按Ctrl+C你会得到一个HTML文件（以及掉在旁边的一个文件夹），站长就是这个鬼东西。2023-03-20
-我是谁 前两天我的校园卡丢了但没有发现直到晚上打开洗澡用的企业微信发现里面有一条消息让我去指定的一栋宿舍楼去领回，去年的比这稍晚些的时候，学校通知打第三针疫苗然后我发现身份证已经像旧的眼镜那样被搞丢了。不过即便这两件事情同时发生（也就是存在某个时间段我既找不到身份证也找不到校园卡），我也依旧能够回到这里（也就是你刚才下载的那个HTML文件（或许你不会真的下载它）的路。（我不是故意的……自然状态下我的语言就是这个样子的你在别处看到能够阅读的段落是因为我认真地进行了断句和整理。）2023-03-20 (你同样无法期待这个掉落过很多虫蜕的作者会有一个固定的时间戳格式) 这段保留未经整理的形状的文本可以作为我的sample。
-你是谁 如果你想回答这个问题可以使用下面的留言板或者（如果Valine坏了）Disroot Bin 隱藏</description>
+      <description>简繁切换是手动进行的（因为我很在意文字的形状……） 我从Waline管理员页面是可以删除评论的，所以如果某一天你想要从我所触及到的世界彻底消失</description>
     </item>
     
     <item>
@@ -62,8 +45,7 @@ Powered by Hugo with Console Theme.
       <pubDate>Sun, 12 Mar 2023 00:38:32 +0000</pubDate>
       
       <guid>https://updown.city/pinned/friends/</guid>
-      <description>this terrible chamber - yet eidetically you
-A blog - A的存文地</description>
+      <description>this terrible chamber - yet eidetically you A blog - A的存文地</description>
     </item>
     
   </channel>

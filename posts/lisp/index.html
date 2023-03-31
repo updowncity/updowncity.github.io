@@ -8,18 +8,16 @@
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 		<meta property="og:title" content="lisp的发现與其他碎碎唸" />
-<meta property="og:description" content="闲逛的时候发现了AsciiDoc这个类似于Markdown优化的文本标记语言，然后想到org-mode：我可以把标题的syntax highlight给去掉，在第一级标题的地方写初始文本，然后从第二级标题开始放我那堆该死的括号1。很显然it doesn&rsquo;t work因为我的括号是出现在段落内部的，而这些标题是必须位于段首的…寫出來會相當ugly。然后在想：我想要的是利用电脑屏幕(什么鬼)实现括号的折叠与配对（虽然这样一来出现于重叠的右括号的singularity就不复存在了，但至少：(1)阅读友好（幽灵能否读懂这坨狗屎我并不care但我寫論文還是需要把它們整理成條理清晰(至少能夠閱讀)的語言的……（我真的很想把充滿括號stack(s)的原始文本拿出去噁心別人就像現在這樣…）;(2)singularities并不是真的消失，它们只是以被消解(铺开)掉的形式呈现着（比如这种东西（但愿我没数错））））然后………………这TMD不就是lisp吗。（前兩天插上就被我忘掉的flag…） 其实我过去从来没想过会lisp，第一我对编写具体的程序不太感兴趣（我对事物的兴趣…很多时候是把原理搞清楚以后就结束了）；第二我在玩emacs的时候见到很多说lisp很难很不友好的(&hellip;信息?)；第三我真的找不到编程的动机。去年这个时候我因为选课失误而不得不学python然后怎么都学不会…很绝望，因为交不上作业。到结课的时候我还是不会寫python…（我很敬佩编程随想但我是真的很讨厌python因为学不会）其实我也无法理解，python作为语言本该是很trivial的东西（否则它不会成为被广泛使用的工具），我大一的时候也学过C和C&#43;&#43;（是专必），也都还算顺利…。现在想想大概只是我无法适应*封装*(的世界)吧。刚才搜了下中文结果，那些知乎上对lisp吹捧或是贬低的文章让我感到……我不属于他们的世界。 另一个是，昨天我忽然意识到其实我至少从去年就已经确定了具体的方向，因为我无论做什么都会指向某个点……（我一直在寻找的）。发现以后觉得是显然的，但在此之前我一直很迷茫（以至于错过了一个申请季……我错过申请季不是因为脑子进水忘掉截止日期，而是因为对未来彻底的迷茫。）对我来说这些就好像是一个预先被安排好的人生轨迹，而非出于我个人的选择。 我只會寫這種心情随笔，小女生的碎碎唸。这里就像一个隐藏的秘密花园空间（我自知无力维护一个花园……）
-其实除了括号还有脚注（写到后面突然想起来的内容）&#160;&#x21a9;&#xfe0e;" />
+<meta property="og:description" content="闲逛的时候发现了AsciiDoc这个类似于Markdown优化的文本标记语言，然后想到org-mode：我可以把标题的syntax highl" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://updown.city/posts/lisp/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-03-23T23:11:05+08:00" />
 <meta property="article:modified_time" content="2023-03-23T23:11:05+08:00" />
 
 		<meta itemprop="name" content="lisp的发现與其他碎碎唸">
-<meta itemprop="description" content="闲逛的时候发现了AsciiDoc这个类似于Markdown优化的文本标记语言，然后想到org-mode：我可以把标题的syntax highlight给去掉，在第一级标题的地方写初始文本，然后从第二级标题开始放我那堆该死的括号1。很显然it doesn&rsquo;t work因为我的括号是出现在段落内部的，而这些标题是必须位于段首的…寫出來會相當ugly。然后在想：我想要的是利用电脑屏幕(什么鬼)实现括号的折叠与配对（虽然这样一来出现于重叠的右括号的singularity就不复存在了，但至少：(1)阅读友好（幽灵能否读懂这坨狗屎我并不care但我寫論文還是需要把它們整理成條理清晰(至少能夠閱讀)的語言的……（我真的很想把充滿括號stack(s)的原始文本拿出去噁心別人就像現在這樣…）;(2)singularities并不是真的消失，它们只是以被消解(铺开)掉的形式呈现着（比如这种东西（但愿我没数错））））然后………………这TMD不就是lisp吗。（前兩天插上就被我忘掉的flag…） 其实我过去从来没想过会lisp，第一我对编写具体的程序不太感兴趣（我对事物的兴趣…很多时候是把原理搞清楚以后就结束了）；第二我在玩emacs的时候见到很多说lisp很难很不友好的(&hellip;信息?)；第三我真的找不到编程的动机。去年这个时候我因为选课失误而不得不学python然后怎么都学不会…很绝望，因为交不上作业。到结课的时候我还是不会寫python…（我很敬佩编程随想但我是真的很讨厌python因为学不会）其实我也无法理解，python作为语言本该是很trivial的东西（否则它不会成为被广泛使用的工具），我大一的时候也学过C和C&#43;&#43;（是专必），也都还算顺利…。现在想想大概只是我无法适应*封装*(的世界)吧。刚才搜了下中文结果，那些知乎上对lisp吹捧或是贬低的文章让我感到……我不属于他们的世界。 另一个是，昨天我忽然意识到其实我至少从去年就已经确定了具体的方向，因为我无论做什么都会指向某个点……（我一直在寻找的）。发现以后觉得是显然的，但在此之前我一直很迷茫（以至于错过了一个申请季……我错过申请季不是因为脑子进水忘掉截止日期，而是因为对未来彻底的迷茫。）对我来说这些就好像是一个预先被安排好的人生轨迹，而非出于我个人的选择。 我只會寫這種心情随笔，小女生的碎碎唸。这里就像一个隐藏的秘密花园空间（我自知无力维护一个花园……）
-其实除了括号还有脚注（写到后面突然想起来的内容）&#160;&#x21a9;&#xfe0e;"><meta itemprop="datePublished" content="2023-03-23T23:11:05+08:00" />
+<meta itemprop="description" content="闲逛的时候发现了AsciiDoc这个类似于Markdown优化的文本标记语言，然后想到org-mode：我可以把标题的syntax highl"><meta itemprop="datePublished" content="2023-03-23T23:11:05+08:00" />
 <meta itemprop="dateModified" content="2023-03-23T23:11:05+08:00" />
-<meta itemprop="wordCount" content="8">
+<meta itemprop="wordCount" content="1052">
 <meta itemprop="keywords" content="" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -27,7 +25,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400&family=Noto+Serif+TC:wght@300;400&display=swap">
 
 	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/styl/styl.css"><link rel="stylesheet" href="/css/styl/valine.css">
+	<link rel="stylesheet" href="/css/styl/styl.css"><link rel="stylesheet" href="/css/styl/valine.css"><link rel="stylesheet" href="http://tikzjax.com/v1/fonts.css">
 
 	<link rel="shortcut icon" href="/img/favicon.jpg">
 		
@@ -37,53 +35,46 @@
 	<div class="container container--outer">
 		<header class="header">
 	<div class="container header__container">
-		
-	<div class="logo">
-		<a class="logo__link" href="/" title="你快樂嗎" rel="home">
-			<div class="logo__item logo__text">
-					<div class="logo__title">你快樂嗎</div>
-					<div class="logo__tagline">會有答案嗎</div>
-				</div>
-		</a>
-	</div>
+	
 		
 <nav class="menu">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
-		<span class="menu__btn-title" tabindex="-1">Menu</span>
+		
+		<span class="menu__btn-title" tabindex="-1">[按钮?]</span>
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
 			<a class="menu__link" href="/pinned/friends/">
 				
-				<span class="menu__text">友鏈</span>
+				<span class="menu__text">[友鏈]</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
 			<a class="menu__link" href="/pinned/moults/">
 				
-				<span class="menu__text">虫蜕</span>
+				<span class="menu__text">[虫蜕]</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
 			<a class="menu__link" href="/pinned/changelog/">
 				
-				<span class="menu__text">網站日誌</span>
+				<span class="menu__text">[網站日誌]</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
 			<a class="menu__link" href="/pinned/bupropion/">
 				
-				<span class="menu__text">關於我</span>
+				<span class="menu__text">[關於我]</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
 			<a class="menu__link" href="/">
 				
-				<span class="menu__text">默认</span>
+				<span class="menu__text">[默认]</span>
 				
 			</a>
 		</li>
@@ -104,6 +95,7 @@
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-03-23T23:11:05&#43;08:00">2023-03-23</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/%E6%97%A5%E8%AA%8C/" rel="category">日誌</a>
 	</span>
 </div></div>
+			<span class="post-word-count"> 1052 </span>
 		</header>
 		<div class="content post__content clearfix">
 			<p>闲逛的时候发现了<a href="https://asciidoc.org/">AsciiDoc</a>这个类似于Markdown优化的文本标记语言，然后想到org-mode：我可以把标题的syntax highlight给去掉，在第一级标题的地方写初始文本，然后从第二级标题开始放我那堆该死的括号<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。很显然it doesn&rsquo;t work因为我的括号是出现在段落内部的，而这些标题是必须位于段首的…寫出來會相當ugly。然后在想：我想要的是利用电脑屏幕(什么鬼)实现括号的折叠与配对（虽然这样一来出现于重叠的右括号的singularity就不复存在了，但至少：(1)阅读友好（幽灵能否读懂这坨狗屎我并不care但我寫論文還是需要把它們整理成條理清晰(至少能夠閱讀)的語言的……（我真的很想把充滿括號stack(s)的原始文本拿出去噁心別人就像現在這樣…）;(2)singularities并不是真的消失，它们只是以被消解(铺开)掉的形式呈现着（比如这种东西（但愿我没数错））））然后………………这TMD不就是lisp吗。（前兩天插上就被我忘掉的flag…）
@@ -123,7 +115,6 @@
 	</article>
 </main>
 
-
 <nav class="pager flex">
 	<div class="pager__item pager__item--prev">
 		<a class="pager__link" href="/posts/initialization/" rel="prev">
@@ -138,11 +129,6 @@
 		</a>
 	</div>
 </nav>
-
-
-
-
-
 <div id="vcomments"></div>
 <script>
 		new Valine({
@@ -153,8 +139,67 @@
 		})
 </script>
 
+
 			</div>
-			
+			<aside class="sidebar">
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">&lt;inbox&gt;</h4>
+	<div class="widget-social__content widget__content">
+
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="NekoBox"  rel="noopener noreferrer" href="https://box.n3ko.cc/_/ewi9ewiederkunft" target="_blank">
+				<span>NekoBox</span>
+			</a>
+		</div>
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Disroot Bin"  rel="noopener noreferrer" href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta" target="_blank">
+				<span>Disroot Bin</span>
+			</a>
+		</div>
+		
+	</div>
+</div>
+
+<div class="widget-categories widget">
+	<h4 class="widget__title">&lt;folders&gt;</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/%E5%9D%91/">坑???</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">(1)</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/%E6%95%85%E7%B4%99%E5%A0%86/">故紙堆</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">(4)</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/%E6%97%A5%E8%AA%8C/">日誌</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">(9)</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/%E7%94%B5%E6%B3%A2/">电波</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">(1)</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/%E7%A2%8E%E7%A2%8E%E5%94%B8/">碎碎唸</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">(3)</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/%E8%99%AB%E8%9C%95/">虫蜕</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">(3)</span>
+				</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">&lt;hint&gt;</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/%E5%9B%9E%E6%94%B6%E7%AB%99/" title="回收站">回收站 (3)</a>
+	</div>
+</div>
+</aside>
 		</div>
 		<footer class="footer">
 	<div class="container footer__container flex">
@@ -167,7 +212,7 @@
 </footer>
 	</div>
 <script async defer src="/js/menu.js"></script>
-<script src="/js/cursor.js"></script>
+<script src="/js/cursor.js"></script><script src="http://tikzjax.com/v1/tikzjax.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js?config=TeX-AMS-MML_HTMLorMML" async></script>
 <script>
   MathJax = {

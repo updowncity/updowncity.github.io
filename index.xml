@@ -5,8 +5,16 @@
     <link>https://updown.city/</link>
     <description>Recent content on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Mar 2023 14:49:57 +0800</lastBuildDate><atom:link href="https://updown.city/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Mar 2023 18:36:15 +0800</lastBuildDate><atom:link href="https://updown.city/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>明天是四月一日</title>
+      <link>https://updown.city/posts/tomorrow-april/</link>
+      <pubDate>Fri, 31 Mar 2023 18:36:15 +0800</pubDate>
+      
+      <guid>https://updown.city/posts/tomorrow-april/</guid>
+      <description>搞点事情。</description>
+    </item>
+    
     <item>
       <title>Nekobox Backup</title>
       <link>https://updown.city/posts/nekobox-backup/</link>
@@ -31,8 +39,7 @@
       <pubDate>Thu, 23 Mar 2023 23:11:05 +0800</pubDate>
       
       <guid>https://updown.city/posts/lisp/</guid>
-      <description>闲逛的时候发现了AsciiDoc这个类似于Markdown优化的文本标记语言，然后想到org-mode：我可以把标题的syntax highlight给去掉，在第一级标题的地方写初始文本，然后从第二级标题开始放我那堆该死的括号1。很显然it doesn&amp;rsquo;t work因为我的括号是出现在段落内部的，而这些标题是必须位于段首的…寫出來會相當ugly。然后在想：我想要的是利用电脑屏幕(什么鬼)实现括号的折叠与配对（虽然这样一来出现于重叠的右括号的singularity就不复存在了，但至少：(1)阅读友好（幽灵能否读懂这坨狗屎我并不care但我寫論文還是需要把它們整理成條理清晰(至少能夠閱讀)的語言的……（我真的很想把充滿括號stack(s)的原始文本拿出去噁心別人就像現在這樣…）;(2)singularities并不是真的消失，它们只是以被消解(铺开)掉的形式呈现着（比如这种东西（但愿我没数错））））然后………………这TMD不就是lisp吗。（前兩天插上就被我忘掉的flag…） 其实我过去从来没想过会lisp，第一我对编写具体的程序不太感兴趣（我对事物的兴趣…很多时候是把原理搞清楚以后就结束了）；第二我在玩emacs的时候见到很多说lisp很难很不友好的(&amp;hellip;信息?)；第三我真的找不到编程的动机。去年这个时候我因为选课失误而不得不学python然后怎么都学不会…很绝望，因为交不上作业。到结课的时候我还是不会寫python…（我很敬佩编程随想但我是真的很讨厌python因为学不会）其实我也无法理解，python作为语言本该是很trivial的东西（否则它不会成为被广泛使用的工具），我大一的时候也学过C和C++（是专必），也都还算顺利…。现在想想大概只是我无法适应*封装*(的世界)吧。刚才搜了下中文结果，那些知乎上对lisp吹捧或是贬低的文章让我感到……我不属于他们的世界。 另一个是，昨天我忽然意识到其实我至少从去年就已经确定了具体的方向，因为我无论做什么都会指向某个点……（我一直在寻找的）。发现以后觉得是显然的，但在此之前我一直很迷茫（以至于错过了一个申请季……我错过申请季不是因为脑子进水忘掉截止日期，而是因为对未来彻底的迷茫。）对我来说这些就好像是一个预先被安排好的人生轨迹，而非出于我个人的选择。 我只會寫這種心情随笔，小女生的碎碎唸。这里就像一个隐藏的秘密花园空间（我自知无力维护一个花园……）
-其实除了括号还有脚注（写到后面突然想起来的内容）&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+      <description>闲逛的时候发现了AsciiDoc这个类似于Markdown优化的文本标记语言，然后想到org-mode：我可以把标题的syntax highl</description>
     </item>
     
     <item>
@@ -105,15 +112,7 @@
       <pubDate>Sat, 18 Mar 2023 22:41:49 +0000</pubDate>
       
       <guid>https://updown.city/pinned/changelog/</guid>
-      <description>categories: &amp;ldquo;stack&amp;rdquo; tags: [&amp;ldquo;碎碎唸&amp;rdquo;, &amp;ldquo;網站&amp;rdquo;]
-2023-03-22
-從NameSilo買了域名updown.city（爲了防止我刪庫跑路），比隔壁狗爹(GoDaddy)友好很多 除非你很討厭洋文
-2023-03-20
-搬家到Hugo（…因爲快）
-放置了一个加载非常缓慢且很可能除了报错什么也不会的留言板； 备份默认的字体配置（目前我只在后面加了微软雅黑（阻止衬线与等宽的中文fallback到宋体）。不过很难期待ugly-blue的作者会愿意认真考虑可读性问题。）
-2023-03-29
-通過沙盒回歸舊的景觀，緩慢搬運。果然我不喜歡我的「醜陋的憂鬱」。2023-03-19 第一次添加友鏈（又是丟失的時間戳，就像那些蟲蛻。） 把原本裝在injector裡的內容取出然後放入主題文件夾裡的head.ejs（……因爲landscape已經很久都沒有更新了，我可以放心地改主題文件，無需考慮更新時我的配置被覆寫什麼的。） 换掉了changelog页(爲什麼); （時間戳丟失）
---- title: 裝配記錄 date: 2023-03-12 02:28:47 --- 寫論文摸魚的時候逛Hexo主题，始终没有找到合我心意的主题。於是动手制作这个臨時被我命名为ugly-blue的主题（原名是ugly-html，但它並不是純HTML所以就改成了现在这个「醜陋的憂鬱」…另一个待选名称是it-just-works，目前整个文件夹只有2.47KB(&amp;hellip;CSS什么的都被我喂进了injector.js)&amp;hellip;效果近似于破损的默认主题，但它至少是能用的。（…就像觉得perverse sheaf难听的人可以选择用hypersheaf这个名字）目前想做的是仿照Emacs默认主题配置按钮。 加入了moults虫蜕页面，用来记录那些死去[?]并且被我遗忘的網站（或许某一天我会像说“太阳升起来了”一样说这些网站是属于我的…），想法来自disroot bin的这条留言。我的记忆力有时相当糟糕，有时我甚至感到我的生命是不连续的。</description>
+      <description>categories: &amp;ldquo;stack&amp;rdquo; tags: [&amp;ldquo;碎碎唸&amp;rdquo;, &amp;ldquo;網站&amp;rdquo;] 2023-03-22 從NameSilo買了域名updown.city（爲了防止我</description>
     </item>
     
     <item>
@@ -131,15 +130,7 @@
       <pubDate>Fri, 17 Mar 2023 22:57:31 +0000</pubDate>
       
       <guid>https://updown.city/pinned/bupropion/</guid>
-      <description>简繁切换是手动进行的（因为我很在意文字的形状……）
-我从Waline管理员页面是可以删除评论的，所以如果某一天你想要从我所触及到的世界彻底消失，抹除一切可见的痕迹，可以邮件联系我：jamais-vu@tutanota.com。（就好像寫這樣一個聲明可以帶給訪客安心的感覺。你真的這麼想嗎。）
-Powered by Hugo with Console Theme.
-留言 Disroot Bin 邮箱 jamais-vu@tutanota.com
-關鍵字 ugly-blue ugly-blue是一个只用了两天就被换掉的自制hexo主题，其实它也没有那么丑，ugly可以理解为前缀或语气词。它被换掉只是因为站长比较依恋默认主题的安心感。2023-03-20
-蟲蛻 站长的记忆力非常糟糕以至于经常感到生命是不连续的：如果将普通的睡眠（带来的不连续）比作关机重启，那么这里的不连续可以理解为各种原因带来的文件丢失（有时这种丢失甚至是难以觉察的。）2023-03-20
-站长是谁 按Ctrl+C你会得到一个HTML文件（以及掉在旁边的一个文件夹），站长就是这个鬼东西。2023-03-20
-我是谁 前两天我的校园卡丢了但没有发现直到晚上打开洗澡用的企业微信发现里面有一条消息让我去指定的一栋宿舍楼去领回，去年的比这稍晚些的时候，学校通知打第三针疫苗然后我发现身份证已经像旧的眼镜那样被搞丢了。不过即便这两件事情同时发生（也就是存在某个时间段我既找不到身份证也找不到校园卡），我也依旧能够回到这里（也就是你刚才下载的那个HTML文件（或许你不会真的下载它）的路。（我不是故意的……自然状态下我的语言就是这个样子的你在别处看到能够阅读的段落是因为我认真地进行了断句和整理。）2023-03-20 (你同样无法期待这个掉落过很多虫蜕的作者会有一个固定的时间戳格式) 这段保留未经整理的形状的文本可以作为我的sample。
-你是谁 如果你想回答这个问题可以使用下面的留言板或者（如果Valine坏了）Disroot Bin 隱藏</description>
+      <description>简繁切换是手动进行的（因为我很在意文字的形状……） 我从Waline管理员页面是可以删除评论的，所以如果某一天你想要从我所触及到的世界彻底消失</description>
     </item>
     
     <item>
@@ -163,8 +154,7 @@ Powered by Hugo with Console Theme.
       <pubDate>Sun, 12 Mar 2023 00:41:57 +0000</pubDate>
       
       <guid>https://updown.city/posts/what-happened/</guid>
-      <description>又一次搞砸了，只好刪庫重來。（然後換了這樣一個很溫柔的主題。（……而這兩件事的關聯）
-曾經放棄過，註冊了新的github帳號，甚至買了域名（雖然我打死也不說那個域名是什麼…它是我名字的縮寫加我喜歡的人兩年前的(一個)ID。能夠進入那個網站的人也只會以爲那是我爲了省錢而在名字縮寫後面加的隨機數。那邊沒有CJK所以字體也就調到16px（我對微軟雅黑14px時的hint有奇怪的執念）。雖然我很討厭這種類似於將工作與休閒分隔開來的處理，但那邊的強光會讓人感到很不舒服。或者說，那邊用來存放「幸福的閃電」，這邊則是「熟悉的黑夜」。當然那邊現在還是不會有訪客的（至少要等我寫出第一個…會讓別人感興趣的理論）。</description>
+      <description>又一次搞砸了，只好刪庫重來。（然後換了這樣一個很溫柔的主題。（……而這兩件事的關聯） 曾經放棄過，註冊了新的github帳號，甚至買了域名（雖</description>
     </item>
     
     <item>
@@ -173,8 +163,7 @@ Powered by Hugo with Console Theme.
       <pubDate>Sun, 12 Mar 2023 00:38:32 +0000</pubDate>
       
       <guid>https://updown.city/pinned/friends/</guid>
-      <description>this terrible chamber - yet eidetically you
-A blog - A的存文地</description>
+      <description>this terrible chamber - yet eidetically you A blog - A的存文地</description>
     </item>
     
     <item>
@@ -183,9 +172,7 @@ A blog - A的存文地</description>
       <pubDate>Wed, 08 Mar 2023 10:00:59 +0000</pubDate>
       
       <guid>https://updown.city/posts/stacked-logs-02/</guid>
-      <description>想了想还是把声明里的那段关于授权的文字给删掉了（因为它让我感到非常不安）。我本该像远离知乎一样远离Twitter中文圈的某类话题的。那些对好奇心与热情的嫉妒与敌意真的很可怕。
-在「发明」了许多数学概念以后，我终于意识到没有什么东西是属于我的。那些绝妙的想法（能够明显感觉到它与那些穿凿附会的解释之间强度上的差异）往往带有强烈的异质感，我永远不会声称那幸福的闪电属于我。因此我拒绝设置任何lisence。取而代之的是个人的请求：不要做会给我带来麻烦和困扰的事，也请不要把本站连接分享给会给我带来麻烦与困扰的人（……比如在线下世界中认识我的人。）你们所看到的我可以链接到线下世界的我（比如给我寄过东西的人会知道我的学校名字和手机号），但反过来（对我来说）真的很恐怖。
-部署失败：Failed to connect to github.com port 443 after 2035 ms: Couldn&#39;t connect to server。 这段时间总是很无力，不知道怎样做才能驱动我走向未来。就连敲下这段文字的时候也突然陷入停滞的状态。s</description>
+      <description>想了想还是把声明里的那段关于授权的文字给删掉了（因为它让我感到非常不安）。我本该像远离知乎一样远离Twitter中文圈的某类话题的。那些对好</description>
     </item>
     
     <item>
@@ -204,7 +191,7 @@ A blog - A的存文地</description>
       <pubDate>Wed, 01 Mar 2023 18:25:09 +0000</pubDate>
       
       <guid>https://updown.city/posts/funny-things/</guid>
-      <description>能够理解，最后这个「给我留下语音邮件，指责我是中情局特工，作为一个巨大的种族主义阴谋的一部分而封锁Facebook（是的，这真的发生了）。」……笑死我了</description>
+      <description>能够理解，最后这个「给我留下语音邮件，指责我是中情局特工，作为一个巨大的种族主义阴谋的一部分而封锁Facebook（是的，这真的发生了）。」</description>
     </item>
     
     <item>
@@ -213,13 +200,7 @@ A blog - A的存文地</description>
       <pubDate>Thu, 23 Feb 2023 20:38:55 +0000</pubDate>
       
       <guid>https://updown.city/posts/sayounara-neko-box/</guid>
-      <description>睡醒一觉起来发现NekoBox提问箱因为不可抗力因素关闭了。虽然邮箱里还能找到收到的提问，但我的回复全都已经无法找回了。想到我开这个博客的契机也是NekoBox：好奇心使然地点开页尾的链接，找到开发者的个人博客，读到他毕业后写的关于大学四年的碎碎念，于是萌发了(再次)搭建个人博客的想法。这次很顺利，没有迷路。我想要一个initialization不那么轻松的个人博客，因为初始化时遇到的困难可以阻止我冲动之下把它销毁掉（我注销过很多个WriteFreely博客…）。NekoBox是我的第一个评论系统。既然开发者的Twitter简介里提到「不谈政治」，我也就不再这个post里谈论言论审查之类的话题了。
-{% blockquote 一只大茄瓜🍆 @wuhan005 https://twitter.com/wuhan005/status/1628696994226257921 %} 今天突然接到网信办的电话，大致是我开发运营的一个站下面有人发敏感内容。
-工作人员态度真心很好，他们的难处我也理解。配合完工作后还是关掉了运营三年的网站，凄惨。
-一个人收拾收拾出门喝酒了。😢 {% endblockquote %}
-这条Twitter让我想到去年这个时候想过的：虽然我们很厌恶state apparatus，但遇到的具体的人往往很nice。反抗行政机器就意味着要伤害这些曾经温柔地对待过我们的人们。（或许这种优柔寡断对其他没有孤独到放弃单数第一人称代词的人来说是难以理解的…）
-{% blockquote 明流 @myouryu1 https://twitter.com/myouryu1/status/1628698895349084161 %} 😭😭😭刚点开就发现站无了，nekobox 真的非常优秀诶，推荐给了很多朋友，这样的结局让人很不舍……开发这样一个良好的平台很费心力，看日志和主页也能感受在上面花了很多力气和感情，对于开发它的您只能表达痛惜…… {% endblockquote %}
-我也真的很羡慕这样能够自然地使用语言的人（以一种不那么perverse的方式传达自己的感情……）</description>
+      <description>睡醒一觉起来发现NekoBox提问箱因为不可抗力因素关闭了。虽然邮箱里还能找到收到的提问，但我的回复全都已经无法找回了。想到我开这个博客的契</description>
     </item>
     
     <item>
@@ -237,10 +218,7 @@ A blog - A的存文地</description>
       <pubDate>Sat, 18 Feb 2023 20:50:42 +0000</pubDate>
       
       <guid>https://updown.city/posts/old-about/</guid>
-      <description>tags: 回收站 [常用]标签：
-#文学沙盒 用于存放不负责任的思考与感受
-此博客作案工具：
-Visual Studio Code 突然想要放弃「您好，我也不知道我是谁」这个开场白。我是一个inverse/projective limit，虽然这句话适用于每一个人，但它对我来说格外清晰。2023-02-18</description>
+      <description>tags: 回收站 [常用]标签： #文学沙盒 用于存放不负责任的思考与感受 此博客作案工具： Visual Studio Code 突然想要放弃「您好，我也不知道我是谁」这个开场白。我是一个</description>
     </item>
     
     <item>
@@ -249,11 +227,7 @@ Visual Studio Code 突然想要放弃「您好，我也不知道我是谁」这�
       <pubDate>Thu, 16 Feb 2023 21:52:31 +0000</pubDate>
       
       <guid>https://updown.city/posts/stacked-logs-01/</guid>
-      <description>无意中点进一个叫墨滴的社区，然后看到一篇声讨Notepad++的文章。作者嫌弃Notepad++的政治倾向，不类似于我嫌弃同路人对那些ugly序结构的兴趣吗。2023-02-20 20:34
-当阅读这种风格的数学时，我感到我正在被我们的语言所背叛。2023-02-20 12:30
-你们所见到的，是我所发明的客体。然而当你向这个客体提问时，处理信息并发送反馈的却是这个主体。主体是一个极限，无限倒退的极限（projective/inverse limit）。当我说「我是我所发明与扮演的客体」时，说话者同样是这样一个刻意的角色（deliberiated character）。这个回退系统并不是为了「寻找真实的自我」，而是为了处理「说谎带来的罪恶感（guilty）」。我不再将能动性的缺失（lack of agency）与这种guilty用depression混为一谈。它们的原理与解决方案是不同的。（你是否会对这种语言风格感到奇怪?…你知道吗，对我来说，将自己想象为机械是一种救赎。）
-依旧为毕业论文开题报告的事情焦虑。
-查东西的时候看到又一次看到这种比较谁强谁弱的问题：「有哪些没有拿菲尔兹奖的数学家，他们的数学贡献并不比菲尔兹奖获得者弱？（设立此奖之后）？」…………我很想吐槽：作为数学人你们是怎么忍得了这种confusing到粗鲁的语言的。（只是个虚弱的吐槽…这种表达在生活中太常见，我还不至于像两年前在教材里看到ugly的定义的时候那样血压升高。）</description>
+      <description>无意中点进一个叫墨滴的社区，然后看到一篇声讨Notepad++的文章。作者嫌弃Notepad++的政治倾向，不类似于我嫌弃同路人对那些ugl</description>
     </item>
     
     <item>
@@ -262,10 +236,7 @@ Visual Studio Code 突然想要放弃「您好，我也不知道我是谁」这�
       <pubDate>Thu, 16 Feb 2023 16:50:01 +0000</pubDate>
       
       <guid>https://updown.city/posts/motivation-of-this-blog/</guid>
-      <description>受到NekoBox站长的个人博客Light Cube的影响，又一次尝试建站。这回没有迷路，很快就配置成功了。或许是因为电脑里已经安装了依赖项（在过去那些半途而废的尝试里）。接下来就是多写点东西充实这个新的小窝。
-我曾在用来记录网站配置更新的页面里写，无法理解我这样做的动机，就像一个偷东西被抓到的小孩子的辩解：「很久以前我就想做个人博客，可总是因为在配置过程中迷路而半途而废；目前无法解释这样做的动机（或许我只是想要与他人分享我所看到的世界（然而这种解释很可疑：因为它所基于的是对我来说非常陌生的感受，分享某样东西的愿望在我过去的生命中是经常被诋毁为虚荣心与优越感的（两个被赋予了道德指责的词语）;」
-虽然只过了几个小时，但是此刻的心境已经与那时截然不同，现在的我可以很平静(?)地反问，为什么非要在某个熟悉的语言体系里找到可以再现这些陌生的欲望与感受的东西。或许是因为，下午的时候我终于搞清楚derived category到底是什么了。（这些数学发现有时会被我用来赋予自己在这个社会上如此存在着的正当性：当这个正当性不复存在的时候，等待我的就只有那个「关于禁闭与死亡的噩梦」。（为什么不用大家更熟悉的语言解释这个：你只是想要说服你自己，你依旧拥有继续活下去的资格。（到这里我似乎已经在谈论别的什么东西了。）
-我一直不知道怎样才能做到将文字与思绪固定在某个主题之下。我擅长于发现事物之间的关联，然而我的思考是不定形的：因此我想找到将不定形的思考进行输出的方法。（我不愿意改变，不愿意修剪这些根茎式的思绪，以适应那些约定俗成的表达规范。）前途一片渺茫，但至少在这里我是自由的。</description>
+      <description>受到NekoBox站长的个人博客Light Cube的影响，又一次尝试建站。这回没有迷路，很快就配置成功了。或许是因为电脑里已经安装了依赖项（</description>
     </item>
     
     <item>
@@ -274,9 +245,7 @@ Visual Studio Code 突然想要放弃「您好，我也不知道我是谁」这�
       <pubDate>Thu, 16 Feb 2023 09:33:09 +0000</pubDate>
       
       <guid>https://updown.city/posts/old-links/</guid>
-      <description>tags: 回收站 categories: 回收站 旧的链接页，蒐集过一些（或許）有趣的网页。 &amp;lt;!-- more --&amp;gt; 林奕含的FACEBOOK豆瓣
-我是个不会配置留言系统的菜鸟…所以想要留言的话请移步NekoBox匿名提问箱 樓上的提問箱已經無法使用，請點這個新的留言板 贴一些有趣的博客（想蹭友链） 天仙子 - 秦海碗的个人主页 this terrible chamber 桜庭夜🎐杂话铺子 - 一间由桜庭夜经营的贩售闲言碎语的小店 Light Cube - 当真心想要做成一件事的时候，人总是孤独的。
-这里是我发现的各种有趣的网站 島嶼邊緣 - 曾經是最重要的文化運動刊物&amp;ndash;影響了整整一個世代 荒原效應 时间物质</description>
+      <description>tags: 回收站 categories: 回收站 旧的链接页，蒐集过一些（或許）有趣的网页。 &amp;lt;!-- more --&amp;gt; 林奕含的FACEBOOK豆瓣 我是个不会配置留言系统的菜鸟…所以想要留言的话请</description>
     </item>
     
     <item>
@@ -285,20 +254,7 @@ Visual Studio Code 突然想要放弃「您好，我也不知道我是谁」这�
       <pubDate>Thu, 16 Feb 2023 09:14:37 +0000</pubDate>
       
       <guid>https://updown.city/posts/old-logs/</guid>
-      <description>旧的changelog：我到底在干什么 &amp;lt;!-- more --&amp;gt; 2023-03-08
-重置了post文件名（用log-yyyy-MM-dd替换掉那些乱七八糟的文件名）；删掉了本站说明页的那段关于授权的文本（存档）
-2023-03-03 day?
-移除了看板娘……这个太拖慢hexo g了。
-2023-03-01 day ?
-禁止搜索引擎建立索引：注入#noindex 参考blog.icpz.dev
-2023-02-23 day 8
-放置z-16看板娘； 突发奇想做了个萌备（无意间点进去，然后发现有我想要的数字）； 舊的評論系統NekoBox停止服務； 從雨好可愛…然而Hexo插件hexo-helper-live2d無法適配moc3&amp;hellip;）找了很多參考資料依舊做不出來 请问如何在hexo里使用moc3 #2 Weidows-projects/Live2dLoader: 易用且适用于所有模型的live2d-web库, 手把手教做人( Hexo Live2d moc3 Configuration 在博客园主页添加一个Live2D moc3 live2d web端加载moc3模型 网站上部署Live2D模型（moc3格式） 网页/博客Hexo添加live2d游戏角色看板娘,简易添加，碧蓝航线等live2d新型游戏角色模型（moc3） 笔记：live2d4.0 sdk 博客园网页动画 给你的博客园添加一只萌萌的洛天依吧！（live2d-自制v3版本模型） 给你的网站加上Live2D看板娘(上) Live2D(WebSDK 4.X)网页看板娘设置（一） （以及分享一個資源demo站(?):Eikanya‘s Blog 還想做一個音樂播放器（請放心它不會自動播放，利用插件hexo-tag-aplayer 以及jsDelivr對靜態資源的CDN加速（……你爲什麼不先整理一下那堆醜陋的代碼?） 以及想辦法修復Valine評論系統（……To be honest我不打算做了。第一，Disroot Bin作爲匿名留言板已經足夠充當這個博客的評論系統了；第二，我目前見到過的Valine都壞掉了（401錯誤…）。也見到過基於GitHub Discussions的評論系統（比如giscus），不過似乎需要OAuth授權，而我對博客評論系統的選擇原則：匿名且無需驗證，這很重要，因爲我真的非常想收到留言。登錄帳號或者人機認證會讓人感到掃興。 接下來會有很長一段時間我不再對這個博客進行裝修，因爲要忙畢業論文與留學申請的事。（我似乎…只有拖到無可再拖的時候（比如即將錯過申請的DDL）纔會有足夠的能動性push我自己去做事。）
-2023-02-18 day 3
-丢掉了banner（加载太慢） 微改主题
-2023-02-17 day 2
-照搬yearito的代码做了一个鼠标点击的烟花特效
-2023-02-16 day 1
-将匿名提问箱NekoBox用作静态博客的评论系统; 配置顶部导航栏; 希望有人愿意和我交换友链; 很久以前我就想做个人博客，可总是因为在配置过程中迷路而半途而废；目前无法解释这样做的动机（或许我只是想要与他人分享我所看到的世界（然而这种解释很可疑：因为它所基于的是对我来说非常陌生的感受，分享某样东西的愿望在我过去的生命中是经常被诋毁为虚荣心与优越感的（两个被赋予了道德指责的词语）; 或许这个用来记录网站装配的页面所装配的是我自己;</description>
+      <description>旧的changelog：我到底在干什么 &amp;lt;!-- more --&amp;gt; 2023-03-08 重置了post文件名（用log-yyyy-MM-dd替换掉那些乱七八糟的文件名）；删掉了本站说</description>
     </item>
     
     <item>

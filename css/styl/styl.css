@@ -1,1 +1,116 @@
-:root{--primary-color:#000b80;--selected-text-color:#eedc82;--link-hover-background-color:#b4eeb4;--waterdrop-color:rgba(0,10,129,0.12)}p{text-shadow:#ebebeb 0 1px}*::selection{color:inherit;background-color:var(--selected-text-color)}*::-moz-selection{color:inherit;background-color:var(--selected-text-color)}.widget-search__field{font-size:14px}code,pre{font-size:12px}
+:root {
+  --primary-color: #000b80;
+  --body-background-color: #f7f7f7;
+  --selected-text-color: #eedc82;
+  --link-hover-background-color: #b4eeb4;
+  --base03: #002b36;
+  --base02: #073642;
+  --base01: #586e75;
+  --base00: #657b83;
+  --base0: #839496;
+  --base1: #93a1a1;
+  --base2: #eee8d5;
+  --base3: #fdf6e3;
+  --yellow: #b58900;
+  --orange: #cb4b16;
+  --red: #dc322f;
+  --magenta: #d33682;
+  --violet: #6c71c4;
+  --blue: #268bd2;
+  --cyan: #2aa198;
+  --green: #859900;
+}
+
+p {
+  display: inline-block !important;
+  vertical-align: middle !important
+}
+
+.content a {
+  color: var(--primary-color);
+  font-weight: inherit
+}
+
+.content a:hover {
+  color: #000;
+  background-color: var(--link-hover-background-color);
+  text-decoration: none;
+  font-weight: inherit
+}
+
+*::selection {
+  background-color: rgba(56, 139, 253, 0.4)
+}
+
+*::selection:after {
+  content: "+";
+  color: #000;
+  background-color: #000
+}
+
+*::-moz-selection {
+  background-color: rgba(56, 139, 253, 0.4)
+}
+
+.widget-search__field {
+  font-size: 14px;
+}
+
+code,
+pre {
+  font-size: 12px;
+}
+
+a.list__footer-readmore.btn,
+.widget-social__link.btn {
+  background: transparent;
+  text-decoration: none !important;
+  /*border: 0;*/
+  line-height: 1
+}
+
+.widget-social__link.btn:hover {
+  background: var(--link-hover-background-color);
+  color: #000;
+}
+a.list__footer-readmore.btn:hover{
+  background-color: #e5e5e5;
+  border-style: outset!important;
+  border-color: #bfbfbf;
+}
+a.meta__link::before {
+  content: "[";
+}
+
+a.meta__link::after {
+  content: "]";
+}
+
+header h2 a {
+  border-bottom: dashed;
+  text-decoration: none;
+}
+
+header h2 a:hover {
+  background-color: var(--link-hover-background-color);
+  color: #000;
+}
+
+a.widget__link,
+.meta a {
+  text-decoration: none;
+  line-height: 1;
+}
+
+a.widget__link:hover,
+.meta a:hover {
+  background-color: var(--link-hover-background-color);
+  color: #000;
+}
+
+.meta,
+.meta a,
+.footer a,
+.content a {
+  text-decoration: none;
+}
