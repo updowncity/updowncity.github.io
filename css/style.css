@@ -425,19 +425,26 @@ select {
   font: inherit;
   border: 0;
   outline: 0;
-  background: transparent;
-  text-align: left
+  text-align: left;
+  background-color: transparent;
 }
 
 .menu__btn-title {
-  background: transparent;
-  text-align: left
+  text-align: left;
+  background-color: #e5e5e5;
+  border-style: outset;
+  border-color: #bfbfbf;
 }
 
 .menu__btn-title:hover {
   background-color: #e5e5e5;
-  border-style: outset;
+  border-style: inset;
   border-color: #bfbfbf;
+}
+.menu__btn-title:active{
+  background-color: whitesmoke;
+  border-style: inset;
+  border-color: #e5e5e5;
 }
 
 :focus>.menu__btn-title {
@@ -445,24 +452,25 @@ select {
 }
 
 button:not(:-moz-focusring):focus>.menu__btn-title {
-  box-shadow: none
+  box-shadow: none;
 }
 
 .menu__btn:focus,
 .menu__btn-title:focus {
-  outline: 0
+  outline: 0;
 }
 
 .js .menu__btn--active {
-  color: var(--highlight-color)
+  color: #000;
+  background-color: var(--global-background-color)
 }
 
 .menu__list {
-  list-style: none
+  list-style: none;
 }
 
 .menu__item:first-child {
-  border: 0
+  border: 0;
 }
 
 .menu__link {
@@ -1039,7 +1047,16 @@ textarea {
   .wrapper {
     display: block
   }
-
+  .menu__text{
+    background-color: #e5e5e5;
+    border-style: outset;
+    border-color: #bfbfbf;
+  }
+  .menu__text:hover{
+    background-color: #e5e5e5;
+    border-style: inset;
+    border-color: #bfbfbf;
+  }
   .sidebar {
     float: none;
     width: 100%;
