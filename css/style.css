@@ -509,6 +509,7 @@ menu__link}
 }
 header h2 a{
   line-height: 1;
+  font-size: 16px;
 }
 .menu__text {
   font-size: var(--global-font-size);
@@ -522,20 +523,6 @@ header h2 a{
   background-color: transparent;
   color: inherit;
 }
-
-/*
-.menu__text:hover {
-  color: inherit;
-  background-color: #b4eeb4
-}
-*/
-/*
-.menu__text:hover{
-  background-color: #e5e5e5;
-  border-style: outset;
-  border-color: #bfbfbf;
-}
-*/
 .menu__text:hover{
   background-color: var(--link-hover-background-color);
   color: black;
