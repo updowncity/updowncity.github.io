@@ -95,9 +95,10 @@
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-03-23T23:11:05&#43;08:00">2023-03-23</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/%E6%97%A5%E8%AA%8C/" rel="category">日誌</a>
 	</span>
 </div></div>
-			<span class="post-word-count"> 1052 </span>
 		</header>
+		<div class="post-details">
 		<div class="content post__content clearfix">
+			<span class="post-word-count">1052?</span>
 			<p>闲逛的时候发现了<a href="https://asciidoc.org/">AsciiDoc</a>这个类似于Markdown优化的文本标记语言，然后想到org-mode：我可以把标题的syntax highlight给去掉，在第一级标题的地方写初始文本，然后从第二级标题开始放我那堆该死的括号<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。很显然it doesn&rsquo;t work因为我的括号是出现在段落内部的，而这些标题是必须位于段首的…寫出來會相當ugly。然后在想：我想要的是利用电脑屏幕(什么鬼)实现括号的折叠与配对（虽然这样一来出现于重叠的右括号的singularity就不复存在了，但至少：(1)阅读友好（幽灵能否读懂这坨狗屎我并不care但我寫論文還是需要把它們整理成條理清晰(至少能夠閱讀)的語言的……（我真的很想把充滿括號stack(s)的原始文本拿出去噁心別人就像現在這樣…）;(2)singularities并不是真的消失，它们只是以被消解(铺开)掉的形式呈现着（比如这种东西（但愿我没数错））））然后………………这TMD不就是lisp吗。（前兩天插上就被我忘掉的flag…）
 其实我过去从来没想过会lisp，第一我对编写具体的程序不太感兴趣（我对事物的兴趣…很多时候是把原理搞清楚以后就结束了）；第二我在玩emacs的时候见到很多说lisp很难很不友好的(&hellip;信息?)；第三我真的找不到编程的动机。去年这个时候我<del>因为选课失误而不得不</del>学python然后怎么都学不会…很绝望，因为交不上作业。到结课的时候我还是不会寫python…（我很敬佩编程随想但我是真的很讨厌python<del>因为学不会</del>）其实我也无法理解，python作为语言本该是很trivial的东西（否则它不会成为被广泛使用的工具），我大一的时候也学过C和C++（是专必），也都还算顺利…。现在想想大概只是我无法适应*封装*(的世界)吧。刚才搜了下中文结果，那些知乎上对lisp吹捧或是贬低的文章让我感到……我不属于他们的世界。
 另一个是，昨天我忽然意识到其实我至少从去年就已经确定了具体的方向，因为我无论做什么都会指向某个点……（我一直在寻找的）。发现以后觉得是显然的，但在此之前我一直很迷茫（以至于错过了一个申请季……我错过申请季不是因为脑子进水忘掉截止日期，而是因为对未来彻底的迷茫。）对我来说这些就好像是一个预先被安排好的人生轨迹，而非出于我个人的选择。
@@ -112,6 +113,7 @@
 </div>
 
 		</div>
+	</div>
 	</article>
 </main>
 
@@ -129,15 +131,6 @@
 		</a>
 	</div>
 </nav>
-<div id="vcomments"></div>
-<script>
-		new Valine({
-				el: '#vcomments',
-				appId: '7jLnVbQbNo9PxLMI9t4cSe9A-MdYXbMMI',
-				appKey: 'qPY4pFLjmbAk5b9AVepNlLZW',
-				avatar: 'identicon'
-		})
-</script>
 
 
 			</div>
@@ -194,7 +187,7 @@
 	</div>
 </div>
 <div class="widget-taglist widget">
-	<h4 class="widget__title">&lt;hint&gt;</h4>
+	<h4 class="widget__title">&lt;hints&gt;</h4>
 	<div class="widget__content">
 		<a class="widget-taglist__link widget__link btn" href="/tags/%E5%9B%9E%E6%94%B6%E7%AB%99/" title="回收站">回收站 (3)</a>
 	</div>
