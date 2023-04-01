@@ -47,7 +47,9 @@ del:hover {
 *::after {
   box-sizing: border-box
 }
-
+pager__subtitle{
+  line-height: 1em;
+}
 article,
 aside,
 dialog,
@@ -264,7 +266,7 @@ kbd {
   padding: 2px 3px;
   color: #fff;
   background-color: #2a2a2a
-}
+}/*
 em:before{
   content: '<em>';
   font-family: var(--font-mono);
@@ -274,7 +276,7 @@ em:after{
   content: '</em>';
   font-family: var(--font-mono);
   font-size: 12px;
-}
+}*/
 blockquote {
   display: block;
   padding: 5px 0 5px 15px;
@@ -1041,7 +1043,7 @@ textarea {
 .footer {
   padding: 10px 25px;
   background-color: transparent;
-  border-top: 1px dashed #999
+/*  border-top: 1px dashed #999*/
 }
 
 .footer__container {
