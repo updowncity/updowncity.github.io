@@ -24,12 +24,11 @@
   --highliFwghtColor: #2a2a2a;
   --font-family-primary: -apple-system, BlinkMacSystemFont, 'Source Serif Pro', Lora, 'Open Sans', 'Microsoft Yahei', serif;
   --font-mono: FMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "Microsoft Yahei", monospace;
-  --global-background-color: white;
+  --global-background-color: #f9f9fc;
   --global-text-color: #000;
   --global-link-height: 1.2em;
   --global-padding-size: 1em;
 }
-
 del {
   color: var(--global-text-color);
   background-color: var(--global-text-color);
@@ -142,7 +141,7 @@ svg.meta__icon {
   visibility: hidden;
   content: ""
 }
-
+/*
 input,
 button,
 select,
@@ -152,7 +151,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit
-}
+}*/
 
 h1,
 h2,
@@ -266,26 +265,13 @@ kbd {
   padding: 2px 3px;
   color: #fff;
   background-color: #2a2a2a
-}/*
-em:before{
-  content: '<em>';
-  font-family: var(--font-mono);
-  font-size: 12px;
 }
-em:after{
-  content: '</em>';
-  font-family: var(--font-mono);
-  font-size: 12px;
-}*/
 blockquote {
   display: block;
   padding: 5px 0 5px 15px;
   margin: 0 0 20px;
   margin: 0 0 1.25rem;
   line-height: 1.5;
-  /*
-  border-left: 5px solid var(--highlight-color)
-  */
 }
 blockquote:before{
   content: '<blockquote>';
@@ -374,7 +360,7 @@ select {
 .header {
   background: var(--global-background-color);
 }
-
+/*
 .logo {
   padding: 25px
 }
@@ -425,11 +411,12 @@ select {
   font-size: 14px;
   font-size: .875rem;
   */
+  /*
   font-weight: 600;
   line-height: 1;
   border-top: 1px solid #ebebeb
 }
-
+*/
 .divider {
   height: 5px;
   margin: 0;
@@ -799,10 +786,6 @@ header h2 a{
   padding-left: var(--global-padding-size);
   padding-top: var(--global-padding-size);
   padding-top: var(--global-padding-size);
-  /*
-  margin-bottom: 10px;
-  margin-bottom: .625rem
-  */
 }
 
 .list__title {
