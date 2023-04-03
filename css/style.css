@@ -8,7 +8,7 @@
   --highliFwghtColor: #2a2a2a;
   --font-family-primary: -apple-system, BlinkMacSystemFont, 'Source Serif Pro', Lora, 'Open Sans', 'Microsoft Yahei', serif;
   --font-mono: FMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "Microsoft Yahei", monospace;
-  --global-background-color: #f9f9fc;
+  --global-background-color: SeaShell;/*OldLace;/*SeaShell;/*#f9f9fc;*/
   --global-text-color: #000;
   --global-link-height: 1.2em;
   --global-padding-size: 1em;
