@@ -12,7 +12,8 @@
       <pubDate>Tue, 04 Apr 2023 22:14:07 +0800</pubDate>
       
       <guid>https://updown.city/posts/homotopy-category/</guid>
-      <description>When working with complexes, many diagrams commute only up to homotopy. In order to have these diagrams actually commute, one need to work in a category where homotopy equivalences become isomorphisms. GTM 281的這句話成爲了我的今日笑點。（你的笑點好奇怪。）我在前面寫過一則關於h</description>
+      <description>&lt;p&gt;When working with complexes, many diagrams commute only up to homotopy. In order to have these diagrams actually commute, one need to work in a category where homotopy equivalences become isomorphisms.&lt;/p&gt;
+&lt;p&gt;GTM 281的這句話成爲了我的今日笑點。（你的笑點好奇怪。）我在前面寫過一則關於homotopy category的札記，然後因爲MathJaX配置問題一氣之下把它給刪了，現在只好重寫（……）先引用GTM281的記號：&lt;/p&gt;</description>
     </item>
     
   </channel>
