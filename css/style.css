@@ -6,15 +6,13 @@
   --highlight-color: #e22d30;
   --font-sans: "Segoe UI", "Microsoft Yahei", sans-serif;
   --highliFwghtColor: #2a2a2a;
-  --font-family-primary: -apple-system, BlinkMacSystemFont, 'Source Serif Pro', Lora, 'Open Sans', 'Microsoft Yahei', serif;
+  --font-family-primary: -apple-system, BlinkMacSystemFont, 'CMU Typewriter Text Variable Width', 'Modern DOS 9x14', 'Source Serif Pro', Lora, 'Open Sans', 'Microsoft Yahei', serif;
   --font-mono: FMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "Microsoft Yahei", monospace;
-  --global-background-color: SeaShell;/*OldLace;/*SeaShell;/*#f9f9fc;*/
+  --global-background-color: #f9f9fc;/*SeaShell;/*OldLace;/*SeaShell;/*#f9f9fc;*/
   --global-text-color: #000;
   --global-link-height: 1.2em;
   --global-padding-size: 1em;
 }
-
-
 *,
 *::before,
 *::after {
@@ -36,13 +34,13 @@ nav,
 section {
   display: block
 }
-
+/*
 html {
   font-size: 100%;
   -ms-text-size-adjust: auto;
   -webkit-text-size-adjust: auto
 }
-
+*/
 body {
   font-family: var(--font-family-primary);
   font-size: var(--global-font-size);
@@ -189,7 +187,6 @@ code {
 }
 
 
-
 pre code {
   padding: 0;
   color: inherit;
@@ -332,7 +329,18 @@ header h2 a{
 .menu__btn {
   display: none
 }
-
+.menu__list,
+.js .menu__list {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  visibility: visible;
+  border: 0;
+  -webkit-transform: none;
+  transform: none
+}
 @media screen and (min-width:767px) {
   .menu__list,
   .js .menu__list {
