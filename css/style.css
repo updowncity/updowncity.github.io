@@ -6,12 +6,15 @@
   --highlight-color: #e22d30;
   --font-sans: "Segoe UI", "Microsoft Yahei", sans-serif;
   --highliFwghtColor: #2a2a2a;
-  --font-family-primary: -apple-system, BlinkMacSystemFont, 'CMU Typewriter Text Variable Width', 'Modern DOS 9x14', 'Source Serif Pro', Lora, 'Open Sans', 'Microsoft Yahei', serif;
+  --font-family-primary: -apple-system, BlinkMacSystemFont, 'Frankin Gothic Book','Georgia Pro', 'Segoe UI', 'Modern DOS 9x14', 'Microsoft Yahei', serif;
   --font-mono: FMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "Microsoft Yahei", monospace;
-  --global-background-color: #f9f9fc;/*SeaShell;/*OldLace;/*SeaShell;/*#f9f9fc;*/
+  --global-background-color: white;/*#f7f7f7;/*#f9f9fc;/*SeaShell;/*OldLace;/*SeaShell;/*#f9f9fc;*/
   --global-text-color: #000;
   --global-link-height: 1.2em;
   --global-padding-size: 1em;
+}
+mjx-math{
+  font-size: var(--global-font-size)!important;
 }
 *,
 *::before,
@@ -45,8 +48,9 @@ body {
   font-family: var(--font-family-primary);
   font-size: var(--global-font-size);
   line-height: var(--global-line-height);
-  background: var(--global-background-color);
+  background-color: var(--global-background-color);
 }
+
 
 .wrapper {
   padding: 0px;
@@ -82,7 +86,9 @@ svg.meta__icon {
   order: 1;
   min-width: 0
 }
-
+em,i{
+  font-family: Lora, serif;
+}
 .sidebar {
   -webkit-flex: 1 0 31.66%;
   flex: 1 0 31.66%;
@@ -124,8 +130,11 @@ h6 {
   margin: 0 0 20px;
   margin: 0 0 1.25rem;
   line-height: 1;
+  font-family: 'CMU Typewriter Text Variable Width', 'Microsoft Yahei', serif;
 }
-
+b,strong{
+  font-family: 'CMU Typewriter Text Variable Width', 'Microsoft Yahei', serif;
+}
 p {
   font-family: var(--font-family-primary);
 }
@@ -303,29 +312,7 @@ header h2 a{
   background-color: var(--link-hover-background-color);
   color: black;
 }
-/*
-.js .menu__list {
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  visibility: hidden;
-  -webkit-transform: scaleY(0);
-  transform: scaleY(0);
-  -webkit-transform-origin: top left;
-  transform-origin: top left
-}
 
-.js .menu__list--active {
-  visibility: visible;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  -webkit-transform: scaleY(1);
-  transform: scaleY(1)
-}
-*/
-.menu__list--transition {
-  transition: visibility .15s ease, transform .15s ease, -webkit-transform .15s ease
-}
 .menu__btn {
   display: none
 }
@@ -342,8 +329,8 @@ header h2 a{
   transform: none
 }
 @media screen and (min-width:767px) {
-  .menu__list,
-  .js .menu__list {
+  .menu__list
+ {
     position: relative;
     display: -webkit-flex;
     display: flex;
@@ -555,7 +542,7 @@ img {
 .widget__title {
   position: relative;
   font-size: var(--global-font-size);
-  font-weight: normal
+  
 }
 
 .widget__item {
@@ -629,6 +616,7 @@ img {
   .menu__text{
     flex-direction: row;
     margin-left: 0;
+    margin-bottom: 1em;
   }
   h1.post__title{
     margin-top: 0.5em;
@@ -671,24 +659,18 @@ p {
   text-decoration: none;
   font-weight: inherit
 }
-
+/*
 *::selection {
   background-color: rgba(56, 139, 253, 0.4)
 }
-
-*::selection:after {
-  content: "+";
-  color: #000;
-  background-color: #000
+*/
+*::selection{
+  background-color: rgba(47,190,234,.25);
+}
+*::-moz-selection{
+  background-color: rgba(47,190,234,.25);
 }
 
-*::-moz-selection {
-  background-color: rgba(56, 139, 253, 0.4)
-}
-
-.widget-search__field {
-  font-size: 14px;
-}
 
 code,
 pre {
