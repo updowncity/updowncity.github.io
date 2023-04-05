@@ -7,13 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 04 Apr 2023 22:14:07 +0800</lastBuildDate><atom:link href="https://updown.city/tags/homological-algebra/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>爲什麼我把這個又寫了一遍</title>
+      <title>為什麼我把這個又寫了一遍</title>
       <link>https://updown.city/posts/homotopy-category/</link>
       <pubDate>Tue, 04 Apr 2023 22:14:07 +0800</pubDate>
       
       <guid>https://updown.city/posts/homotopy-category/</guid>
-      <description>&lt;p&gt;When working with complexes, many diagrams commute only up to homotopy. In order to have these diagrams actually commute, one need to work in a category where homotopy equivalences become isomorphisms.&lt;/p&gt;
-&lt;p&gt;GTM 281的這句話成爲了我的今日笑點。（你的笑點好奇怪。）我在前面寫過一則關於homotopy category的札記，然後因爲MathJaX配置問題一氣之下把它給刪了，現在只好重寫（……）先引用GTM281的記號：&lt;/p&gt;</description>
+      <description>&lt;p&gt;When working with complexes, many diagrams commute only up to homotopy. In order to have these diagrams actually commute, one need to work in a category where homotopy equivalences become isomorphisms.
+想到我在前面寫過一則關於homotopy category的札記，然後因為MathJaX配置問題一氣之下把它給刪了，現在只好重寫（……）
+先引用GTM281的記號：&lt;/p&gt;</description>
     </item>
     
   </channel>

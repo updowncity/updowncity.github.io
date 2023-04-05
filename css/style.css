@@ -2,19 +2,22 @@
   --default-border-color: #666;
   --primary-color: #000b80;
   --link-hover-background-color: #b4eeb4;
-  --global-font-size: 14px;
+  /*--global-font-size: 14px;*/
   --highlight-color: #e22d30;
+  --link-text-color: #0f4a85;
   --font-sans: "Segoe UI", "Microsoft Yahei", sans-serif;
   --highliFwghtColor: #2a2a2a;
   --font-family-primary: -apple-system, BlinkMacSystemFont, 'Frankin Gothic Book','Georgia Pro', 'Segoe UI', 'Modern DOS 9x14', 'Microsoft Yahei', serif;
   --font-mono: FMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "Microsoft Yahei", monospace;
   --global-background-color: white;/*#f7f7f7;/*#f9f9fc;/*SeaShell;/*OldLace;/*SeaShell;/*#f9f9fc;*/
-  --global-text-color: #000;
-  --global-link-height: 1.2em;
+  --global-text-color: #1f2328;
+  --global-link-height: 1em;
   --global-padding-size: 1em;
+  --github-header-color: #24292f;
 }
 mjx-math{
   font-size: var(--global-font-size)!important;
+  color: var(--global-text-color);
 }
 *,
 *::before,
@@ -37,18 +40,12 @@ nav,
 section {
   display: block
 }
-/*
-html {
-  font-size: 100%;
-  -ms-text-size-adjust: auto;
-  -webkit-text-size-adjust: auto
-}
-*/
+
 body {
   font-family: var(--font-family-primary);
-  font-size: var(--global-font-size);
   line-height: var(--global-line-height);
   background-color: var(--global-background-color);
+  color: var(--global-text-color);
 }
 
 
@@ -130,7 +127,7 @@ h6 {
   margin: 0 0 20px;
   margin: 0 0 1.25rem;
   line-height: 1;
-  font-family: 'CMU Typewriter Text Variable Width', 'Microsoft Yahei', serif;
+  font-family: 'CMU Typewriter Text Variable Width', 'Noto Serif', Lora, 'Droid Serif', 'Microsoft Yahei', serif;
 }
 b,strong{
   font-family: 'CMU Typewriter Text Variable Width', 'Microsoft Yahei', serif;
@@ -141,7 +138,7 @@ p {
 
 a {
   text-decoration: none !important;
-  color: var(--primary-color);
+  color: var(--link-text-color);
 }
 
 a:hover {
@@ -169,7 +166,7 @@ figure {
 figcaption {
   margin-top: 4px;
   margin-top: .25rem;
-  color: #666
+  color: var(--global-text-color);
 }
 
 figcaption h4 {
@@ -203,12 +200,11 @@ pre code {
   background: inherit;
   border: 0
 }
-
+/*
 kbd {
   padding: 2px 3px;
   color: #fff;
-  background-color: #2a2a2a
-}
+  */
 blockquote {
   display: block;
   padding: 5px 0 5px 15px;
@@ -294,23 +290,20 @@ select {
 }
 header h2 a{
   line-height: 1;
-  font-size: 16px;
 }
 .menu__text {
-  font-size: var(--global-font-size);
   text-decoration: none !important;
   margin-right: 0.8em;
   line-height: 1em;
   display: inline-block;
 }
-
 .menu__link:hover {
   background-color: transparent;
   color: inherit;
 }
 .menu__text:hover{
   background-color: var(--link-hover-background-color);
-  color: black;
+  color: var(--global-text-color);
 }
 
 .menu__btn {
@@ -351,11 +344,6 @@ header h2 a{
   margin-bottom: 0
 }
 
-.main__title {
-  font-size: 28px;
-  font-size: 1.75rem
-}
-
 .main__content {
   margin-bottom: 0
 }
@@ -366,7 +354,7 @@ header h2 a{
 
 .meta,
 .meta a {
-  color: #666
+  color: var(--global-text-color);
 }
 
 .meta__item {
@@ -398,7 +386,6 @@ header h2 a{
   margin-top: 4px;
   margin-top: .25rem;
   margin-bottom: 0;
-  font-size: 16px;
   font-size: 1rem;
   font-style: italic
 }
@@ -490,10 +477,6 @@ header h2 a{
   padding-top: var(--global-padding-size);
 }
 
-.list__title {
-  font-size: 20px;
-  font-size: 1.25rem
-}
 
 .list__meta {
   margin-top: 5px
@@ -541,8 +524,6 @@ img {
 
 .widget__title {
   position: relative;
-  font-size: var(--global-font-size);
-  
 }
 
 .widget__item {
@@ -636,13 +617,6 @@ img {
   }
 }
 
-:root {
-  --primary-color: #000b80;
-  --body-background-color: #f7f7f7;
-  --selected-text-color: #eedc82;
-  --link-hover-background-color: #b4eeb4;
-}
-
 p {
   display: inline-block !important;
   vertical-align: middle !important
@@ -654,16 +628,12 @@ p {
 }
 
 .content a:hover {
-  color: #000;
+  color: var(--global-text-color);
   background-color: var(--link-hover-background-color);
   text-decoration: none;
   font-weight: inherit
 }
-/*
-*::selection {
-  background-color: rgba(56, 139, 253, 0.4)
-}
-*/
+
 *::selection{
   background-color: rgba(47,190,234,.25);
 }
@@ -674,7 +644,7 @@ p {
 
 code,
 pre {
-  font-size: 12px;
+  font-size: 0.85px;
 }
 
 a.list__footer-readmore.btn,
@@ -702,13 +672,15 @@ a.meta__link::after {
 }
 
 header h2 a {
-  border-bottom: dashed;
+  /*border-bottom: dashed;*/
   text-decoration: none;
+  color: #000;
 }
 
 header h2 a:hover {
-  background-color: var(--link-hover-background-color);
-  color: #000;
+  background-color: transparent;
+  color: inherit;
+  text-decoration: underline!important;
 }
 
 a.widget__link,

@@ -7,13 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 04 Apr 2023 22:14:07 +0800</lastBuildDate><atom:link href="https://updown.city/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>爲什麼我把這個又寫了一遍</title>
+      <title>為什麼我把這個又寫了一遍</title>
       <link>https://updown.city/posts/homotopy-category/</link>
       <pubDate>Tue, 04 Apr 2023 22:14:07 +0800</pubDate>
       
       <guid>https://updown.city/posts/homotopy-category/</guid>
-      <description>&lt;p&gt;When working with complexes, many diagrams commute only up to homotopy. In order to have these diagrams actually commute, one need to work in a category where homotopy equivalences become isomorphisms.&lt;/p&gt;
-&lt;p&gt;GTM 281的這句話成爲了我的今日笑點。（你的笑點好奇怪。）我在前面寫過一則關於homotopy category的札記，然後因爲MathJaX配置問題一氣之下把它給刪了，現在只好重寫（……）先引用GTM281的記號：&lt;/p&gt;</description>
+      <description>&lt;p&gt;When working with complexes, many diagrams commute only up to homotopy. In order to have these diagrams actually commute, one need to work in a category where homotopy equivalences become isomorphisms.
+想到我在前面寫過一則關於homotopy category的札記，然後因為MathJaX配置問題一氣之下把它給刪了，現在只好重寫（……）
+先引用GTM281的記號：&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -104,7 +105,7 @@
       <pubDate>Sun, 19 Mar 2023 23:45:35 +0000</pubDate>
       
       <guid>https://updown.city/posts/my-thesis-vanished/</guid>
-      <description>&lt;p&gt;我的论文消失了：打开发现只剩下一片狼藉（头文件）或許是按錯了熱鍵，或許是（空缺的主語）在提醒我不可以那樣爲了寫論文停在原地。我現在對$\mathcal{D}$-module很好奇。（論文應該是建立在日常的積累之上的，而不是臨時生搬硬湊的。我其實是有筆記的，只是它們混亂到讓人窒息（事實上我很少碰它們）。因爲過去的記錄太過混亂，所以無力去整理和搜索，每次只好再重寫一遍，這種重複又帶來新的混亂。）&lt;/p&gt;</description>
+      <description>&lt;p&gt;我的論文消失了：打開發現只剩下一片狼藉（頭文件）或許是按錯了熱鍵，或許是（空缺的主語）在提醒我不可以那樣為了寫論文停在原地。我現在對$\mathcal{D}$-module很好奇。（論文應該是建立在日常的積累之上的，而不是臨時生搬硬湊的。我其實是有筆記的，只是它們混亂到讓人窒息（事實上我很少碰它們）。因為過去的記錄太過混亂，所以無力去整理和搜索，每次只好再重寫一遍，這種重複又帶來新的混亂。）&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -122,7 +123,7 @@
       <pubDate>Sat, 18 Mar 2023 22:41:49 +0000</pubDate>
       
       <guid>https://updown.city/pinned/changelog/</guid>
-      <description>categories: &amp;ldquo;stack&amp;rdquo; tags: [&amp;ldquo;碎碎唸&amp;rdquo;, &amp;ldquo;網站&amp;rdquo;] 2023-03-22 從NameSilo買了域名updown.city（爲了防止我</description>
+      <description>categories: &amp;ldquo;stack&amp;rdquo; tags: [&amp;ldquo;碎碎唸&amp;rdquo;, &amp;ldquo;網站&amp;rdquo;] 2023-03-22 從NameSilo買了域名updown.city（為了防止我</description>
     </item>
     
     <item>
@@ -131,7 +132,7 @@
       <pubDate>Fri, 17 Mar 2023 23:59:59 +0000</pubDate>
       
       <guid>https://updown.city/posts/emacs-initialization/</guid>
-      <description>&lt;p&gt;如果你发现我突然失踪从网络空间失踪，&lt;del&gt;就像死了一样&lt;/del&gt;留言板里也没有任何回应，那么情况很可能是：我的状态太糟糕了，只好把所有的文字触须都蜷缩起来，临时切断我与我所爱的世界的联系，直到我能够重新頂著發燙的腦袋出去。&lt;/p&gt;</description>
+      <description>&lt;p&gt;如果你發現我突然失蹤從網絡空間失蹤，&lt;del&gt;就像死了一樣&lt;/del&gt;留言板裡也沒有任何回應，那麼情況很可能是：我的狀態太糟糕了，只好把所有的文字觸鬚都蜷縮起來，臨時切斷我與我所愛的世界的聯繫，直到我能夠重新頂著發燙的腦袋出去。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -140,17 +141,17 @@
       <pubDate>Fri, 17 Mar 2023 22:57:31 +0000</pubDate>
       
       <guid>https://updown.city/pinned/bupropion/</guid>
-      <description>简繁切换是手动进行的（因为我很在意文字的形状……） 我从Waline管理员页面是可以删除评论的，所以如果某一天你想要从我所触及到的世界彻底消失</description>
+      <description>簡繁切換是手動進行的（因為我很在意文字的形狀……） 我從Waline管理員頁面是可以刪除評論的，所以如果某一天你想要從我所觸及到的世界徹底消失</description>
     </item>
     
     <item>
-      <title>虫蜕</title>
+      <title>蟲蛻</title>
       <link>https://updown.city/pinned/moults/</link>
       <pubDate>Fri, 17 Mar 2023 02:00:29 +0000</pubDate>
       
       <guid>https://updown.city/pinned/moults/</guid>
-      <description>&lt;p&gt;如果你发现了这里没有列出的虫蜕请到&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;留言&lt;code&gt;^_^&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;爲了找到這些蟲蛻我需要：&lt;/p&gt;
+      <description>&lt;p&gt;如果你發現了這裡沒有列出的蟲蛻請到&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;留言&lt;code&gt;^_^&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;為了找到這些蟲蛻我需要：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;蒐集儘可能多的&lt;code&gt;kdbx&lt;/code&gt;文件，然後猜出它們的密碼；&lt;/li&gt;
 &lt;li&gt;觸摸那些損毀的&lt;code&gt;kdbx&lt;/code&gt;文件，就像觸摸電腦屏幕。&lt;/li&gt;
