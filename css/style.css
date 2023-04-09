@@ -1,16 +1,19 @@
 :root {
   --default-border-color: #666;
   --primary-color: #000b80;
-  --link-hover-background-color: #b4eeb4;
-  --global-font-size: 14px;
+  /*--link-hover-background-color: #b4eeb4;*/
+  --link-hover-background-color: #d3e6ff;
+  --global-font-size: 14px;*/
+  --code-font-size: 12px;
   --highlight-color: #e22d30;
   --link-text-color: #0f4a85;
   --font-sans: "Segoe UI", "Microsoft Yahei", sans-serif;
+  --font-title: /*'Ysabeau',*/Lora, 'CMU Typewriter Text Variable Width', 'Noto Serif', Lora, 'Droid Serif', 'Microsoft Yahei', serif;
   --highliFwghtColor: #2a2a2a;
-  --font-family-primary: -apple-system, BlinkMacSystemFont, 'Frankin Gothic Book','Georgia Pro', 'Segoe UI', 'Modern DOS 9x14', 'Microsoft Yahei', serif;
-  --font-mono: FMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "Microsoft Yahei", monospace;
-  --global-background-color: white;/*#f7f7f7;/*#f9f9fc;/*SeaShell;/*OldLace;/*SeaShell;/*#f9f9fc;*/
-  --global-text-color: #1f2328;
+  --font-family-primary: -apple-system, BlinkMacSystemFont, /*'Ysabeau',*/ 'Georgia Pro', 'Segoe UI', 'Modern DOS 9x14', 'Microsoft Yahei', serif;
+  --font-mono: FMono-Regular, Consolas, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "Microsoft Yahei", monospace;
+  --global-background-color: #fff;/*#f7f7f7;/*#f9f9fc;/*SeaShell;/*OldLace;/*SeaShell;/*#f9f9fc;*/
+  --global-text-color: #1f2328; /* come from GitHub */
   --global-link-height: 1em;
   --global-padding-size: 1em;
   --github-header-color: #24292f;
@@ -46,6 +49,7 @@ body {
   line-height: var(--global-line-height);
   background-color: var(--global-background-color);
   color: var(--global-text-color);
+  font-size: var(--global-font-size);
 }
 
 
@@ -127,10 +131,10 @@ h6 {
   margin: 0 0 20px;
   margin: 0 0 1.25rem;
   line-height: 1;
-  font-family: 'CMU Typewriter Text Variable Width', 'Noto Serif', Lora, 'Droid Serif', 'Microsoft Yahei', serif;
+  font-family: var(--font-title);
 }
 b,strong{
-  font-family: 'CMU Typewriter Text Variable Width', 'Microsoft Yahei', serif;
+  font-family: var(--font-title);
 }
 p {
   font-family: var(--font-family-primary);
@@ -179,7 +183,7 @@ code,
 kbd,
 samp {
   font-family: var(--font-mono);
-  font-size: inherit
+  font-size: var(--code-font-size);
 }
 
 pre,
@@ -200,6 +204,7 @@ pre code {
   background: inherit;
   border: 0
 }
+
 /*
 kbd {
   padding: 2px 3px;
@@ -280,7 +285,6 @@ select {
 .menu__link {
   display: block;
   padding: .625rem .9375rem;
-  font-size: 1em;
   text-decoration: none;
   font-family: var(--font-family-primary);
   position: relative;
@@ -524,6 +528,7 @@ img {
 
 .widget__title {
   position: relative;
+  font-family: 'CMU Typewriter Text Variable Width', serif;
 }
 
 .widget__item {
@@ -642,11 +647,6 @@ p {
 }
 
 
-code,
-pre {
-  font-size: 0.85px;
-}
-
 a.list__footer-readmore.btn,
 .widget-social__link.btn {
   background: transparent;
@@ -705,10 +705,6 @@ a.widget__link:hover,
 
 .v[data-class=v] .vwrap{
   box-shadow: 0;
-}
-
-:root {
-  --background-color: #2a2a2a
 }
 
 #vcomments>div.vempty {

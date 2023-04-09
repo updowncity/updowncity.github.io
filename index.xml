@@ -5,13 +5,40 @@
     <link>https://updown.city/</link>
     <description>Recent content on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 04 Apr 2023 22:14:07 +0800</lastBuildDate><atom:link href="https://updown.city/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Apr 2023 11:40:34 +0800</lastBuildDate><atom:link href="https://updown.city/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我对封装世界依旧有著某种…怀念</title>
+      <link>https://updown.city/posts/nostalgia.zh-cn/</link>
+      <pubDate>Fri, 07 Apr 2023 11:40:34 +0800</pubDate>
+      
+      <guid>https://updown.city/posts/nostalgia.zh-cn/</guid>
+      <description>又想换主题了，并发誓再也不改。不想用这种被我改得面目全非的（有时我会很想摆脱我自己）</description>
+    </item>
+    
+    <item>
+      <title>从顶栏脱落下来的changelog页</title>
+      <link>https://updown.city/posts/archived-changelog-02.zh-cn/</link>
+      <pubDate>Thu, 06 Apr 2023 18:42:31 +0800</pubDate>
+      
+      <guid>https://updown.city/posts/archived-changelog-02.zh-cn/</guid>
+      <description>&lt;p&gt;旧的网站更新日志&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>從頂欄脫落下來的About頁</title>
+      <link>https://updown.city/posts/archived-about-01.zh-tw/</link>
+      <pubDate>Thu, 06 Apr 2023 18:41:54 +0800</pubDate>
+      
+      <guid>https://updown.city/posts/archived-about-01.zh-tw/</guid>
+      <description>&lt;p&gt;你为什么要把它们摘下来。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>為什麼我把這個又寫了一遍</title>
-      <link>https://updown.city/posts/homotopy-category/</link>
+      <link>https://updown.city/posts/homotopy-category.zh-tw/</link>
       <pubDate>Tue, 04 Apr 2023 22:14:07 +0800</pubDate>
       
-      <guid>https://updown.city/posts/homotopy-category/</guid>
+      <guid>https://updown.city/posts/homotopy-category.zh-tw/</guid>
       <description>&lt;p&gt;When working with complexes, many diagrams commute only up to homotopy. In order to have these diagrams actually commute, one need to work in a category where homotopy equivalences become isomorphisms.
 想到我在前面寫过一則關於homotopy category的札記，然後因為MathJaX配置問題一氣之下把它給刪了，現在只好重寫（……）
 先引用GTM281的記號：&lt;/p&gt;</description>
@@ -19,11 +46,18 @@
     
     <item>
       <title>當你在寫關於t-structure的論文時聽到一首Sheap of My Heart</title>
-      <link>https://updown.city/posts/when-writing-thesis/</link>
+      <link>https://updown.city/posts/when-writing-thesis.zh-tw/</link>
       <pubDate>Tue, 04 Apr 2023 01:08:41 +0800</pubDate>
       
-      <guid>https://updown.city/posts/when-writing-thesis/</guid>
-      <description>&lt;p&gt;時間戳部分丟失的不連續碎碎唸。依舊，複數的第一人稱代詞只是出於方便。至少在居民身份證與校園卡方面我們是同一的（它們都還在，沒搞丟～）&lt;/p&gt;</description>
+      <guid>https://updown.city/posts/when-writing-thesis.zh-tw/</guid>
+      <description>&lt;p&gt;我怎么这么啰嗦。换新贴了（就是那个LaTeX吐槽贴）。&lt;/p&gt;
+&lt;p&gt;要么丢掉那些啰嗦的脚注，要么提前声明它们不计入总字数
+「附录会有一个笔者的实验性构造。」救命啊别写这种只能扔进文学沙盒里的东西。
+BGM都是素晴日chapter 2的，不知道为什么我对这种「不靠谱的救世主」很感兴趣，无论是初鸟创还是间宫卓司。（……话说我在现实中有个很诡异的特点就是…会一直在笑，就是一个自动的表情。i don&amp;rsquo;t know how to remove it&amp;hellip;）
+字数要求里的八千字如果指的是纯汉字的话就太恐怖了。（虽然我就是照着这个标准来的…以教务系统的死板程度……。）。&lt;/p&gt;
+&lt;p&gt;合理猜测我搞出这个东西是因为画不出来BBDG那本书里的图……我甚至觉得画TR4的图远比用它证东西需要更大的耐心。感谢维基百科提供了源代码，我可以把标准的先搬过去，然后用我那个容易画的。直接扔个别人没见过的真的很缺德。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;時間戳部分丟失的不連續碎碎唸。依舊，複數的第一人稱代詞只是出於方便。至少在居民身份證與校園卡方面我們是同一的（它們都還在，沒搞丟～）&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -37,28 +71,28 @@
     
     <item>
       <title>關於「民科」</title>
-      <link>https://updown.city/posts/crackpots/</link>
+      <link>https://updown.city/posts/crackpots.zh-tw/</link>
       <pubDate>Sat, 25 Mar 2023 01:37:47 +0800</pubDate>
       
-      <guid>https://updown.city/posts/crackpots/</guid>
+      <guid>https://updown.city/posts/crackpots.zh-tw/</guid>
       <description>&lt;p&gt;我真的很怕這個詞。又一次(?)在不安定間刪掉了一個post。感覺寫那些我就像一個小丑。真的好痛苦。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>lisp的发现與其他碎碎唸</title>
-      <link>https://updown.city/posts/lisp/</link>
+      <link>https://updown.city/posts/lisp.zh-cn/</link>
       <pubDate>Thu, 23 Mar 2023 23:11:05 +0800</pubDate>
       
-      <guid>https://updown.city/posts/lisp/</guid>
+      <guid>https://updown.city/posts/lisp.zh-cn/</guid>
       <description>闲逛的时候发现了AsciiDoc这个类似于Markdown优化的文本标记语言，然后想到org-mode：我可以把标题的syntax highl</description>
     </item>
     
     <item>
       <title>四月快到了</title>
-      <link>https://updown.city/posts/initialization/</link>
+      <link>https://updown.city/posts/initialization.zh-tw/</link>
       <pubDate>Thu, 23 Mar 2023 12:08:00 +0800</pubDate>
       
-      <guid>https://updown.city/posts/initialization/</guid>
+      <guid>https://updown.city/posts/initialization.zh-tw/</guid>
       <description>發生了什麼</description>
     </item>
     
@@ -74,46 +108,46 @@
     
     <item>
       <title>編程隨想</title>
-      <link>https://updown.city/posts/program-think/</link>
+      <link>https://updown.city/posts/program-think.zh-tw/</link>
       <pubDate>Wed, 22 Mar 2023 15:17:32 +0800</pubDate>
       
-      <guid>https://updown.city/posts/program-think/</guid>
+      <guid>https://updown.city/posts/program-think.zh-tw/</guid>
       <description>&lt;p&gt;或許編程隨想並不是一個人，就像Bourbaki……&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>记录Windows10解决GitHub访问问题的尝试</title>
-      <link>https://updown.city/posts/ping-github/</link>
+      <link>https://updown.city/posts/ping-github.zh-cn/</link>
       <pubDate>Wed, 22 Mar 2023 15:17:32 +0800</pubDate>
       
-      <guid>https://updown.city/posts/ping-github/</guid>
+      <guid>https://updown.city/posts/ping-github.zh-cn/</guid>
       <description>&lt;p&gt;Please note that this &lt;em&gt;does not work at all.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>搬家到Hogo</title>
-      <link>https://updown.city/posts/moved-to-hugo/</link>
+      <link>https://updown.city/posts/moved-to-hugo.zh-tw/</link>
       <pubDate>Mon, 20 Mar 2023 17:33:42 +0800</pubDate>
       
-      <guid>https://updown.city/posts/moved-to-hugo/</guid>
+      <guid>https://updown.city/posts/moved-to-hugo.zh-tw/</guid>
       <description>因爲快</description>
     </item>
     
     <item>
       <title>my-thesis-vanished</title>
-      <link>https://updown.city/posts/my-thesis-vanished/</link>
+      <link>https://updown.city/posts/my-thesis-vanished.zh-tw/</link>
       <pubDate>Sun, 19 Mar 2023 23:45:35 +0000</pubDate>
       
-      <guid>https://updown.city/posts/my-thesis-vanished/</guid>
-      <description>&lt;p&gt;我的論文消失了：打開發現只剩下一片狼藉（頭文件）或許是按錯了熱鍵，或許是（空缺的主語）在提醒我不可以那樣為了寫論文停在原地。我現在對$\mathcal{D}$-module很好奇。（論文應該是建立在日常的積累之上的，而不是臨時生搬硬湊的。我其實是有筆記的，只是它們混亂到讓人窒息（事實上我很少碰它們）。因為過去的記錄太過混亂，所以無力去整理和搜索，每次只好再重寫一遍，這種重複又帶來新的混亂。）&lt;/p&gt;</description>
+      <guid>https://updown.city/posts/my-thesis-vanished.zh-tw/</guid>
+      <description>我的論文消失了：打開發現只剩下一片狼藉（頭文件）或許是按錯了熱鍵，或許是（空缺的主語）在提醒我不可以那樣為了寫論文停在原地。我現在對$\ma</description>
     </item>
     
     <item>
       <title>虛構回憶</title>
-      <link>https://updown.city/posts/fictional-memory/</link>
+      <link>https://updown.city/posts/fictional-memory.zh-tw/</link>
       <pubDate>Sun, 19 Mar 2023 03:55:00 +0000</pubDate>
       
-      <guid>https://updown.city/posts/fictional-memory/</guid>
+      <guid>https://updown.city/posts/fictional-memory.zh-tw/</guid>
       <description></description>
     </item>
     
@@ -123,25 +157,25 @@
       <pubDate>Sat, 18 Mar 2023 22:41:49 +0000</pubDate>
       
       <guid>https://updown.city/pinned/changelog/</guid>
-      <description>categories: &amp;ldquo;stack&amp;rdquo; tags: [&amp;ldquo;碎碎唸&amp;rdquo;, &amp;ldquo;網站&amp;rdquo;] 2023-03-22 從NameSilo買了域名updown.city（為了防止我</description>
+      <description>旧的日誌已经从顶栏脱落，我发现我对封装世界有著某种……nostalgia 做多语言的时候发现只支持zh-cn与zh-tw两种语言标记，如果写z</description>
     </item>
     
     <item>
       <title>寫點什麼</title>
-      <link>https://updown.city/posts/emacs-initialization/</link>
+      <link>https://updown.city/posts/emacs-initialization.zh-tw/</link>
       <pubDate>Fri, 17 Mar 2023 23:59:59 +0000</pubDate>
       
-      <guid>https://updown.city/posts/emacs-initialization/</guid>
+      <guid>https://updown.city/posts/emacs-initialization.zh-tw/</guid>
       <description>&lt;p&gt;如果你發現我突然失蹤從網絡空間失蹤，&lt;del&gt;就像死了一樣&lt;/del&gt;留言板裡也沒有任何回應，那麼情況很可能是：我的狀態太糟糕了，只好把所有的文字觸鬚都蜷縮起來，臨時切斷我與我所愛的世界的聯繫，直到我能夠重新頂著發燙的腦袋出去。&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>將我遺忘在海邊吧</title>
+      <title>詞語與解釋</title>
       <link>https://updown.city/pinned/bupropion/</link>
       <pubDate>Fri, 17 Mar 2023 22:57:31 +0000</pubDate>
       
       <guid>https://updown.city/pinned/bupropion/</guid>
-      <description>簡繁切換是手動進行的（因為我很在意文字的形狀……） 我從Waline管理員頁面是可以刪除評論的，所以如果某一天你想要從我所觸及到的世界徹底消失</description>
+      <description>页面的文件名依旧是bupropion.md，我每天吃的安非他酮；旧的标题「将我遗忘在海边吧」来自安哲的《鹳鸟踟蹰》；曾经用过的另一个放置在网</description>
     </item>
     
     <item>
@@ -161,10 +195,10 @@
     
     <item>
       <title>發生了什麼</title>
-      <link>https://updown.city/posts/what-happened/</link>
+      <link>https://updown.city/posts/what-happened.zh-tw/</link>
       <pubDate>Sun, 12 Mar 2023 00:41:57 +0000</pubDate>
       
-      <guid>https://updown.city/posts/what-happened/</guid>
+      <guid>https://updown.city/posts/what-happened.zh-tw/</guid>
       <description>又一次搞砸了，只好刪庫重來。（然後換了这樣一個很溫柔的主題。（……而這兩件事的關聯） 曾經放棄過，註冊了新的github帳號，甚至買了域名（雖</description>
     </item>
     
@@ -179,101 +213,101 @@
     
     <item>
       <title>log-2023-03-08</title>
-      <link>https://updown.city/posts/stacked-logs-02/</link>
+      <link>https://updown.city/posts/stacked-logs-02.zh-cn/</link>
       <pubDate>Wed, 08 Mar 2023 10:00:59 +0000</pubDate>
       
-      <guid>https://updown.city/posts/stacked-logs-02/</guid>
+      <guid>https://updown.city/posts/stacked-logs-02.zh-cn/</guid>
       <description>想了想还是把声明里的那段关于授权的文字给删掉了（因为它让我感到非常不安）。我本该像远离知乎一样远离Twitter中文圈的某类话题的。那些对好</description>
     </item>
     
     <item>
       <title>故纸堆系列#1</title>
-      <link>https://updown.city/posts/jamais-vu/</link>
+      <link>https://updown.city/posts/jamais-vu.zh-cn/</link>
       <pubDate>Sun, 05 Mar 2023 22:42:49 +0000</pubDate>
       
-      <guid>https://updown.city/posts/jamais-vu/</guid>
+      <guid>https://updown.city/posts/jamais-vu.zh-cn/</guid>
       <description>&lt;p&gt;翻箱倒柜找高中毕业证的时候在一堆作业纸里发现的。很明显它不是（现在的）我写的。我对这段文本的记忆就像那张高中毕业证一样已经不知道消失在哪里去了。无法根据笔记判断具体的时间。尽可能保留原状（无法彻底保留原状或者按照撰写的时间顺序录入文本：就连我自己也不知道怎么对付那些箭头（用电脑写东西的时候至少它们是排版友好的括号群…可这堆箭头……呃…）写完留学文书后处于一种精神被耗竭的状态，又一次陷入文本搬运与interface configuration这些机械行为的黑洞。无法忍受有人在我身后走来走去，只好把整个工作台搬到床上，每天和草稿纸睡在一起。我也不去图书馆自习，因为会经常有人从我旁边经过。真的很羡慕那些能够正常去图书馆或者自习室学习的人（不会轻易陷入痛苦不堪的状态），那些不会因为强迫行为交不上作业的人。从很久以前便是如此。
 或许我会重置它，赋予它（至少我觉得）更加有趣的解释。但毕竟它不是「我」写的。而我已经不再想要将过去一笔勾销。To be honest，录入这个东西的时候我真的很嫌弃它：没有check定义就乱写自己没有完全搞清楚的东西，名词党的臭毛病。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>funny-things</title>
-      <link>https://updown.city/posts/funny-things/</link>
+      <link>https://updown.city/posts/funny-things.zh-cn/</link>
       <pubDate>Wed, 01 Mar 2023 18:25:09 +0000</pubDate>
       
-      <guid>https://updown.city/posts/funny-things/</guid>
+      <guid>https://updown.city/posts/funny-things.zh-cn/</guid>
       <description>能够理解，最后这个「给我留下语音邮件，指责我是中情局特工，作为一个巨大的种族主义阴谋的一部分而封锁Facebook（是的，这真的发生了）。」</description>
     </item>
     
     <item>
       <title>再見NekoBox</title>
-      <link>https://updown.city/posts/sayounara-neko-box/</link>
+      <link>https://updown.city/posts/sayounara-neko-box.zh-cn/</link>
       <pubDate>Thu, 23 Feb 2023 20:38:55 +0000</pubDate>
       
-      <guid>https://updown.city/posts/sayounara-neko-box/</guid>
+      <guid>https://updown.city/posts/sayounara-neko-box.zh-cn/</guid>
       <description>睡醒一觉起来发现NekoBox提问箱因为不可抗力因素关闭了。虽然邮箱里还能找到收到的提问，但我的回复全都已经无法找回了。想到我开这个博客的契</description>
     </item>
     
     <item>
       <title>關於我與女性主義的關係</title>
-      <link>https://updown.city/posts/dialog-between-chizuko-ueno-and-quan-xixi/</link>
+      <link>https://updown.city/posts/dialog-between-chizuko-ueno-and-quan-xixi.zh-cn/</link>
       <pubDate>Tue, 21 Feb 2023 21:15:21 +0000</pubDate>
       
-      <guid>https://updown.city/posts/dialog-between-chizuko-ueno-and-quan-xixi/</guid>
+      <guid>https://updown.city/posts/dialog-between-chizuko-ueno-and-quan-xixi.zh-cn/</guid>
       <description>&lt;p&gt;我逐渐意识到我经常省略一些「在我看来理所当然不需要额外解释但对他人来说未必如此」的前置说明，比如，我的女性主义立场是先验的而不是习得的，因此我认为反抗父权主义是所有女性与生俱来的本能，（而厌女症来自于父权主义环境对这种本能的破坏）。这是个相当糟糕的indication，幼稚且coarse，然而它是被我惯性使然地当做所有思考的前提来使用着的东西。于是对于女性主义，我总是批判大于行动。我没有付诸行动的意志力，所以能量只好用在fancy的激进说辞上。我深知我所说的「直接废除父权主义的话语体系」，实际上只不过是在讨论怎样巧妙地通过蜷缩身体来缓解痛苦，怎样用奇淫技巧伪造出自己的尊严。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>關於我</title>
-      <link>https://updown.city/posts/old-about/</link>
+      <link>https://updown.city/posts/old-about.zh-cn/</link>
       <pubDate>Sat, 18 Feb 2023 20:50:42 +0000</pubDate>
       
-      <guid>https://updown.city/posts/old-about/</guid>
+      <guid>https://updown.city/posts/old-about.zh-cn/</guid>
       <description>tags: 回收站 [常用]标签： #文学沙盒 用于存放不负责任的思考与感受 此博客作案工具： Visual Studio Code 突然想要放弃「您好，我也不知道我是谁」这个开场白。我是一个</description>
     </item>
     
     <item>
       <title>时间戳部分遗失的文本碎块，或者是stack形状的无名日记</title>
-      <link>https://updown.city/posts/stacked-logs-01/</link>
+      <link>https://updown.city/posts/stacked-logs-01.zh-cn/</link>
       <pubDate>Thu, 16 Feb 2023 21:52:31 +0000</pubDate>
       
-      <guid>https://updown.city/posts/stacked-logs-01/</guid>
+      <guid>https://updown.city/posts/stacked-logs-01.zh-cn/</guid>
       <description>无意中点进一个叫墨滴的社区，然后看到一篇声讨Notepad++的文章。作者嫌弃Notepad++的政治倾向，不类似于我嫌弃同路人对那些ugl</description>
     </item>
     
     <item>
       <title>關於寫博客的動機</title>
-      <link>https://updown.city/posts/motivation-of-this-blog/</link>
+      <link>https://updown.city/posts/motivation-of-this-blog.zh-cn/</link>
       <pubDate>Thu, 16 Feb 2023 16:50:01 +0000</pubDate>
       
-      <guid>https://updown.city/posts/motivation-of-this-blog/</guid>
+      <guid>https://updown.city/posts/motivation-of-this-blog.zh-cn/</guid>
       <description>受到NekoBox站长的个人博客Light Cube的影响，又一次尝试建站。这回没有迷路，很快就配置成功了。或许是因为电脑里已经安装了依赖项（</description>
     </item>
     
     <item>
       <title>会有人愿意和我交换友链吗?</title>
-      <link>https://updown.city/posts/old-links/</link>
+      <link>https://updown.city/posts/old-links.zh-cn/</link>
       <pubDate>Thu, 16 Feb 2023 09:33:09 +0000</pubDate>
       
-      <guid>https://updown.city/posts/old-links/</guid>
+      <guid>https://updown.city/posts/old-links.zh-cn/</guid>
       <description>tags: 回收站 categories: 回收站 旧的链接页，蒐集过一些（或許）有趣的网页。 &amp;lt;!-- more --&amp;gt; 林奕含的FACEBOOK豆瓣 我是个不会配置留言系统的菜鸟…所以想要留言的话请</description>
     </item>
     
     <item>
       <title>网站装配记录</title>
-      <link>https://updown.city/posts/old-logs/</link>
+      <link>https://updown.city/posts/old-logs.zh-cn/</link>
       <pubDate>Thu, 16 Feb 2023 09:14:37 +0000</pubDate>
       
-      <guid>https://updown.city/posts/old-logs/</guid>
+      <guid>https://updown.city/posts/old-logs.zh-cn/</guid>
       <description>旧的changelog：我到底在干什么 &amp;lt;!-- more --&amp;gt; 2023-03-08 重置了post文件名（用log-yyyy-MM-dd替换掉那些乱七八糟的文件名）；删掉了本站说</description>
     </item>
     
     <item>
       <title>在消失的差異與鏡面的空白之間</title>
-      <link>https://updown.city/posts/cokernels/</link>
+      <link>https://updown.city/posts/cokernels.zh-tw/</link>
       <pubDate>Fri, 26 Aug 2022 22:08:26 +0000</pubDate>
       
-      <guid>https://updown.city/posts/cokernels/</guid>
+      <guid>https://updown.city/posts/cokernels.zh-tw/</guid>
       <description>&lt;p&gt;tags: 天神右翼&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Summary
@@ -287,10 +321,10 @@
     
     <item>
       <title>樂不思蜀</title>
-      <link>https://updown.city/posts/ewige-wiederkunft/</link>
+      <link>https://updown.city/posts/ewige-wiederkunft.zh-tw/</link>
       <pubDate>Fri, 26 Aug 2022 21:09:17 +0000</pubDate>
       
-      <guid>https://updown.city/posts/ewige-wiederkunft/</guid>
+      <guid>https://updown.city/posts/ewige-wiederkunft.zh-tw/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Summary
 另一個穿越到伊薩爾身上的吐槽役。&lt;/p&gt;
@@ -304,10 +338,10 @@
     
     <item>
       <title>因為一切快樂要求永恆</title>
-      <link>https://updown.city/posts/everless/</link>
+      <link>https://updown.city/posts/everless.zh-tw/</link>
       <pubDate>Fri, 17 Sep 2021 05:26:00 +0000</pubDate>
       
-      <guid>https://updown.city/posts/everless/</guid>
+      <guid>https://updown.city/posts/everless.zh-tw/</guid>
       <description>&lt;p&gt;搬运自&lt;a href=&#34;https://archiveofourown.org/works/41209500&#34;&gt;Ao3&lt;/a&gt;，metadata里的日期也手动调成2021年9月，17日选的是一个bloomsday（记下bloomsday具体日期的习惯到了2022就渐渐被遗忘了。）&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Summary:
@@ -322,6 +356,15 @@
       
       <guid>https://updown.city/drafts/domai_information/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://updown.city/drafts/temp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://updown.city/drafts/temp/</guid>
+      <description>打倒斯大林主义的混蛋！ 国际工人联合会万岁！（索邦） 日常生活要自行主导。（先贤祠广场） 虽不尽美，噢，但多么迷人。生命，而不是苟延残喘。 谁还沉睡</description>
     </item>
     
   </channel>
