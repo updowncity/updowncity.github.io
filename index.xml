@@ -5,14 +5,23 @@
     <link>https://updown.city/</link>
     <description>Recent content on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 09 Apr 2023 11:17:33 +0800</lastBuildDate><atom:link href="https://updown.city/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Apr 2023 18:56:55 +0800</lastBuildDate><atom:link href="https://updown.city/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>被字数统计器坑死</title>
+      <link>https://updown.city/posts/word-count/</link>
+      <pubDate>Tue, 18 Apr 2023 18:56:55 +0800</pubDate>
+      
+      <guid>https://updown.city/posts/word-count/</guid>
+      <description>WinEdt 8140；知网 27082 截止日期是23号，但昨天中午赶论文的时候忽然收到消息，老师会在晚上统一处理我们几个的初稿，只好放弃正在写的一个证明。赶到晚</description>
+    </item>
+    
     <item>
       <title>新手对的LaTeX怨念</title>
       <link>https://updown.city/posts/fucking-latex/</link>
       <pubDate>Sun, 09 Apr 2023 11:17:33 +0800</pubDate>
       
       <guid>https://updown.city/posts/fucking-latex/</guid>
-      <description>1 2 3 4 5 6 % TODO % - [ ] avoid/remove unnecessary inventions % - [ ] check the order of propositions and footnotes % - [ ] remove wordy footnotes % - [ ] check missing explainations and definitions % - [ ] check and remove ugly expressions 还是打不出sheaf Hom，不知道Ha</description>
+      <description>我觉得对自己所研究的事物热爱还是厌倦是因人而异的，但对系统的恨是universal的。（然而系统依旧存在着：…或许这也是我如此确信惯性是远比</description>
     </item>
     
     <item>
