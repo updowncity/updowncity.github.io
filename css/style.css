@@ -3,14 +3,14 @@
   --primary-color: #000b80;
   /*--link-hover-background-color: #b4eeb4;*/
   --link-hover-background-color: #d3e6ff;
-  --global-font-size: 14px;*/
+  --global-font-size: 16px;
   --code-font-size: 12px;
   --highlight-color: #e22d30;
   --link-text-color: #0f4a85;
   --font-sans: "Segoe UI", "Microsoft Yahei", sans-serif;
-  --font-title: /*'Ysabeau',*/Lora, 'CMU Typewriter Text Variable Width', 'Noto Serif', Lora, 'Droid Serif', 'Microsoft Yahei', serif;
+  --font-title: Lora, 'Lyusung 24', 'CMU Typewriter Text Variable Width', 'Noto Serif', Lora, 'Droid Serif', 'Microsoft Yahei', serif;
   --highliFwghtColor: #2a2a2a;
-  --font-family-primary: -apple-system, BlinkMacSystemFont, /*'Ysabeau',*/ 'Georgia Pro', 'Segoe UI', 'Modern DOS 9x14', 'Microsoft Yahei', serif;
+  --font-family-primary: -apple-system, BlinkMacSystemFont, 'Georgia Pro', 'Segoe UI', 'Modern DOS 9x14', 'Microsoft Yahei', serif;
   --font-mono: FMono-Regular, Consolas, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "Microsoft Yahei", monospace;
   --global-background-color: #fff;/*#f7f7f7;/*#f9f9fc;/*SeaShell;/*OldLace;/*SeaShell;/*#f9f9fc;*/
   --global-text-color: #1f2328; /* come from GitHub */
