@@ -5,6 +5,7 @@
     <link>https://updown.city/pinned/</link>
     <description>Recent content in Pinneds on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Sat, 18 Mar 2023 22:41:49 +0000</lastBuildDate><atom:link href="https://updown.city/pinned/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>日誌</title>
@@ -12,7 +13,7 @@
       <pubDate>Sat, 18 Mar 2023 22:41:49 +0000</pubDate>
       
       <guid>https://updown.city/pinned/changelog/</guid>
-      <description>旧的日誌已经从顶栏脱落，我发现我对封装世界有著某种……nostalgia 做多语言的时候发现只支持zh-cn与zh-tw两种语言标记，如果写z</description>
+      <description>去掉的代碼 1 2 3 4 5 6 7 8 blockquote:before{ content: &amp;#39;&amp;lt;blockquote&amp;gt;&amp;#39;; font-family: var(--font-mono); } blockquote:after{ content: &amp;#39;&amp;lt;/blockquote&amp;gt;&amp;#39;; font-family: var(--font-mono); }</description>
     </item>
     
     <item>

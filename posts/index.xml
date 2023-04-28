@@ -5,6 +5,7 @@
     <link>https://updown.city/posts/</link>
     <description>Recent content in Posts on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Wed, 26 Apr 2023 18:29:42 +0800</lastBuildDate><atom:link href="https://updown.city/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何安全地握住一隻烏鴉</title>
@@ -12,8 +13,17 @@
       <pubDate>Wed, 26 Apr 2023 18:29:42 +0800</pubDate>
       
       <guid>https://updown.city/posts/how-to-grasp-a-crow/</guid>
-      <description>&lt;p&gt;遇到一則神奇的b站首頁推送：如何安全地握住一隻烏鴉&lt;img src=&#34;https://s2.loli.net/2023/04/26/Aau6QJ7sTLwCpVR.jpg&#34; alt=&#34;&#34;&gt;然後向純純寫作裡的ChatGPT提問（訂閱用戶的共用API key）&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://s2.loli.net/2023/04/26/1KTO8CRPn3dFawi.jpg&#34; alt=&#34;20230426_how-to-grasp-a-crow_@OpenAI.jpg&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;遇到一則神奇的b站首頁推送：&lt;figure&gt;&lt;img src=&#34;https://s2.loli.net/2023/04/26/Aau6QJ7sTLwCpVR.jpg&#34; width=&#34;200px&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;&amp;gt;如何安全地握住一隻烏鴉&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+然後向純純寫作裡的ChatGPT提問（訂閱用戶的共用API key）
+&lt;figure&gt;&lt;img src=&#34;https://s2.loli.net/2023/04/26/1KTO8CRPn3dFawi.jpg&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;&amp;gt;ChatGPT的回答&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -36,15 +46,6 @@
       
       <guid>https://updown.city/posts/sensory-overload/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>To those unable to understand how to ask questions the smart way</title>
-      <link>https://updown.city/posts/dedication/</link>
-      <pubDate>Mon, 24 Apr 2023 16:34:46 +0800</pubDate>
-      
-      <guid>https://updown.city/posts/dedication/</guid>
-      <description>This would be my standard dedication for future math works. I know it&amp;rsquo;s radical but&amp;hellip; but this all what I want to indicate: I always stand with losers, idiots, and all those unable to understand how to ask questions the smart way.</description>
     </item>
     
     <item>
