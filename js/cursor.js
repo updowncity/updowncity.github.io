@@ -42,7 +42,7 @@ class Circle {
     randomColor() {
       const range = ['8', '9', 'A', 'B', 'C', 'D', 'E', 'F']
       //return '#' + this.randomArray(range) + this.randomArray(range) + this.randomArray(range) + this.randomArray(range) + this.randomArray(range) + this.randomArray(range)
-      return 'whitesmoke'
+      return 'PeachPuff'
     }
   
     randomRange(start, end) {
