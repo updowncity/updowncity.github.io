@@ -27,7 +27,7 @@ mjx-math{
 *::after {
   box-sizing: border-box;
 }
-
+/*
 article,
 aside,
 dialog,
@@ -41,17 +41,18 @@ nav,
 section {
   display: block;
 }
-
+*/
 body {
   font-family: var(--font-family-primary);
   background-color: var(--global-background-color);
   color: var(--global-foreground-color);
   font-size: var(--global-font-size);
 }
+/*
 p {
   display: inline-block !important;
   vertical-align: middle !important
-}
+}*/
 .container {
   position: relative;
   width: 100%;
@@ -62,11 +63,11 @@ p {
 .container--outer {
   margin: 0px auto;
 }
-
+/*
 svg.meta__icon {
   display: none;
 }
-
+*/
 .flex {
   display: -webkit-flex;
   display: flex
@@ -111,7 +112,6 @@ svg.meta__icon {
   content: ""
 }
 
-
 a {
   text-decoration: none !important;
   color: var(--link-text-color);
@@ -121,7 +121,6 @@ a:hover {
   color: var(--link-hover-foreground-color);
   background-color: var(--link-hover-background-color);
 }
-
 
 
 ol,
@@ -184,11 +183,11 @@ dd {
   margin-left: 20px;
   list-style-type: circle
 }
-
+/*
 select {
   max-width: 100%
 }
-
+*/
 .menu__list {
   list-style: none;}
 
@@ -222,8 +221,7 @@ header h2 a{
 .menu__btn {
   display: none;
 }
-.menu__list,
-.js .menu__list {
+.menu__list{
   position: relative;
   display: -webkit-flex;
   display: flex;
@@ -471,12 +469,12 @@ img {
   -webkit-justify-content: space-between;
   justify-content: space-between
 }
-
+/*
 .footer__links {
   -webkit-order: 1;
   order: 1
 }
-
+*/
 @media screen and (max-width:1475px) {
   .container--outer {
     width: 95%;
