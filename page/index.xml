@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on 你快樂嗎</title>
+    <link>https://updown.city/page/</link>
+    <description>Recent content in Pages on 你快樂嗎</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Mar 2023 22:41:49 +0000</lastBuildDate><atom:link href="https://updown.city/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日誌</title>
+      <link>https://updown.city/page/changelog/</link>
+      <pubDate>Sat, 18 Mar 2023 22:41:49 +0000</pubDate>
+      
+      <guid>https://updown.city/page/changelog/</guid>
+      <description>去掉的代碼
+blockquote:before{ content: &amp;#39;&amp;lt;blockquote&amp;gt;&amp;#39;; font-family: var(--font-mono); } blockquote:after{ content: &amp;#39;&amp;lt;/blockquote&amp;gt;&amp;#39;; font-family: var(--font-mono); } </description>
+    </item>
+    
+    <item>
+      <title>關於我</title>
+      <link>https://updown.city/page/bupropion/</link>
+      <pubDate>Fri, 17 Mar 2023 22:57:31 +0000</pubDate>
+      
+      <guid>https://updown.city/page/bupropion/</guid>
+      <description>页面的文件名依旧是bupropion.md，我每天吃的安非他酮；旧的标题「将我遗忘在海边吧」来自安哲的《鹳鸟踟蹰》；曾经用过的另一个放置在网站标题「你快乐吗」下面的subtitle/description「带上蜡烛，我们去罗马干件大事」来自塔克夫斯基的《乡愁》，邮箱名jamais-vu@tutanota.com来自极乐迪斯科；「虫蜕」是我在disroot bin收到的一条留言；</description>
+    </item>
+    
+    <item>
+      <title>虫蜕</title>
+      <link>https://updown.city/page/moults/</link>
+      <pubDate>Fri, 17 Mar 2023 02:00:29 +0000</pubDate>
+      
+      <guid>https://updown.city/page/moults/</guid>
+      <description>&lt;p&gt;如果你發現了這裡沒有列出的蟲蛻請到&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;留言&lt;code&gt;^_^&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;為了找到這些蟲蛻我需要：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;蒐集儘可能多的&lt;code&gt;kdbx&lt;/code&gt;文件，然後猜出它們的密碼；&lt;/li&gt;
+&lt;li&gt;觸摸那些損毀的&lt;code&gt;kdbx&lt;/code&gt;文件，就像觸摸電腦屏幕。&lt;/li&gt;
+&lt;li&gt;（上面兩個句子沒有對齊。）&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>友链</title>
+      <link>https://updown.city/page/friends/</link>
+      <pubDate>Sun, 12 Mar 2023 00:38:32 +0000</pubDate>
+      
+      <guid>https://updown.city/page/friends/</guid>
+      <description>this terrible chamber - yet eidetically you A blog - A的存文地</description>
+    </item>
+    
+  </channel>
+</rss>
