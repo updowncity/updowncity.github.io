@@ -116,3 +116,10 @@ border: 1.4px solid rgba(0, 0, 0, 0.15);
   padding-bottom: 0;
   border-bottom: 0;
 }
+.bilberry-hugo-theme footer .container ul li,
+.bilberry-hugo-theme article .content .archive-list ul li{
+  border-bottom: 0;
+}
+.bilberry-hugo-theme pre code{
+  font-family: Consolas, monospace;
+}

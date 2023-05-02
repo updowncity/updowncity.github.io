@@ -4,25 +4,6 @@
     <title>Author on 你快樂嗎</title>
     <link>https://updown.city/author/</link>
     <description>Recent content in Author on 你快樂嗎</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Nov 2021 14:40:32 +0100</lastBuildDate><atom:link href="https://updown.city/author/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Albert Einstein</title>
-      <link>https://updown.city/author/albert-einstein/</link>
-      <pubDate>Mon, 01 Nov 2021 14:40:32 +0100</pubDate>
-      
-      <guid>https://updown.city/author/albert-einstein/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Edward Snowden</title>
-      <link>https://updown.city/author/edward-snowden/</link>
-      <pubDate>Mon, 01 Nov 2021 13:01:14 +0100</pubDate>
-      
-      <guid>https://updown.city/author/edward-snowden/</guid>
-      <description></description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://updown.city/author/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
