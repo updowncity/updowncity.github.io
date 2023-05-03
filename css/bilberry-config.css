@@ -123,3 +123,6 @@ border: 1.4px solid rgba(0, 0, 0, 0.15);
 .bilberry-hugo-theme pre code{
   font-family: Consolas, monospace;
 }
+.bilberry-hugo-theme article .content .meta{
+  font-size: 14px;
+}
