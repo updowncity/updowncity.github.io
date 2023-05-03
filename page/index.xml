@@ -12,7 +12,8 @@
       <pubDate>Sat, 18 Mar 2023 22:41:49 +0000</pubDate>
       
       <guid>https://updown.city/page/changelog/</guid>
-      <description>2023-05-01 更新了主题与配色：或许我的确怀念着那个encapsulation世界。
+      <description>2023-05-03 注释掉了cursor.js（鼠标点击效果）
+2023-05-01 更新了主题与配色：或许我的确怀念着那个旧的encapsulation世界。
 2023-04-?? 注释掉了Valine。</description>
     </item>
     
