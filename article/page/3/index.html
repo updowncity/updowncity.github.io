@@ -33,7 +33,6 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
@@ -89,9 +88,9 @@
             
             
             <li><a href="https://updown.city/archive/">时间轴</a></li>
-            <li><a href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta">留言板</a></li>
+            <li><a href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta">留言</a></li>
             
-            <li><a href="https://updown.city/article/index.xml">純文本</a></li>
+            <li><a href="https://updown.city/article/index.xml">RSS</a></li>
         </ul>
 
         
@@ -108,10 +107,11 @@
         <div class="logo">
             <a href="/" class="logo">
                 
-                    <img src="/favicon.jpg" alt="">
+                    
+                    <i class="fa fa-sharp fa-light fa-ghost"></i>
                 
 
-                <span class="overlay"><i class="fa fa-sharp fa-light fa-ghost"></i></span>
+                <span class="overlay"><img src="/images/favicon.jpg" alt=""></span>
             </a>
         </div>
         <div class="titles">
@@ -141,9 +141,71 @@
     
         <div class="article-wrapper u-cf">
             
-                <a class="bubble" href="https://updown.city/article/initialization.zh-tw/">
-    <i class="fas fa-fw fa-solid fa-ghost"></i>
+                <a class="bubble" href="https://updown.city/article/lisp.zh-cn/">
+    <i class="fas fa-fw fa-pencil-alt"></i>
 </a>
+
+<article class="default article">
+    
+
+    <div class="content">
+    <h1 class="article-title">
+        <a href="https://updown.city/article/lisp.zh-cn/">
+            lisp的发现與其他碎碎唸
+        </a>
+    </h1>
+
+    <div class="meta">
+        
+            
+                <span class="date moment">2023-03-23</span>
+            
+        
+
+        
+
+        
+            <span class="categories">
+                
+                    
+                    
+                        <a href="https://updown.city/categories/%E6%97%A5%E8%AA%8C/">日誌</a>
+                    
+                
+            </span>
+        
+
+        
+    </div>
+
+    
+        闲逛的时候发现了AsciiDoc这个类似于Markdown优化的文本标记语言，然后想到org-mode：我可以把标题的syntax highlight给去掉，在第一级标题的地方写初始文本，然后从第二级标题开始放我那堆该死的括号1。很显然it doesn&rsquo;t work因为我的括号是出现在段落内部的，而这些标题是必须位于段首的…寫出來會相當ugly。然后在想：我想要的是利用电脑屏幕(什么鬼)实现括号的折叠与配对（虽然这样一来出现于重叠的右括号的singularity就不复存在了，但至少：(1)阅读友好（幽灵能否读懂这坨狗屎我并不care但我寫論文還是需要把它們整理成條理清晰(至少能夠閱讀)的語言的……（我真的很想把充滿括號stack(s)的原始文本拿出去噁心別人就像現在這樣…）;(2)singularities并不是真的消失，它们只是以被消解(铺开)掉的形式呈现着（比如这种东西（但愿我没数错））））然后………………这TMD不就是lisp吗。（前兩天插上就被我忘掉的flag…） 其实我过去从来没想过会lisp，第一我对编写具体的程序不太感兴趣（我对事物的兴趣…很多时候是把原理搞清楚以后就结束了）；第二我在玩emacs的时候见到很多说lisp很难很不友好的(&hellip;信息?)；第三我真的找不到编程的动机。去年这个时候我因为选课失误而不得不学python然后怎么都学不会…很绝望，因为交不上作业。到结课的时候我还是不会寫python…（我很敬佩编程随想但我是真的很讨厌python因为学不会）其实我也无法理解，python作为语言本该是很trivial的东西（否则它不会成为被广泛使用的工具），我大一的时候也学过C和C++（是专必），也都还算顺利…。现在想想大概只是我无法适应*封装*(的世界)吧。刚才搜了下中文结果，那些知乎上对lisp吹捧或是贬低的文章让我感到……我不属于他们的世界。 另一个是，昨天我忽然意识到其实我至少从去年就已经确定了具体的方向，因为我无论做什么都会指向某个点……（我一直在寻找的）。发现以后觉得是显然的，但在此之前我一直很迷茫（以至于错过了一个申请季……我错过申请季不是因为脑子进水忘掉截止日期，而是因为对未来彻底的迷茫。）对我来说这些就好像是一个预先被安排好的人生轨迹，而非出于我个人的选择。 我只會寫這種心情随笔，小女生的碎碎唸。这里就像一个隐藏的秘密花园空间（我自知无力维护一个花园……）
+其实除了括号还有脚注（写到后面突然想起来的内容）&#160;&#x21a9;&#xfe0e;
+
+        
+    
+</div>
+
+    
+<div class="footer no-tags">
+
+
+    
+
+    
+</div>
+
+</article>
+
+            
+        </div>
+    
+        <div class="article-wrapper u-cf">
+            
+                <a class="bubble" href="https://updown.city/article/initialization.zh-tw/">
+    <i class="fas fa-fw fa-pencil-alt"></i>
+</a>
+
 <article class="default article">
     
 
@@ -201,8 +263,9 @@
         <div class="article-wrapper u-cf">
             
                 <a class="bubble" href="https://updown.city/article/program-think.zh-tw/">
-    <i class="fas fa-fw fa-solid fa-ghost"></i>
+    <i class="fas fa-fw fa-pencil-alt"></i>
 </a>
+
 <article class="default article">
     
 
@@ -260,8 +323,9 @@
         <div class="article-wrapper u-cf">
             
                 <a class="bubble" href="https://updown.city/article/ping-github.zh-cn/">
-    <i class="fas fa-fw fa-solid fa-ghost"></i>
+    <i class="fas fa-fw fa-pencil-alt"></i>
 </a>
+
 <article class="default article">
     
 
@@ -290,7 +354,7 @@
         <p>Please note that this <em>does not work at all.</em></p>
 
         
-            <a href="https://updown.city/article/ping-github.zh-cn/" class="more">继续阅读</a>
+            <a href="https://updown.city/article/ping-github.zh-cn/" class="more">Continue reading</a>
         
     
 </div>
@@ -312,8 +376,9 @@
         <div class="article-wrapper u-cf">
             
                 <a class="bubble" href="https://updown.city/article/moved-to-hugo.zh-tw/">
-    <i class="fas fa-fw fa-solid fa-ghost"></i>
+    <i class="fas fa-fw fa-pencil-alt"></i>
 </a>
+
 <article class="default article">
     
 
@@ -371,8 +436,9 @@
         <div class="article-wrapper u-cf">
             
                 <a class="bubble" href="https://updown.city/article/my-thesis-vanished.zh-tw/">
-    <i class="fas fa-fw fa-solid fa-ghost"></i>
+    <i class="fas fa-fw fa-pencil-alt"></i>
 </a>
+
 <article class="default article">
     
 
@@ -430,8 +496,9 @@
         <div class="article-wrapper u-cf">
             
                 <a class="bubble" href="https://updown.city/article/emacs-initialization.zh-tw/">
-    <i class="fas fa-fw fa-solid fa-ghost"></i>
+    <i class="fas fa-fw fa-pencil-alt"></i>
 </a>
+
 <article class="default article">
     
 
@@ -469,67 +536,7 @@
         <p>如果你發現我突然失蹤從網絡空間失蹤，<del>就像死了一樣</del>留言板裡也沒有任何回應，那麼情況很可能是：我的狀態太糟糕了，只好把所有的文字觸鬚都蜷縮起來，臨時切斷我與我所愛的世界的聯繫，直到我能夠重新頂著發燙的腦袋出去。</p>
 
         
-            <a href="https://updown.city/article/emacs-initialization.zh-tw/" class="more">继续阅读</a>
-        
-    
-</div>
-
-    
-<div class="footer no-tags">
-
-
-    
-
-    
-</div>
-
-</article>
-
-            
-        </div>
-    
-        <div class="article-wrapper u-cf">
-            
-                <a class="bubble" href="https://updown.city/article/what-happened.zh-tw/">
-    <i class="fas fa-fw fa-solid fa-ghost"></i>
-</a>
-<article class="default article">
-    
-
-    <div class="content">
-    <h1 class="article-title">
-        <a href="https://updown.city/article/what-happened.zh-tw/">
-            發生了什麼
-        </a>
-    </h1>
-
-    <div class="meta">
-        
-            
-                <span class="date moment">2023-03-12</span>
-            
-        
-
-        
-
-        
-            <span class="categories">
-                
-                    
-                    
-                        <a href="https://updown.city/categories/%E6%97%A5%E8%AA%8C/">日誌</a>
-                    
-                
-            </span>
-        
-
-        
-    </div>
-
-    
-        又一次搞砸了，只好刪庫重來。（然後換了这樣一個很溫柔的主題。（……而這兩件事的關聯）
-曾經放棄過，註冊了新的github帳號，甚至買了域名（雖然我打死也不說那個域名是什么…它是我名字的縮寫加我喜歡的人兩年前的(一個)ID。能夠进入那個網站的人也只會以爲那是我爲了省錢而在名字縮寫後面加的隨機數。那邊沒有CJK所以字體也就調到16px（我對微軟雅黑14px時的hint有奇怪的執念）。雖然我很討厭這種類似於將工作與休閒分隔開來的處理，但那邊的強光會讓人感到很不舒服。或者說，那邊用來存放「幸福的閃電」，這邊則是「熟悉的黑夜」。當然那邊現在還是不會有訪客的（至少要等我寫出第一個…會讓別人感興趣的理論）。
-
+            <a href="https://updown.city/article/emacs-initialization.zh-tw/" class="more">Continue reading</a>
         
     
 </div>
@@ -552,11 +559,11 @@
     
     <div class="paginator">
         
-            <a href="/article/page/4/" class="older"><i class="fa fa-angle-double-left"></i> 旧的</a>
+            <a href="/article/page/4/" class="older"><i class="fa fa-angle-double-left"></i> Older posts</a>
         
 
         
-            <a href="/article/page/2/" class="newer">新的 <i class="fa fa-angle-double-right"></i></a>
+            <a href="/article/page/2/" class="newer">Newer posts <i class="fa fa-angle-double-right"></i></a>
         
     </div>
 
@@ -570,9 +577,13 @@
 
         
         <div class="recent-posts">
-            <strong>#损毁的时间轴</strong>
+            <strong>Latest posts</strong>
             <ul>
                 
+                
+                    <li>
+                        <a href="https://updown.city/article/22/">寫於22歲之際：</a>
+                    </li>
                 
                     <li>
                         <a href="https://updown.city/article/how-to-grasp-a-crow/">如何安全地握住一隻烏鴉</a>
@@ -598,10 +609,6 @@
                         <a href="https://updown.city/article/fucking-latex/">新手对的LaTeX怨念</a>
                     </li>
                 
-                    <li>
-                        <a href="https://updown.city/article/nostalgia.zh-cn/">我对封装世界依旧有著某种…怀念</a>
-                    </li>
-                
             </ul>
         </div>
         
@@ -609,7 +616,7 @@
         
         <div class="categories">
             
-            <a href="https://updown.city/categories/"><strong>#歸類</strong></a>
+            <a href="https://updown.city/categories/"><strong>Categories</strong></a>
             
 
             <ul>
@@ -663,11 +670,11 @@
         <div class="right">
             
             <div class="external-profiles">
-                <strong>#兩枚圖標</strong>
+                <strong>Social media</strong>
                 
                 <a href="https://twitter.com/ewi9Wiederkunft" target="_blank" rel="me"><em class="fab fa-twitter"></em></a>
                 
-                <a href="https://dudu.best/ewi9Wiederkunft" target="_blank" rel=""><em class="fab fa-mastodon"></em></a>
+                <a href="https://github.com/updowncity" target="_blank" rel=""><em class="fab fa-github"></em></a>
                 
             </div>
             
@@ -696,6 +703,8 @@
         </div>
     </div>
 </div>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
 
 
     
@@ -714,6 +723,8 @@
     <script src="https://updown.city/theme.js"></script>
     
 
+    
+    
     
 
     

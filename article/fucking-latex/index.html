@@ -41,7 +41,6 @@ DDL是第一生产力
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
@@ -94,7 +93,7 @@ DDL是第一生产力
             
             
             <li><a href="https://updown.city/archive/">时间轴</a></li>
-            <li><a href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta">留言板</a></li>
+            <li><a href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta">留言</a></li>
             
             
         </ul>
@@ -113,10 +112,11 @@ DDL是第一生产力
         <div class="logo">
             <a href="/" class="logo">
                 
-                    <img src="/favicon.jpg" alt="">
+                    
+                    <i class="fa fa-sharp fa-light fa-ghost"></i>
                 
 
-                <span class="overlay"><i class="fa fa-sharp fa-light fa-ghost"></i></span>
+                <span class="overlay"><img src="/images/favicon.jpg" alt=""></span>
             </a>
         </div>
         <div class="titles">
@@ -145,8 +145,9 @@ DDL是第一生产力
     <div class="article-wrapper u-cf single">
         
             <a class="bubble" href="https://updown.city/article/fucking-latex/">
-    <i class="fas fa-fw fa-solid fa-ghost"></i>
+    <i class="fas fa-fw fa-pencil-alt"></i>
 </a>
+
 <article class="default article">
     
 
@@ -183,16 +184,16 @@ DDL是第一生产力
 <p>看来是编辑器的锅。VSCode编译不出来我就换用TeXLive附带的TeXworks，结果还是不行。感觉今天这俩除了报错和转圈圈啥也不会。Texworks editor does not work at all unless I commented all commutative diagrams. 然后换了WinEdt。（很好用，就是太贵了。）</p>
 <p>（偶然想到…</p>
 <p>为什么所有的交换图都编译不出来了为什么所有的交换图都编译不出来了</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="color:#007f7f">% TODO
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">% - [ ] avoid/remove unnecessary inventions
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">% - [ ] check the order of propositions and footnotes
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">% - [ ] remove wordy footnotes
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">% - [ ] check missing explainations and definitions
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">% - [ ] check and remove ugly expressions
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="color:#080;font-style:italic">% TODO
+</span></span></span><span style="display:flex;"><span><span style="color:#080;font-style:italic">% - [ ] avoid/remove unnecessary inventions
+</span></span></span><span style="display:flex;"><span><span style="color:#080;font-style:italic">% - [ ] check the order of propositions and footnotes
+</span></span></span><span style="display:flex;"><span><span style="color:#080;font-style:italic">% - [ ] remove wordy footnotes
+</span></span></span><span style="display:flex;"><span><span style="color:#080;font-style:italic">% - [ ] check missing explainations and definitions
+</span></span></span><span style="display:flex;"><span><span style="color:#080;font-style:italic">% - [ ] check and remove ugly expressions
 </span></span></span></code></pre></div><p>还是打不出sheaf Hom，不知道Hartshorne书上的那些是怎么弄出来的。凑了个显然不合格的<code>\mathscr{H}\kern -2pt \mathit{om}</code>（把字体换成GTM281里的<code>\usepackage[mathscr]{euscript}</code>）一开始写的是<code>2px</code>，然后从pdftex换到xetex的时候就到处报错。（check了一下学校的文档发现要求西文字体是Times New Roman，默认的CMU系列和Times区别有点大，fontspec又不支持pdftex。这东西真的不适合脑子不好使的人（指我）</p>
 <p><mark>#居然可以这样写</mark></p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">\def\-</span>#1<span style="color:#fff;font-weight:bold">{</span><span style="color:#fff;font-weight:bold">\mathscr</span><span style="color:#fff;font-weight:bold">{</span>#1<span style="color:#fff;font-weight:bold">}}</span>
-</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">\def\+</span>#1<span style="color:#fff;font-weight:bold">{</span><span style="color:#fff;font-weight:bold">\mathscr</span><span style="color:#fff;font-weight:bold">{</span>#1<span style="color:#fff;font-weight:bold">}^</span><span style="color:#fff;font-weight:bold">\bullet</span><span style="color:#fff;font-weight:bold">}</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">\def\-</span>#1<span style="color:#a2f">{</span><span style="color:#a2f;font-weight:bold">\mathscr</span><span style="color:#a2f">{</span>#1<span style="color:#a2f">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">\def\+</span>#1<span style="color:#a2f">{</span><span style="color:#a2f;font-weight:bold">\mathscr</span><span style="color:#a2f">{</span>#1<span style="color:#a2f">}^</span><span style="color:#a2f;font-weight:bold">\bullet</span><span style="color:#a2f">}</span>
 </span></span></code></pre></div><p>疯狗乱咬人般的LaTeX吐槽。不过吐槽归吐槽，我也知道，由于强迫行为的影响，手写notes对我来说有时远比折腾LaTeX困难（……即便充满commutative diagram）。</p>
 <p>谢天谢地有这两个符号：<code>\imath</code>与<code>\jmath</code>，输出是不带点的i与j：(\imath,\jmath)，可以用它们写immersion，用普通的(i,j)写index。</p>
 <p>什么鬼，sheaf Hom 打不出来。网页上可以正常输出(\mathscr{Hom})与(\mathcal{Hom})，然而在我的编译器里，它们不支持小写字母：<code>\mathscr{Hom}</code>只出现一个花体的H：$\mathscr{H}$；<code>\mathcal{Hom}</code>会出现一坨这个东西<img src="/images/2023-04/hom@mathcal.png" alt=""></p>
@@ -247,6 +248,15 @@ Lisp的写法可以让字母的摆放顺序和箭头版本的一致，转化的�
             
 
             
+<script src="https://utteranc.es/client.js"
+        repo="updowncity/updowncity.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<div id="utterances"></div>
+
 
         </div>
     
@@ -259,9 +269,13 @@ Lisp的写法可以让字母的摆放顺序和箭头版本的一致，转化的�
 
         
         <div class="recent-posts">
-            <strong>#损毁的时间轴</strong>
+            <strong>Latest posts</strong>
             <ul>
                 
+                
+                    <li>
+                        <a href="https://updown.city/article/22/">寫於22歲之際：</a>
+                    </li>
                 
                     <li>
                         <a href="https://updown.city/article/how-to-grasp-a-crow/">如何安全地握住一隻烏鴉</a>
@@ -287,10 +301,6 @@ Lisp的写法可以让字母的摆放顺序和箭头版本的一致，转化的�
                         <a href="https://updown.city/article/fucking-latex/">新手对的LaTeX怨念</a>
                     </li>
                 
-                    <li>
-                        <a href="https://updown.city/article/nostalgia.zh-cn/">我对封装世界依旧有著某种…怀念</a>
-                    </li>
-                
             </ul>
         </div>
         
@@ -298,7 +308,7 @@ Lisp的写法可以让字母的摆放顺序和箭头版本的一致，转化的�
         
         <div class="categories">
             
-            <a href="https://updown.city/categories/"><strong>#歸類</strong></a>
+            <a href="https://updown.city/categories/"><strong>Categories</strong></a>
             
 
             <ul>
@@ -352,11 +362,11 @@ Lisp的写法可以让字母的摆放顺序和箭头版本的一致，转化的�
         <div class="right">
             
             <div class="external-profiles">
-                <strong>#兩枚圖標</strong>
+                <strong>Social media</strong>
                 
                 <a href="https://twitter.com/ewi9Wiederkunft" target="_blank" rel="me"><em class="fab fa-twitter"></em></a>
                 
-                <a href="https://dudu.best/ewi9Wiederkunft" target="_blank" rel=""><em class="fab fa-mastodon"></em></a>
+                <a href="https://github.com/updowncity" target="_blank" rel=""><em class="fab fa-github"></em></a>
                 
             </div>
             
@@ -385,6 +395,8 @@ Lisp的写法可以让字母的摆放顺序和箭头版本的一致，转化的�
         </div>
     </div>
 </div>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
 
 
     
@@ -403,6 +415,8 @@ Lisp的写法可以让字母的摆放顺序和箭头版本的一致，转化的�
     <script src="https://updown.city/theme.js"></script>
     
 
+    
+    
     
 
     
