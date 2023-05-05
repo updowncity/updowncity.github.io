@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
 :root{
   /* AntiqueWhite is darker than OldLace */
   /*
+  --color-header-bg: #24292f;
   --page-background-color: AntiqueWhite; 
   --bubble-color: OldLace;
   --article-background-color: Oldlace;
 */
+  --github-bg: #f6f8fa;
+  --color-header-bg: #24292f;
   --selection-foreground-color: white;
   --selection-background-color: #0078d7;
   --bilberry: #1d1f38;
