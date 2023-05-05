@@ -2,10 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://updown.city/article/</loc>
-    <lastmod>2023-05-04T22:08:39+08:00</lastmod>
+    <loc>https://updown.city/tags/2019/</loc>
+    <lastmod>2023-05-05T23:18:48+08:00</lastmod>
+  </url><url>
+    <loc>https://updown.city/categories/2019/</loc>
+    <lastmod>2023-05-05T23:18:48+08:00</lastmod>
+  </url><url>
+    <loc>https://updown.city/categories/</loc>
+    <lastmod>2023-05-05T23:18:48+08:00</lastmod>
+  </url><url>
+    <loc>https://updown.city/gallery/</loc>
+    <lastmod>2023-05-05T23:18:48+08:00</lastmod>
+  </url><url>
+    <loc>https://updown.city/tags/nomo/</loc>
+    <lastmod>2023-05-05T23:18:48+08:00</lastmod>
+  </url><url>
+    <loc>https://updown.city/tags/</loc>
+    <lastmod>2023-05-05T23:18:48+08:00</lastmod>
   </url><url>
     <loc>https://updown.city/</loc>
+    <lastmod>2023-05-05T23:18:48+08:00</lastmod>
+  </url><url>
+    <loc>https://updown.city/gallery/20190201/</loc>
+    <lastmod>2023-05-05T23:18:48+08:00</lastmod>
+  </url><url>
+    <loc>https://updown.city/tags/%E5%AE%89%E5%BE%BD/</loc>
+    <lastmod>2023-05-05T23:18:48+08:00</lastmod>
+  </url><url>
+    <loc>https://updown.city/categories/%E6%97%A7%E6%97%A5/</loc>
+    <lastmod>2023-05-05T23:18:48+08:00</lastmod>
+  </url><url>
+    <loc>https://updown.city/article/</loc>
     <lastmod>2023-05-04T22:08:39+08:00</lastmod>
   </url><url>
     <loc>https://updown.city/article/22/</loc>
@@ -38,16 +65,10 @@
     <loc>https://updown.city/article/archived-about-01.zh-tw/</loc>
     <lastmod>2023-04-06T18:41:54+08:00</lastmod>
   </url><url>
-    <loc>https://updown.city/categories/</loc>
-    <lastmod>2023-04-04T22:14:07+08:00</lastmod>
-  </url><url>
     <loc>https://updown.city/categories/daytime-moon/</loc>
     <lastmod>2023-04-04T22:14:07+08:00</lastmod>
   </url><url>
     <loc>https://updown.city/tags/homological-algebra/</loc>
-    <lastmod>2023-04-04T22:14:07+08:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/tags/</loc>
     <lastmod>2023-04-04T22:14:07+08:00</lastmod>
   </url><url>
     <loc>https://updown.city/article/homotopy-category.zh-tw/</loc>
@@ -160,9 +181,6 @@
   </url><url>
     <loc>https://updown.city/article/everless.zh-tw/</loc>
     <lastmod>2021-09-17T05:26:00+00:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/gallary/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://updown.city/author/</loc>
   </url><url>
