@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+
+
+  
+<html itemscope itemtype="https://schema.org/WebPage" class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="siteBaseUrl" content="https://updown.city/">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="generator" content="Hugo 0.111.3">
+    <title>
+        
+           
+               蓝莓使用备忘录 &vert; 你快樂嗎
+           
+        
+    </title>
+    <meta itemprop="name" content="蓝莓使用备忘录">
+    <meta itemprop="description" content="蓝莓使用备忘录 - %!s(&lt;nil&gt;)">
+    <meta property="og:site_name" content="你快樂嗎">
+
+    <meta property="og:title" content="蓝莓使用备忘录" />
+<meta property="og:description" content="bilberry是此博客目前正在使用的主题。以这个主题为例写一个备忘录。bilberry是免费的，虽然介绍里写它是一个premium Hugo theme。毕业论文的事让我不再想用literature sandbox之类的免责声明了：我的确是认真地在做这件事。（然而那件事我也只能做到：在「No originality is claimed.」的免责声明里补充一句「除了本文中可能出现的错误以外」）
+除非作者早已弃坑不再对主题维护与更新（这样的Hugo主题其实很多…），否则不要直接修改主题文件，更新后你的修改会被覆盖掉。正确的操作方法是：把你所要修改的文件在根目录复制一份。它会具有更高的优先级，你所有的改动在这个脱离的镜像上进行。比如，你要修改layouts/_default/baseof.html，那就在根目录的layouts里新建一个文件夹_defaults然后把baseof.html复制过来。不要像魔改CSS那样新建一个空白文件然后按需修改。它不是在原有的配置文件的基础上进行添加，而是直接进行替换，当根目录里存在layouts/_default/baseof.html时，主题文件夹里的layouts/_default/baseof.html将会被忽略。
+它们并不是彼此独立的沙盒，主题的作者是可以在主题文件夹里设置一些留给用户自定义的(空白)文件的，更新不会对这些文件进行覆盖，你可以直接修改它们。比如，hugo-book的assets/_custom.scss与assets/_variables.scss是留给用户自定义的两个空白文件，里面也分别有提示语
+/* You can add custom styles here. */ 以及
+/* You can override SASS variables here. */ 蓝莓也可以这样做，只不过需要安装额外的依赖项（npm install以后主题文件夹膨胀到了100&#43;MB而且总是报错（我也不知道为什么）。
+修改代码块样式 [markup] [markup.highlight] style = &#34;bw&#34; 除此之外，需要关掉主题自带的HighlightJs
+enableHighlightJs = false " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://updown.city/code/config-bilberry/" /><meta property="article:section" content="code" />
+<meta property="article:published_time" content="2023-05-11T20:47:45+08:00" />
+<meta property="article:modified_time" content="2023-05-11T20:47:45+08:00" />
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+    <script src="/modernizr-simple.js"></script>
+
+    
+
+
+    
+    <link rel="canonical" href="https://updown.city/code/config-bilberry/">
+    
+
+    <link rel="stylesheet" href="https://updown.city/theme.css">
+
+    
+
+    
+        
+            <link rel="stylesheet" href="https://updown.city/bilberry-config.css">
+        
+    
+
+    
+</head>
+
+<body class="bilberry-hugo-theme">
+    
+
+    
+    <nav class="permanentTopNav">
+
+    <div class="container">
+        <ul class="topnav">
+            
+                
+                    <li><a href="https://updown.city/page/changelog/">日誌</a></li>
+                
+            
+                
+                    <li><a href="https://updown.city/page/bupropion/">關於我</a></li>
+                
+            
+                
+                    <li><a href="https://updown.city/page/moults/">虫蜕</a></li>
+                
+            
+                
+                    <li><a href="https://updown.city/page/friends/">友链</a></li>
+                
+            
+            <li>
+                <a href="https://updown.city/archive/">时间轴</a>
+            </li>
+            <li><a href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta"?>留言 <embed src="/externalLink.svg" style="display:block;height:10px"/></a></li>
+        </ul>
+
+        
+    </div>
+</nav>
+
+
+    
+    <header>
+
+    <div class="container">
+        <div class="logo">
+            <a href="/" class="logo">
+                
+                
+                <i class="fa fa fa-sharp fa-light fa-ghost"></i>
+                
+                <span class="overlay"><img src="/favicon.jpg" alt=""></span>
+            </a>
+        </div>
+        <div class="titles">
+            <h3 class="title">
+                <a href="/">
+                    你快樂嗎
+                </a>
+            </h3>
+
+            
+        </div>
+
+        
+
+        
+            <div class="toggler permanentTopNav">
+        
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+    </div>
+</header>
+
+
+    <div class="main container">
+        
+    <div class="article-wrapper u-cf single">
+        
+            <a class="bubble" href="https://updown.city/code/config-bilberry/">
+    <i class="fas fa-fw fa-code"></i>
+</a>
+
+<article class="default article">
+    
+
+    <div class="content">
+    <h1 class="article-title">
+        <a href="https://updown.city/code/config-bilberry/">
+            蓝莓使用备忘录
+        </a>
+    </h1>
+
+    <div class="meta">
+        
+            
+                <span class="date moment">2023-05-11</span>
+            
+        
+
+        
+
+        
+
+        
+    </div>
+
+    
+        
+
+        <p>bilberry是此博客目前正在使用的主题。以这个主题为例写一个备忘录。bilberry是免费的，虽然介绍里写它是一个premium Hugo theme。毕业论文的事让我不再想用literature sandbox之类的免责声明了：我的确是认真地在做这件事。（然而那件事我也只能做到：在「No originality is claimed.」的免责声明里补充一句「除了本文中可能出现的错误以外」）</p>
+<p><strong>除非作者早已弃坑不再对主题维护与更新</strong>（这样的Hugo主题其实很多…），<strong>否则不要直接修改主题文件，更新后你的修改会被覆盖掉</strong>。<strong>正确</strong>的操作方法是：把你所要修改的文件在根目录<strong>复制</strong>一份。它会具有<strong>更高的优先级</strong>，你所有的改动在这个脱离的镜像上进行。比如，你要修改<code>layouts/_default/baseof.html</code>，那就在根目录的<code>layouts</code>里新建一个文件夹<code>_defaults</code>然后把<code>baseof.html</code>复制过来。<strong>不要像魔改CSS那样新建一个空白文件然后按需修改。它不是在原有的配置文件的基础上进行添加，而是直接进行替换，当根目录里存在<code>layouts/_default/baseof.html</code>时，主题文件夹里的<code>layouts/_default/baseof.html</code>将会被忽略。</strong></p>
+<p>它们并不是彼此独立的沙盒，主题的作者是可以在主题文件夹里设置一些留给用户自定义的(空白)文件的，更新不会对这些文件进行覆盖，你可以直接修改它们。比如，hugo-book的<code>assets/_custom.scss</code>与<code>assets/_variables.scss</code>是留给用户自定义的两个空白文件，里面也分别有提示语</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="font-style:italic">/* You can add custom styles here. */</span>
+</span></span></code></pre></div><p>以及</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="font-style:italic">/* You can override SASS variables here. */</span>
+</span></span></code></pre></div><p>蓝莓也可以这样做，只不过需要安装额外的依赖项（<code>npm install</code>以后主题文件夹膨胀到了100+MB而且总是报错（我也不知道为什么）。</p>
+<h3 id="修改代码块样式">修改代码块样式</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[markup]
+</span></span><span style="display:flex;"><span>  [markup.highlight]
+</span></span><span style="display:flex;"><span>    style = <span style="font-style:italic">&#34;bw&#34;</span>
+</span></span></code></pre></div><p>除此之外，需要关掉主题自带的HighlightJs</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>enableHighlightJs = <span style="font-weight:bold">false</span>
+</span></span></code></pre></div>
+    
+</div>
+
+    
+<div class="footer no-tags">
+
+
+    
+
+    
+</div>
+
+</article>
+
+        
+    </div>
+
+    
+        <div id="comments-container">
+            
+            
+
+            
+
+            
+
+        </div>
+    
+
+    </div>
+
+    
+<footer>
+    <div class="container">
+
+        
+        <div class="recent-posts">
+            <strong>Latest posts</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="https://updown.city/code/config-bilberry/">蓝莓使用备忘录</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://updown.city/article/22/">寫於22歲之際</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://updown.city/article/archived-changelog-02/">从顶栏脱落下来的changelog页</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://updown.city/article/archived-about-01/">從頂欄脫落下來的About頁</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://updown.city/article/homotopy-category/">為什麼我把這個又寫了一遍</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://updown.city/article/nekobox-backup/">NekoBox復活於是把收到的留言備份過來</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://updown.city/article/pin-github/">记录Windows10解决GitHub访问问题的尝试</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        
+        <div class="categories">
+            
+            <a href="https://updown.city/categories/"><strong>Categories</strong></a>
+            
+
+            <ul>
+                
+                <li>
+                
+                    <a href="https://updown.city/categories/%E6%97%A5%E8%AA%8C/">日誌 (4)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="https://updown.city/categories/%E6%95%85%E7%B4%99%E5%A0%86/">故紙堆 (2)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="https://updown.city/categories/%E7%A2%8E%E7%A2%8E%E5%94%B8/">碎碎唸 (2)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="https://updown.city/categories/%E7%94%B5%E6%B3%A2/">电波 (1)</a>
+                
+                </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="right">
+            
+
+            
+
+            
+        </div>
+    </div>
+</footer>
+
+
+<div class="credits">
+    <div class="container">
+        <div class="copyright">
+            <a href="https://github.com/Lednerb" target="_blank">
+                &copy;
+                
+                2023
+                
+                Copyright is confusing
+            </a>
+            
+        </div>
+        <div class="author">
+            <a href="https://github.com/Lednerb/bilberry-hugo-theme"
+                target="_blank">Bilberry Hugo Theme</a>
+        </div>
+    </div>
+</div>
+
+
+    
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+</script>
+
+    
+    <script src="https://updown.city/theme-exclude-highlight.js"></script>
+    
+
+    
+    
+    
+
+    
+
+    
+</body>
+
+</html>

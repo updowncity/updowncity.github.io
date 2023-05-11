@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 你快樂嗎</title>
+    <link>https://updown.city/categories/</link>
+    <description>Recent content in Categories on 你快樂嗎</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 25 Mar 2023 01:37:47 +0800</lastBuildDate><atom:link href="https://updown.city/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>碎碎唸</title>
+      <link>https://updown.city/categories/%E7%A2%8E%E7%A2%8E%E5%94%B8/</link>
+      <pubDate>Sat, 25 Mar 2023 01:37:47 +0800</pubDate>
+      
+      <guid>https://updown.city/categories/%E7%A2%8E%E7%A2%8E%E5%94%B8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>日誌</title>
+      <link>https://updown.city/categories/%E6%97%A5%E8%AA%8C/</link>
+      <pubDate>Thu, 23 Mar 2023 23:11:05 +0800</pubDate>
+      
+      <guid>https://updown.city/categories/%E6%97%A5%E8%AA%8C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>电波</title>
+      <link>https://updown.city/categories/%E7%94%B5%E6%B3%A2/</link>
+      <pubDate>Thu, 23 Mar 2023 12:08:00 +0800</pubDate>
+      
+      <guid>https://updown.city/categories/%E7%94%B5%E6%B3%A2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>故紙堆</title>
+      <link>https://updown.city/categories/%E6%95%85%E7%B4%99%E5%A0%86/</link>
+      <pubDate>Fri, 26 Aug 2022 22:08:26 +0000</pubDate>
+      
+      <guid>https://updown.city/categories/%E6%95%85%E7%B4%99%E5%A0%86/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

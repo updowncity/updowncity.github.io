@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+:root{
+  /* AntiqueWhite is darker than OldLace */
+  /*
+  --color-header-bg: #24292f;
+  --page-background-color: AntiqueWhite; 
+  --bubble-color: OldLace;
+  --article-background-color: Oldlace;
+*/
+  --github-bg: #f6f8fa;
+  --color-header-bg: #24292f;
+  --selection-foreground-color: white;
+  --selection-background-color: #0078d7;
+  --bilberry: #1d1f38;
+  --footer-background-color: transparent;
+  --title-font-family: Lora, 'Microsoft Yahei', serif;
+  --global-font-family: 'Segoe UI', Lora, 'Microsoft Yahei', serif;
+  --article-footer-font: 'Segoe UI', Lora, 'Microsoft Yahei', serif;
+  --global-font-size: 14px;
+  --color-nav: #2d3642;
+  --windows: #0078d7;
+}
+
+
+/* Teal */
+
+
+
+.bilberry-hugo-theme .paginator a,
+.bilberry-hugo-theme .main .article-wrapper .bubble{
+  background-color: var(--color-nav);
+}
+
+/* hover */
+
+.bilberry-hugo-theme .paginator a:hover,
+.bilberry-hugo-theme .main .article-wrapper .bubble:hover{
+  background-color:#1d1f38;
+  color: #f1f1f1;
+}
+
+/* 14px */
+
+body,
+.bilberry-hugo-theme,
+.bilberry-hugo-theme article .content a.more,
+.bilberry-hugo-theme footer .container ul a,
+.bilberry-hugo-theme article .content .meta,
+.bilberry-hugo-theme article .content .archive-list ul a{
+  font-size: 14px;
+  font-family: var(--global-font-family);
+}
+.bilberry-hugo-theme{
+  background-color: ;
+}
+
+.bilberry-hugo-theme .paginator a,
+div.content,
+.bilberry-hugo-theme nav,
+.bilberry-hugo-theme header .toggler{
+  border-radius: 0;
+}
+
+
+/* letter spacing & Text transform */
+
+.bilberry-hugo-theme article .content .meta,
+.bilberry-hugo-theme footer .container,
+.bilberry-hugo-theme pre code,
+div.content strong,
+.bilberry-hugo-theme article .content h4,
+.bilberry-hugo-theme footer .container strong,
+h1, h2,h3,h4,h5,h6,
+.bilberry-hugo-theme article .content h4{
+  text-transform: none!important;
+  letter-spacing: 0!important;
+}
+
+
+
+.bilberry-hugo-theme article .content h1 a,
+.bilberry-hugo-theme header .titles h3{
+  font-weight: bold;
+}
+
+.bilberry-hugo-theme footer .container ul a{
+  font-family: var(--global-font-family)!important;
+}
+
+.bilberry-hugo-theme header .container,
+.bilberry-hugo-theme header{
+  color: #1d1f38;
+  background-color: #f1f1f1;
+}
+
+.bilberry-hugo-theme header .logo{
+  background-color: var(--color-nav);
+  color: #f1f1f1;
+  border: 1.4px solid rgba(0, 0, 0, 0.15);
+}
+
+.bilberry-hugo-theme header .logo:hover{
+  background-color: var(--color-nav);
+  color: #f1f1f1;
+}
+
+
+.bilberry-hugo-theme article .content blockquote,
+.bilberry-hugo-theme .subtitle, .bilberry-hugo-theme .title, .bilberry-hugo-theme h1, .bilberry-hugo-theme h2, .bilberry-hugo-theme h3, .bilberry-hugo-theme h4, .bilberry-hugo-theme h5, .bilberry-hugo-theme h6{
+  font-family: var(--title-font-family);
+}
+.bilberry-hugo-theme article .content h1 a:hover{
+  text-decoration: underline;
+}
+
+*::selection{
+  background-color: var(--selection-background-color);
+  color: var(--selection-foreground-color);
+}
+*::-moz-selection{
+  background-color: var(--selection-background-color);
+  color: var(--selection-foreground-color);
+}
+
+.bilberry-hugo-theme,
+.bilberry-hugo-theme footer .container ul a{
+  font-family: var(--content-font);
+}
+
+.bilberry-hugo-theme article .content blockquote{
+  padding: 0;
+  background-color: transparent;
+  border-left: solid 0.5em Teal;
+  padding-left: 0.5em;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+}
+.bilberry-hugo-theme article .content h4{
+  font-weight: 500;
+  letter-spacing: 0!important;
+}
+
+.bilberry-hugo-theme article .content .archive-list ul a span,
+.bilberry-hugo-theme .credits .container{
+  color: var(--color-nav);
+}
+@media (max-width: 800px){
+  .bilberry-hugo-theme footer .container{
+    text-align: left;
+  }
+}
+
+
+
+.bilberry-hugo-theme .main:after{
+  background-color:rgba(0, 0, 0, 0.15);
+}
+.bilberry-hugo-theme .main .article-wrapper .bubble{
+border: 1.4px solid rgba(0, 0, 0, 0.15);
+}
+.bilberry-hugo-theme article .content .meta{
+  color: var(--color-nav);
+  font-size: 14px;
+}
+.bilberry-hugo-theme article .content a
+  :not(.bilberry-hugo-theme article .content a.more)
+  :not(.bilberry-hugo-theme article .content .archive-list ul a)
+  :not(.bilberry-hugo-theme article .content h1 a)
+  :hover,
+.bilberry-hugo-theme .credits .container a:hover{
+  text-decoration: none;
+  border-bottom: 1px solid var(--bilberry)!important;
+  color: var(--bilberry)!important;
+}
+.bilberry-hugo-theme article .content h1 a{
+  font-size: 21px;
+}
+.bilberry-hugo-theme article .content h1 a:hover,
+body > header > div > div.titles > h3 > a:hover{
+  text-decoration: none;
+  border-bottom: 2px dashed var(--bilberry)!important;
+  color: var(--bilberry)!important;
+  transition: none;
+}
+.bilberry-hugo-theme footer .container ul a,.bilberry-hugo-theme a:hover,
+.bilberry-hugo-theme .credits .container a,
+.bilberry-hugo-theme article .content a
+:not(.bilberry-hugo-theme article .content a.more)
+:not(.bilberry-hugo-theme article .content h1 a),
+.bilberry-hugo-theme article .content .archive-list ul a{
+  color: indigo;
+}
+.bilberry-hugo-theme article .content a{
+  color: indigo
+}
+.bilberry-hugo-theme footer .container ul a:hover,
+.bilberry-hugo-theme article .content a:not(.bilberry-hugo-theme article .content .archive-list ul a):not(.bilberry-hugo-theme article .content a.more):hover{
+  text-decoration: none;
+  border-bottom: 1px solid indigo!important;
+  color: indigo!important;
+}
+.bilberry-hugo-theme footer .container strong{
+  font-size: 16px;
+}
+body > footer > div > div.categories > a > strong:hover{
+  text-decoration: underline dotted;
+}
+.bilberry-hugo-theme article .content a.more{
+  font-size: 16px;
+  font-style: italic;
+  font-family: Lora;
+  color: teal;
+}
+.bilberry-hugo-theme article .content a.more:hover{
+  text-decoration: underline dotted;
+}
+.bilberry-hugo-theme article .content .meta{
+  margin-bottom: 14px;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.bilberry-hugo-theme footer .container ul li,
+.bilberry-hugo-theme article .content .archive-list ul li{
+  border-bottom: 0;
+}
+.bilberry-hugo-theme pre code{
+  font-family: Consolas, monospace;
+}
+
+.bilberry-hugo-theme footer .container strong,
+.bilberry-hugo-theme .paginator a{
+  font-family: var(--title-font-family);
+  font-size: 19px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.bilberry-hugo-theme pre code, .bilberry-hugo-theme code{
+  border-radius: 0;
+  font-size: 12px;
+  font-family: Consolas, 'Fira Code', 'Microsoft Yahei', monospace;
+}

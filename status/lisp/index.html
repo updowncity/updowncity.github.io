@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+
+  
+<html itemscope itemtype="https://schema.org/WebPage" class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="siteBaseUrl" content="https://updown.city/">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="generator" content="Hugo 0.111.3">
+    <title>
+        
+           
+               你快樂嗎
+           
+        
+    </title>
+    <meta itemprop="name" content="">
+    <meta itemprop="description" content=" - %!s(&lt;nil&gt;)">
+    <meta property="og:site_name" content="你快樂嗎">
+
+    <meta property="og:title" content="" />
+<meta property="og:description" content="闲逛的时候发现了AsciiDoc这个类似于Markdown优化的文本标记语言，然后想到org-mode：我可以把标题的syntax highlight给去掉，在第一级标题的地方写初始文本，然后从第二级标题开始放我那堆该死的括号1。很显然it doesn’t work因为我的括号是出现在段落内部的，而这些标题是必须位于段首的…寫出來會相當ugly。然后在想：我想要的是利用电脑屏幕(什么鬼)实现括号的折叠与配对（虽然这样一来出现于重叠的右括号的singularity就不复存在了，但至少：(1)阅读友好（幽灵能否读懂这坨狗屎我并不care但我寫論文還是需要把它們整理成條理清晰(至少能夠閱讀)的語言的……（我真的很想把充滿括號stack(s)的原始文本拿出去噁心別人就像現在這樣…）;(2)singularities并不是真的消失，它们只是以被消解(铺开)掉的形式呈现着（比如这种东西（但愿我没数错））））然后………………这TMD不就是lisp吗。（前兩天插上就被我忘掉的flag…） 其实我过去从来没想过会lisp，第一我对编写具体的程序不太感兴趣（我对事物的兴趣…很多时候是把原理搞清楚以后就结束了）；第二我在玩emacs的时候见到很多说lisp很难很不友好的(…信息?)；第三我真的找不到编程的动机。去年这个时候我因为选课失误而不得不学python然后怎么都学不会…很绝望，因为交不上作业。到结课的时候我还是不会寫python…（我很敬佩编程随想但我是真的很讨厌python因为学不会）其实我也无法理解，python作为语言本该是很trivial的东西（否则它不会成为被广泛使用的工具），我大一的时候也学过C和C&#43;&#43;（是专必），也都还算顺利…。现在想想大概只是我无法适应封装(的世界)吧。刚才搜了下中文结果，那些知乎上对lisp吹捧或是贬低的文章让我感到……我不属于他们的世界。 另一个是，昨天我忽然意识到其实我至少从去年就已经确定了具体的方向，因为我无论做什么都会指向某个点……（我一直在寻找的）。发现以后觉得是显然的，但在此之前我一直很迷茫（以至于错过了一个申请季……我错过申请季不是因为脑子进水忘掉截止日期，而是因为对未来彻底的迷茫。）对我来说这些就好像是一个预先被安排好的人生轨迹，而非出于我个人的选择。 我只會寫這種心情随笔，小女生的碎碎唸。这里就像一个隐藏的秘密花园空间（我自知无力维护一个花园……）
+其实除了括号还有脚注（写到后面突然想起来的内容）&#160;&#x21a9;&#xfe0e;" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://updown.city/status/lisp/" /><meta property="article:section" content="status" />
+<meta property="article:published_time" content="2023-03-23T23:11:05+08:00" />
+<meta property="article:modified_time" content="2023-03-23T23:11:05+08:00" />
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+    <script src="/modernizr-simple.js"></script>
+
+    
+
+
+    
+    <link rel="canonical" href="https://updown.city/status/lisp/">
+    
+
+    <link rel="stylesheet" href="https://updown.city/theme.css">
+
+    
+
+    
+        
+            <link rel="stylesheet" href="https://updown.city/bilberry-config.css">
+        
+    
+
+    
+</head>
+
+<body class="bilberry-hugo-theme">
+    
+
+    
+    <nav class="permanentTopNav">
+
+    <div class="container">
+        <ul class="topnav">
+            
+                
+                    <li><a href="https://updown.city/page/changelog/">日誌</a></li>
+                
+            
+                
+                    <li><a href="https://updown.city/page/bupropion/">關於我</a></li>
+                
+            
+                
+                    <li><a href="https://updown.city/page/moults/">虫蜕</a></li>
+                
+            
+                
+                    <li><a href="https://updown.city/page/friends/">友链</a></li>
+                
+            
+            <li>
+                <a href="https://updown.city/archive/">时间轴</a>
+            </li>
+            <li><a href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta"?>留言 <embed src="/externalLink.svg" style="display:block;height:10px"/></a></li>
+        </ul>
+
+        
+    </div>
+</nav>
+
+
+    
+    <header>
+
+    <div class="container">
+        <div class="logo">
+            <a href="/" class="logo">
+                
+                
+                <i class="fa fa fa-sharp fa-light fa-ghost"></i>
+                
+                <span class="overlay"><img src="/favicon.jpg" alt=""></span>
+            </a>
+        </div>
+        <div class="titles">
+            <h3 class="title">
+                <a href="/">
+                    你快樂嗎
+                </a>
+            </h3>
+
+            
+        </div>
+
+        
+
+        
+            <div class="toggler permanentTopNav">
+        
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+    </div>
+</header>
+
+
+    <div class="main container">
+        
+    <div class="article-wrapper u-cf single">
+        
+            <span class="bubble">
+    <i class="fas fa-fw fa-comment"></i>
+</span>
+
+<article class="status">
+    
+
+    <div class="content">
+
+
+        
+            <div class="meta">
+                
+                    
+                        <span class="date moment">2023-03-23</span>
+                    
+                
+
+                
+                    <span class="categories">
+                        
+                            
+                            
+                                <a href="https://updown.city/categories/%E6%97%A5%E8%AA%8C/">日誌</a>
+                            
+                        
+                    </span>
+                
+
+                
+            </div>
+        
+
+        <p>闲逛的时候发现了<a href="https://asciidoc.org/">AsciiDoc</a>这个类似于Markdown优化的文本标记语言，然后想到org-mode：我可以把标题的syntax highlight给去掉，在第一级标题的地方写初始文本，然后从第二级标题开始放我那堆该死的括号<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。很显然it doesn’t work因为我的括号是出现在段落内部的，而这些标题是必须位于段首的…寫出來會相當ugly。然后在想：我想要的是利用电脑屏幕(什么鬼)实现括号的折叠与配对（虽然这样一来出现于重叠的右括号的singularity就不复存在了，但至少：(1)阅读友好（幽灵能否读懂这坨狗屎我并不care但我寫論文還是需要把它們整理成條理清晰(至少能夠閱讀)的語言的……（我真的很想把充滿括號stack(s)的原始文本拿出去噁心別人就像現在這樣…）;(2)singularities并不是真的消失，它们只是以被消解(铺开)掉的形式呈现着（比如这种东西（但愿我没数错））））然后………………这TMD不就是lisp吗。（前兩天插上就被我忘掉的flag…）
+其实我过去从来没想过会lisp，第一我对编写具体的程序不太感兴趣（我对事物的兴趣…很多时候是把原理搞清楚以后就结束了）；第二我在玩emacs的时候见到很多说lisp很难很不友好的(…信息?)；第三我真的找不到编程的动机。去年这个时候我<del>因为选课失误而不得不</del>学python然后怎么都学不会…很绝望，因为交不上作业。到结课的时候我还是不会寫python…（我很敬佩编程随想但我是真的很讨厌python<del>因为学不会</del>）其实我也无法理解，python作为语言本该是很trivial的东西（否则它不会成为被广泛使用的工具），我大一的时候也学过C和C++（是专必），也都还算顺利…。现在想想大概只是我无法适应<em>封装</em>(的世界)吧。刚才搜了下中文结果，那些知乎上对lisp吹捧或是贬低的文章让我感到……我不属于他们的世界。
+另一个是，昨天我忽然意识到其实我至少从去年就已经确定了具体的方向，因为我无论做什么都会指向某个点……（我一直在寻找的）。发现以后觉得是显然的，但在此之前我一直很迷茫（以至于错过了一个申请季……我错过申请季不是因为脑子进水忘掉截止日期，而是因为对未来彻底的迷茫。）对我来说这些就好像是一个预先被安排好的人生轨迹，而非出于我个人的选择。
+我只會寫這種心情随笔，小女生的碎碎唸。这里就像一个隐藏的秘密<del>花园</del>空间（我自知无力维护一个花园……）</p></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>其实除了括号还有脚注（写到后面突然想起来的内容）&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    </div>
+
+    
+<div class="footer no-tags">
+
+
+    
+
+    
+</div>
+
+</article>
+
+        
+    </div>
+
+    
+        <div id="comments-container">
+            
+            
+
+            
+
+            
+
+        </div>
+    
+
+    </div>
+
+    
+<footer>
+    <div class="container">
+
+        
+        <div class="recent-posts">
+            <strong>Latest posts</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="https://updown.city/code/config-bilberry/">蓝莓使用备忘录</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://updown.city/article/22/">寫於22歲之際</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://updown.city/article/archived-changelog-02/">从顶栏脱落下来的changelog页</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://updown.city/article/archived-about-01/">從頂欄脫落下來的About頁</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://updown.city/article/homotopy-category/">為什麼我把這個又寫了一遍</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://updown.city/article/nekobox-backup/">NekoBox復活於是把收到的留言備份過來</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://updown.city/article/pin-github/">记录Windows10解决GitHub访问问题的尝试</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        
+        <div class="categories">
+            
+            <a href="https://updown.city/categories/"><strong>Categories</strong></a>
+            
+
+            <ul>
+                
+                <li>
+                
+                    <a href="https://updown.city/categories/%E6%97%A5%E8%AA%8C/">日誌 (4)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="https://updown.city/categories/%E6%95%85%E7%B4%99%E5%A0%86/">故紙堆 (2)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="https://updown.city/categories/%E7%A2%8E%E7%A2%8E%E5%94%B8/">碎碎唸 (2)</a>
+                
+                </li>
+                
+                <li>
+                
+                    <a href="https://updown.city/categories/%E7%94%B5%E6%B3%A2/">电波 (1)</a>
+                
+                </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="right">
+            
+
+            
+
+            
+        </div>
+    </div>
+</footer>
+
+
+<div class="credits">
+    <div class="container">
+        <div class="copyright">
+            <a href="https://github.com/Lednerb" target="_blank">
+                &copy;
+                
+                2023
+                
+                Copyright is confusing
+            </a>
+            
+        </div>
+        <div class="author">
+            <a href="https://github.com/Lednerb/bilberry-hugo-theme"
+                target="_blank">Bilberry Hugo Theme</a>
+        </div>
+    </div>
+</div>
+
+
+    
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+</script>
+
+    
+    <script src="https://updown.city/theme-exclude-highlight.js"></script>
+    
+
+    
+    
+    
+
+    
+
+    
+</body>
+
+</html>

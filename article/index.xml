@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on 你快樂嗎</title>
+    <link>https://updown.city/article/</link>
+    <description>Recent content in Articles on 你快樂嗎</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 04 May 2023 22:08:39 +0800</lastBuildDate><atom:link href="https://updown.city/article/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>寫於22歲之際</title>
+      <link>https://updown.city/article/22/</link>
+      <pubDate>Thu, 04 May 2023 22:08:39 +0800</pubDate>
+      
+      <guid>https://updown.city/article/22/</guid>
+      <description>图片是邱妙津一九九四年十月五日寫給赖香吟的信，收录于《其後それから》，或许它可以作为我对未来的展望（别再避讳死亡！）</description>
+    </item>
+    
+    <item>
+      <title>从顶栏脱落下来的changelog页</title>
+      <link>https://updown.city/article/archived-changelog-02/</link>
+      <pubDate>Thu, 06 Apr 2023 18:42:31 +0800</pubDate>
+      
+      <guid>https://updown.city/article/archived-changelog-02/</guid>
+      <description>title: 網站日誌 date: 2023-03-18 22:41:49 hidden: true featured_image: &amp;#34;/images/art.pixilart.com@e1732a4045e2bc7.gif&amp;#34; menu: main: name: &amp;#39;網站日誌&amp;#39; weight: 5 categories: “stack” &amp;lt;br&amp;gt; tags: [“碎碎念”, “网站”] 2023-03-22 从NameSilo买了域名`updown.city`（为了防止我删库跑路），比隔壁狗爹(GoDaddy)友好很多 ~~除非你很讨厌洋文~~ 2023-03-20 搬家到Hugo（…因为快） 放置了一个**加载非常缓慢且很可能除了报错什么也不会**的留言板； **备份**默认的字体配置（目前我只在后面加了微软雅黑（阻止衬线与等宽的中文fallback到宋体）。不过很难期待ugly-blue的作者会愿意认真考虑可读性问题。） 2023-03-29 通过沙盒回归旧的景观，缓慢搬运。果然我不喜欢我的「丑陋的忧郁」。`2023-03-19` 第一次添加友链（又是丢失的时间戳，就像那些虫蜕。） 把原本装在injector里的内容取出然后放入主题文件夹里的`head.ejs`（……因为landscape已经很久都没有更新了，我可以放心地改主题文件，无需考虑更新时我的配置被覆写什么的。） 换掉了changelog页(为什么); （时间戳丢失） ```yaml --- title: 装配记录 date: 2023-03-12 02:28:47 --- 写论文摸鱼的时候逛Hexo主题，始终没有找到合我心意的主题。于是动手制作这个临时被我命名为ugly-blue的主题（原名是ugly-html，但它并不是纯HTML所以就改成了现在这个「丑陋的忧郁」…另一个待选名称是it-just-works，目前整个文件夹只有2.47KB(……CSS什么的都被我喂进了injector.js)……效果近似于破损的默认主题，但它至少是能用的。（…就像觉得perverse sheaf难听的人可以选择用hypersheaf这个名字）目前想做的是仿照Emacs默认主题配置按钮。 加入了moults虫蜕页面，用来记录那些死去[?]并且被我遗忘的网站（或许某一天我会像说“太阳升起来了”一样说这些网站是属于我的…），想法来自disroot bin的这条留言。我的记忆力有时相当糟糕，有时我甚至感到我的生命是不连续的。</description>
+    </item>
+    
+    <item>
+      <title>從頂欄脫落下來的About頁</title>
+      <link>https://updown.city/article/archived-about-01/</link>
+      <pubDate>Thu, 06 Apr 2023 18:41:54 +0800</pubDate>
+      
+      <guid>https://updown.city/article/archived-about-01/</guid>
+      <description>你为什么要把它们摘下来。
+title: 將我遺忘在海邊吧 date: 2023-03-17 22:57:31 hidden: true featured_image: &amp;amp;#34;/images/art.pixilart.com@e1732a4045e2bc7.gif&amp;amp;#34; menu: main: name: &amp;amp;#39;關於我&amp;amp;#39; weight: &amp;amp;#39;7&amp;amp;#39; toc: false 簡繁切換是手動進行的（因為我很在意文字的形狀……）
+我從Waline管理員頁面是可以刪除評論的，所以如果某一天你想要從我所觸及到的世界徹底消失，抹除一切可見的痕跡，可以郵件聯繫我：jamais-vu@tutanota.com。（就好像寫這樣一個聲明可以帶給訪客安心的感覺。你真的這麼想嗎。）
+Powered by Hugo with Console Theme
+留言 Disroot Bin
+郵箱 jamais-vu@tutanota.com
+關鍵字 ugly-blue ugly-blue是一個只用了兩天就被換掉的自制hexo主題，其實它也沒有那麼醜，ugly可以理解為前綴或語氣詞。它被換掉只是因為站長比較依戀默認主題的安心感。2023-03-20
+蟲蛻 站長的記憶力非常糟糕以至於經常感到生命是不連續的：如果將普通的睡眠（帶來的不連續）比作關機重啟，那麼這裡的不連續可以理解為各種原因帶來的文件丟失（有時這種丟失甚至是難以覺察的。）2023-03-20
+站長是誰 按Ctrl+C你會得到一個HTML文件（以及掉在旁邊的一個文件夾），站長就是這個鬼東西。2023-03-20
+我是誰 前兩天我的校園卡丟了但沒有發現直到晚上打開洗澡用的企業微信發現裡面有一條消息讓我去指定的一棟宿舍樓去領回，去年的比這稍晚些的時候，學校通知打第三針疫苗然後我發現身份證已經像舊的眼鏡那樣被搞丟了。不過即便這兩件事情同時發生（也就是存在某個時間段我既找不到身份證也找不到校園卡），我也依舊能夠回到這裡（也就是你剛才下載的那個HTML文件（或許你不會真的下載它）的路。（我不是故意的……自然狀態下我的語言就是這個樣子的你在別處看到能夠閱讀的段落是因為我認真地進行了斷句和整理。）2023-03-20 (你同樣無法期待這個掉落過很多蟲蛻的作者會有一個固定的時間戳格式) 這段保留未經整理的形狀的文本可以作為我的sample。
+你是誰 如果你想回答這個問題可以使用下面的留言板或者（如果Valine壞了）Disroot Bin
+隱藏</description>
+    </item>
+    
+    <item>
+      <title>為什麼我把這個又寫了一遍</title>
+      <link>https://updown.city/article/homotopy-category/</link>
+      <pubDate>Tue, 04 Apr 2023 22:14:07 +0800</pubDate>
+      
+      <guid>https://updown.city/article/homotopy-category/</guid>
+      <description>&lt;p&gt;When working with complexes, many diagrams commute only up to homotopy. In order to have these diagrams actually commute, one need to work in a category where homotopy equivalences become isomorphisms.
+想到我在前面寫过一則關於homotopy category的札記，然後因為MathJaX配置問題一氣之下把它給刪了，現在只好重寫（……）
+先引用GTM281的記號：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>NekoBox復活於是把收到的留言備份過來</title>
+      <link>https://updown.city/article/nekobox-backup/</link>
+      <pubDate>Mon, 27 Mar 2023 14:49:57 +0800</pubDate>
+      
+      <guid>https://updown.city/article/nekobox-backup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>记录Windows10解决GitHub访问问题的尝试</title>
+      <link>https://updown.city/article/pin-github/</link>
+      <pubDate>Wed, 22 Mar 2023 15:17:32 +0800</pubDate>
+      
+      <guid>https://updown.city/article/pin-github/</guid>
+      <description>&lt;h1 id=&#34;please-note-that-this-emdoes-not-work-at-allem&#34;&gt;Please note that this &lt;em&gt;does not work at all&lt;/em&gt;.&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>故纸堆系列#1</title>
+      <link>https://updown.city/article/jamais-vu/</link>
+      <pubDate>Sun, 05 Mar 2023 22:42:49 +0000</pubDate>
+      
+      <guid>https://updown.city/article/jamais-vu/</guid>
+      <description>&lt;p&gt;翻箱倒柜找高中毕业证的时候在一堆作业纸里发现的。很明显它不是（现在的）我写的。我对这段文本的记忆就像那张高中毕业证一样已经不知道消失在哪里去了。无法根据笔记判断具体的时间。尽可能保留原状（无法彻底保留原状或者按照撰写的时间顺序录入文本：就连我自己也不知道怎么对付那些箭头（用电脑写东西的时候至少它们是排版友好的括号群…可这堆箭头……呃…）写完留学文书后处于一种精神被耗竭的状态，又一次陷入文本搬运与interface configuration这些机械行为的黑洞。无法忍受有人在我身后走来走去，只好把整个工作台搬到床上，每天和草稿纸睡在一起。我也不去图书馆自习，因为会经常有人从我旁边经过。真的很羡慕那些能够正常去图书馆或者自习室学习的人（不会轻易陷入痛苦不堪的状态），那些不会因为强迫行为交不上作业的人。从很久以前便是如此。
+或许我会重置它，赋予它（至少我觉得）更加有趣的解释。但毕竟它不是「我」写的。而我已经不再想要将过去一笔勾销。To be honest，录入这个东西的时候我真的很嫌弃它：没有check定义就乱写自己没有完全搞清楚的东西，名词党的臭毛病。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>關於我與女性主義的關係</title>
+      <link>https://updown.city/article/dialog-between-chizuko-ueno-and-quan-xixi/</link>
+      <pubDate>Tue, 21 Feb 2023 21:15:21 +0000</pubDate>
+      
+      <guid>https://updown.city/article/dialog-between-chizuko-ueno-and-quan-xixi/</guid>
+      <description>我逐渐意识到我经常省略一些「在我看来理所当然不需要额外解释但对他人来说未必如此」的前置说明，比如，我的女性主义立场是先验的而不是习得的，因此我认为反抗父权主义是所有女性与生俱来的本能，（而厌女症来自于父权主义环境对这种本能的破坏）。这是个相当糟糕的indication，幼稚且coarse，然而它是被我惯性使然地当做所有思考的前提来使用着的东西。于是对于女性主义，我总是批判大于行动。我没有付诸行动的意志力，所以能量只好用在fancy的激进说辞上。我深知我所说的「直接废除父权主义的话语体系」，实际上只不过是在讨论怎样巧妙地通过蜷缩身体来缓解痛苦，怎样用奇淫技巧伪造出自己的尊严。
+關於全嘻嘻和她的朋友們與上野千鶴子的對話 为什么上野千鶴子说的基本上是在重复《始于极限》那本全嘻嘻和她的两位朋友已经读过的书里的内容。虽然识别出「言外之意」对我来说非常困难（所以那个视频本身在我眼中就真的只是一场（不同世界的人之间）真诚的对话），我只能看到事物的表面，深层结构是陌生而遥远的东西，然而在此之前我已经看到很多对则视频的争议，于是我开始怀疑这里的重复暗示了预设的台本的存在。我无法选择攻击全嘻嘻和她的朋友們的立场（又是一个多义句），因为面对冲突，我同样选择回避而非对决，就像我曾经做过的那样：将我的生命以2016年为标记切割为泾渭分明的两段，构建一个不属于我的关于家庭的开明与幸福的神话。因为我是有死者。因为我是有死者，所以选择逃避无可厚非。即便我写过「我不相信爱与希望是不被允许相信爱与希望」，我也从未真诚地相信过上野千鶴子所暗示的对话的可能性：因为（我认为）这种可能性得以实现的前提是我的死亡。（我也从未想过出柜…） 如果女性主义要分三六九等，那么行动者永远是高于我这种空谈者的。（很少出现在我的语言里的判断句。…我讨厌判断句，它们太刺眼。）</description>
+    </item>
+    
+    <item>
+      <title>關於寫博客的動機</title>
+      <link>https://updown.city/article/motivation-of-this-blog/</link>
+      <pubDate>Thu, 16 Feb 2023 16:50:01 +0000</pubDate>
+      
+      <guid>https://updown.city/article/motivation-of-this-blog/</guid>
+      <description>&lt;p&gt;受到&lt;a href=&#34;https://box.n3ko.co/&#34;&gt;NekoBox&lt;/a&gt;站长的个人博客&lt;a href=&#34;https://github.red/&#34;&gt;Light Cube&lt;/a&gt;的影响，又一次尝试建站。这回没有迷路，很快就配置成功了。或许是因为电脑里已经安装了依赖项（在过去那些半途而废的尝试里）。接下来就是多写点东西充实这个新的小窝。&lt;/p&gt;
+&lt;p&gt;我曾在用来记录网站配置更新的&lt;a href=&#34;https://updowncity.github.io/logs/&#34;&gt;页面&lt;/a&gt;里写，无法理解我这样做的动机，就像一个偷东西被抓到的小孩子的辩解：「很久以前我就想做个人博客，可总是因为在配置过程中迷路而半途而废；目前无法解释这样做的动机（或许我只是想要与他人分享我所看到的世界（然而这种解释很可疑：因为它所基于的是对我来说非常陌生的感受，分享某样东西的愿望在我过去的生命中是经常被诋毁为虚荣心与优越感的（两个被赋予了道德指责的词语）;」&lt;/p&gt;
+&lt;p&gt;虽然只过了几个小时，但是此刻的心境已经与那时截然不同，现在的我可以很平静(?)地反问，为什么非要在某个熟悉的语言体系里找到可以再现这些陌生的欲望与感受的东西。或许是因为，下午的时候我终于搞清楚derived category到底是什么了。（这些数学发现有时会被我用来赋予自己在这个社会上如此存在着的正当性：当这个正当性不复存在的时候，等待我的就只有那个「关于禁闭与死亡的噩梦」。（为什么不用大家更熟悉的语言解释这个：你只是想要说服你自己，你依旧拥有继续活下去的资格。（到这里我似乎已经在谈论别的什么东西了。）&lt;/p&gt;
+&lt;p&gt;我一直不知道怎样才能做到将文字与思绪固定在某个主题之下。我擅长于发现事物之间的关联，然而我的思考是不定形的：因此我想找到将不定形的思考进行输出的方法。（我不愿意改变，不愿意修剪这些根茎式的思绪，以适应那些约定俗成的表达规范。）前途一片渺茫，但至少在这里我是自由的。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>会有人愿意和我交换友链吗</title>
+      <link>https://updown.city/article/old-links/</link>
+      <pubDate>Thu, 16 Feb 2023 09:33:09 +0000</pubDate>
+      
+      <guid>https://updown.city/article/old-links/</guid>
+      <description>tags: 回收站 categories: 回收站 旧的链接页，蒐集过一些（或許）有趣的网页。 林奕含的FACEBOOK豆瓣
+我是个不会配置留言系统的菜鸟…所以想要留言的话请移步NekoBox匿名提问箱
+樓上的提問箱已經無法使用，請點這個新的留言板
+贴一些有趣的博客（想蹭友链）
+天仙子 - 秦海碗的个人主页 this terrible chamber 桜庭夜🎐杂话铺子 - 一间由桜庭夜经营的贩售闲言碎语的小店 Light Cube - 当真心想要做成一件事的时候，人总是孤独的。 这里是我发现的各种有趣的网站
+島嶼邊緣 - 曾經是最重要的文化運動刊物–影響了整整一個世代 荒原效應 时间物质 </description>
+    </item>
+    
+    <item>
+      <title>网站装配记录</title>
+      <link>https://updown.city/article/old-changelog/</link>
+      <pubDate>Thu, 16 Feb 2023 09:14:37 +0000</pubDate>
+      
+      <guid>https://updown.city/article/old-changelog/</guid>
+      <description>&lt;p&gt;旧的changelog：我到底在干什么</description>
+    </item>
+    
+    <item>
+      <title>在消失的差異與鏡面的空白之間</title>
+      <link>https://updown.city/article/cokernels/</link>
+      <pubDate>Fri, 26 Aug 2022 22:08:26 +0000</pubDate>
+      
+      <guid>https://updown.city/article/cokernels/</guid>
+      <description>&lt;h4 id=&#34;summary&#34;&gt;&lt;em&gt;Summary&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;或許可以理解爲平行世界的一個小故事：不同於《神譴》，這裏路西法變成的是一個與伊薩爾年齡差不多的(美)少年：冒充的不再是那個不請自來的小屁頭，而是一個神祕的轉校生（當然名字依舊叫路西菲爾）。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;寫於2021年9月；&lt;/li&gt;
+&lt;li&gt;是一個不會填的坑：我已經不再是一年前寫下它的那個人，所以沒有資格隨意填補/破壞那個人留下的坑。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>樂不思蜀</title>
+      <link>https://updown.city/article/ewige-wiederkunft/</link>
+      <pubDate>Fri, 26 Aug 2022 21:09:17 +0000</pubDate>
+      
+      <guid>https://updown.city/article/ewige-wiederkunft/</guid>
+      <description>&lt;p&gt;Summary
+另一個穿越到伊薩爾身上的吐槽役。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;去年九月寫的。我已經不再是當時的那個人，因此沒有資格進行改動。原樣上傳。&lt;/li&gt;
+&lt;li&gt;雖然標註的是 Abandoned Work - Unfinished and Discontinued，但實際上能寫的我已經全都寫完了，只是不知道如何收尾。&lt;/li&gt;
+&lt;li&gt;因爲一次操作失誤，現在 Chapter 3 已經無法找到：或許這就是我把它存檔在這個地方的動機。【現在已經找到了。謝天謝地。】&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>因為一切快樂要求永恆</title>
+      <link>https://updown.city/article/everless/</link>
+      <pubDate>Fri, 17 Sep 2021 05:26:00 +0000</pubDate>
+      
+      <guid>https://updown.city/article/everless/</guid>
+      <description>&lt;p&gt;搬运自&lt;a href=&#34;https://archiveofourown.org/works/41209500&#34;&gt;Ao3&lt;/a&gt;，metadata里的日期也手动调成2021年9月，17日选的是一个bloomsday（记下bloomsday具体日期的习惯到了2022就渐渐被遗忘了。）&lt;/p&gt;
+&lt;h4 id=&#34;summary&#34;&gt;&lt;em&gt;Summary&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;寫於2021年9月的天神右翼同人；保持原樣直接上傳不敢亂改。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
