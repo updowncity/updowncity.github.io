@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>日誌 on 你快樂嗎</title>
-    <link>https://example.com/categories/%E6%97%A5%E8%AA%8C/</link>
+    <link>https://updown.city/categories/%E6%97%A5%E8%AA%8C/</link>
     <description>Recent content in 日誌 on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 23 Mar 2023 23:11:05 +0800</lastBuildDate><atom:link href="https://example.com/categories/%E6%97%A5%E8%AA%8C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Mar 2023 23:11:05 +0800</lastBuildDate><atom:link href="https://updown.city/categories/%E6%97%A5%E8%AA%8C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://example.com/status/lisp/</link>
+      <link>https://updown.city/status/lisp/</link>
       <pubDate>Thu, 23 Mar 2023 23:11:05 +0800</pubDate>
       
-      <guid>https://example.com/status/lisp/</guid>
+      <guid>https://updown.city/status/lisp/</guid>
       <description>闲逛的时候发现了AsciiDoc这个类似于Markdown优化的文本标记语言，然后想到org-mode：我可以把标题的syntax highlight给去掉，在第一级标题的地方写初始文本，然后从第二级标题开始放我那堆该死的括号1。很显然it doesn’t work因为我的括号是出现在段落内部的，而这些标题是必须位于段首的…寫出來會相當ugly。然后在想：我想要的是利用电脑屏幕(什么鬼)实现括号的折叠与配对（虽然这样一来出现于重叠的右括号的singularity就不复存在了，但至少：(1)阅读友好（幽灵能否读懂这坨狗屎我并不care但我寫論文還是需要把它們整理成條理清晰(至少能夠閱讀)的語言的……（我真的很想把充滿括號stack(s)的原始文本拿出去噁心別人就像現在這樣…）;(2)singularities并不是真的消失，它们只是以被消解(铺开)掉的形式呈现着（比如这种东西（但愿我没数错））））然后………………这TMD不就是lisp吗。（前兩天插上就被我忘掉的flag…） 其实我过去从来没想过会lisp，第一我对编写具体的程序不太感兴趣（我对事物的兴趣…很多时候是把原理搞清楚以后就结束了）；第二我在玩emacs的时候见到很多说lisp很难很不友好的(…信息?)；第三我真的找不到编程的动机。去年这个时候我因为选课失误而不得不学python然后怎么都学不会…很绝望，因为交不上作业。到结课的时候我还是不会寫python…（我很敬佩编程随想但我是真的很讨厌python因为学不会）其实我也无法理解，python作为语言本该是很trivial的东西（否则它不会成为被广泛使用的工具），我大一的时候也学过C和C++（是专必），也都还算顺利…。现在想想大概只是我无法适应封装(的世界)吧。刚才搜了下中文结果，那些知乎上对lisp吹捧或是贬低的文章让我感到……我不属于他们的世界。 另一个是，昨天我忽然意识到其实我至少从去年就已经确定了具体的方向，因为我无论做什么都会指向某个点……（我一直在寻找的）。发现以后觉得是显然的，但在此之前我一直很迷茫（以至于错过了一个申请季……我错过申请季不是因为脑子进水忘掉截止日期，而是因为对未来彻底的迷茫。）对我来说这些就好像是一个预先被安排好的人生轨迹，而非出于我个人的选择。 我只會寫這種心情随笔，小女生的碎碎唸。这里就像一个隐藏的秘密花园空间（我自知无力维护一个花园……）
 其实除了括号还有脚注（写到后面突然想起来的内容）&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://example.com/status/my-thesis-vanished/</link>
+      <link>https://updown.city/status/my-thesis-vanished/</link>
       <pubDate>Sun, 19 Mar 2023 23:45:35 +0000</pubDate>
       
-      <guid>https://example.com/status/my-thesis-vanished/</guid>
+      <guid>https://updown.city/status/my-thesis-vanished/</guid>
       <description>我的論文消失了：打開發現只剩下一片狼藉（頭文件）或許是按錯了熱鍵，或許是（空缺的主語）在提醒我不可以那樣為了寫論文停在原地。我現在對$\mathcal{D}$-module很好奇。（論文應該是建立在日常的積累之上的，而不是臨時生搬硬湊的。我其實是有筆記的，只是它們混亂到讓人窒息（事實上我很少碰它們）。因為過去的記錄太過混亂，所以無力去整理和搜索，每次只好再重寫一遍，這種重複又帶來新的混亂。）</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://example.com/status/emacs-initialization/</link>
+      <link>https://updown.city/status/emacs-initialization/</link>
       <pubDate>Fri, 17 Mar 2023 23:59:59 +0000</pubDate>
       
-      <guid>https://example.com/status/emacs-initialization/</guid>
+      <guid>https://updown.city/status/emacs-initialization/</guid>
       <description>如果你發現我突然失蹤從網絡空間失蹤，就像死了一樣留言板裡也沒有任何回應，那麼情況很可能是：我的狀態太糟糕了，只好把所有的文字觸鬚都蜷縮起來，臨時切斷我與我所愛的世界的聯繫，直到我能夠重新頂著發燙的腦袋出去。
 默認主題landscape壞了：用了一整天的時間寫Hexo主題，然後整理好發佈到獨立的GitHub倉庫裡。從ugly-blue（醜陋的憂鬱）這個名字就可以看出作者對世界的惡意。（最早的名字是ugly-html，後來也想過ugly-emacs-style（因為這個主題的終極目標(?)是仿製Emacs默認UI），也有一個比較友好的名字是it-just-works（就像hypersheaf之於perverse sheaf…）。 寫博客主題就像塗秘密花園。然而，最初用landscape時的那種安心感無論如何都已經不復存在了。某種意義上，我更願意使用別人製作好的東西，以削弱時光虛擲的負罪感（我終於寫出來了：這種負罪感本身的不堪使得它難以被文字所固定。它通常會滑向那句抽象廢話：我不想成為我自己。）
 去年接觸Emacs是從入門到放棄，今年這位神人的文章重新觸發了我對Emacs的興趣（甚至開始想學Lisp）2023-03-14
@@ -39,10 +39,10 @@
     
     <item>
       <title>關於我與女性主義的關係</title>
-      <link>https://example.com/article/dialog-between-chizuko-ueno-and-quan-xixi/</link>
+      <link>https://updown.city/article/dialog-between-chizuko-ueno-and-quan-xixi/</link>
       <pubDate>Tue, 21 Feb 2023 21:15:21 +0000</pubDate>
       
-      <guid>https://example.com/article/dialog-between-chizuko-ueno-and-quan-xixi/</guid>
+      <guid>https://updown.city/article/dialog-between-chizuko-ueno-and-quan-xixi/</guid>
       <description>我逐渐意识到我经常省略一些「在我看来理所当然不需要额外解释但对他人来说未必如此」的前置说明，比如，我的女性主义立场是先验的而不是习得的，因此我认为反抗父权主义是所有女性与生俱来的本能，（而厌女症来自于父权主义环境对这种本能的破坏）。这是个相当糟糕的indication，幼稚且coarse，然而它是被我惯性使然地当做所有思考的前提来使用着的东西。于是对于女性主义，我总是批判大于行动。我没有付诸行动的意志力，所以能量只好用在fancy的激进说辞上。我深知我所说的「直接废除父权主义的话语体系」，实际上只不过是在讨论怎样巧妙地通过蜷缩身体来缓解痛苦，怎样用奇淫技巧伪造出自己的尊严。
 關於全嘻嘻和她的朋友們與上野千鶴子的對話 为什么上野千鶴子说的基本上是在重复《始于极限》那本全嘻嘻和她的两位朋友已经读过的书里的内容。虽然识别出「言外之意」对我来说非常困难（所以那个视频本身在我眼中就真的只是一场（不同世界的人之间）真诚的对话），我只能看到事物的表面，深层结构是陌生而遥远的东西，然而在此之前我已经看到很多对则视频的争议，于是我开始怀疑这里的重复暗示了预设的台本的存在。我无法选择攻击全嘻嘻和她的朋友們的立场（又是一个多义句），因为面对冲突，我同样选择回避而非对决，就像我曾经做过的那样：将我的生命以2016年为标记切割为泾渭分明的两段，构建一个不属于我的关于家庭的开明与幸福的神话。因为我是有死者。因为我是有死者，所以选择逃避无可厚非。即便我写过「我不相信爱与希望是不被允许相信爱与希望」，我也从未真诚地相信过上野千鶴子所暗示的对话的可能性：因为（我认为）这种可能性得以实现的前提是我的死亡。（我也从未想过出柜…） 如果女性主义要分三六九等，那么行动者永远是高于我这种空谈者的。（很少出现在我的语言里的判断句。…我讨厌判断句，它们太刺眼。）</description>
     </item>
