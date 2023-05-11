@@ -59,22 +59,10 @@
     <loc>https://updown.city/status/crackpots/</loc>
     <lastmod>2023-03-25T01:37:47+08:00</lastmod>
   </url><url>
-    <loc>https://updown.city/categories/</loc>
-    <lastmod>2023-03-25T01:37:47+08:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/categories/%E7%A2%8E%E7%A2%8E%E5%94%B8/</loc>
-    <lastmod>2023-03-25T01:37:47+08:00</lastmod>
-  </url><url>
     <loc>https://updown.city/status/lisp/</loc>
     <lastmod>2023-03-23T23:11:05+08:00</lastmod>
   </url><url>
-    <loc>https://updown.city/categories/%E6%97%A5%E8%AA%8C/</loc>
-    <lastmod>2023-03-23T23:11:05+08:00</lastmod>
-  </url><url>
     <loc>https://updown.city/status/initialization/</loc>
-    <lastmod>2023-03-23T12:08:00+08:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/categories/%E7%94%B5%E6%B3%A2/</loc>
     <lastmod>2023-03-23T12:08:00+08:00</lastmod>
   </url><url>
     <loc>https://updown.city/status/program-think/</loc>
@@ -137,25 +125,13 @@
     <loc>https://updown.city/article/motivation-of-this-blog/</loc>
     <lastmod>2023-02-16T16:50:01+00:00</lastmod>
   </url><url>
-    <loc>https://updown.city/tags/</loc>
-    <lastmod>2023-02-16T09:33:09+00:00</lastmod>
-  </url><url>
     <loc>https://updown.city/article/old-links/</loc>
-    <lastmod>2023-02-16T09:33:09+00:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/tags/%E5%9B%9E%E6%94%B6%E7%AB%99/</loc>
     <lastmod>2023-02-16T09:33:09+00:00</lastmod>
   </url><url>
     <loc>https://updown.city/article/old-changelog/</loc>
     <lastmod>2023-02-16T09:14:37+00:00</lastmod>
   </url><url>
     <loc>https://updown.city/article/cokernels/</loc>
-    <lastmod>2022-08-26T22:08:26+00:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/tags/%E5%A4%A9%E7%A5%9E%E5%8F%B3%E7%BF%BC/</loc>
-    <lastmod>2022-08-26T22:08:26+00:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/categories/%E6%95%85%E7%B4%99%E5%A0%86/</loc>
     <lastmod>2022-08-26T22:08:26+00:00</lastmod>
   </url><url>
     <loc>https://updown.city/article/ewige-wiederkunft/</loc>
@@ -171,6 +147,10 @@
   </url><url>
     <loc>https://updown.city/author/</loc>
   </url><url>
+    <loc>https://updown.city/categories/</loc>
+  </url><url>
     <loc>https://updown.city/series/</loc>
+  </url><url>
+    <loc>https://updown.city/tags/</loc>
   </url>
 </urlset>
