@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>你快樂嗎</title>
-    <link>https://updown.city/gallery/</link>
+    <link>https://example.com/gallery/</link>
     <description>Recent content on 你快樂嗎</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://updown.city/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://example.com/gallery/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

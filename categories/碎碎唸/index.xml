@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>碎碎唸 on 你快樂嗎</title>
-    <link>https://updown.city/categories/%E7%A2%8E%E7%A2%8E%E5%94%B8/</link>
+    <link>https://example.com/categories/%E7%A2%8E%E7%A2%8E%E5%94%B8/</link>
     <description>Recent content in 碎碎唸 on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 25 Mar 2023 01:37:47 +0800</lastBuildDate><atom:link href="https://updown.city/categories/%E7%A2%8E%E7%A2%8E%E5%94%B8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Mar 2023 01:37:47 +0800</lastBuildDate><atom:link href="https://example.com/categories/%E7%A2%8E%E7%A2%8E%E5%94%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://updown.city/status/crackpots/</link>
+      <link>https://example.com/status/crackpots/</link>
       <pubDate>Sat, 25 Mar 2023 01:37:47 +0800</pubDate>
       
-      <guid>https://updown.city/status/crackpots/</guid>
+      <guid>https://example.com/status/crackpots/</guid>
       <description>關於「民科」 我真的很怕这个词。又一次(?)在不安定间删掉了一个post。感觉寫那些我就像一个小丑。真的好痛苦。</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://updown.city/status/moved-to-hugo/</link>
+      <link>https://example.com/status/moved-to-hugo/</link>
       <pubDate>Mon, 20 Mar 2023 17:33:42 +0800</pubDate>
       
-      <guid>https://updown.city/status/moved-to-hugo/</guid>
+      <guid>https://example.com/status/moved-to-hugo/</guid>
       <description>搬家到Hogo：因为快</description>
     </item>
     

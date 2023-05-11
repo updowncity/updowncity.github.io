@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on 你快樂嗎</title>
-    <link>https://updown.city/page/</link>
+    <link>https://example.com/page/</link>
     <description>Recent content in Pages on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 18 Mar 2023 22:41:49 +0000</lastBuildDate><atom:link href="https://updown.city/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Mar 2023 22:41:49 +0000</lastBuildDate><atom:link href="https://example.com/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>日誌</title>
-      <link>https://updown.city/page/changelog/</link>
+      <link>https://example.com/page/changelog/</link>
       <pubDate>Sat, 18 Mar 2023 22:41:49 +0000</pubDate>
       
-      <guid>https://updown.city/page/changelog/</guid>
+      <guid>https://example.com/page/changelog/</guid>
       <description>2023-05-04 新的favicon是一只长得有点像墓碑的幽灵； 恢复默认配色； 多处调整（就让我以这种神经质的行为结束掉我的21岁吧）； 默认logo来自fontawesome，把鼠标放在那枚幽灵上的时候会出现旧的那个蓝色少女；具体操作很简单：调换header.html里&amp;lt;img src=&amp;quot;{{ .Site.Params.customImage | relURL }}&amp;quot; alt=&amp;quot;&amp;quot;&amp;gt;与&amp;lt;i class=&amp;quot;fa {{ .Site.Params.overlayIcon | default &amp;quot;fa-home&amp;quot; }}&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;的位置，然后通过边框消除边缘锯齿border: 1.4px solid rgba(0, 0, 0, 0.15); 舊的日誌 2023-05-03 注释掉了cursor.js（鼠标点击效果）或许某一天这个图标也会被丢掉吧。
 2023-05-01 更新了主题与配色：或许我的确怀念着那个旧的encapsulation世界。
 2023-04-?? 注释掉了Valine。</description>
@@ -19,19 +19,19 @@
     
     <item>
       <title>關於我</title>
-      <link>https://updown.city/page/bupropion/</link>
+      <link>https://example.com/page/bupropion/</link>
       <pubDate>Fri, 17 Mar 2023 22:57:31 +0000</pubDate>
       
-      <guid>https://updown.city/page/bupropion/</guid>
+      <guid>https://example.com/page/bupropion/</guid>
       <description>页面的文件名依旧是bupropion.md，我每天吃的安非他酮；旧的标题「将我遗忘在海边吧」来自安哲的《鹳鸟踟蹰》；曾经用过的另一个放置在网站标题「你快乐吗」下面的subtitle/description「带上蜡烛，我们去罗马干件大事」来自塔克夫斯基的《乡愁》，邮箱名jamais-vu@tutanota.com来自极乐迪斯科；「虫蜕」是我在disroot bin收到的一条留言；</description>
     </item>
     
     <item>
       <title>虫蜕</title>
-      <link>https://updown.city/page/moults/</link>
+      <link>https://example.com/page/moults/</link>
       <pubDate>Fri, 17 Mar 2023 02:00:29 +0000</pubDate>
       
-      <guid>https://updown.city/page/moults/</guid>
+      <guid>https://example.com/page/moults/</guid>
       <description>如果你发现了这里没有列出的虫蜕请到Disroot Bin留言^_^
 為了找到這些蟲蛻我需要：
 蒐集儘可能多的kdbx文件，然後猜出它們的密碼； 觸摸那些損毀的kdbx文件，就像觸摸電腦屏幕。 （上面兩個句子沒有對齊。） @1272556031@moresci.sale kernelcore.neocities.org th.hashi.icu/digitalwastedland writee.org/digitalwasteland Inspirations-Täuschungen </description>
@@ -39,10 +39,10 @@
     
     <item>
       <title>友链</title>
-      <link>https://updown.city/page/friends/</link>
+      <link>https://example.com/page/friends/</link>
       <pubDate>Sun, 12 Mar 2023 00:38:32 +0000</pubDate>
       
-      <guid>https://updown.city/page/friends/</guid>
+      <guid>https://example.com/page/friends/</guid>
       <description>this terrible chamber - yet eidetically you
 A blog - A的存文地</description>
     </item>

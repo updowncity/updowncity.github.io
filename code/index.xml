@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Codes on 你快樂嗎</title>
-    <link>https://updown.city/code/</link>
+    <link>https://example.com/code/</link>
     <description>Recent content in Codes on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 11 May 2023 20:47:45 +0800</lastBuildDate><atom:link href="https://updown.city/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 May 2023 20:47:45 +0800</lastBuildDate><atom:link href="https://example.com/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>蓝莓使用备忘录</title>
-      <link>https://updown.city/code/config-bilberry/</link>
+      <link>https://example.com/code/config-bilberry/</link>
       <pubDate>Thu, 11 May 2023 20:47:45 +0800</pubDate>
       
-      <guid>https://updown.city/code/config-bilberry/</guid>
+      <guid>https://example.com/code/config-bilberry/</guid>
       <description>bilberry是此博客目前正在使用的主题。以这个主题为例写一个备忘录。bilberry是免费的，虽然介绍里写它是一个premium Hugo theme。毕业论文的事让我不再想用literature sandbox之类的免责声明了：我的确是认真地在做这件事。（然而那件事我也只能做到：在「No originality is claimed.」的免责声明里补充一句「除了本文中可能出现的错误以外」）
 除非作者早已弃坑不再对主题维护与更新（这样的Hugo主题其实很多…），否则不要直接修改主题文件，更新后你的修改会被覆盖掉。正确的操作方法是：把你所要修改的文件在根目录复制一份。它会具有更高的优先级，你所有的改动在这个脱离的镜像上进行。比如，你要修改layouts/_default/baseof.html，那就在根目录的layouts里新建一个文件夹_defaults然后把baseof.html复制过来。不要像魔改CSS那样新建一个空白文件然后按需修改。它不是在原有的配置文件的基础上进行添加，而是直接进行替换，当根目录里存在layouts/_default/baseof.html时，主题文件夹里的layouts/_default/baseof.html将会被忽略。
 它们并不是彼此独立的沙盒，主题的作者是可以在主题文件夹里设置一些留给用户自定义的(空白)文件的，更新不会对这些文件进行覆盖，你可以直接修改它们。比如，hugo-book的assets/_custom.scss与assets/_variables.scss是留给用户自定义的两个空白文件，里面也分别有提示语
