@@ -153,46 +153,39 @@
         
     <div class="article-wrapper u-cf">
         
-            <a class="bubble" href="https://updowncity.github.io/code/config-bilberry/">
-    <i class="fas fa-fw fa-code"></i>
-</a>
+            <span class="bubble">
+    <i class="fas fa-fw fa-comment"></i>
+</span>
 
-<article class="default article">
+<article class="status">
+    
+        <div class="featured-image">
+            <img src="/featuredImage/WinEdt.png" alt="">
+        </div>
     
 
     <div class="content">
-    <h1 class="article-title">
-        <a href="https://updowncity.github.io/code/config-bilberry/">
-            蓝莓使用备忘录
-        </a>
-    </h1>
 
-    <div class="meta">
-        
-            
-                <span class="date moment">2023-05-11</span>
-            
-        
 
         
+            <div class="meta">
+                
+                    
+                        <span class="date moment">2023-05-12</span>
+                    
+                
 
+                
+
+                
+            </div>
         
 
-        
+        <p>提交终稿前源文件与终稿的PDF都搞丢了（因为作死…安装Ubuntu之前忘记备份）。意料之外是又白嫖了一个月的WinEdt。现在正在生无可恋地对着初稿敲LaTeX代码。</p>
+<p>初稿里有一个很明显的错误（系数问题…虽然很idiotic，但这个东西我的确<strong>一直以来都搞错了</strong>，值得写篇blog（还没写…应该不会坑掉…）……有些东西读的时候会让人觉得trivial/wordy，然而这只是我们理解的不足。然而答辩组的老师们只看到了格式问题（首行缩进与标错的序号…）</p>
+
+
     </div>
-
-    
-        bilberry是此博客目前正在使用的主题。以这个主题为例写一个备忘录。bilberry是免费的，虽然介绍里写它是一个premium Hugo theme。毕业论文的事让我不再想用literature sandbox之类的免责声明了：我的确是认真地在做这件事。（然而那件事我也只能做到：在「No originality is claimed.」的免责声明里补充一句「除了本文中可能出现的错误以外」）
-除非作者早已弃坑不再对主题维护与更新（这样的Hugo主题其实很多…），否则不要直接修改主题文件，更新后你的修改会被覆盖掉。正确的操作方法是：把你所要修改的文件在根目录复制一份。它会具有更高的优先级，你所有的改动在这个脱离的镜像上进行。比如，你要修改layouts/_default/baseof.html，那就在根目录的layouts里新建一个文件夹_defaults然后把baseof.html复制过来。不要像魔改CSS那样新建一个空白文件然后按需修改。它不是在原有的配置文件的基础上进行添加，而是直接进行替换，当根目录里存在layouts/_default/baseof.html时，主题文件夹里的layouts/_default/baseof.html将会被忽略。
-它们并不是彼此独立的沙盒，主题的作者是可以在主题文件夹里设置一些留给用户自定义的(空白)文件的，更新不会对这些文件进行覆盖，你可以直接修改它们。比如，hugo-book的assets/_custom.scss与assets/_variables.scss是留给用户自定义的两个空白文件，里面也分别有提示语
-/* You can add custom styles here. */ 以及
-/* You can override SASS variables here. */ 蓝莓也可以这样做，只不过需要安装额外的依赖项（npm install以后主题文件夹膨胀到了100+MB而且总是报错（我也不知道为什么）。
-修改代码块样式 [markup] [markup.highlight] style = &#34;bw&#34; 除此之外，需要关掉主题自带的HighlightJs
-enableHighlightJs = false 
-
-        
-    
-</div>
 
     
 <div class="footer no-tags">
@@ -552,10 +545,6 @@ By the false azure in the windowpane</p>
                 
                 
                     <li>
-                        <a href="https://updowncity.github.io/code/config-bilberry/">蓝莓使用备忘录</a>
-                    </li>
-                
-                    <li>
                         <a href="https://updowncity.github.io/article/22/">寫於22歲之際</a>
                     </li>
                 
@@ -577,6 +566,10 @@ By the false azure in the windowpane</p>
                 
                     <li>
                         <a href="https://updowncity.github.io/article/pin-github/">记录Windows10解决GitHub访问问题的尝试</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://updowncity.github.io/article/jamais-vu/">故纸堆系列#1</a>
                     </li>
                 
             </ul>

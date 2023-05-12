@@ -5,7 +5,17 @@
     <link>https://updowncity.github.io/status/</link>
     <description>Recent content in Statuses on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 26 Apr 2023 18:29:42 +0800</lastBuildDate><atom:link href="https://updowncity.github.io/status/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 May 2023 16:29:55 +0800</lastBuildDate><atom:link href="https://updowncity.github.io/status/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://updowncity.github.io/status/source-code-of-my-theis-vanished-before-submitting-the-final-version/</link>
+      <pubDate>Fri, 12 May 2023 16:29:55 +0800</pubDate>
+      
+      <guid>https://updowncity.github.io/status/source-code-of-my-theis-vanished-before-submitting-the-final-version/</guid>
+      <description>提交终稿前源文件与终稿的PDF都搞丢了（因为作死…安装Ubuntu之前忘记备份）。意料之外是又白嫖了一个月的WinEdt。现在正在生无可恋地对着初稿敲LaTeX代码。
+初稿里有一个很明显的错误（系数问题…虽然很idiotic，但这个东西我的确一直以来都搞错了，值得写篇blog（还没写…应该不会坑掉…）……有些东西读的时候会让人觉得trivial/wordy，然而这只是我们理解的不足。然而答辩组的老师们只看到了格式问题（首行缩进与标错的序号…）</description>
+    </item>
+    
     <item>
       <title></title>
       <link>https://updowncity.github.io/status/how-to-grasp-a-crow/</link>
