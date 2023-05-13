@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="generator" content="Hugo 0.92.2" />
     <title>
         
            
@@ -34,6 +34,7 @@ DDL是第一生产力
 <meta property="og:url" content="https://updowncity.github.io/status/fucking-latex/" /><meta property="article:section" content="status" />
 <meta property="article:published_time" content="2023-04-09T11:17:33+08:00" />
 <meta property="article:modified_time" content="2023-04-09T11:17:33+08:00" />
+
 
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -139,28 +140,35 @@ DDL是第一生产力
         
     <div class="article-wrapper u-cf single">
         
-            <span class="bubble">
-    <i class="fas fa-fw fa-comment"></i>
-</span>
+            <a class="bubble" href="https://updowncity.github.io/status/fucking-latex/">
+    <i class="fas fa-fw fa-pencil-alt"></i>
+</a>
 
-<article class="status">
+<article class="default article">
     
 
     <div class="content">
+    <h1 class="article-title">
+        <a href="https://updowncity.github.io/status/fucking-latex/">
+            
+        </a>
+    </h1>
 
+    <div class="meta">
+        
+            
+                <span class="date moment">2023-04-09</span>
+            
+        
 
         
-            <div class="meta">
-                
-                    
-                        <span class="date moment">2023-04-09</span>
-                    
-                
 
-                
+        
 
-                
-            </div>
+        
+    </div>
+
+    
         
 
         <p>我觉得对自己所研究的事物热爱还是厌倦是因人而异的，但对系统的恨是universal的。（然而系统依旧存在着：…或许这也是我如此确信惯性是远比感情与意志更为本质与深刻的东西的原因吧，只有极少数时候人才能够挣脱重力而存在。）</p>
@@ -172,17 +180,17 @@ DDL是第一生产力
 <p>看来是编辑器的锅。VSCode编译不出来我就换用TeXLive附带的TeXworks，结果还是不行。感觉今天这俩除了报错和转圈圈啥也不会。Texworks editor does not work at all unless I commented all commutative diagrams. 然后换了WinEdt。（很好用，就是太贵了。）</p>
 <p>（偶然想到…</p>
 <p>为什么所有的交换图都编译不出来了为什么所有的交换图都编译不出来了</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="font-style:italic">% TODO
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic">% - [ ] avoid/remove unnecessary inventions
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic">% - [ ] check the order of propositions and footnotes
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic">% - [ ] remove wordy footnotes
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic">% - [ ] check missing explainations and definitions
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic">% - [ ] check and remove ugly expressions
-</span></span></span></code></pre></div><p>还是打不出sheaf Hom，不知道Hartshorne书上的那些是怎么弄出来的。凑了个显然不合格的<code>\mathscr{H}\kern -2pt \mathit{om}</code>（把字体换成GTM281里的<code>\usepackage[mathscr]{euscript}</code>）一开始写的是<code>2px</code>，然后从pdftex换到xetex的时候就到处报错。（check了一下学校的文档发现要求西文字体是Times New Roman，默认的CMU系列和Times区别有点大，fontspec又不支持pdftex。这东西真的不适合脑子不好使的人（指我）</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-latex" data-lang="latex"><span style="font-style:italic">% TODO
+</span><span style="font-style:italic">% - [ ] avoid/remove unnecessary inventions
+</span><span style="font-style:italic">% - [ ] check the order of propositions and footnotes
+</span><span style="font-style:italic">% - [ ] remove wordy footnotes
+</span><span style="font-style:italic">% - [ ] check missing explainations and definitions
+</span><span style="font-style:italic">% - [ ] check and remove ugly expressions
+</span></code></pre></div><p>还是打不出sheaf Hom，不知道Hartshorne书上的那些是怎么弄出来的。凑了个显然不合格的<code>\mathscr{H}\kern -2pt \mathit{om}</code>（把字体换成GTM281里的<code>\usepackage[mathscr]{euscript}</code>）一开始写的是<code>2px</code>，然后从pdftex换到xetex的时候就到处报错。（check了一下学校的文档发现要求西文字体是Times New Roman，默认的CMU系列和Times区别有点大，fontspec又不支持pdftex。这东西真的不适合脑子不好使的人（指我）</p>
 <p><strong>#居然可以这样写</strong></p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="font-weight:bold">\def\-</span>#1{<span style="font-weight:bold">\mathscr</span>{#1}}
-</span></span><span style="display:flex;"><span><span style="font-weight:bold">\def\+</span>#1{<span style="font-weight:bold">\mathscr</span>{#1}^<span style="font-weight:bold">\bullet</span>}
-</span></span></code></pre></div><p>疯狗乱咬人般的LaTeX吐槽。不过吐槽归吐槽，我也知道，由于强迫行为的影响，手写notes对我来说有时远比折腾LaTeX困难（……即便充满commutative diagram）。</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-latex" data-lang="latex"><span style="font-weight:bold">\def\-</span>#1{<span style="font-weight:bold">\mathscr</span>{#1}}
+<span style="font-weight:bold">\def\+</span>#1{<span style="font-weight:bold">\mathscr</span>{#1}^<span style="font-weight:bold">\bullet</span>}
+</code></pre></div><p>疯狗乱咬人般的LaTeX吐槽。不过吐槽归吐槽，我也知道，由于强迫行为的影响，手写notes对我来说有时远比折腾LaTeX困难（……即便充满commutative diagram）。</p>
 <p>谢天谢地有这两个符号：<code>\imath</code>与<code>\jmath</code>，输出是不带点的i与j：(\imath,\jmath)，可以用它们写immersion，用普通的(i,j)写index。</p>
 <p>什么鬼，sheaf Hom 打不出来。网页上可以正常输出(\mathscr{Hom})与(\mathcal{Hom})，然而在我的编译器里，它们不支持小写字母：<code>\mathscr{Hom}</code>只出现一个花体的H：$\mathscr{H}$；<code>\mathcal{Hom}</code>会出现一坨这个东西<img src="/images/2023-04/hom@mathcal.png" alt=""></p>
 <p>天下苦LaTeX也久矣。因为画不出标准版的TR4图，把它改写成了这个形状，虽然丑了点（后面会解释它到底丑到什么程度），但还算好记：
@@ -211,8 +219,8 @@ Lisp的写法可以让字母的摆放顺序和箭头版本的一致，转化的�
 <p>这个写法的缺陷在于对等宽字体的依赖：空格的作用是标记不同的语言原子，手写的话空格会看不清楚。
 尝试改了下，把<code>(- X Y)=: Z'</code>写成[-X:Y]<sub>u</sub>=:Z’，虽然用LaTeX字体写出来有点丑：$[-X:Y]_u=:Z’$，不过至少结构本身很好看。</p>
 
-
-    </div>
+    
+</div>
 
     
 <div class="footer no-tags">

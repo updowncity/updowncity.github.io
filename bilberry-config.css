@@ -12,11 +12,15 @@
   --color-header-bg: #24292f;
   --selection-foreground-color: white;
   --selection-background-color: #0078d7;
+  /*
+  --selection-foreground-color: black;
+  --selection-background-color: rgba(47,190,234,.25);
+  */
   --bilberry: #1d1f38;
   --footer-background-color: transparent;
-  --title-font-family: Lora, 'Microsoft Yahei', serif;
-  --global-font-family: 'Segoe UI', Lora, 'Microsoft Yahei', serif;
-  --article-footer-font: 'Segoe UI', Lora, 'Microsoft Yahei', serif;
+  --title-font-family: Ubuntu, Lora, 'Microsoft Yahei', serif;
+  --global-font-family: Ubuntu, 'Segoe UI', Lora, 'Microsoft Yahei', serif;
+  --article-footer-font: Ubuntu, 'Segoe UI', Lora, 'Microsoft Yahei', serif;
   --global-font-size: 14px;
   --color-nav: #2d3642;
   --windows: #0078d7;
@@ -40,7 +44,6 @@
   color: #f1f1f1;
 }
 
-/* 14px */
 
 body,
 .bilberry-hugo-theme,
@@ -48,7 +51,7 @@ body,
 .bilberry-hugo-theme footer .container ul a,
 .bilberry-hugo-theme article .content .meta,
 .bilberry-hugo-theme article .content .archive-list ul a{
-  font-size: 14px;
+  font-size: var(--global-font-size);
   font-family: var(--global-font-family);
 }
 
@@ -164,7 +167,7 @@ border: 1.4px solid rgba(0, 0, 0, 0.15);
 }
 .bilberry-hugo-theme article .content .meta{
   color: var(--color-nav);
-  font-size: 14px;
+  font-size: var(--global-font-size);
 }
 .bilberry-hugo-theme article .content a
   :not(.bilberry-hugo-theme article .content a.more)
@@ -219,7 +222,7 @@ body > footer > div > div.categories > a > strong:hover{
   text-decoration: underline dotted;
 }
 .bilberry-hugo-theme article .content .meta{
-  margin-bottom: 14px;
+  margin-bottom: var(--global-font-size);
   padding-bottom: 0;
   border-bottom: 0;
 }
@@ -242,5 +245,5 @@ body > footer > div > div.categories > a > strong:hover{
 .bilberry-hugo-theme pre code, .bilberry-hugo-theme code{
   border-radius: 0;
   font-size: 12px;
-  font-family: Consolas, 'Fira Code', 'Microsoft Yahei', monospace;
+  font-family: 'Ubuntu Mono', Consolas, 'Fira Code', 'Microsoft Yahei', monospace;
 }
