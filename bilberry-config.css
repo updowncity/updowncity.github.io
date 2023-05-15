@@ -18,14 +18,13 @@
   */
   --bilberry: #1d1f38;
   --footer-background-color: transparent;
-  --title-font-family: Ubuntu, Lora, 'Microsoft Yahei', serif;
+  --title-font-family: Ubuntu, Lora, 'Microsoft Yahei', 'Noto Serif CJK SC', serif;
   --global-font-family: Ubuntu, 'Segoe UI', Lora, 'Microsoft Yahei', serif;
   --article-footer-font: Ubuntu, 'Segoe UI', Lora, 'Microsoft Yahei', serif;
   --global-font-size: 14px;
   --color-nav: #2d3642;
   --windows: #0078d7;
 }
-
 
 /* Teal */
 
@@ -53,7 +52,11 @@ body,
 .bilberry-hugo-theme article .content .archive-list ul a{
   font-size: var(--global-font-size);
   font-family: var(--global-font-family);
+  font-weight: 400;
 }
+
+body{
+-moz-osx-font-smoothing: auto;}
 
 .bilberry-hugo-theme{
   background-color: ;
@@ -86,6 +89,7 @@ h1, h2,h3,h4,h5,h6,
 .bilberry-hugo-theme article .content h1 a,
 .bilberry-hugo-theme header .titles h3{
   font-weight: bold;
+  font-family: Lora, 'Microsoft Yahei', serif;
 }
 
 .bilberry-hugo-theme footer .container ul a{
@@ -139,11 +143,7 @@ h1, h2,h3,h4,h5,h6,
   padding-left: 0.5em;
 }
 
-h1, h2, h3, h4, h5, h6{
-  font-weight: bold;
-}
 .bilberry-hugo-theme article .content h4{
-  font-weight: 500;
   letter-spacing: 0!important;
 }
 
@@ -208,15 +208,16 @@ body > header > div > div.titles > h3 > a:hover{
 }
 .bilberry-hugo-theme footer .container strong{
   font-size: 16px;
+  font-family: Lora;
 }
 body > footer > div > div.categories > a > strong:hover{
   text-decoration: underline dotted;
 }
 .bilberry-hugo-theme article .content a.more{
   font-size: 16px;
-  font-style: italic;
-  font-family: Lora;
   color: teal;
+  font-family: Lora;
+  font-style: italic;
 }
 .bilberry-hugo-theme article .content a.more:hover{
   text-decoration: underline dotted;
@@ -237,13 +238,15 @@ body > footer > div > div.categories > a > strong:hover{
 .bilberry-hugo-theme footer .container strong,
 .bilberry-hugo-theme .paginator a{
   font-family: var(--title-font-family);
-  font-size: 19px;
-  font-weight: 500;
-  font-style: italic;
+  font-size: 24px;
 }
-
+.bilberry-hugo-theme .paginator a{
+font-weight: 500;
+font-style: italic;}
 .bilberry-hugo-theme pre code, .bilberry-hugo-theme code{
   border-radius: 0;
-  font-size: 12px;
+  font-size: 15px;
   font-family: 'Ubuntu Mono', Consolas, 'Fira Code', 'Microsoft Yahei', monospace;
 }
+.bilberry-hugo-theme footer .container strong, .bilberry-hugo-theme .paginator a{
+font-family: Lora;}
