@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>備忘錄 on 你快樂嗎</title>
+    <link>https://updowncity.github.io/categories/%E5%82%99%E5%BF%98%E9%8C%84/</link>
+    <description>Recent content in 備忘錄 on 你快樂嗎</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 May 2023 10:56:14 +0800</lastBuildDate><atom:link href="https://updowncity.github.io/categories/%E5%82%99%E5%BF%98%E9%8C%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>圖形界面Ubuntu安裝拼音輸入法</title>
+      <link>https://updowncity.github.io/code/ibus-pinyin/</link>
+      <pubDate>Mon, 15 May 2023 10:56:14 +0800</pubDate>
+      
+      <guid>https://updowncity.github.io/code/ibus-pinyin/</guid>
+      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;OS Name: Ubuntu 22.04.2 LTS
+OS Type: 64-bit
+GNOME Version: 42.5
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;即便安裝時選擇的是Minimal installation，系統自帶的ibus框架很完整，所以可以通過圖形界面安裝（中國大陸使用者所熟悉的）拼音輸入法。&lt;/p&gt;
+&lt;p&gt;打開Settings，安裝新語言
+&lt;img src=&#34;https://s2.loli.net/2023/05/14/NWIHy9z3CfjuqGY.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;雙擊&lt;/strong&gt;Chinese (simplified) （我不知道選繁體中文會不會改變輸入法…我只會用(大陸常見的)拼音，臺灣人用的那種拼音我看不懂…）
+&lt;img src=&#34;https://s2.loli.net/2023/05/14/mMKgEkRw8uAp6Dj.png&#34; alt=&#34;&#34;&gt;
+（感覺雙擊這個操作真的很反人類…我怎麼也沒辦法激活那個Apply按鈕…Enter沒用，Ctrl+Enter也沒用……然後暴躁地一通亂點發現雙擊就可以了。）&lt;/p&gt;
+&lt;p&gt;然後等待下載
+&lt;img src=&#34;https://s2.loli.net/2023/05/14/3ycJwgsX1pDZfjA.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;有一個137.9MB的字體包，所以下載會比較慢（…我不太想換源。）
+&lt;img src=&#34;https://s2.loli.net/2023/05/14/cM2pPKiN3Hqs97V.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;語言包下載過程中無法通過apt-get下載其他東西
+&lt;img src=&#34;https://s2.loli.net/2023/05/15/DQIz3lBh1ZHOyqA.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;下載完成後打開Settings，在Input Sources一欄下點加號添加新的輸入法：
+&lt;img src=&#34;https://s2.loli.net/2023/05/15/AzM1SUfFoKEVRmv.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Add an Input Source裏選擇Chinese，打開就可以看到Intelligent Pinyin與Pinyin。（如果打開沒有出現這些選項就重啓下電腦。）
+&lt;img src=&#34;https://s2.loli.net/2023/05/15/GoLO3A8JmYywhCe.png&#34; alt=&#34;&#34;&gt;
+然後你就可以愉快地輸入中文了。右擊語言欄也可以切換簡繁/全角半角什麼的。默認快捷鍵和Windows那邊一樣。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>xzvf與xvf</title>
+      <link>https://updowncity.github.io/code/xvf/</link>
+      <pubDate>Mon, 15 May 2023 10:42:46 +0800</pubDate>
+      
+      <guid>https://updowncity.github.io/code/xvf/</guid>
+      <description>&lt;p&gt;討論班那邊搞six functors的時候用的是Martin Gallauer的An introduction to six-functor formalisms，鏈接https://doi.org/10.48550/arXiv.2112.10456，感覺這個LaTeX寫得很好看，於是就下載源文件抄一點代碼…（很久（？）以前就下載過然而我把Windows(???)和LaTeX文件夾都搞丟了…）
+是這樣一個文件
+&lt;img src=&#34;https://s2.loli.net/2023/05/15/KQJ25LSRr1WU9Ff.png&#34; alt=&#34;&#34;&gt;
+用&lt;code&gt;tar -xzvf&lt;/code&gt;無法打開。（不知道爲什麼。）
+去掉&lt;code&gt;z&lt;/code&gt;用&lt;code&gt;tar -xvf&lt;/code&gt;就OK了。
+&lt;img src=&#34;https://s2.loli.net/2023/05/15/oDzbYKw8IdU2plP.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

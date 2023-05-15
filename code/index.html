@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="generator" content="Hugo 0.92.2" />
     <title>
         
            
@@ -27,6 +27,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://updowncity.github.io/code/" />
+
 
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -137,8 +138,8 @@
     
         <div class="article-wrapper u-cf">
             
-                <a class="bubble" href="https://updowncity.github.io/code/config-bilberry/">
-    <i class="fas fa-fw fa-code"></i>
+                <a class="bubble" href="https://updowncity.github.io/code/ibus-pinyin/">
+    <i class="fas fa-fw fa-solid fa-pen-nib"></i>
 </a>
 
 <article class="default article">
@@ -146,33 +147,139 @@
 
     <div class="content">
     <h1 class="article-title">
-        <a href="https://updowncity.github.io/code/config-bilberry/">
-            蓝莓使用备忘录
+        <a href="https://updowncity.github.io/code/ibus-pinyin/">
+            圖形界面Ubuntu安裝拼音輸入法
         </a>
     </h1>
 
     <div class="meta">
         
             
-                <span class="date moment">2023-05-11</span>
+                <span class="date moment">2023-05-15</span>
             
         
 
         
 
         
+            <span class="categories">
+                
+                    
+                    
+                        <a href="https://updowncity.github.io/categories/%E5%82%99%E5%BF%98%E9%8C%84/">備忘錄</a>
+                    
+                
+            </span>
+        
 
         
     </div>
 
     
-        bilberry是此博客目前正在使用的主题。以这个主题为例写一个备忘录。bilberry是免费的，虽然介绍里写它是一个premium Hugo theme。毕业论文的事让我不再想用literature sandbox之类的免责声明了：我的确是认真地在做这件事。（然而那件事我也只能做到：在「No originality is claimed.」的免责声明里补充一句「除了本文中可能出现的错误以外」）
-除非作者早已弃坑不再对主题维护与更新（这样的Hugo主题其实很多…），否则不要直接修改主题文件，更新后你的修改会被覆盖掉。正确的操作方法是：把你所要修改的文件在根目录复制一份。它会具有更高的优先级，你所有的改动在这个脱离的镜像上进行。比如，你要修改layouts/_default/baseof.html，那就在根目录的layouts里新建一个文件夹_defaults然后把baseof.html复制过来。不要像魔改CSS那样新建一个空白文件然后按需修改。它不是在原有的配置文件的基础上进行添加，而是直接进行替换，当根目录里存在layouts/_default/baseof.html时，主题文件夹里的layouts/_default/baseof.html将会被忽略。
-它们并不是彼此独立的沙盒，主题的作者是可以在主题文件夹里设置一些留给用户自定义的(空白)文件的，更新不会对这些文件进行覆盖，你可以直接修改它们。比如，hugo-book的assets/_custom.scss与assets/_variables.scss是留给用户自定义的两个空白文件，里面也分别有提示语
-/* You can add custom styles here. */ 以及
-/* You can override SASS variables here. */ 蓝莓也可以这样做，只不过需要安装额外的依赖项（npm install以后主题文件夹膨胀到了100+MB而且总是报错（我也不知道为什么）。
-修改代码块样式 [markup] [markup.highlight] style = &#34;bw&#34; 除此之外，需要关掉主题自带的HighlightJs
-enableHighlightJs = false 
+        <pre tabindex="0"><code>OS Name: Ubuntu 22.04.2 LTS
+OS Type: 64-bit
+GNOME Version: 42.5
+</code></pre><p>即便安裝時選擇的是Minimal installation，系統自帶的ibus框架很完整，所以可以通過圖形界面安裝（中國大陸使用者所熟悉的）拼音輸入法。</p>
+<p>打開Settings，安裝新語言
+<img src="https://s2.loli.net/2023/05/14/NWIHy9z3CfjuqGY.png" alt=""></p>
+<p><strong>雙擊</strong>Chinese (simplified) （我不知道選繁體中文會不會改變輸入法…我只會用(大陸常見的)拼音，臺灣人用的那種拼音我看不懂…）
+<img src="https://s2.loli.net/2023/05/14/mMKgEkRw8uAp6Dj.png" alt="">
+（感覺雙擊這個操作真的很反人類…我怎麼也沒辦法激活那個Apply按鈕…Enter沒用，Ctrl+Enter也沒用……然後暴躁地一通亂點發現雙擊就可以了。）</p>
+<p>然後等待下載
+<img src="https://s2.loli.net/2023/05/14/3ycJwgsX1pDZfjA.png" alt=""></p>
+<p>有一個137.9MB的字體包，所以下載會比較慢（…我不太想換源。）
+<img src="https://s2.loli.net/2023/05/14/cM2pPKiN3Hqs97V.png" alt=""></p>
+<p>語言包下載過程中無法通過apt-get下載其他東西
+<img src="https://s2.loli.net/2023/05/15/DQIz3lBh1ZHOyqA.png" alt=""></p>
+<p>下載完成後打開Settings，在Input Sources一欄下點加號添加新的輸入法：
+<img src="https://s2.loli.net/2023/05/15/AzM1SUfFoKEVRmv.png" alt=""></p>
+<p>Add an Input Source裏選擇Chinese，打開就可以看到Intelligent Pinyin與Pinyin。（如果打開沒有出現這些選項就重啓下電腦。）
+<img src="https://s2.loli.net/2023/05/15/GoLO3A8JmYywhCe.png" alt="">
+然後你就可以愉快地輸入中文了。右擊語言欄也可以切換簡繁/全角半角什麼的。默認快捷鍵和Windows那邊一樣。</p>
+
+        
+            <a href="https://updowncity.github.io/code/ibus-pinyin/" class="more">Continue reading</a>
+        
+    
+</div>
+
+    
+<div class="footer">
+
+
+    
+        <div class="tags">
+            <i class="fa fa-tags"></i>
+            <div class="links">
+                
+                    
+                    
+                    <a href="https://updowncity.github.io/tags/%E5%9C%96%E5%BD%A2%E7%95%8C%E9%9D%A2/">圖形界面</a>
+                    
+                
+                    
+                    
+                    <a href="https://updowncity.github.io/tags/ubuntu/">Ubuntu</a>
+                    
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+</article>
+
+            
+        </div>
+    
+        <div class="article-wrapper u-cf">
+            
+                <a class="bubble" href="https://updowncity.github.io/code/xvf/">
+    <i class="fas fa-fw fa-solid fa-pen-nib"></i>
+</a>
+
+<article class="default article">
+    
+
+    <div class="content">
+    <h1 class="article-title">
+        <a href="https://updowncity.github.io/code/xvf/">
+            xzvf與xvf
+        </a>
+    </h1>
+
+    <div class="meta">
+        
+            
+                <span class="date moment">2023-05-15</span>
+            
+        
+
+        
+
+        
+            <span class="categories">
+                
+                    
+                    
+                        <a href="https://updowncity.github.io/categories/%E5%82%99%E5%BF%98%E9%8C%84/">備忘錄</a>
+                    
+                
+            </span>
+        
+
+        
+    </div>
+
+    
+        <p>討論班那邊搞six functors的時候用的是Martin Gallauer的An introduction to six-functor formalisms，鏈接https://doi.org/10.48550/arXiv.2112.10456，感覺這個LaTeX寫得很好看，於是就下載源文件抄一點代碼…（很久（？）以前就下載過然而我把Windows(???)和LaTeX文件夾都搞丟了…）
+是這樣一個文件
+<img src="https://s2.loli.net/2023/05/15/KQJ25LSRr1WU9Ff.png" alt="">
+用<code>tar -xzvf</code>無法打開。（不知道爲什麼。）
+去掉<code>z</code>用<code>tar -xvf</code>就OK了。
+<img src="https://s2.loli.net/2023/05/15/oDzbYKw8IdU2plP.png" alt=""></p>
 
         
     
@@ -215,7 +322,11 @@ enableHighlightJs = false
                 
                 
                     <li>
-                        <a href="https://updowncity.github.io/code/config-bilberry/">蓝莓使用备忘录</a>
+                        <a href="https://updowncity.github.io/code/ibus-pinyin/">圖形界面Ubuntu安裝拼音輸入法</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://updowncity.github.io/code/xvf/">xzvf與xvf</a>
                     </li>
                 
                     <li>
@@ -238,14 +349,26 @@ enableHighlightJs = false
                         <a href="https://updowncity.github.io/article/nekobox-backup/">NekoBox復活於是把收到的留言備份過來</a>
                     </li>
                 
-                    <li>
-                        <a href="https://updowncity.github.io/article/pin-github/">记录Windows10解决GitHub访问问题的尝试</a>
-                    </li>
-                
             </ul>
         </div>
         
 
+        
+        <div class="categories">
+            
+            <a href="https://updowncity.github.io/categories/"><strong>Categories</strong></a>
+            
+
+            <ul>
+                
+                <li>
+                
+                    <a href="https://updowncity.github.io/categories/%E5%82%99%E5%BF%98%E9%8C%84/">備忘錄 (2)</a>
+                
+                </li>
+                
+            </ul>
+        </div>
         
 
         <div class="right">
