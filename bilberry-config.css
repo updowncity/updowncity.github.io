@@ -24,11 +24,13 @@
   --global-font-size: 14px;
   --color-nav: #2d3642;
   --windows: #0078d7;
+  /* Emacs */
+  --DarkSeaGreen2: #b4eeb4;
+  --PaleTurquoise: #afeeee;
+  --RoyalBlue3: #3a5fcd;
 }
 
 /* Teal */
-
-
 
 .bilberry-hugo-theme .paginator a,
 .bilberry-hugo-theme .main .article-wrapper .bubble{
@@ -245,7 +247,6 @@ font-weight: 500;
 font-style: italic;}
 .bilberry-hugo-theme pre code, .bilberry-hugo-theme code{
   border-radius: 0;
-  font-size: 15px;
   font-family: 'Ubuntu Mono', Consolas, 'Fira Code', 'Microsoft Yahei', monospace;
 }
 .bilberry-hugo-theme footer .container strong, .bilberry-hugo-theme .paginator a{
