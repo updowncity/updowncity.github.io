@@ -151,6 +151,146 @@
             <div class="meta">
                 
                     
+                        <span class="date moment">2023-04-18</span>
+                    
+                
+
+                
+
+                
+            </div>
+        
+
+        <p>WinEdt 8140；知网 27082
+<img src="/images/2023-04/word-count-winEdt@draft-4.png" alt="">
+<img src="/images/2023-04/word-count-cnki.png" alt=""></p>
+<p>截止日期是23号，但昨天中午赶论文的时候忽然收到消息，老师会在晚上统一处理我们几个的初稿，只好放弃正在写的一个证明。赶到晚上依旧没写完，给老师发了消息……。然后就是……第一次（对于我这种DDL是第一生产力的人来说，我能够感觉到这不会是最后一次）连续24+小时；</p>
+<p>当然把我坑得最惨的应该不是那些字数统计器，而是我对自然语言的糟糕的理解力。各种学校通知啦，$\LaTeX$ 模板内嵌的disclaim啦，这些关于学术诚信的文本都totally confusing. 无法理解它们，只好采取最稳妥的办法。吭哧吭哧把那些鬼东西都给证一遍（除了abelian heart那里还没check kercoker=cokerker（其实还来得及但我太累了实在证不动），以及那些Hartshorne第二章第一节习题里的sheaf theorical issues）……然后就是，知网查重的结果是0。（虽然我知道这种国内没人(用中文)写过的东西，查重是可以闭眼过的，但没想到查重结果直接就是0。…………还是很不安。不知道这种结果是什么意思。因为有的定理我是看了BBD之后才有证明思路的。而且，就算是那些我自己想出来的东西，也早就有人写过了。……如果说有什么无可争议的原创性内容的话，应该就是那些 ugly/broken/disharmonic contents了。（单独拎出来或许不那么ugly，但放在里面真的broken&amp;disharmonic……要不是因为（被字数统计器坑到以为）凑不够字数，我早就把它们给删了。）</p>
+<p>随着DDL的接近，隔壁 $\LaTeX$ 吐槽贴也不再更新：</p>
+
+    </div>
+
+    
+<div class="footer no-tags">
+
+
+    
+
+    
+</div>
+
+</article>
+
+            
+        </div>
+    
+        <div class="article-wrapper u-cf">
+            
+                <span class="bubble">
+    <i class="fas fa-fw fa-comment"></i>
+</span>
+
+<article class="status">
+    
+
+    <div class="content">
+
+
+        
+            <div class="meta">
+                
+                    
+                        <span class="date moment">2023-04-09</span>
+                    
+                
+
+                
+
+                
+            </div>
+        
+
+        <p>我觉得对自己所研究的事物热爱还是厌倦是因人而异的，但对系统的恨是universal的。（然而系统依旧存在着：…或许这也是我如此确信惯性是远比感情与意志更为本质与深刻的东西的原因吧，只有极少数时候人才能够挣脱重力而存在。）</p>
+<p><strong>DDL是第一生产力</strong></p>
+<img src="/images/04/ddl_04-13~04-23.png" alt="">
+<img src="/images/04/ddl_05-01~05-11.png" alt="">
+<img src="/images/04/ddl_05-05~05-13.png" alt="">
+（没错用Stylus（浏览器插件）把知网默认字体改了。。）
+<p>看来是编辑器的锅。VSCode编译不出来我就换用TeXLive附带的TeXworks，结果还是不行。感觉今天这俩除了报错和转圈圈啥也不会。Texworks editor does not work at all unless I commented all commutative diagrams. 然后换了WinEdt。（很好用，就是太贵了。）</p>
+<p>（偶然想到…</p>
+<p>为什么所有的交换图都编译不出来了为什么所有的交换图都编译不出来了</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="font-style:italic">% TODO
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">% - [ ] avoid/remove unnecessary inventions
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">% - [ ] check the order of propositions and footnotes
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">% - [ ] remove wordy footnotes
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">% - [ ] check missing explainations and definitions
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic">% - [ ] check and remove ugly expressions
+</span></span></span></code></pre></div><p>还是打不出sheaf Hom，不知道Hartshorne书上的那些是怎么弄出来的。凑了个显然不合格的<code>\mathscr{H}\kern -2pt \mathit{om}</code>（把字体换成GTM281里的<code>\usepackage[mathscr]{euscript}</code>）一开始写的是<code>2px</code>，然后从pdftex换到xetex的时候就到处报错。（check了一下学校的文档发现要求西文字体是Times New Roman，默认的CMU系列和Times区别有点大，fontspec又不支持pdftex。这东西真的不适合脑子不好使的人（指我）</p>
+<p><strong>#居然可以这样写</strong></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="font-weight:bold">\def\-</span>#1{<span style="font-weight:bold">\mathscr</span>{#1}}
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">\def\+</span>#1{<span style="font-weight:bold">\mathscr</span>{#1}^<span style="font-weight:bold">\bullet</span>}
+</span></span></code></pre></div><p>疯狗乱咬人般的LaTeX吐槽。不过吐槽归吐槽，我也知道，由于强迫行为的影响，手写notes对我来说有时远比折腾LaTeX困难（……即便充满commutative diagram）。</p>
+<p>谢天谢地有这两个符号：<code>\imath</code>与<code>\jmath</code>，输出是不带点的i与j：(\imath,\jmath)，可以用它们写immersion，用普通的(i,j)写index。</p>
+<p>什么鬼，sheaf Hom 打不出来。网页上可以正常输出(\mathscr{Hom})与(\mathcal{Hom})，然而在我的编译器里，它们不支持小写字母：<code>\mathscr{Hom}</code>只出现一个花体的H：$\mathscr{H}$；<code>\mathcal{Hom}</code>会出现一坨这个东西<img src="/images/2023-04/hom@mathcal.png" alt=""></p>
+<p>天下苦LaTeX也久矣。因为画不出标准版的TR4图，把它改写成了这个形状，虽然丑了点（后面会解释它到底丑到什么程度），但还算好记：
+沿用维基百科里的记号
+<img src="/images/2023-04/TR4@1@LaTeX.png" alt="">
+换一下morphisms的变量名
+<img src="/images/2023-04/TR4@2@LaTeX.png" alt="">
+对照
+$l=gm \leftrightsquigarrow b[1]=\beta’[1]\beta’’$<br>
+$k=nf \leftrightsquigarrow  a[1]=\alpha’[1]\alpha’’$<br>
+$ig=u[1]n \leftrightsquigarrow b’\beta’=a’\alpha’$<br>
+$fj=mv \leftrightsquigarrow \beta’’ b’=\alpha’’ a’’$
+（还没检查有没有符号写错）
+（虽然搞丢太多次已经能记住了但每次检查好麻烦。）</p>
+<p><strong>前面那个改写真的很丑</strong>（把符号弄得很乱）
+原版可以漂亮地用Lisp的括号记为
+<code>(- X Y)=: Z'</code><br>
+<code>(- Y Z)=: X'</code><br>
+<code>(- X Z)=: Y'</code><br>
+（不是标准语法…数学这里用不到quote所以把它视为变量名的一部分了，以及那个<code>=:</code>是我实在找不到符号自己写的）
+所生成的$Z’\to Y’\to X’$也就是<br>
+<code>(- (- X Y) (- X Z))=:(- Y Z)</code><br>
+与$Y/X\to Z/X\simeq Z/Y$长得已经很像了，不过cofiber/cone可以标记特定的morphism，不再依赖于quotient预设。
+还有就是把(X[1])写成<code>-X</code>，$Y\to Z\to X[1]$也就是<br><code>(- Y (- X Y))=: -X</code><br>
+Lisp的写法可以让字母的摆放顺序和箭头版本的一致，转化的时候直接抄就可以了不用担心写反。</p>
+<p>这个写法的缺陷在于对等宽字体的依赖：空格的作用是标记不同的语言原子，手写的话空格会看不清楚。
+尝试改了下，把<code>(- X Y)=: Z'</code>写成[-X:Y]<sub>u</sub>=:Z’，虽然用LaTeX字体写出来有点丑：$[-X:Y]_u=:Z’$，不过至少结构本身很好看。</p>
+
+
+    </div>
+
+    
+<div class="footer no-tags">
+
+
+    
+
+    
+</div>
+
+</article>
+
+            
+        </div>
+    
+        <div class="article-wrapper u-cf">
+            
+                <span class="bubble">
+    <i class="fas fa-fw fa-comment"></i>
+</span>
+
+<article class="status">
+    
+
+    <div class="content">
+
+
+        
+            <div class="meta">
+                
+                    
                         <span class="date moment">2023-04-07</span>
                     
                 
@@ -368,96 +508,6 @@ perverse t-structure那一節GTM281有個地方（p134）寫錯了…反覆確�
         
 
         <p>四月快到了</p>
-
-
-    </div>
-
-    
-<div class="footer no-tags">
-
-
-    
-
-    
-</div>
-
-</article>
-
-            
-        </div>
-    
-        <div class="article-wrapper u-cf">
-            
-                <span class="bubble">
-    <i class="fas fa-fw fa-comment"></i>
-</span>
-
-<article class="status">
-    
-
-    <div class="content">
-
-
-        
-            <div class="meta">
-                
-                    
-                        <span class="date moment">2023-03-22</span>
-                    
-                
-
-                
-
-                
-            </div>
-        
-
-        <p>或許編程隨想並不是一個人，就像Bourbaki……</p>
-
-
-    </div>
-
-    
-<div class="footer no-tags">
-
-
-    
-
-    
-</div>
-
-</article>
-
-            
-        </div>
-    
-        <div class="article-wrapper u-cf">
-            
-                <span class="bubble">
-    <i class="fas fa-fw fa-comment"></i>
-</span>
-
-<article class="status">
-    
-
-    <div class="content">
-
-
-        
-            <div class="meta">
-                
-                    
-                        <span class="date moment">2023-03-20</span>
-                    
-                
-
-                
-
-                
-            </div>
-        
-
-        <p>搬家到Hogo：因为快</p>
 
 
     </div>
