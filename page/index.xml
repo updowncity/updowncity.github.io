@@ -12,7 +12,8 @@
       <pubDate>Sat, 18 Mar 2023 22:41:49 +0000</pubDate>
       
       <guid>https://updowncity.github.io/page/changelog/</guid>
-      <description>2023-05-04 新的favicon是一只长得有点像墓碑的幽灵； 恢复默认配色； 多处调整（就让我以这种神经质的行为结束掉我的21岁吧）； 默认logo来自fontawesome，把鼠标放在那枚幽灵上的时候会出现旧的那个蓝色少女；具体操作很简单：调换header.html里&amp;lt;img src=&amp;quot;{{ .Site.Params.customImage | relURL }}&amp;quot; alt=&amp;quot;&amp;quot;&amp;gt;与&amp;lt;i class=&amp;quot;fa {{ .Site.Params.overlayIcon | default &amp;quot;fa-home&amp;quot; }}&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;的位置，然后通过边框消除边缘锯齿border: 1.4px solid rgba(0, 0, 0, 0.15); 舊的日誌 2023-05-03 注释掉了cursor.js（鼠标点击效果）或许某一天这个图标也会被丢掉吧。
+      <description>2023-05-19 页面底部添加了一个计时器：代码来源 思考：要不要在About页留下我的手机号（……紧急情况备用）………我并不介意泄露个人信息：容易冲动，所以希望我是容易找到的。
+2023-05-04 新的favicon是一只长得有点像墓碑的幽灵； 恢复默认配色； 多处调整（就让我以这种神经质的行为结束掉我的21岁吧）； 默认logo来自fontawesome，把鼠标放在那枚幽灵上的时候会出现旧的那个蓝色少女；具体操作很简单：调换header.html里&amp;lt;img src=&amp;quot;{{ .Site.Params.customImage | relURL }}&amp;quot; alt=&amp;quot;&amp;quot;&amp;gt;与&amp;lt;i class=&amp;quot;fa {{ .Site.Params.overlayIcon | default &amp;quot;fa-home&amp;quot; }}&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;的位置，然后通过边框消除边缘锯齿border: 1.4px solid rgba(0, 0, 0, 0.15); 舊的日誌 2023-05-03 注释掉了cursor.js（鼠标点击效果）或许某一天这个图标也会被丢掉吧。
 2023-05-01 更新了主题与配色：或许我的确怀念着那个旧的encapsulation世界。
 2023-04-?? 注释掉了Valine。</description>
     </item>
