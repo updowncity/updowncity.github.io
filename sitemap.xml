@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://updowncity.github.io/status/status/</loc>
-    <lastmod>2023-05-19T04:11:44+08:00</lastmod>
+    <loc>https://updowncity.github.io/status/clear/</loc>
+    <lastmod>2023-05-22T11:54:16+08:00</lastmod>
   </url><url>
     <loc>https://updowncity.github.io/status/</loc>
-    <lastmod>2023-05-19T04:11:44+08:00</lastmod>
+    <lastmod>2023-05-22T11:54:16+08:00</lastmod>
   </url><url>
     <loc>https://updowncity.github.io/</loc>
+    <lastmod>2023-05-22T11:54:16+08:00</lastmod>
+  </url><url>
+    <loc>https://updowncity.github.io/status/status/</loc>
     <lastmod>2023-05-19T04:11:44+08:00</lastmod>
   </url><url>
     <loc>https://updowncity.github.io/status/moduli/</loc>
