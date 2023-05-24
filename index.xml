@@ -13,8 +13,7 @@
       
       <guid>/posts/20230522_clear/</guid>
       <description>&lt;p&gt;我的性格里有太多冲动与不确定的因素：我总是想要摆脱某个混乱而残破的现状。
-这是一个非常危险的信号，因为它所通往的是想要摆脱这个混乱而残破的生命：&lt;strong&gt;只有新的东西才是清晰完整的&lt;/strong&gt;。&lt;/p&gt;
-</description>
+这是一个非常危险的信号，因为它所通往的是想要摆脱这个混乱而残破的生命：&lt;strong&gt;只有新的东西才是清晰完整的&lt;/strong&gt;。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -79,8 +78,7 @@ GNOME Version: 42.5
       
       <guid>/posts/20230512_source-code-of-my-theis-vanished-before-submitting-the-final-version/</guid>
       <description>&lt;p&gt;因为作死…详见下一篇[近况]。安装Ubuntu之前忘记备份。意料之外是又白嫖了一个月的WinEdt。现在正在生无可恋地对着初稿敲LaTeX代码。&lt;/p&gt;
-&lt;p&gt;初稿里有一个很明显的错误（系数问题…虽然很idiotic，但这个东西我的确&lt;strong&gt;一直以来都搞错了&lt;/strong&gt;，值得写篇blog（还没写…应该不会坑掉…）……有些东西读的时候会让人觉得trivial/wordy，然而这只是我们理解的不足。然而答辩组的老师们只看到了格式问题（首行缩进与标错的序号…）&lt;/p&gt;
-</description>
+&lt;p&gt;初稿里有一个很明显的错误（系数问题…虽然很idiotic，但这个东西我的确&lt;strong&gt;一直以来都搞错了&lt;/strong&gt;，值得写篇blog（还没写…应该不会坑掉…）……有些东西读的时候会让人觉得trivial/wordy，然而这只是我们理解的不足。然而答辩组的老师们只看到了格式问题（首行缩进与标错的序号…）&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -89,8 +87,7 @@ GNOME Version: 42.5
       <pubDate>Thu, 04 May 2023 22:08:39 +0800</pubDate>
       
       <guid>/posts/20230504_22/</guid>
-      <description>&lt;p&gt;图片是邱妙津一九九四年十月五日寫給赖香吟的信，收录于《其後それから》，或许它可以作为我对未来的展望（别再避讳死亡！）&lt;/p&gt;
-</description>
+      <description>&lt;p&gt;图片是邱妙津一九九四年十月五日寫給赖香吟的信，收录于《其後それから》，或许它可以作为我对未来的展望（别再避讳死亡！）&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -116,8 +113,7 @@ GNOME Version: 42.5
 &lt;p&gt;I was the shadow of the waxwing slain
 By the false azure in the windowpane&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;由於中文翻譯的緣故，這句話被我理解爲了：被殺害的是窗玻璃上的一枚陰影[Shade/Shadow?]，來自某隻路過的連雀。&lt;strong&gt;連雀的陰影被虛假的碧空所覆蓋，它的確發生在窗玻璃上，但誰也無法從中得到一隻死鳥。&lt;/strong&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;由於中文翻譯的緣故，這句話被我理解爲了：被殺害的是窗玻璃上的一枚陰影[Shade/Shadow?]，來自某隻路過的連雀。&lt;strong&gt;連雀的陰影被虛假的碧空所覆蓋，它的確發生在窗玻璃上，但誰也無法從中得到一隻死鳥。&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -135,8 +131,7 @@ By the false azure in the windowpane&lt;/p&gt;
       <pubDate>Sun, 23 Apr 2023 18:39:22 +0800</pubDate>
       
       <guid>/posts/20230423_thesis-disclaimer/</guid>
-      <description>&lt;p&gt;应要求写了个免责声明：「本人并不声称内容具有原创性（No originality is claimed）」。然后感觉这个写得就好像是在把写错的地方全都甩锅给BBD。所以现在一点也不想检查了。（在毕业论文这件事上卡得太久，已经感到厌烦。这段时间没有看书，也没有写日记，我也变得很无趣。（所以先消失一段时间）所有的东西都是不可控的，我也无法重新拼凑出我自己。）&lt;/p&gt;
-</description>
+      <description>&lt;p&gt;应要求写了个免责声明：「本人并不声称内容具有原创性（No originality is claimed）」。然后感觉这个写得就好像是在把写错的地方全都甩锅给BBD。所以现在一点也不想检查了。（在毕业论文这件事上卡得太久，已经感到厌烦。这段时间没有看书，也没有写日记，我也变得很无趣。（所以先消失一段时间）所有的东西都是不可控的，我也无法重新拼凑出我自己。）&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -275,13 +270,13 @@ date: 2023-03-12 02:28:47
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;簡繁切換是手動進行的（因為我很在意文字的形狀……）&lt;/p&gt;
 &lt;p&gt;我從Waline管理員頁面是可以刪除評論的，所以如果某一天你想要從我所觸及到的世界徹底消失，抹除一切可見的痕跡，可以郵件聯繫我：&lt;code&gt;jamais-vu@tutanota.com&lt;/code&gt;。（就好像寫這樣一個聲明可以帶給訪客安心的感覺。你真的這麼想嗎。）&lt;/p&gt;
 &lt;p&gt;Powered by &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; with &lt;a href=&#34;https://github.com/mrmierzejewski/hugo-theme-console/&#34;&gt;Console Theme&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;留言&#34;&gt;留言 &lt;a href=&#34;#%e7%95%99%e8%a8%80&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;留言&#34;&gt;留言 &lt;a href=&#34;#%e7%95%99%e8%a8%80&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;郵箱 &lt;code&gt;jamais-vu@tutanota.com&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;關鍵字&#34;&gt;關鍵字 &lt;a href=&#34;#%e9%97%9c%e9%8d%b5%e5%ad%97&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;h3 id=&#34;ugly-blue&#34;&gt;&lt;code&gt;ugly-blue&lt;/code&gt; &lt;a href=&#34;#ugly-blue&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;code&gt;ugly-blue&lt;/code&gt;是一個只用了兩天就被換掉的自制hexo主題，其實它也沒有那麼醜，&lt;code&gt;ugly&lt;/code&gt;可以理解為前綴或語氣詞。它被換掉只是因為站長比較依戀默認主題的安心感。2023-03-20&lt;/p&gt;
-&lt;h3 id=&#34;蟲蛻&#34;&gt;蟲蛻 &lt;a href=&#34;#%e8%9f%b2%e8%9b%bb&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;站長的記憶力非常糟糕以至於經常感到生命是不連續的：如果將普通的睡眠（帶來的不連續）比作關機重啟，那麼這裡的不連續可以理解為各種原因帶來的文件丟失（有時這種丟失甚至是難以覺察的。）2023-03-20&lt;/p&gt;
-&lt;h3 id=&#34;站長是誰&#34;&gt;站長是誰 &lt;a href=&#34;#%e7%ab%99%e9%95%b7%e6%98%af%e8%aa%b0&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;按&lt;code&gt;Ctrl+C&lt;/code&gt;你會得到一個HTML文件（以及掉在旁邊的一個文件夾），站長就是這個鬼東西。2023-03-20&lt;/p&gt;
-&lt;h3 id=&#34;我是誰&#34;&gt;我是誰 &lt;a href=&#34;#%e6%88%91%e6%98%af%e8%aa%b0&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;前兩天我的校園卡丟了但沒有發現直到晚上打開洗澡用的企業微信發現裡面有一條消息讓我去指定的一棟宿舍樓去領回，去年的比這稍晚些的時候，學校通知打第三針疫苗然後我發現身份證已經像舊的眼鏡那樣被搞丟了。不過即便這兩件事情同時發生（也就是存在某個時間段我既找不到身份證也找不到校園卡），我也依舊能夠回到這裡（也就是你剛才下載的那個HTML文件（或許你不會真的下載它）的路。（我不是故意的……自然狀態下我的語言就是這個樣子的你在別處看到能夠閱讀的段落是因為我認真地進行了斷句和整理。）2023-03-20 (你同樣無法期待這個掉落過很多蟲蛻的作者會有一個固定的時間戳格式) 這段保留未經整理的形狀的文本可以作為我的sample。&lt;/p&gt;
-&lt;h3 id=&#34;你是誰&#34;&gt;你是誰 &lt;a href=&#34;#%e4%bd%a0%e6%98%af%e8%aa%b0&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果你想回答這個問題可以使用下面的留言板或者（如果Valine壞了）&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;關鍵字&#34;&gt;關鍵字 &lt;a href=&#34;#%e9%97%9c%e9%8d%b5%e5%ad%97&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&lt;h3 id=&#34;ugly-blue&#34;&gt;&lt;code&gt;ugly-blue&lt;/code&gt; &lt;a href=&#34;#ugly-blue&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;code&gt;ugly-blue&lt;/code&gt;是一個只用了兩天就被換掉的自制hexo主題，其實它也沒有那麼醜，&lt;code&gt;ugly&lt;/code&gt;可以理解為前綴或語氣詞。它被換掉只是因為站長比較依戀默認主題的安心感。2023-03-20&lt;/p&gt;
+&lt;h3 id=&#34;蟲蛻&#34;&gt;蟲蛻 &lt;a href=&#34;#%e8%9f%b2%e8%9b%bb&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;站長的記憶力非常糟糕以至於經常感到生命是不連續的：如果將普通的睡眠（帶來的不連續）比作關機重啟，那麼這裡的不連續可以理解為各種原因帶來的文件丟失（有時這種丟失甚至是難以覺察的。）2023-03-20&lt;/p&gt;
+&lt;h3 id=&#34;站長是誰&#34;&gt;站長是誰 &lt;a href=&#34;#%e7%ab%99%e9%95%b7%e6%98%af%e8%aa%b0&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;按&lt;code&gt;Ctrl+C&lt;/code&gt;你會得到一個HTML文件（以及掉在旁邊的一個文件夾），站長就是這個鬼東西。2023-03-20&lt;/p&gt;
+&lt;h3 id=&#34;我是誰&#34;&gt;我是誰 &lt;a href=&#34;#%e6%88%91%e6%98%af%e8%aa%b0&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;前兩天我的校園卡丟了但沒有發現直到晚上打開洗澡用的企業微信發現裡面有一條消息讓我去指定的一棟宿舍樓去領回，去年的比這稍晚些的時候，學校通知打第三針疫苗然後我發現身份證已經像舊的眼鏡那樣被搞丟了。不過即便這兩件事情同時發生（也就是存在某個時間段我既找不到身份證也找不到校園卡），我也依舊能夠回到這裡（也就是你剛才下載的那個HTML文件（或許你不會真的下載它）的路。（我不是故意的……自然狀態下我的語言就是這個樣子的你在別處看到能夠閱讀的段落是因為我認真地進行了斷句和整理。）2023-03-20 (你同樣無法期待這個掉落過很多蟲蛻的作者會有一個固定的時間戳格式) 這段保留未經整理的形狀的文本可以作為我的sample。&lt;/p&gt;
+&lt;h3 id=&#34;你是誰&#34;&gt;你是誰 &lt;a href=&#34;#%e4%bd%a0%e6%98%af%e8%aa%b0&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果你想回答這個問題可以使用下面的留言板或者（如果Valine壞了）&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://lzx897.world&#34;&gt;隱藏&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -384,12 +379,12 @@ date: 2023-03-12 02:28:47
     </item>
     
     <item>
-      <title></title>
+      <title>搬家到Hogo</title>
       <link>/posts/20230320_moved-to-hugo/</link>
       <pubDate>Mon, 20 Mar 2023 17:33:42 +0800</pubDate>
       
       <guid>/posts/20230320_moved-to-hugo/</guid>
-      <description>&lt;p&gt;搬家到Hogo：因为快&lt;/p&gt;
+      <description>&lt;p&gt;因为快&lt;/p&gt;
 </description>
     </item>
     
@@ -507,18 +502,22 @@ date: 2023-03-12 02:28:47
       
       <guid>/posts/20230221_dialog-between-chizuko-ueno-and-quan-xixi/</guid>
       <description>&lt;p&gt;我逐渐意识到我经常省略一些「在我看来理所当然不需要额外解释但对他人来说未必如此」的前置说明，比如，我的女性主义立场是先验的而不是习得的，因此我认为反抗父权主义是所有女性与生俱来的本能，（而厌女症来自于父权主义环境对这种本能的破坏）。这是个相当糟糕的indication，幼稚且coarse，然而它是被我惯性使然地当做所有思考的前提来使用着的东西。于是对于女性主义，我总是批判大于行动。我没有付诸行动的意志力，所以能量只好用在fancy的激进说辞上。我深知我所说的「直接废除父权主义的话语体系」，实际上只不过是在讨论怎样巧妙地通过蜷缩身体来缓解痛苦，怎样用奇淫技巧伪造出自己的尊严。&lt;/p&gt;
-&lt;h2 id=&#34;關於全嘻嘻和她的朋友們與上野千鶴子的對話&#34;&gt;關於全嘻嘻和她的朋友們與上野千鶴子的對話 &lt;a href=&#34;#%e9%97%9c%e6%96%bc%e5%85%a8%e5%98%bb%e5%98%bb%e5%92%8c%e5%a5%b9%e7%9a%84%e6%9c%8b%e5%8f%8b%e5%80%91%e8%88%87%e4%b8%8a%e9%87%8e%e5%8d%83%e9%b6%b4%e5%ad%90%e7%9a%84%e5%b0%8d%e8%a9%b1&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;为什么上野千鶴子说的基本上是在重复《始于极限》那本全嘻嘻和她的两位朋友已经读过的书里的内容。虽然识别出「言外之意」对我来说非常困难（所以那个视频本身在我眼中就真的只是一场（不同世界的人之间）真诚的对话），我只能看到事物的表面，深层结构是陌生而遥远的东西，然而在此之前我已经看到很多对则视频的争议，于是我开始怀疑这里的重复暗示了预设的台本的存在。我无法选择攻击全嘻嘻和她的朋友們的立场（又是一个多义句），因为面对冲突，我同样选择回避而非对决，就像我曾经做过的那样：将我的生命以2016年为标记切割为泾渭分明的两段，构建一个不属于我的关于家庭的开明与幸福的神话。因为我是有死者。因为我是有死者，所以选择逃避无可厚非。即便我写过「我不相信爱与希望是不被允许相信爱与希望」，我也从未真诚地相信过上野千鶴子所暗示的对话的可能性：因为（我认为）这种可能性得以实现的前提是我的死亡。（我也从未想过出柜…）
+&lt;h2 id=&#34;關於全嘻嘻和她的朋友們與上野千鶴子的對話&#34;&gt;關於全嘻嘻和她的朋友們與上野千鶴子的對話 &lt;a href=&#34;#%e9%97%9c%e6%96%bc%e5%85%a8%e5%98%bb%e5%98%bb%e5%92%8c%e5%a5%b9%e7%9a%84%e6%9c%8b%e5%8f%8b%e5%80%91%e8%88%87%e4%b8%8a%e9%87%8e%e5%8d%83%e9%b6%b4%e5%ad%90%e7%9a%84%e5%b0%8d%e8%a9%b1&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;为什么上野千鶴子说的基本上是在重复《始于极限》那本全嘻嘻和她的两位朋友已经读过的书里的内容。虽然识别出「言外之意」对我来说非常困难（所以那个视频本身在我眼中就真的只是一场（不同世界的人之间）真诚的对话），我只能看到事物的表面，深层结构是陌生而遥远的东西，然而在此之前我已经看到很多对则视频的争议，于是我开始怀疑这里的重复暗示了预设的台本的存在。我无法选择攻击全嘻嘻和她的朋友們的立场（又是一个多义句），因为面对冲突，我同样选择回避而非对决，就像我曾经做过的那样：将我的生命以2016年为标记切割为泾渭分明的两段，构建一个不属于我的关于家庭的开明与幸福的神话。因为我是有死者。因为我是有死者，所以选择逃避无可厚非。即便我写过「我不相信爱与希望是不被允许相信爱与希望」，我也从未真诚地相信过上野千鶴子所暗示的对话的可能性：因为（我认为）这种可能性得以实现的前提是我的死亡。（我也从未想过出柜…）
 如果女性主义要分三六九等，那么行动者永远是高于我这种空谈者的。（很少出现在我的语言里的判断句。…我讨厌判断句，它们太刺眼。）&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title></title>
+      <title>旧的About页</title>
       <link>/posts/20230218_old-about/</link>
       <pubDate>Sat, 18 Feb 2023 20:50:42 +0000</pubDate>
       
       <guid>/posts/20230218_old-about/</guid>
-      <description>&lt;p&gt;[常用]标签：&lt;/p&gt;
+      <description>&lt;p&gt;回收时间：&lt;code&gt;2023-05-25 0:14&lt;/code&gt;；
+发送时间：&lt;code&gt;2023-03-17 22:57&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;页面的文件名依旧是bupropion.md，我每天吃的安非他酮；旧的标题「将我遗忘在海边吧」来自安哲的《鹳鸟踟蹰》；曾经用过的另一个放置在网站标题「你快乐吗」下面的subtitle/description「带上蜡烛，我们去罗马干件大事」来自塔克夫斯基的《乡愁》，邮箱名jamais-vu@tutanota.com来自极乐迪斯科；「虫蜕」是我在disroot bin收到的一条&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;留言&lt;/a&gt;；&lt;/p&gt;
+&lt;h3 id=&#34;时间戳遗失&#34;&gt;时间戳遗失 &lt;a href=&#34;#%e6%97%b6%e9%97%b4%e6%88%b3%e9%81%97%e5%a4%b1&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;标题：将我遗忘在海边吧&lt;/p&gt;
+&lt;p&gt;[常用]标签：&lt;/p&gt;
 &lt;p&gt;#文学沙盒 用于存放不负责任的思考与感受&lt;/p&gt;
 &lt;p&gt;此博客作案工具：&lt;/p&gt;
 &lt;ul&gt;

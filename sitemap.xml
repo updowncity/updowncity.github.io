@@ -59,9 +59,6 @@
     <loc>/posts/20230426_i-was-the-shadow-of-the-waxwing-slain/</loc>
     <lastmod>2023-04-26T18:11:59+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E5%8D%A0%E4%BD%8D%E7%AC%A6/</loc>
-    <lastmod>2023-04-25T23:10:09+08:00</lastmod>
-  </url><url>
     <loc>/posts/20230425_sensory-overload/</loc>
     <lastmod>2023-04-25T23:10:09+08:00</lastmod>
   </url><url>
@@ -143,25 +140,22 @@
     <loc>/posts/20230319_fictional-memory/</loc>
     <lastmod>2023-03-19T03:55:00+00:00</lastmod>
   </url><url>
-    <loc>/page/</loc>
-    <lastmod>2023-03-18T22:41:49+00:00</lastmod>
-  </url><url>
-    <loc>/page/changelog/</loc>
+    <loc>/changelog/</loc>
     <lastmod>2023-03-18T22:41:49+00:00</lastmod>
   </url><url>
     <loc>/posts/20230317_emacs-initialization/</loc>
     <lastmod>2023-03-17T23:59:59+00:00</lastmod>
   </url><url>
-    <loc>/page/bupropion/</loc>
+    <loc>/about/</loc>
     <lastmod>2023-03-17T22:57:31+00:00</lastmod>
   </url><url>
-    <loc>/page/moults/</loc>
+    <loc>/moults/</loc>
     <lastmod>2023-03-17T02:00:29+00:00</lastmod>
   </url><url>
     <loc>/posts/20230312_what-happened/</loc>
     <lastmod>2023-03-12T00:41:57+00:00</lastmod>
   </url><url>
-    <loc>/page/friends/</loc>
+    <loc>/friends/</loc>
     <lastmod>2023-03-12T00:38:32+00:00</lastmod>
   </url><url>
     <loc>/posts/20230308_stacked-logs-02/</loc>
@@ -185,10 +179,10 @@
     <loc>/posts/20230221_dialog-between-chizuko-ueno-and-quan-xixi/</loc>
     <lastmod>2023-02-21T21:15:21+00:00</lastmod>
   </url><url>
-    <loc>/posts/20230218_old-about/</loc>
+    <loc>/categories/%E5%9B%9E%E6%94%B6%E7%AB%99/</loc>
     <lastmod>2023-02-18T20:50:42+00:00</lastmod>
   </url><url>
-    <loc>/categories/%E5%9B%9E%E6%94%B6%E7%AB%99/</loc>
+    <loc>/posts/20230218_old-about/</loc>
     <lastmod>2023-02-18T20:50:42+00:00</lastmod>
   </url><url>
     <loc>/posts/20230216_stacked-logs-01/</loc>
