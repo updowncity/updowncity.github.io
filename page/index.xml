@@ -2,50 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on 你快樂嗎</title>
-    <link>https://updowncity.github.io/page/</link>
+    <link>/page/</link>
     <description>Recent content in Pages on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 18 Mar 2023 22:41:49 +0000</lastBuildDate><atom:link href="https://updowncity.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Mar 2023 22:41:49 +0000</lastBuildDate><atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>日誌</title>
-      <link>https://updowncity.github.io/page/changelog/</link>
+      <link>/page/changelog/</link>
       <pubDate>Sat, 18 Mar 2023 22:41:49 +0000</pubDate>
       
-      <guid>https://updowncity.github.io/page/changelog/</guid>
-      <description>2023-05-19 页面底部添加了一个计时器：代码来源 思考：要不要在About页留下我的手机号（……紧急情况备用）………我并不介意泄露个人信息：事实上我希望在现实中很容易就能找到我。
-2023-05-04 新的favicon是一只长得有点像墓碑的幽灵； 恢复默认配色； 多处调整（就让我以这种神经质的行为结束掉我的21岁吧）； 默认logo来自fontawesome，把鼠标放在那枚幽灵上的时候会出现旧的那个蓝色少女；具体操作很简单：调换header.html里&amp;lt;img src=&amp;quot;{{ .Site.Params.customImage | relURL }}&amp;quot; alt=&amp;quot;&amp;quot;&amp;gt;与&amp;lt;i class=&amp;quot;fa {{ .Site.Params.overlayIcon | default &amp;quot;fa-home&amp;quot; }}&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;的位置，然后通过边框消除边缘锯齿border: 1.4px solid rgba(0, 0, 0, 0.15); 舊的日誌 2023-05-03 注释掉了cursor.js（鼠标点击效果）或许某一天这个图标也会被丢掉吧。
-2023-05-01 更新了主题与配色：或许我的确怀念着那个旧的encapsulation世界。
-2023-04-?? 注释掉了Valine。</description>
+      <guid>/page/changelog/</guid>
+      <description>&lt;h4 id=&#34;2023-05-19&#34;&gt;2023-05-19 &lt;a href=&#34;#2023-05-19&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;页面底部添加了一个计时器：&lt;a href=&#34;https://www.cnblogs.com/xinlvtian/p/9635247.html&#34;&gt;代码来源&lt;/a&gt;
+思考：要不要在About页留下我的手机号（……紧急情况备用）………我并不介意泄露个人信息：事实上我希望在现实中很容易就能找到我。&lt;/p&gt;
+&lt;h4 id=&#34;2023-05-04&#34;&gt;2023-05-04 &lt;a href=&#34;#2023-05-04&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;新的favicon是一只长得有点像墓碑的幽灵；&lt;/li&gt;
+&lt;li&gt;恢复默认配色；&lt;/li&gt;
+&lt;li&gt;多处调整（就让我以这种神经质的行为结束掉我的21岁吧）；&lt;/li&gt;
+&lt;li&gt;默认logo来自&lt;a href=&#34;https://fontawesome.com/icons?d=gallery&amp;amp;m=free&#34;&gt;fontawesome&lt;/a&gt;，把鼠标放在那枚幽灵上的时候会出现旧的那个蓝色少女；具体操作很简单：调换header.html里&lt;code&gt;&amp;lt;img src=&amp;quot;{{ .Site.Params.customImage | relURL }}&amp;quot; alt=&amp;quot;&amp;quot;&amp;gt;&lt;/code&gt;与&lt;code&gt;&amp;lt;i class=&amp;quot;fa {{ .Site.Params.overlayIcon | default &amp;quot;fa-home&amp;quot; }}&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&lt;/code&gt;的位置，然后通过边框消除边缘锯齿&lt;code&gt;border: 1.4px solid rgba(0, 0, 0, 0.15);&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;舊的日誌&#34;&gt;舊的日誌 &lt;a href=&#34;#%e8%88%8a%e7%9a%84%e6%97%a5%e8%aa%8c&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;2023-05-03 注释掉了&lt;code&gt;cursor.js&lt;/code&gt;（鼠标点击效果）或许某一天这个图标也会被丢掉吧。&lt;/p&gt;
+&lt;p&gt;2023-05-01 更新了主题与配色：或许我的确怀念着那个旧的encapsulation世界。&lt;/p&gt;
+&lt;p&gt;2023-04-?? 注释掉了Valine。&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>關於我</title>
-      <link>https://updowncity.github.io/page/bupropion/</link>
+      <link>/page/bupropion/</link>
       <pubDate>Fri, 17 Mar 2023 22:57:31 +0000</pubDate>
       
-      <guid>https://updowncity.github.io/page/bupropion/</guid>
-      <description>页面的文件名依旧是bupropion.md，我每天吃的安非他酮；旧的标题「将我遗忘在海边吧」来自安哲的《鹳鸟踟蹰》；曾经用过的另一个放置在网站标题「你快乐吗」下面的subtitle/description「带上蜡烛，我们去罗马干件大事」来自塔克夫斯基的《乡愁》，邮箱名jamais-vu@tutanota.com来自极乐迪斯科；「虫蜕」是我在disroot bin收到的一条留言；</description>
+      <guid>/page/bupropion/</guid>
+      <description>&lt;p&gt;页面的文件名依旧是bupropion.md，我每天吃的安非他酮；旧的标题「将我遗忘在海边吧」来自安哲的《鹳鸟踟蹰》；曾经用过的另一个放置在网站标题「你快乐吗」下面的subtitle/description「带上蜡烛，我们去罗马干件大事」来自塔克夫斯基的《乡愁》，邮箱名jamais-vu@tutanota.com来自极乐迪斯科；「虫蜕」是我在disroot bin收到的一条&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;留言&lt;/a&gt;；&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>虫蜕</title>
-      <link>https://updowncity.github.io/page/moults/</link>
+      <link>/page/moults/</link>
       <pubDate>Fri, 17 Mar 2023 02:00:29 +0000</pubDate>
       
-      <guid>https://updowncity.github.io/page/moults/</guid>
-      <description>如果你发现了这里没有列出的虫蜕请到Disroot Bin留言^_^
-為了找到這些蟲蛻我需要：
-蒐集儘可能多的kdbx文件，然後猜出它們的密碼； 觸摸那些損毀的kdbx文件，就像觸摸電腦屏幕。 （上面兩個句子沒有對齊。） @1272556031@moresci.sale kernelcore.neocities.org th.hashi.icu/digitalwastedland writee.org/digitalwasteland Inspirations-Täuschungen </description>
+      <guid>/page/moults/</guid>
+      <description>&lt;p&gt;如果你发现了这里没有列出的虫蜕请到&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;留言&lt;code&gt;^_^&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;為了找到這些蟲蛻我需要：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;蒐集儘可能多的&lt;code&gt;kdbx&lt;/code&gt;文件，然後猜出它們的密碼；&lt;/li&gt;
+&lt;li&gt;觸摸那些損毀的&lt;code&gt;kdbx&lt;/code&gt;文件，就像觸摸電腦屏幕。&lt;/li&gt;
+&lt;li&gt;（上面兩個句子沒有對齊。）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://moresci.sale/@1272556031&#34;&gt;@1272556031@moresci.sale&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kernelcore.neocities.org/&#34;&gt;kernelcore.neocities.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://th.hashi.icu/digitalwastedland&#34;&gt;th.hashi.icu/digitalwastedland&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://writee.org/digitalwastedland&#34;&gt;writee.org/digitalwasteland&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://paper.wf/ewigewiederkunft/&#34;&gt;Inspirations-Täuschungen&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
       <title>友链</title>
-      <link>https://updowncity.github.io/page/friends/</link>
+      <link>/page/friends/</link>
       <pubDate>Sun, 12 Mar 2023 00:38:32 +0000</pubDate>
       
-      <guid>https://updowncity.github.io/page/friends/</guid>
-      <description>this terrible chamber - yet eidetically you
-A blog - A的存文地</description>
+      <guid>/page/friends/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://avianreport.github.io/&#34;&gt;this terrible chamber&lt;/a&gt; - yet eidetically you&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://arictia.github.io/&#34;&gt;A blog&lt;/a&gt; - A的存文地&lt;/p&gt;
+</description>
     </item>
     
   </channel>

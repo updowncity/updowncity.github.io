@@ -2,16 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 你快樂嗎</title>
-    <link>https://updowncity.github.io/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 15 May 2023 10:56:14 +0800</lastBuildDate><atom:link href="https://updowncity.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 May 2023 10:56:14 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>備忘錄</title>
-      <link>https://updowncity.github.io/categories/%E5%82%99%E5%BF%98%E9%8C%84/</link>
+      <link>/categories/%E5%82%99%E5%BF%98%E9%8C%84/</link>
       <pubDate>Mon, 15 May 2023 10:56:14 +0800</pubDate>
       
-      <guid>https://updowncity.github.io/categories/%E5%82%99%E5%BF%98%E9%8C%84/</guid>
+      <guid>/categories/%E5%82%99%E5%BF%98%E9%8C%84/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>回收站</title>
+      <link>/categories/%E5%9B%9E%E6%94%B6%E7%AB%99/</link>
+      <pubDate>Sat, 18 Feb 2023 20:50:42 +0000</pubDate>
+      
+      <guid>/categories/%E5%9B%9E%E6%94%B6%E7%AB%99/</guid>
       <description></description>
     </item>
     

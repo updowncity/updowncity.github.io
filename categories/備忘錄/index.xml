@@ -2,20 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>備忘錄 on 你快樂嗎</title>
-    <link>https://updowncity.github.io/categories/%E5%82%99%E5%BF%98%E9%8C%84/</link>
+    <link>/categories/%E5%82%99%E5%BF%98%E9%8C%84/</link>
     <description>Recent content in 備忘錄 on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 15 May 2023 10:56:14 +0800</lastBuildDate><atom:link href="https://updowncity.github.io/categories/%E5%82%99%E5%BF%98%E9%8C%84/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 May 2023 10:56:14 +0800</lastBuildDate><atom:link href="/categories/%E5%82%99%E5%BF%98%E9%8C%84/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>圖形界面Ubuntu安裝拼音輸入法</title>
-      <link>https://updowncity.github.io/code/ibus-pinyin/</link>
+      <link>/posts/20230515_ibus-pinyin/</link>
       <pubDate>Mon, 15 May 2023 10:56:14 +0800</pubDate>
       
-      <guid>https://updowncity.github.io/code/ibus-pinyin/</guid>
+      <guid>/posts/20230515_ibus-pinyin/</guid>
       <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;OS Name: Ubuntu 22.04.2 LTS
 OS Type: 64-bit
 GNOME Version: 42.5
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;即便安装时选择的是Minimal installation，系统自带的ibus框架就已经很完整，所以可以通过图形界面安装（中国大陆使用者所熟悉的）拼音输入法。&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;即便安装时选择的是Minimal installation，系统自带的ibus框架就已经很完整，所以可以通过图形界面安装（中国大陆使用者所熟悉的）拼音输入法。&lt;/p&gt;
+&lt;p&gt;打开Settings，安装新语言
+&lt;img src=&#34;https://s2.loli.net/2023/05/14/NWIHy9z3CfjuqGY.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;雙擊&lt;/strong&gt;Chinese (simplified) （我不知道选繁体中文会不会改变输入法…我只会用(大陸常見的)拼音，台湾人用的那種拼音我看不懂…）
+&lt;img src=&#34;https://s2.loli.net/2023/05/14/mMKgEkRw8uAp6Dj.png&#34; alt=&#34;&#34;&gt;
+（感觉双击这個操作真的很反人類…我怎么也没办法激活那個Apply按钮…Enter没用，Ctrl+Enter也没用……然后暴躁地一通乱点发现双击就可以了。）&lt;/p&gt;
+&lt;p&gt;然後等待下載
+&lt;img src=&#34;https://s2.loli.net/2023/05/14/3ycJwgsX1pDZfjA.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;有一個137.9MB的字體包，所以下載會比較慢（…我不太想換源。）
+&lt;img src=&#34;https://s2.loli.net/2023/05/14/cM2pPKiN3Hqs97V.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;語言包下載过程中無法通过apt-get下載其他东西
+&lt;img src=&#34;https://s2.loli.net/2023/05/15/DQIz3lBh1ZHOyqA.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;下載完成後打開Settings，在Input Sources一欄下點加號添加新的输入法：
+&lt;img src=&#34;https://s2.loli.net/2023/05/15/AzM1SUfFoKEVRmv.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Add an Input Source裏選擇Chinese，打開就可以看到Intelligent Pinyin與Pinyin。（如果打開沒有出現这些选项就重啓下電腦。）
+&lt;img src=&#34;https://s2.loli.net/2023/05/15/GoLO3A8JmYywhCe.png&#34; alt=&#34;&#34;&gt;
+然後你就可以愉快地輸入中文了。右擊語言欄也可以切換簡繁/全角半角什麼的。默認快捷鍵和Windows那邊一樣。&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;不建議&lt;/strong&gt;安裝的時候直接选中文（記不得是哪個Linux發行版了：选語言的時候直接选中文的話，它可能會給你直接用中文命名常用文件夾&amp;quot;Documents&amp;quot;,&amp;ldquo;Downloads&amp;rdquo;,&amp;ldquo;Music&amp;rdquo;,&amp;ldquo;Picturess&amp;quot;等文件夾。（與Windows不太一樣：Windows只是圖形界面里顯示中文，文件路徑依舊是ASCII。）&lt;/p&gt;</description>
     </item>
     
   </channel>

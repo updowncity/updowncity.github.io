@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>回收站 on 你快樂嗎</title>
+    <link>/categories/%E5%9B%9E%E6%94%B6%E7%AB%99/</link>
+    <description>Recent content in 回收站 on 你快樂嗎</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Feb 2023 20:50:42 +0000</lastBuildDate><atom:link href="/categories/%E5%9B%9E%E6%94%B6%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/posts/20230218_old-about/</link>
+      <pubDate>Sat, 18 Feb 2023 20:50:42 +0000</pubDate>
+      
+      <guid>/posts/20230218_old-about/</guid>
+      <description>&lt;p&gt;[常用]标签：&lt;/p&gt;
+&lt;p&gt;#文学沙盒 用于存放不负责任的思考与感受&lt;/p&gt;
+&lt;p&gt;此博客作案工具：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Visual Studio Code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;突然想要放弃「您好，我也不知道我是谁」这个开场白。我是一个inverse/projective limit，虽然这句话适用于每一个人，但它对我来说格外清晰。2023-02-18&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

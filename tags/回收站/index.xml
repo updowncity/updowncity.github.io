@@ -2,22 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>回收站 on 你快樂嗎</title>
-    <link>https://updown.city/tags/%E5%9B%9E%E6%94%B6%E7%AB%99/</link>
+    <link>/tags/%E5%9B%9E%E6%94%B6%E7%AB%99/</link>
     <description>Recent content in 回收站 on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 16 Feb 2023 09:33:09 +0000</lastBuildDate><atom:link href="https://updown.city/tags/%E5%9B%9E%E6%94%B6%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Apr 2023 18:41:54 +0800</lastBuildDate><atom:link href="/tags/%E5%9B%9E%E6%94%B6%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>從頂欄脫落下來的About頁</title>
+      <link>/posts/20230406_archived-about-01/</link>
+      <pubDate>Thu, 06 Apr 2023 18:41:54 +0800</pubDate>
+      
+      <guid>/posts/20230406_archived-about-01/</guid>
+      <description>&lt;p&gt;你为什么要把它们摘下来。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;將我遺忘在海邊吧&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;date&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;ld&#34;&gt;2023-03-17 22:57:31&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;hidden&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;featured_image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&amp;amp;#34;/images/art.pixilart.com@e1732a4045e2bc7.gif&amp;amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;menu&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&amp;amp;#39;關於我&amp;amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;weight&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&amp;amp;#39;7&amp;amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;toc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;簡繁切換是手動進行的（因為我很在意文字的形狀……）&lt;/p&gt;
+&lt;p&gt;我從Waline管理員頁面是可以刪除評論的，所以如果某一天你想要從我所觸及到的世界徹底消失，抹除一切可見的痕跡，可以郵件聯繫我：&lt;code&gt;jamais-vu@tutanota.com&lt;/code&gt;。（就好像寫這樣一個聲明可以帶給訪客安心的感覺。你真的這麼想嗎。）&lt;/p&gt;
+&lt;p&gt;Powered by &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; with &lt;a href=&#34;https://github.com/mrmierzejewski/hugo-theme-console/&#34;&gt;Console Theme&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;留言&#34;&gt;留言 &lt;a href=&#34;#%e7%95%99%e8%a8%80&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;郵箱 &lt;code&gt;jamais-vu@tutanota.com&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;關鍵字&#34;&gt;關鍵字 &lt;a href=&#34;#%e9%97%9c%e9%8d%b5%e5%ad%97&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h2&gt;&lt;h3 id=&#34;ugly-blue&#34;&gt;&lt;code&gt;ugly-blue&lt;/code&gt; &lt;a href=&#34;#ugly-blue&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;code&gt;ugly-blue&lt;/code&gt;是一個只用了兩天就被換掉的自制hexo主題，其實它也沒有那麼醜，&lt;code&gt;ugly&lt;/code&gt;可以理解為前綴或語氣詞。它被換掉只是因為站長比較依戀默認主題的安心感。2023-03-20&lt;/p&gt;
+&lt;h3 id=&#34;蟲蛻&#34;&gt;蟲蛻 &lt;a href=&#34;#%e8%9f%b2%e8%9b%bb&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;站長的記憶力非常糟糕以至於經常感到生命是不連續的：如果將普通的睡眠（帶來的不連續）比作關機重啟，那麼這裡的不連續可以理解為各種原因帶來的文件丟失（有時這種丟失甚至是難以覺察的。）2023-03-20&lt;/p&gt;
+&lt;h3 id=&#34;站長是誰&#34;&gt;站長是誰 &lt;a href=&#34;#%e7%ab%99%e9%95%b7%e6%98%af%e8%aa%b0&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;按&lt;code&gt;Ctrl+C&lt;/code&gt;你會得到一個HTML文件（以及掉在旁邊的一個文件夾），站長就是這個鬼東西。2023-03-20&lt;/p&gt;
+&lt;h3 id=&#34;我是誰&#34;&gt;我是誰 &lt;a href=&#34;#%e6%88%91%e6%98%af%e8%aa%b0&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;前兩天我的校園卡丟了但沒有發現直到晚上打開洗澡用的企業微信發現裡面有一條消息讓我去指定的一棟宿舍樓去領回，去年的比這稍晚些的時候，學校通知打第三針疫苗然後我發現身份證已經像舊的眼鏡那樣被搞丟了。不過即便這兩件事情同時發生（也就是存在某個時間段我既找不到身份證也找不到校園卡），我也依舊能夠回到這裡（也就是你剛才下載的那個HTML文件（或許你不會真的下載它）的路。（我不是故意的……自然狀態下我的語言就是這個樣子的你在別處看到能夠閱讀的段落是因為我認真地進行了斷句和整理。）2023-03-20 (你同樣無法期待這個掉落過很多蟲蛻的作者會有一個固定的時間戳格式) 這段保留未經整理的形狀的文本可以作為我的sample。&lt;/p&gt;
+&lt;h3 id=&#34;你是誰&#34;&gt;你是誰 &lt;a href=&#34;#%e4%bd%a0%e6%98%af%e8%aa%b0&#34; class=&#34;anchor&#34;&gt;🔗&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果你想回答這個問題可以使用下面的留言板或者（如果Valine壞了）&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lzx897.world&#34;&gt;隱藏&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>会有人愿意和我交换友链吗</title>
-      <link>https://updown.city/article/old-links/</link>
+      <link>/posts/20230216_old-links/</link>
       <pubDate>Thu, 16 Feb 2023 09:33:09 +0000</pubDate>
       
-      <guid>https://updown.city/article/old-links/</guid>
-      <description>tags: 回收站 categories: 回收站 旧的链接页，蒐集过一些（或許）有趣的网页。 林奕含的FACEBOOK豆瓣
-我是个不会配置留言系统的菜鸟…所以想要留言的话请移步NekoBox匿名提问箱
-樓上的提問箱已經無法使用，請點這個新的留言板
-贴一些有趣的博客（想蹭友链）
-天仙子 - 秦海碗的个人主页 this terrible chamber 桜庭夜🎐杂话铺子 - 一间由桜庭夜经营的贩售闲言碎语的小店 Light Cube - 当真心想要做成一件事的时候，人总是孤独的。 这里是我发现的各种有趣的网站
-島嶼邊緣 - 曾經是最重要的文化運動刊物–影響了整整一個世代 荒原效應 时间物质 </description>
+      <guid>/posts/20230216_old-links/</guid>
+      <description>&lt;p&gt;旧的链接页，蒐集过一些（或許）有趣的网页。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.douban.com/note/667393756/&#34;&gt;林奕含的FACEBOOK&lt;/a&gt;豆瓣&lt;/p&gt;
+&lt;p&gt;我是个不会配置留言系统的菜鸟…所以想要留言的话请移步NekoBox&lt;a href=&#34;https://box.n3ko.co/_/ewi9ewiederkunft&#34;&gt;匿名提问箱&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;樓上的提問箱已經無法使用，請點這個&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;新的留言板&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;贴一些有趣的博客（想蹭友链）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tianxianzi.me/&#34;&gt;天仙子&lt;/a&gt; - 秦海碗的个人主页&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://avianreport.github.io&#34;&gt;this terrible chamber&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://yuuikic.com/&#34;&gt;桜庭夜🎐杂话铺子&lt;/a&gt; - 一间由桜庭夜经营的贩售闲言碎语的小店&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.red/&#34;&gt;Light Cube&lt;/a&gt; - 当真心想要做成一件事的时候，人总是孤独的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这里是我发现的各种有趣的网站&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://intermargins.net/intermargins/IsleMargin/index.htm&#34;&gt;島嶼邊緣&lt;/a&gt; - 曾經是最重要的文化運動刊物–影響了整整一個世代&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://plume.pullopen.xyz/@/Odland042&#34;&gt;荒原效應&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://matterofti.me/&#34;&gt;时间物质&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>网站装配记录</title>
+      <link>/posts/20230216_old-changelog/</link>
+      <pubDate>Thu, 16 Feb 2023 09:14:37 +0000</pubDate>
+      
+      <guid>/posts/20230216_old-changelog/</guid>
+      <description>&lt;p&gt;旧的changelog：我到底在干什么&lt;/p&gt;
+&lt;p&gt;2023-03-08&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
   </channel>

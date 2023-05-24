@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LaTeX吐槽贴 | 你快樂嗎</title>
+        <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/icofont/icofont.min.css" />
+<link rel="stylesheet" href="/css/syntax.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+    </head>
+
+    <body>
+        <header class="header-wrapper">
+    <div class="header">
+        <a class="site-title" href="">你快樂嗎</a>
+        <p class="site-subtitle">为什么划地为牢 以自由之名</p>
+
+        <ul class="menu">
+            
+                <li class="menu-item">
+                    
+                        <a href="/posts/">时间轴</a>
+                    
+                </li>
+            
+                <li class="menu-item">
+                    
+                        <a href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta">留言</a>
+                    
+                </li>
+            
+                <li class="menu-item">
+                    
+                        <a>Services↓</a>
+                        <ul class="sub-menu">
+                            
+                            <li class="menu-item"><a href="#">Service A</a></li>
+                            
+                            <li class="menu-item"><a href="#">Service B</a></li>
+                            
+                        </ul>
+                    
+                </li>
+            
+                <li class="menu-item">
+                    
+                        <a href="">About</a>
+                    
+                </li>
+            
+        </ul>
+    </div>
+</header>
+
+        <main class="main-wrapper">
+            <div class="main">
+                
+
+<section class="single">
+    <h1 class="title">LaTeX吐槽贴</h1>
+
+    <div class="tip">
+        <time datetime="2023-04-09 11:17:33 &#43;0800 CST">2023/04/09</time>
+        <span class="split">·</span>
+        <span> 1506 words </span>
+        <span class="split">·</span>
+        <span>
+            4 minutes to read
+        </span>
+    </div>
+
+    <div class="taxonomies">
+        
+
+        
+            <div>
+                Tags:
+                
+                    <a href="/tags/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87">毕业论文</a>
+                
+            </div>
+        
+    </div>
+
+    <hr />
+
+    <div class="content">
+        <p>我觉得对自己所研究的事物热爱还是厌倦是因人而异的，但对系统的恨是universal的。（然而系统依旧存在着：…或许这也是我如此确信惯性是远比感情与意志更为本质与深刻的东西的原因吧，只有极少数时候人才能够挣脱重力而存在。）</p>
+<p><strong>DDL是第一生产力</strong></p>
+<!-- raw HTML omitted -->
+<p>看来是编辑器的锅。VSCode编译不出来我就换用TeXLive附带的TeXworks，结果还是不行。感觉今天这俩除了报错和转圈圈啥也不会。Texworks editor does not work at all unless I commented all commutative diagrams. 然后换了WinEdt。（很好用，就是太贵了。）</p>
+<p>（偶然想到…</p>
+<p>为什么所有的交换图都编译不出来了为什么所有的交换图都编译不出来了</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="c">% TODO
+</span></span></span><span class="line"><span class="cl"><span class="c">% - [ ] avoid/remove unnecessary inventions
+</span></span></span><span class="line"><span class="cl"><span class="c">% - [ ] check the order of propositions and footnotes
+</span></span></span><span class="line"><span class="cl"><span class="c">% - [ ] remove wordy footnotes
+</span></span></span><span class="line"><span class="cl"><span class="c">% - [ ] check missing explainations and definitions
+</span></span></span><span class="line"><span class="cl"><span class="c">% - [ ] check and remove ugly expressions
+</span></span></span></code></pre></div><p>还是打不出sheaf Hom，不知道Hartshorne书上的那些是怎么弄出来的。凑了个显然不合格的<code>\mathscr{H}\kern -2pt \mathit{om}</code>（把字体换成GTM281里的<code>\usepackage[mathscr]{euscript}</code>）一开始写的是<code>2px</code>，然后从pdftex换到xetex的时候就到处报错。（check了一下学校的文档发现要求西文字体是Times New Roman，默认的CMU系列和Times区别有点大，fontspec又不支持pdftex。这东西真的不适合脑子不好使的人（指我）</p>
+<p><strong>#居然可以这样写</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="k">\def\-</span>#1<span class="nb">{</span><span class="k">\mathscr</span><span class="nb">{</span>#1<span class="nb">}}</span>
+</span></span><span class="line"><span class="cl"><span class="k">\def\+</span>#1<span class="nb">{</span><span class="k">\mathscr</span><span class="nb">{</span>#1<span class="nb">}^</span><span class="k">\bullet</span><span class="nb">}</span>
+</span></span></code></pre></div><p>疯狗乱咬人般的LaTeX吐槽。不过吐槽归吐槽，我也知道，由于强迫行为的影响，手写notes对我来说有时远比折腾LaTeX困难（……即便充满commutative diagram）。</p>
+<p>谢天谢地有这两个符号：<code>\imath</code>与<code>\jmath</code>，输出是不带点的i与j：(\imath,\jmath)，可以用它们写immersion，用普通的(i,j)写index。</p>
+<p>什么鬼，sheaf Hom 打不出来。网页上可以正常输出(\mathscr{Hom})与(\mathcal{Hom})，然而在我的编译器里，它们不支持小写字母：<code>\mathscr{Hom}</code>只出现一个花体的H：$\mathscr{H}$；<code>\mathcal{Hom}</code>会出现一坨这个东西<!-- raw HTML omitted --></p>
+<p>天下苦LaTeX也久矣。因为画不出标准版的TR4图，把它改写成了这个形状，虽然丑了点（后面会解释它到底丑到什么程度），但还算好记：
+沿用维基百科里的记号
+<!-- raw HTML omitted -->
+换一下morphisms的变量名
+<!-- raw HTML omitted -->
+对照
+$l=gm \leftrightsquigarrow b[1]=\beta’[1]\beta’’$<!-- raw HTML omitted -->
+$k=nf \leftrightsquigarrow  a[1]=\alpha’[1]\alpha’’$<!-- raw HTML omitted -->
+$ig=u[1]n \leftrightsquigarrow b’\beta’=a’\alpha’$<!-- raw HTML omitted -->
+$fj=mv \leftrightsquigarrow \beta’’ b’=\alpha’’ a’’$
+（还没检查有没有符号写错）
+（虽然搞丢太多次已经能记住了但每次检查好麻烦。）</p>
+<p><strong>前面那个改写真的很丑</strong>（把符号弄得很乱）
+原版可以漂亮地用Lisp的括号记为
+<code>(- X Y)=: Z'</code><!-- raw HTML omitted -->
+<code>(- Y Z)=: X'</code><!-- raw HTML omitted -->
+<code>(- X Z)=: Y'</code><!-- raw HTML omitted -->
+（不是标准语法…数学这里用不到quote所以把它视为变量名的一部分了，以及那个<code>=:</code>是我实在找不到符号自己写的）
+所生成的$Z’\to Y’\to X’$也就是<!-- raw HTML omitted -->
+<code>(- (- X Y) (- X Z))=:(- Y Z)</code><!-- raw HTML omitted -->
+与$Y/X\to Z/X\simeq Z/Y$长得已经很像了，不过cofiber/cone可以标记特定的morphism，不再依赖于quotient预设。
+还有就是把(X[1])写成<code>-X</code>，$Y\to Z\to X[1]$也就是<!-- raw HTML omitted --><code>(- Y (- X Y))=: -X</code><!-- raw HTML omitted -->
+Lisp的写法可以让字母的摆放顺序和箭头版本的一致，转化的时候直接抄就可以了不用担心写反。</p>
+<p>这个写法的缺陷在于对等宽字体的依赖：空格的作用是标记不同的语言原子，手写的话空格会看不清楚。
+尝试改了下，把<code>(- X Y)=: Z'</code>写成[-X:Y]<!-- raw HTML omitted -->u<!-- raw HTML omitted -->=:Z’，虽然用LaTeX字体写出来有点丑：$[-X:Y]_u=:Z’$，不过至少结构本身很好看。</p>
+
+    </div>
+
+    
+</section>
+
+
+            </div>
+            <div class="side">
+                
+                    <div class="side-recent">
+    <h2 class="side-title">
+        <a href="/posts/">Recent Posts</a>
+    </h2>
+    <hr />
+
+    <ul>
+        
+            <li>
+                <a href="/posts/20230522_clear/">我又怎样才能够实现在废墟之上重建秩序而非一脚踩空从头再来？</a>
+            </li>
+        
+            <li>
+                <a href="/posts/20230519_status/">近况</a>
+            </li>
+        
+            <li>
+                <a href="/posts/20230519_moduli/">不久以前我真诚地相信我不懂moduli</a>
+            </li>
+        
+            <li>
+                <a href="/posts/20230515_ibus-pinyin/">圖形界面Ubuntu安裝拼音輸入法</a>
+            </li>
+        
+            <li>
+                <a href="/posts/20230512_source-code-of-my-theis-vanished-before-submitting-the-final-version/">提交终稿前源文件与终稿的PDF都搞丢了</a>
+            </li>
+        
+    </ul>
+</div>
+
+                
+                    <div class="side-recent">
+    <h2 class="side-title">
+        <a href="/page/">Recent Page</a>
+    </h2>
+    <hr />
+
+    <ul>
+        
+            <li>
+                <a href="/page/changelog/">日誌</a>
+            </li>
+        
+            <li>
+                <a href="/page/bupropion/">關於我</a>
+            </li>
+        
+            <li>
+                <a href="/page/moults/">虫蜕</a>
+            </li>
+        
+            <li>
+                <a href="/page/friends/">友链</a>
+            </li>
+        
+    </ul>
+</div>
+
+                
+                <div class="side-categories">
+    <h2>分類</h2>
+    <hr />
+
+    <ul>
+        
+            <li>
+                <a href="/categories/%E5%82%99%E5%BF%98%E9%8C%84">備忘錄(1)</a>
+            </li>
+        
+            <li>
+                <a href="/categories/%E5%9B%9E%E6%94%B6%E7%AB%99">回收站(1)</a>
+            </li>
+        
+    </ul>
+</div>
+
+                <div class="side-tags">
+    <h2>标签</h2>
+    <hr />
+
+    <ul>
+        
+            <li>
+                <a href="/tags/abstractnonsense">abstractnonsense (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/lisp">lisp (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/ubuntu">ubuntu (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/untagged">untagged (3)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E5%8D%9A%E5%AE%A2">博客 (6)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E5%8D%A0%E4%BD%8D%E7%AC%A6">占位符 (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E5%9B%9E%E5%BF%86">回忆 (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E5%9B%9E%E6%94%B6%E7%AB%99">回收站 (3)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E5%9C%96%E5%BD%A2%E7%95%8C%E9%9D%A2">圖形界面 (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E5%9D%91">坑 (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E5%A4%A9%E7%A5%9E%E5%8F%B3%E7%BF%BC">天神右翼 (3)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E6%95%85%E7%BA%B8%E5%A0%86">故纸堆 (6)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E6%96%87%E5%AD%A6%E6%B2%99%E7%9B%92">文学沙盒 (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E6%97%A5%E8%AA%8C">日誌 (6)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87">毕业论文 (6)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E7%94%B5%E6%B3%A2">电波 (3)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E7%A2%8E%E7%A2%8E%E5%94%B8">碎碎唸 (4)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E8%AA%9E%E8%A8%80">語言 (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E8%BE%A9%E8%A7%A3">辩解 (1)</a>
+            </li>
+        
+    </ul>
+</div>
+
+            </div>
+        </main>
+        <footer class="footer">
+    <div class="footer-row">
+        
+            
+            
+                <a class="footer-item" href="/posts/index.xml">
+                    Feed of Posts
+                    <i class="icofont-rss"></i>
+                </a>
+            
+        
+            
+            
+                <a class="footer-item" href="/page/index.xml">
+                    Feed of Page
+                    <i class="icofont-rss"></i>
+                </a>
+            
+        
+
+        
+            
+            
+        
+    </div>
+
+    
+        <div class="footer-row">
+            
+                
+                    <span class="footer-item">Copyright <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-4.0</a></span>
+                
+            
+        </div>
+    
+        <div class="footer-row">
+            
+                
+                    <span class="footer-item">Powered by <a href="https://gohugo.io">Hugo</a></span>
+                
+            
+                
+                    <span class="footer-item">Theme <a href="https://git.leafee98.com/leafee98/hugo-theme-flat.git">hugo-theme-flat</a></span>
+                
+            
+        </div>
+    
+</footer>
+
+    </body>
+</html>

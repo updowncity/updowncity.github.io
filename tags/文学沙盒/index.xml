@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>文学沙盒 on 你快樂嗎</title>
+    <link>/tags/%E6%96%87%E5%AD%A6%E6%B2%99%E7%9B%92/</link>
+    <description>Recent content in 文学沙盒 on 你快樂嗎</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 22 Mar 2023 15:17:32 +0800</lastBuildDate><atom:link href="/tags/%E6%96%87%E5%AD%A6%E6%B2%99%E7%9B%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>记录Windows10解决GitHub访问问题的尝试</title>
+      <link>/posts/20230322_pin-github/</link>
+      <pubDate>Wed, 22 Mar 2023 15:17:32 +0800</pubDate>
+      
+      <guid>/posts/20230322_pin-github/</guid>
+      <description>&lt;p&gt;Please note that this &lt;!-- raw HTML omitted --&gt;does not work at all.&lt;/p&gt;
+&lt;p&gt;before &lt;!-- raw HTML omitted --&gt;
+参考&lt;!-- raw HTML omitted --&gt;CSDN&lt;!-- raw HTML omitted --&gt;（这个网站使用代理时无法访问）
+进入&lt;!-- raw HTML omitted --&gt;IPAdress.com&lt;!-- raw HTML omitted --&gt;，搜索&lt;code&gt;github.com&lt;/code&gt;获取IP地址&lt;code&gt;140.82.114.3&lt;/code&gt;，搜索&lt;code&gt;github.global.ssl.fastly.net&lt;/code&gt;获取IP地址&lt;code&gt;151.101.1.194151.101.65.194151.101.129.194151.101.193.194&lt;/code&gt;
+（再次感慨我真够笨的连手动换行都不会。）一脸问号〔这个格式是什么鬼〕：文字说明是&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;然后修改host文件&lt;!-- raw HTML omitted --&gt;
+搜索Git教程的时候从&lt;!-- raw HTML omitted --&gt;廖雪峰的官方网站&lt;!-- raw HTML omitted --&gt;看到过「千万不要使用Windows自带的记事本编辑任何文本文件」的提示（这个网站也是使用代理以后打开贼慢所以贴图片）
+![/images/2023-03/liaoxuefeng.com-git-intro_DO_NOT_use_default_notepad_in_Windows.png]然后写这个记录的是Google到了&lt;!-- raw HTML omitted --&gt;洛水.山岭居室的博客&lt;!-- raw HTML omitted --&gt;里的一篇科普向文章：&lt;!-- raw HTML omitted --&gt;为什么大佬提醒我们当在Windows运行项目的时候一定一定不要用Windwos自带的记事本编辑配置文件&lt;!-- raw HTML omitted --&gt;，提到这个BOM的问题在2020年已经解决了。&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;以及现在&lt;code&gt;git push origin master&lt;/code&gt;也可以不用梯子直接进行了。目前Hugo很让我无语的一点是……有时候用了梯子&lt;!-- raw HTML omitted --&gt;gohugo.io&lt;!-- raw HTML omitted --&gt;就打不开了。&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

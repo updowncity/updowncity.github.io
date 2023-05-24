@@ -1,332 +1,327 @@
 <!DOCTYPE html>
+<html>
+    <head>
+        <title>日誌 | 你快樂嗎</title>
+        <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1">
 
 
-  
-<html itemscope itemtype="https://schema.org/WebPage" class="no-js" lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="siteBaseUrl" content="https://updowncity.github.io/">
-    <meta name="author" content="lzx">
-    <meta name="description" content="爲什麼畫地爲牢，以自由之名？">
-    <meta name="keywords" content="Lots of Isolated Silly Parentheses, Lots of Infuriating &amp; Silly Parentheses :-), blog,mathematics,emacs,lisp,Ubuntu">
-    <meta name="generator" content="Hugo 0.111.3">
-    <title>
-        
-           
-               日誌 &vert; 你快樂嗎
-           
-        
-    </title>
-    <meta itemprop="name" content="日誌">
-    <meta itemprop="description" content="日誌 - 爲什麼畫地爲牢，以自由之名？">
-    <meta property="og:site_name" content="你快樂嗎">
-
-    <meta property="og:title" content="日誌" />
-<meta property="og:description" content="2023-05-19 页面底部添加了一个计时器：代码来源 思考：要不要在About页留下我的手机号（……紧急情况备用）………我并不介意泄露个人信息：事实上我希望在现实中很容易就能找到我。
-2023-05-04 新的favicon是一只长得有点像墓碑的幽灵； 恢复默认配色； 多处调整（就让我以这种神经质的行为结束掉我的21岁吧）； 默认logo来自fontawesome，把鼠标放在那枚幽灵上的时候会出现旧的那个蓝色少女；具体操作很简单：调换header.html里&lt;img src=&quot;{{ .Site.Params.customImage | relURL }}&quot; alt=&quot;&quot;&gt;与&lt;i class=&quot;fa {{ .Site.Params.overlayIcon | default &quot;fa-home&quot; }}&quot;&gt;&lt;/i&gt;的位置，然后通过边框消除边缘锯齿border: 1.4px solid rgba(0, 0, 0, 0.15); 舊的日誌 2023-05-03 注释掉了cursor.js（鼠标点击效果）或许某一天这个图标也会被丢掉吧。
-2023-05-01 更新了主题与配色：或许我的确怀念着那个旧的encapsulation世界。
-2023-04-?? 注释掉了Valine。" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://updowncity.github.io/page/changelog/" /><meta property="article:section" content="page" />
-<meta property="article:published_time" content="2023-03-18T22:41:49+00:00" />
-<meta property="article:modified_time" content="2023-03-18T22:41:49+00:00" />
 
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-
-    <script src="/modernizr-simple.js"></script>
-
-    
 
 
-    
-    <link rel="canonical" href="https://updowncity.github.io/page/changelog/">
-    
 
-    <link rel="stylesheet" href="https://updowncity.github.io/theme.css">
 
-    
 
-    
-        
-            <link rel="stylesheet" href="https://updowncity.github.io/bilberry-config.css">
-        
-    
+<link rel="stylesheet" href="/lib/icofont/icofont.min.css" />
+<link rel="stylesheet" href="/css/syntax.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
 
-    
-</head>
+    </head>
 
-<body class="bilberry-hugo-theme">
-    
+    <body>
+        <header class="header-wrapper">
+    <div class="header">
+        <a class="site-title" href="">你快樂嗎</a>
+        <p class="site-subtitle">为什么划地为牢 以自由之名</p>
 
-    
-    <nav class="permanentTopNav">
-
-    <div class="container">
-        <ul class="topnav">
+        <ul class="menu">
             
-                
-                    <li><a href="https://updowncity.github.io/page/changelog/">日誌</a></li>
-                
+                <li class="menu-item">
+                    
+                        <a href="/posts/">时间轴</a>
+                    
+                </li>
             
-                
-                    <li><a href="https://updowncity.github.io/page/bupropion/">關於我</a></li>
-                
+                <li class="menu-item">
+                    
+                        <a href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta">留言</a>
+                    
+                </li>
             
-                
-                    <li><a href="https://updowncity.github.io/page/moults/">虫蜕</a></li>
-                
+                <li class="menu-item">
+                    
+                        <a>Services↓</a>
+                        <ul class="sub-menu">
+                            
+                            <li class="menu-item"><a href="#">Service A</a></li>
+                            
+                            <li class="menu-item"><a href="#">Service B</a></li>
+                            
+                        </ul>
+                    
+                </li>
             
-                
-                    <li><a href="https://updowncity.github.io/page/friends/">友链</a></li>
-                
+                <li class="menu-item">
+                    
+                        <a href="">About</a>
+                    
+                </li>
             
-            <li>
-                <a href="https://updowncity.github.io/archive/">时间轴</a>
-            </li>
-            <li><a href="https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta"?>留言 <embed src="/externalLink.svg" style="display:block;height:10px"/></a></li>
         </ul>
-
-        
-    </div>
-</nav>
-
-
-    
-    <header>
-
-    <div class="container">
-        <div class="logo">
-            <a href="/" class="logo">
-                
-                
-                <i class="fa fa fa-sharp fa-light fa-ghost"></i>
-                
-                <span class="overlay"><img src="/favicon.jpg" alt=""></span>
-            </a>
-        </div>
-        <div class="titles">
-            <h3 class="title">
-                <a href="/">
-                    你快樂嗎
-                </a>
-            </h3>
-
-            
-        </div>
-
-        
-
-        
-            <div class="toggler permanentTopNav">
-        
-                <i class="fa fa-bars" aria-hidden="true"></i>
-            </div>
     </div>
 </header>
 
+        <main class="main-wrapper">
+            <div class="main">
+                
 
-    <div class="main container">
-        
-    <div class="article-wrapper u-cf single">
-        
-            <a class="bubble" href="https://updowncity.github.io/page/changelog/">
-    <i class="fas fa-fw fa-file"></i>
-</a>
+<section class="single">
+    <h1 class="title">日誌</h1>
 
-<article class="default article">
-    
+    <div class="tip">
+        <time datetime="2023-03-18 22:41:49 &#43;0000 &#43;0000">2023/03/18</time>
+        <span class="split">·</span>
+        <span> 407 words </span>
+        <span class="split">·</span>
+        <span>
+            1 minutes to read
+        </span>
+    </div>
 
-    <div class="content">
-    <h1 class="article-title">
-        <a href="https://updowncity.github.io/page/changelog/">
-            日誌
-        </a>
-    </h1>
-
-    <div class="meta">
-        
-            
-                <span class="date moment">2023-03-18</span>
-            
-        
-
-        
-
+    <div class="taxonomies">
         
 
         
     </div>
 
-    
-        
+    <hr />
 
-        <h4 id="2023-05-19">2023-05-19</h4>
-<p>页面底部添加了一个计时器：<a href="https://www.cnblogs.com/xinlvtian/p/9635247.html">代码来源</a>
+    <div class="content">
+        <h4 id="2023-05-19">2023-05-19 <a href="#2023-05-19" class="anchor">🔗</a></h4><p>页面底部添加了一个计时器：<a href="https://www.cnblogs.com/xinlvtian/p/9635247.html">代码来源</a>
 思考：要不要在About页留下我的手机号（……紧急情况备用）………我并不介意泄露个人信息：事实上我希望在现实中很容易就能找到我。</p>
-<h4 id="2023-05-04">2023-05-04</h4>
-<ul>
+<h4 id="2023-05-04">2023-05-04 <a href="#2023-05-04" class="anchor">🔗</a></h4><ul>
 <li>新的favicon是一只长得有点像墓碑的幽灵；</li>
 <li>恢复默认配色；</li>
 <li>多处调整（就让我以这种神经质的行为结束掉我的21岁吧）；</li>
 <li>默认logo来自<a href="https://fontawesome.com/icons?d=gallery&amp;m=free">fontawesome</a>，把鼠标放在那枚幽灵上的时候会出现旧的那个蓝色少女；具体操作很简单：调换header.html里<code>&lt;img src=&quot;{{ .Site.Params.customImage | relURL }}&quot; alt=&quot;&quot;&gt;</code>与<code>&lt;i class=&quot;fa {{ .Site.Params.overlayIcon | default &quot;fa-home&quot; }}&quot;&gt;&lt;/i&gt;</code>的位置，然后通过边框消除边缘锯齿<code>border: 1.4px solid rgba(0, 0, 0, 0.15);</code></li>
 </ul>
-<h2 id="舊的日誌">舊的日誌</h2>
-<p>2023-05-03 注释掉了<code>cursor.js</code>（鼠标点击效果）或许某一天这个图标也会被丢掉吧。</p>
+<h2 id="舊的日誌">舊的日誌 <a href="#%e8%88%8a%e7%9a%84%e6%97%a5%e8%aa%8c" class="anchor">🔗</a></h2><p>2023-05-03 注释掉了<code>cursor.js</code>（鼠标点击效果）或许某一天这个图标也会被丢掉吧。</p>
 <p>2023-05-01 更新了主题与配色：或许我的确怀念着那个旧的encapsulation世界。</p>
 <p>2023-04-?? 注释掉了Valine。</p>
 
+    </div>
+
     
+</section>
+
+
+            </div>
+            <div class="side">
+                
+                    <div class="side-recent">
+    <h2 class="side-title">
+        <a href="/posts/">Recent Posts</a>
+    </h2>
+    <hr />
+
+    <ul>
+        
+            <li>
+                <a href="/posts/20230522_clear/">我又怎样才能够实现在废墟之上重建秩序而非一脚踩空从头再来？</a>
+            </li>
+        
+            <li>
+                <a href="/posts/20230519_status/">近况</a>
+            </li>
+        
+            <li>
+                <a href="/posts/20230519_moduli/">不久以前我真诚地相信我不懂moduli</a>
+            </li>
+        
+            <li>
+                <a href="/posts/20230515_ibus-pinyin/">圖形界面Ubuntu安裝拼音輸入法</a>
+            </li>
+        
+            <li>
+                <a href="/posts/20230512_source-code-of-my-theis-vanished-before-submitting-the-final-version/">提交终稿前源文件与终稿的PDF都搞丢了</a>
+            </li>
+        
+    </ul>
 </div>
 
+                
+                    <div class="side-recent">
+    <h2 class="side-title">
+        <a href="/page/">Recent Page</a>
+    </h2>
+    <hr />
 
-    
-
-    
-<div class="footer no-tags">
-
-
-    
-
-    
+    <ul>
+        
+            <li>
+                <a href="/page/changelog/">日誌</a>
+            </li>
+        
+            <li>
+                <a href="/page/bupropion/">關於我</a>
+            </li>
+        
+            <li>
+                <a href="/page/moults/">虫蜕</a>
+            </li>
+        
+            <li>
+                <a href="/page/friends/">友链</a>
+            </li>
+        
+    </ul>
 </div>
 
-</article>
+                
+                <div class="side-categories">
+    <h2>分類</h2>
+    <hr />
 
+    <ul>
+        
+            <li>
+                <a href="/categories/%E5%82%99%E5%BF%98%E9%8C%84">備忘錄(1)</a>
+            </li>
+        
+            <li>
+                <a href="/categories/%E5%9B%9E%E6%94%B6%E7%AB%99">回收站(1)</a>
+            </li>
+        
+    </ul>
+</div>
+
+                <div class="side-tags">
+    <h2>标签</h2>
+    <hr />
+
+    <ul>
+        
+            <li>
+                <a href="/tags/abstractnonsense">abstractnonsense (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/lisp">lisp (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/ubuntu">ubuntu (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/untagged">untagged (3)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E5%8D%9A%E5%AE%A2">博客 (6)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E5%8D%A0%E4%BD%8D%E7%AC%A6">占位符 (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E5%9B%9E%E5%BF%86">回忆 (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E5%9B%9E%E6%94%B6%E7%AB%99">回收站 (3)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E5%9C%96%E5%BD%A2%E7%95%8C%E9%9D%A2">圖形界面 (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E5%9D%91">坑 (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E5%A4%A9%E7%A5%9E%E5%8F%B3%E7%BF%BC">天神右翼 (3)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E6%95%85%E7%BA%B8%E5%A0%86">故纸堆 (6)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E6%96%87%E5%AD%A6%E6%B2%99%E7%9B%92">文学沙盒 (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E6%97%A5%E8%AA%8C">日誌 (6)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87">毕业论文 (6)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E7%94%B5%E6%B3%A2">电波 (3)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E7%A2%8E%E7%A2%8E%E5%94%B8">碎碎唸 (4)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E8%AA%9E%E8%A8%80">語言 (1)</a>
+            </li>
+        
+            <li>
+                <a href="/tags/%E8%BE%A9%E8%A7%A3">辩解 (1)</a>
+            </li>
+        
+    </ul>
+</div>
+
+            </div>
+        </main>
+        <footer class="footer">
+    <div class="footer-row">
+        
+            
+            
+                <a class="footer-item" href="/posts/index.xml">
+                    Feed of Posts
+                    <i class="icofont-rss"></i>
+                </a>
+            
+        
+            
+            
+                <a class="footer-item" href="/page/index.xml">
+                    Feed of Page
+                    <i class="icofont-rss"></i>
+                </a>
+            
+        
+
+        
+            
+            
         
     </div>
 
     
-        <div id="comments-container">
+        <div class="footer-row">
             
+                
+                    <span class="footer-item">Copyright <a href="https://creativecommons.org/licenses/by/4.0/">CC BY-4.0</a></span>
+                
             
-
-            
-
-            
-
         </div>
     
-
-    </div>
-
+        <div class="footer-row">
+            
+                
+                    <span class="footer-item">Powered by <a href="https://gohugo.io">Hugo</a></span>
+                
+            
+                
+                    <span class="footer-item">Theme <a href="https://git.leafee98.com/leafee98/hugo-theme-flat.git">hugo-theme-flat</a></span>
+                
+            
+        </div>
     
-<footer>
-    <div class="container">
-
-        
-        <div class="recent-posts">
-            <strong>Latest posts</strong>
-            <ul>
-                
-                
-                    <li>
-                        <a href="https://updowncity.github.io/code/ibus-pinyin/">圖形界面Ubuntu安裝拼音輸入法</a>
-                    </li>
-                
-                    <li>
-                        <a href="https://updowncity.github.io/article/22/">寫於22歲之際</a>
-                    </li>
-                
-                    <li>
-                        <a href="https://updowncity.github.io/article/archived-changelog-02/">从顶栏脱落下来的changelog页</a>
-                    </li>
-                
-                    <li>
-                        <a href="https://updowncity.github.io/article/archived-about-01/">從頂欄脫落下來的About頁</a>
-                    </li>
-                
-                    <li>
-                        <a href="https://updowncity.github.io/article/homotopy-category/">为什么我把这個又寫了一遍</a>
-                    </li>
-                
-                    <li>
-                        <a href="https://updowncity.github.io/article/nekobox-backup/">NekoBox復活於是把收到的留言備份過來</a>
-                    </li>
-                
-                    <li>
-                        <a href="https://updowncity.github.io/article/pin-github/">记录Windows10解决GitHub访问问题的尝试</a>
-                    </li>
-                
-            </ul>
-        </div>
-        
-
-        
-        <div class="categories">
-            
-            <a href="https://updowncity.github.io/categories/"><strong>Categories</strong></a>
-            
-
-            <ul>
-                
-                <li>
-                
-                    <a href="https://updowncity.github.io/categories/%E5%82%99%E5%BF%98%E9%8C%84/">備忘錄 (1)</a>
-                
-                </li>
-                
-            </ul>
-        </div>
-        
-
-        <div class="right">
-            
-
-            
-
-            
-        </div>
-    </div>
 </footer>
 
-
-<div class="credits">
-    <div class="container">
-        
-        <p id="htmer_time">
-
-            <script type="text/javascript" src="/timer.js"></script>
-        <div class="author">
-            
-                Powered by <a href="https://gohugo.io">Hugo</a> & Theme = <a href="https://github.com/Lednerb/bilberry-hugo-theme">bilberry</a>
-        </div>
-    </div>
-</div>
-
-
-    
-
-    
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [['$','$'], ['\\(','\\)']]}
-        });
-</script>
-
-    
-    <script src="https://updowncity.github.io/theme-exclude-highlight.js"></script>
-    
-
-    
-    
-    <script src="https://updowncity.github.io/timer.js" type="application/javascript"></script>
-    
-    
-
-    
-
-    
-</body>
-
+    </body>
 </html>

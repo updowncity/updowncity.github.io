@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
-:root{
+:root {
   /* AntiqueWhite is darker than OldLace */
   /*
   --color-header-bg: #24292f;
@@ -30,18 +30,19 @@
   --RoyalBlue3: #3a5fcd;
 }
 
+
 /* Teal */
 
 .bilberry-hugo-theme .paginator a,
-.bilberry-hugo-theme .main .article-wrapper .bubble{
+.bilberry-hugo-theme .main .article-wrapper .bubble {
   background-color: var(--color-nav);
 }
 
 /* hover */
 
 .bilberry-hugo-theme .paginator a:hover,
-.bilberry-hugo-theme .main .article-wrapper .bubble:hover{
-  background-color:#1d1f38;
+.bilberry-hugo-theme .main .article-wrapper .bubble:hover {
+  background-color: #1d1f38;
   color: #f1f1f1;
 }
 
@@ -51,23 +52,21 @@ body,
 .bilberry-hugo-theme article .content a.more,
 .bilberry-hugo-theme footer .container ul a,
 .bilberry-hugo-theme article .content .meta,
-.bilberry-hugo-theme article .content .archive-list ul a{
+.bilberry-hugo-theme article .content .archive-list ul a {
   font-size: var(--global-font-size);
   font-family: var(--global-font-family);
   font-weight: 400;
 }
 
-body{
--moz-osx-font-smoothing: auto;}
-
-.bilberry-hugo-theme{
-  background-color: ;
+body {
+  -moz-osx-font-smoothing: auto;
 }
+
 
 .bilberry-hugo-theme .paginator a,
 div.content,
 .bilberry-hugo-theme nav,
-.bilberry-hugo-theme header .toggler{
+.bilberry-hugo-theme header .toggler {
   border-radius: 0;
 }
 
@@ -80,229 +79,317 @@ div.content,
 div.content strong,
 .bilberry-hugo-theme article .content h4,
 .bilberry-hugo-theme footer .container strong,
-h1, h2,h3,h4,h5,h6,
-.bilberry-hugo-theme article .content h4{
-  text-transform: none!important;
-  letter-spacing: 0!important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.bilberry-hugo-theme article .content h4 {
+  text-transform: none !important;
+  letter-spacing: 0 !important;
 }
 
 
 
 .bilberry-hugo-theme article .content h1 a,
-.bilberry-hugo-theme header .titles h3{
+.bilberry-hugo-theme header .titles h3 {
   font-weight: bold;
   font-family: Lora, 'Microsoft Yahei', serif;
 }
 
-.bilberry-hugo-theme footer .container ul a{
-  font-family: var(--global-font-family)!important;
+.bilberry-hugo-theme footer .container ul a {
+  font-family: var(--global-font-family) !important;
 }
 
 .bilberry-hugo-theme header .container,
-.bilberry-hugo-theme header{
+.bilberry-hugo-theme header {
   color: #1d1f38;
   background-color: #f1f1f1;
 }
 
-.bilberry-hugo-theme header .logo{
+.bilberry-hugo-theme header .logo {
   background-color: var(--color-nav);
   color: #f1f1f1;
   border: 1.4px solid rgba(0, 0, 0, 0.15);
+  transition: none;
 }
-
-.bilberry-hugo-theme header .logo:hover{
+.bilberry-hugo-theme header .logo:hover {
   background-color: var(--color-nav);
   color: #f1f1f1;
+  transition: none;
 }
 
 
 .bilberry-hugo-theme article .content blockquote,
-.bilberry-hugo-theme .subtitle, .bilberry-hugo-theme .title, .bilberry-hugo-theme h1, .bilberry-hugo-theme h2, .bilberry-hugo-theme h3, .bilberry-hugo-theme h4, .bilberry-hugo-theme h5, .bilberry-hugo-theme h6{
+.bilberry-hugo-theme .subtitle,
+.bilberry-hugo-theme .title,
+.bilberry-hugo-theme h1,
+.bilberry-hugo-theme h2,
+.bilberry-hugo-theme h3,
+.bilberry-hugo-theme h4,
+.bilberry-hugo-theme h5,
+.bilberry-hugo-theme h6 {
   font-family: var(--title-font-family);
 }
-.bilberry-hugo-theme article .content h1 a:hover{
+
+.bilberry-hugo-theme article .content h1 a:hover {
   text-decoration: underline;
 }
 
-*::selection{
+*::selection {
   background-color: var(--selection-background-color);
   color: var(--selection-foreground-color);
 }
-*::-moz-selection{
+
+*::-moz-selection {
   background-color: var(--selection-background-color);
   color: var(--selection-foreground-color);
 }
 
 .bilberry-hugo-theme,
-.bilberry-hugo-theme footer .container ul a{
+.bilberry-hugo-theme footer .container ul a {
   font-family: var(--content-font);
 }
 
-.bilberry-hugo-theme article .content blockquote{
+.bilberry-hugo-theme article .content blockquote {
   padding: 0;
   background-color: transparent;
   border-left: solid 0.5em Teal;
   padding-left: 0.5em;
 }
 
-.bilberry-hugo-theme article .content h4{
-  letter-spacing: 0!important;
+.bilberry-hugo-theme article .content h4 {
+  letter-spacing: 0 !important;
 }
 
 .bilberry-hugo-theme article .content .archive-list ul a span,
-.bilberry-hugo-theme .credits .container{
+.bilberry-hugo-theme .credits .container {
   color: var(--color-nav);
 }
-@media (max-width: 800px){
-  .bilberry-hugo-theme footer .container{
+
+@media (max-width: 800px) {
+  .bilberry-hugo-theme footer .container {
     text-align: left;
   }
 }
 
 
 
-.bilberry-hugo-theme .main:after{
-  background-color:rgba(0, 0, 0, 0.15);
+.bilberry-hugo-theme .main:after {
+  background-color: rgba(0, 0, 0, 0.15);
 }
-.bilberry-hugo-theme .main .article-wrapper .bubble{
-border: 1.4px solid rgba(0, 0, 0, 0.15);
+
+.bilberry-hugo-theme .main .article-wrapper .bubble {
+  border: 1.4px solid rgba(0, 0, 0, 0.15);
 }
-.bilberry-hugo-theme article .content .meta{
+
+.bilberry-hugo-theme article .content .meta {
   color: var(--color-nav);
   font-size: var(--global-font-size);
 }
-.bilberry-hugo-theme article .content a
-  :not(.bilberry-hugo-theme article .content a.more)
-  :not(.bilberry-hugo-theme article .content .archive-list ul a)
-  :not(.bilberry-hugo-theme article .content h1 a)
-  :hover,
-.bilberry-hugo-theme .credits .container a:hover{
+
+.bilberry-hugo-theme article .content a :not(.bilberry-hugo-theme article .content a.more) :not(.bilberry-hugo-theme article .content .archive-list ul a) :not(.bilberry-hugo-theme article .content h1 a) :hover,
+.bilberry-hugo-theme .credits .container a:hover {
   text-decoration: none;
-  border-bottom: 1px solid var(--bilberry)!important;
-  color: var(--bilberry)!important;
+  border-bottom: 1px solid var(--bilberry) !important;
+  color: var(--bilberry) !important;
 }
-.bilberry-hugo-theme article .content h1 a{
+
+.bilberry-hugo-theme article .content h1 a {
   font-size: 21px;
 }
-.bilberry-hugo-theme article .content h1 a:hover,
-body > header > div > div.titles > h3 > a:hover{
-  text-decoration: none;
-  border-bottom: 2px dashed var(--bilberry)!important;
-  color: var(--bilberry)!important;
-  transition: none;
-}
-.bilberry-hugo-theme footer .container ul a,.bilberry-hugo-theme a:hover,
+
+
+
+.bilberry-hugo-theme footer .container ul a:not(.bilberry-hugo-theme nav ul li a),
+.bilberry-hugo-theme a:not(.bilberry-hugo-theme nav ul li a):hover,
 .bilberry-hugo-theme .credits .container a,
-.bilberry-hugo-theme article .content a
-:not(.bilberry-hugo-theme article .content a.more)
-:not(.bilberry-hugo-theme article .content h1 a),
-.bilberry-hugo-theme article .content .archive-list ul a{
-  color: indigo;
+.bilberry-hugo-theme article .content a:not(.bilberry-hugo-theme article .content a.more):not(.bilberry-hugo-theme article .content h1 a),
+.bilberry-hugo-theme article .content .archive-list ul a {
+  border-bottom: 1px solid var(--bilberry);
+  color: #000;
 }
-.bilberry-hugo-theme article .content a{
+
+.bilberry-hugo-theme article .content a {
   color: indigo
 }
-.bilberry-hugo-theme footer .container ul a:hover,
-.bilberry-hugo-theme article .content a:not(.bilberry-hugo-theme article .content .archive-list ul a):not(.bilberry-hugo-theme article .content a.more):hover{
-  text-decoration: none;
-  border-bottom: 1px solid indigo!important;
-  color: indigo!important;
+div.content, .bilberry-hugo-theme article .content{
+  padding-bottom: 14px;
 }
-.bilberry-hugo-theme footer .container strong{
+.bilberry-hugo-theme article .footer .tags .links a:not(:last-child):after{
+  content: none;
+}
+.bilberry-hugo-theme article .footer .tags .links a:not(:last-child){
+  margin-right: 1rem;
+}
+.bilberry-hugo-theme article .footer {
+  background-color: transparent;
+}
+.bilberry-hugo-theme article .content a:not(.bilberry-hugo-theme article .content .archive-list ul a):not(.bilberry-hugo-theme article .content a.more):hover {
+  text-decoration: none;
+  /*border-bottom: 1px solid #000 !important;
+  color: #000 !important;
+  */
+  background-color: var(--DarkSeaGreen2);
+  border: 0;
+}
+.bilberry-hugo-theme footer .container ul a:not(.bilberry-hugo-theme nav ul li a){
+  line-height: 1.2em;
+}
+.bilberry-hugo-theme footer .container ul a:not(.bilberry-hugo-theme article .content h1 a):hover{
+  text-decoration: none;
+  background-color: var(--PaleTurquoise);
+  border-bottom: none;
+}
+.bilberry-hugo-theme footer .container ul a,
+.bilberry-hugo-theme footer .container ul a:hover{
+  transition: none;
+  left: 0;
+}
+.bilberry-hugo-theme footer .container strong {
   font-size: 16px;
   font-family: Lora;
 }
-body > footer > div > div.categories > a > strong:hover{
-  text-decoration: underline dotted;
+
+body>footer>div>div.categories>a>strong:hover {
+  border-bottom: 0;
 }
-.bilberry-hugo-theme article .content a.more{
+
+.bilberry-hugo-theme article .content a.more {
   font-size: 16px;
   color: teal;
   font-family: Lora;
   font-style: italic;
 }
-.bilberry-hugo-theme article .content a.more:hover{
+
+.bilberry-hugo-theme article .content a.more:hover {
   text-decoration: underline dotted;
+  border-bottom: none;
 }
-.bilberry-hugo-theme article .content .meta{
+
+.bilberry-hugo-theme article .content .meta {
   margin-bottom: var(--global-font-size);
   padding-bottom: 0;
   border-bottom: 0;
 }
+
 .bilberry-hugo-theme footer .container ul li,
-.bilberry-hugo-theme article .content .archive-list ul li{
+.bilberry-hugo-theme article .content .archive-list ul li {
   border-bottom: 0;
 }
-.bilberry-hugo-theme pre code{
+
+.bilberry-hugo-theme pre code,.bilberry-hugo-theme pre code, .bilberry-hugo-theme code {
   font-family: Consolas, monospace;
+  background-color: transparent;
 }
 
-.bilberry-hugo-theme footer .container strong,
-.bilberry-hugo-theme .paginator a{
-  font-family: var(--title-font-family);
-  font-size: 24px;
-}
-.bilberry-hugo-theme .paginator a{
-font-weight: 500;
-font-style: italic;}
-.bilberry-hugo-theme pre code, .bilberry-hugo-theme code{
+
+.bilberry-hugo-theme pre code,
+.bilberry-hugo-theme code {
   border-radius: 0;
   font-family: 'Ubuntu Mono', Consolas, 'Fira Code', 'Microsoft Yahei', monospace;
 }
-.bilberry-hugo-theme footer .container strong, .bilberry-hugo-theme .paginator a{
-font-family: Lora;}
+
+.bilberry-hugo-theme footer .container strong,
+.bilberry-hugo-theme .paginator a {
+  font-family: Lora;
+}
 
 .pagination {
   display: flex;
   flex-direction: row;
   justify-content: center;
   list-style: none;
-  white-space: nowrap;
   width: 100%;
-  padding: 1rem 0 0;}
+  padding: 1rem;
 
-  .pagination a {
-    font-size: .8rem;
-    color: #bfbfbf;
-    letter-spacing: .1rem;
-    font-weight: 700;
-    padding: 5px 5px;
-    text-decoration: none;
-    @include transition(0.3s);
-  }
+}
 
-  .pagination li {
-    padding-bottom: 3px;
-    margin: 0 20px;
-    box-sizing: border-box;
-    position: relative;
-    display: inline;}
+.pagination li{
+  margin: 10px;
+  display: inline;
+  background-color: #fff;
+  font-size: 16px;
+  width: 32px;
+  height: 36px;
+  padding-left: 20px;
+  padding-top: 15px;
+  border-radius: 50%;
+}
+.bilberry-hugo-theme a{
+  transition: none;
+}
+body > div.main.container > ul > li.page-item.active,
+.pagination li:hover{
+  background-color: #2d3642;
+  color: #fff;
+}
+.pagination li a:hover{
+  color: #fff;
+}
+body > div.main.container > ul > li.page-item.active > span > a
+{
+  color: #fff;
+}
+.pagination li a {
+position: relative;
+border-left: 1em;
+}
 
-    .pagination li.disabled {
-      display: none;
-    }
+.pagination li.disabled {
+  display: none;
+}
 
-    .pagination li:hover a {
-      color: #000;
-    }
-    .pagination li:hover a:before,
-    .pagination li:hover a:after {
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 3px;
-      background: cyan;
-      bottom: 0px;
-    }
-    .pagination li:hover a:before .active,
-    .pagination li:hover a:after .active {
-      width: 100%;
-    }
 
-    .pagination li:hover a:before {
-      left: 50%;
-    }
+.bilberry-hugo-theme article,
+.flexslider {
+  border-radius: 0 !important;
+}
 
-    .pagination li:hover a:after {
-      right: 50%;
-    }
+i.fa.fa-bars::before{
+  color: #f1f1f1;
+}
+
+.bilberry-hugo-theme article .footer{
+  font-family: var(--global-font-family);
+}
+
+.bilberry-hugo-theme footer{
+  border-top: 0;
+}
+
+div.content,
+.bilberry-hugo-theme article .content{
+  border-radius: 0!important;
+}
+
+.bilberry-hugo-theme .credits .container{
+  padding-top: 0;
+}
+blockquote, dl, figure, form, ol, p, pre, table, ul{
+  margin-bottom: unset;
+}
+
+.bilberry-hugo-theme article .content h1 a:hover,
+body>header>div>div.titles>h3>a:hover {
+  text-decoration: none;
+  border-bottom: 2px dashed var(--bilberry) !important;
+  color: var(--bilberry) !important;
+  transition: none;
+  background-color: transparent!important;
+}
+.bilberry-hugo-theme a{
+  transition: none;
+}
+.bilberry-hugo-theme article .content .archive-list ul a{
+  border-bottom: none!important;
+  transition: none;
+  line-height: 1.3em;
+}
+
+.bilberry-hugo-theme article .content .archive-list ul a:not(.bilberry-hugo-theme article .content .archive-list ul a span):hover{
+  background-color: var(--DarkSeaGreen2);
+  transition: none;
+  left: 0;
+}
