@@ -79,18 +79,19 @@
 }
 
 :root {
-  --fonts-sans-en: 'Segoe UI', Lora, Ubuntu, "Noto Sans", "Droid Sans", "Calibri", "Arial";
-  --fonts-sans-zh: "Microsoft YaHei", "PingFang SC";
+  --fonts-sans-en: -apple-system, 
+                BlinkMacSystemFont, 'Segoe UI', Lora, Ubuntu;
+  --fonts-sans-zh: "Microsoft YaHei", "PingFang SC", serif;
   --fonts-sans: var(--fonts-sans-en), var(--fonts-sans-zh), sans-serif;
 
   --fonts-serif-en: "Times New Roman", Lora, "Noto Serif";
-  --fonts-serif-zh: 'Microsoft Yahei', "Noto Serif CJK", SimSun, STSong;
+  --fonts-serif-zh: 'Microsoft Yahei', "Noto Serif CJK", serif;
   --fonts-serif: var(--fonts-serif-en), var(--fonts-serif-zh), serif;
 
   --fonts-mono-en: Consolas, "Ubuntu Mono", "DejaVu Sans Mono", "Noto Sans Mono", "Consolas", "Courier";
   --fonts-mono-zh: "Microsoft Yahei", "Noto Sans Mono CJK", "WenQuanYi Zen Hei Mono", "WenQuanYi Micro Hei Mono";
   --fonts-mono: var(--fonts-mono-en), var(--fonts-mono-zh), monospace;
-
+  
   --color-light-1: #e0e0e0;
   --color-light-2: #e8e8e8;
   --color-light-3: #f0f0f0;
