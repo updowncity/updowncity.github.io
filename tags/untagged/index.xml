@@ -8,10 +8,10 @@
     <lastBuildDate>Fri, 19 May 2023 04:11:44 +0800</lastBuildDate><atom:link href="/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>近况</title>
-      <link>/posts/20230519_status/</link>
+      <link>/blog/20230519_status/</link>
       <pubDate>Fri, 19 May 2023 04:11:44 +0800</pubDate>
       
-      <guid>/posts/20230519_status/</guid>
+      <guid>/blog/20230519_status/</guid>
       <description>&lt;p&gt;到目前为止的五月简直糟透了（我又有哪个月不是这样糟透了的呢，除了那梦幻般的几个例外…）&lt;/p&gt;
 &lt;p&gt;毕业论文写到最后就已经对这个topic感到厌倦，只想早点结束然后做点别的。临近答辩，很焦虑但一点做事的动力也没有。一直拖到（……）。本以为这件事到此结束……。
 网站坏了。经常出现「隐私错误无法访问」的故障。删掉CloudFlare，Vercel以及Netlify的仓库，到Namesilo的域名管理页删掉相应的DNS记录，重新部署GitHub pages。（……我真的不懂Web…所以只能这样解决问题。）&lt;/p&gt;
@@ -23,20 +23,20 @@
     
     <item>
       <title>編程隨想</title>
-      <link>/posts/20230322_program-think/</link>
+      <link>/blog/20230322_program-think/</link>
       <pubDate>Wed, 22 Mar 2023 15:17:32 +0800</pubDate>
       
-      <guid>/posts/20230322_program-think/</guid>
+      <guid>/blog/20230322_program-think/</guid>
       <description>&lt;p&gt;或許編程隨想並不是一個人，就像Bourbaki……&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>奇怪的笑点</title>
-      <link>/posts/20230301_funny-things/</link>
+      <link>/blog/20230301_funny-things/</link>
       <pubDate>Wed, 01 Mar 2023 18:25:09 +0000</pubDate>
       
-      <guid>/posts/20230301_funny-things/</guid>
+      <guid>/blog/20230301_funny-things/</guid>
       <description>&lt;p&gt;能够理解，最后这个「给我留下语音邮件，指责我是中情局特工，作为一个巨大的种族主义阴谋的一部分而封锁Facebook（是的，这真的发生了）。」……笑死我了&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 </description>
     </item>

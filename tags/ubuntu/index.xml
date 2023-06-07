@@ -8,10 +8,10 @@
     <lastBuildDate>Mon, 15 May 2023 10:56:14 +0800</lastBuildDate><atom:link href="/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>圖形界面Ubuntu安裝拼音輸入法</title>
-      <link>/posts/20230515_ibus-pinyin/</link>
+      <link>/blog/20230515_ibus-pinyin/</link>
       <pubDate>Mon, 15 May 2023 10:56:14 +0800</pubDate>
       
-      <guid>/posts/20230515_ibus-pinyin/</guid>
+      <guid>/blog/20230515_ibus-pinyin/</guid>
       <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;OS Name: Ubuntu 22.04.2 LTS
 OS Type: 64-bit
 GNOME Version: 42.5

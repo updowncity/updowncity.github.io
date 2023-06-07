@@ -8,10 +8,10 @@
     <lastBuildDate>Thu, 06 Apr 2023 18:41:54 +0800</lastBuildDate><atom:link href="/tags/%E6%95%85%E7%BA%B8%E5%A0%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>從頂欄脫落下來的About頁</title>
-      <link>/posts/20230406_archived-about-01/</link>
+      <link>/blog/20230406_archived-about-01/</link>
       <pubDate>Thu, 06 Apr 2023 18:41:54 +0800</pubDate>
       
-      <guid>/posts/20230406_archived-about-01/</guid>
+      <guid>/blog/20230406_archived-about-01/</guid>
       <description>&lt;p&gt;你为什么要把它们摘下来。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;將我遺忘在海邊吧&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;date&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;ld&#34;&gt;2023-03-17 22:57:31&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -38,10 +38,10 @@
     
     <item>
       <title>为什么我把这個又寫了一遍</title>
-      <link>/posts/20230404_homotopy-category/</link>
+      <link>/blog/20230404_homotopy-category/</link>
       <pubDate>Tue, 04 Apr 2023 22:14:07 +0800</pubDate>
       
-      <guid>/posts/20230404_homotopy-category/</guid>
+      <guid>/blog/20230404_homotopy-category/</guid>
       <description>&lt;p&gt;When working with complexes, many diagrams commute only up to homotopy. In order to have these diagrams actually commute, one need to work in a category where homotopy equivalences become isomorphisms.
 想到我在前面寫过一則關於homotopy category的札記，然後因為MathJaX配置問題一氣之下把它給刪了，現在只好重寫（……）
 先引用GTM281的記號：&lt;/p&gt;
@@ -50,10 +50,10 @@
     
     <item>
       <title>故纸堆系列#1</title>
-      <link>/posts/20230305_jamais-vu/</link>
+      <link>/blog/20230305_jamais-vu/</link>
       <pubDate>Sun, 05 Mar 2023 22:42:49 +0000</pubDate>
       
-      <guid>/posts/20230305_jamais-vu/</guid>
+      <guid>/blog/20230305_jamais-vu/</guid>
       <description>&lt;p&gt;翻箱倒柜找高中毕业证的时候在一堆作业纸里发现的。很明显它不是（现在的）我写的。我对这段文本的记忆就像那张高中毕业证一样已经不知道消失在哪里去了。无法根据笔记判断具体的时间。尽可能保留原状（无法彻底保留原状或者按照撰写的时间顺序录入文本：就连我自己也不知道怎么对付那些箭头（用电脑写东西的时候至少它们是排版友好的括号群…可这堆箭头……呃…）写完留学文书后处于一种精神被耗竭的状态，又一次陷入文本搬运与interface configuration这些机械行为的黑洞。无法忍受有人在我身后走来走去，只好把整个工作台搬到床上，每天和草稿纸睡在一起。我也不去图书馆自习，因为会经常有人从我旁边经过。真的很羡慕那些能够正常去图书馆或者自习室学习的人（不会轻易陷入痛苦不堪的状态），那些不会因为强迫行为交不上作业的人。从很久以前便是如此。
 或许我会重置它，赋予它（至少我觉得）更加有趣的解释。但毕竟它不是「我」写的。而我已经不再想要将过去一笔勾销。To be honest，录入这个东西的时候我真的很嫌弃它：没有check定义就乱写自己没有完全搞清楚的东西，名词党的臭毛病。&lt;/p&gt;
 &lt;p&gt;它是一部我从一个免费游戏网站上下载的单机RPG，介绍页面很普通，感觉作者很懒，但挺擅长画画的，人物立绘和CG预览都很好。下载量很低。
@@ -78,10 +78,10 @@
     
     <item>
       <title>在消失的差異與鏡面的空白之間</title>
-      <link>/posts/20220826_cokernels/</link>
+      <link>/blog/20220826_cokernels/</link>
       <pubDate>Fri, 26 Aug 2022 22:08:26 +0000</pubDate>
       
-      <guid>/posts/20220826_cokernels/</guid>
+      <guid>/blog/20220826_cokernels/</guid>
       <description>&lt;p&gt;或許可以理解爲平行世界的一個小故事：不同於《神譴》，這裏路西法變成的是一個與伊薩爾年齡差不多的(美)少年：冒充的不再是那個不請自來的小屁頭，而是一個神祕的轉校生（當然名字依舊叫路西菲爾）。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;寫於2021年9月；&lt;/li&gt;
@@ -106,10 +106,10 @@
     
     <item>
       <title>樂不思蜀</title>
-      <link>/posts/20220826_ewige-wiederkunft/</link>
+      <link>/blog/20220826_ewige-wiederkunft/</link>
       <pubDate>Fri, 26 Aug 2022 21:09:17 +0000</pubDate>
       
-      <guid>/posts/20220826_ewige-wiederkunft/</guid>
+      <guid>/blog/20220826_ewige-wiederkunft/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
@@ -117,10 +117,10 @@
     
     <item>
       <title>因為一切快樂要求永恆</title>
-      <link>/posts/20210917_everless/</link>
+      <link>/blog/20210917_everless/</link>
       <pubDate>Fri, 17 Sep 2021 05:26:00 +0000</pubDate>
       
-      <guid>/posts/20210917_everless/</guid>
+      <guid>/blog/20210917_everless/</guid>
       <description>&lt;p&gt;搬运自&lt;a href=&#34;https://archiveofourown.org/works/41209500&#34;&gt;Ao3&lt;/a&gt;，metadata里的日期也手动调成2021年9月，17日选的是一个bloomsday（记下bloomsday具体日期的习惯到了2022就渐渐被遗忘了。）&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;寫於2021年9月的天神右翼同人；保持原樣直接上傳不敢亂改。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;我將所有無關緊要的記憶從身體里抽離，然後將黏稠的液塊封裝進路西法四年前送給我的水晶球里。當時我幾乎是逼問出了他的真名和住址，然後我們坐在公寓屋頂徹夜長談。裝載了單一軌跡的水晶球意外地清晰明亮，相比之下那些用來預測未來的空白水晶球就顯得晦暗模糊了。

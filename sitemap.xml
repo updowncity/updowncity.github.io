@@ -2,31 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/</loc>
+    <loc>/</loc>
+    <lastmod>2023-06-07T11:56:55+08:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>/blog/</loc>
     <lastmod>2023-06-07T11:56:55+08:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
     <lastmod>2023-06-07T11:56:55+08:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2023-06-07T11:56:55+08:00</lastmod>
-  </url><url>
-    <loc>/posts/quit-from-seminar/</loc>
+    <loc>/blog/quit-from-seminar/</loc>
     <lastmod>2023-06-07T11:56:55+08:00</lastmod>
   </url><url>
     <loc>/tags/%E7%A2%8E%E7%A2%8E%E5%94%B8/</loc>
     <lastmod>2023-06-07T11:56:55+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230522_clear/</loc>
+    <loc>/blog/20230522_clear/</loc>
     <lastmod>2023-05-22T11:54:16+08:00</lastmod>
   </url><url>
     <loc>/tags/untagged/</loc>
     <lastmod>2023-05-19T04:11:44+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230519_status/</loc>
+    <loc>/blog/20230519_status/</loc>
     <lastmod>2023-05-19T04:11:44+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230519_moduli/</loc>
+    <loc>/blog/20230519_moduli/</loc>
     <lastmod>2023-05-19T02:59:58+08:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
@@ -41,46 +42,49 @@
     <loc>/tags/%E5%9C%96%E5%BD%A2%E7%95%8C%E9%9D%A2/</loc>
     <lastmod>2023-05-15T10:56:14+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230515_ibus-pinyin/</loc>
+    <loc>/blog/20230515_ibus-pinyin/</loc>
     <lastmod>2023-05-15T10:56:14+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230512_source-code-of-my-theis-vanished-before-submitting-the-final-version/</loc>
+    <loc>/blog/20230512_source-code-of-my-theis-vanished-before-submitting-the-final-version/</loc>
     <lastmod>2023-05-12T16:29:55+08:00</lastmod>
   </url><url>
     <loc>/tags/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87/</loc>
     <lastmod>2023-05-12T16:29:55+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230504_22/</loc>
+    <loc>/blog/20230512_coefficients/</loc>
+    <lastmod>2023-05-12T16:26:52+08:00</lastmod>
+  </url><url>
+    <loc>/blog/20230504_22/</loc>
     <lastmod>2023-05-04T22:08:39+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230426_how-to-grasp-a-crow/</loc>
+    <loc>/blog/20230426_how-to-grasp-a-crow/</loc>
     <lastmod>2023-04-26T18:29:42+08:00</lastmod>
   </url><url>
     <loc>/tags/%E7%94%B5%E6%B3%A2/</loc>
     <lastmod>2023-04-26T18:29:42+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230426_i-was-the-shadow-of-the-waxwing-slain/</loc>
+    <loc>/blog/20230426_i-was-the-shadow-of-the-waxwing-slain/</loc>
     <lastmod>2023-04-26T18:11:59+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230425_sensory-overload/</loc>
+    <loc>/blog/20230425_sensory-overload/</loc>
     <lastmod>2023-04-25T23:10:09+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230423_thesis-disclaimer/</loc>
+    <loc>/blog/20230423_thesis-disclaimer/</loc>
     <lastmod>2023-04-23T18:39:22+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230418_word-count/</loc>
+    <loc>/blog/20230418_word-count/</loc>
     <lastmod>2023-04-18T18:56:55+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230409_fucking-latex/</loc>
+    <loc>/blog/20230409_fucking-latex/</loc>
     <lastmod>2023-04-09T11:17:33+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230407_nostalgia/</loc>
+    <loc>/blog/20230407_nostalgia/</loc>
     <lastmod>2023-04-07T11:40:34+08:00</lastmod>
   </url><url>
     <loc>/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2023-04-07T11:40:34+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230406_archived-changelog-02/</loc>
+    <loc>/blog/20230406_archived-changelog-02/</loc>
     <lastmod>2023-04-06T18:42:31+08:00</lastmod>
   </url><url>
     <loc>/tags/%E6%97%A5%E8%AA%8C/</loc>
@@ -89,25 +93,25 @@
     <loc>/tags/%E5%9B%9E%E6%94%B6%E7%AB%99/</loc>
     <lastmod>2023-04-06T18:41:54+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230406_archived-about-01/</loc>
+    <loc>/blog/20230406_archived-about-01/</loc>
     <lastmod>2023-04-06T18:41:54+08:00</lastmod>
   </url><url>
     <loc>/tags/%E6%95%85%E7%BA%B8%E5%A0%86/</loc>
     <lastmod>2023-04-06T18:41:54+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230404_homotopy-category/</loc>
+    <loc>/blog/20230404_homotopy-category/</loc>
     <lastmod>2023-04-04T22:14:07+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230404_when-writing-thesis/</loc>
+    <loc>/blog/20230404_when-writing-thesis/</loc>
     <lastmod>2023-04-04T01:08:41+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230327_nekobox-backup/</loc>
+    <loc>/blog/20230327_nekobox-backup/</loc>
     <lastmod>2023-03-27T14:49:57+08:00</lastmod>
   </url><url>
     <loc>/tags/%E5%9B%9E%E5%BF%86/</loc>
     <lastmod>2023-03-27T14:49:57+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230325_crackpots/</loc>
+    <loc>/blog/20230325_crackpots/</loc>
     <lastmod>2023-03-25T01:37:47+08:00</lastmod>
   </url><url>
     <loc>/tags/abstractnonsense/</loc>
@@ -116,37 +120,37 @@
     <loc>/tags/lisp/</loc>
     <lastmod>2023-03-23T23:11:05+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230323_lisp/</loc>
+    <loc>/blog/20230323_lisp/</loc>
     <lastmod>2023-03-23T23:11:05+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230323_initialization/</loc>
+    <loc>/blog/20230323_initialization/</loc>
     <lastmod>2023-03-23T12:08:00+08:00</lastmod>
   </url><url>
     <loc>/tags/%E6%96%87%E5%AD%A6%E6%B2%99%E7%9B%92/</loc>
     <lastmod>2023-03-22T15:17:32+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230322_program-think/</loc>
+    <loc>/blog/20230322_program-think/</loc>
     <lastmod>2023-03-22T15:17:32+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230322_pin-github/</loc>
+    <loc>/blog/20230322_pin-github/</loc>
     <lastmod>2023-03-22T15:17:32+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230320_moved-to-hugo/</loc>
+    <loc>/blog/20230320_moved-to-hugo/</loc>
     <lastmod>2023-03-20T17:33:42+08:00</lastmod>
   </url><url>
-    <loc>/posts/20230319_my-thesis-vanished/</loc>
+    <loc>/blog/20230319_my-thesis-vanished/</loc>
     <lastmod>2023-03-19T23:45:35+00:00</lastmod>
   </url><url>
     <loc>/tags/%E5%9D%91/</loc>
     <lastmod>2023-03-19T03:55:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/20230319_fictional-memory/</loc>
+    <loc>/blog/20230319_fictional-memory/</loc>
     <lastmod>2023-03-19T03:55:00+00:00</lastmod>
   </url><url>
     <loc>/changelog/</loc>
     <lastmod>2023-03-18T22:41:49+00:00</lastmod>
   </url><url>
-    <loc>/posts/20230317_emacs-initialization/</loc>
+    <loc>/blog/20230317_emacs-initialization/</loc>
     <lastmod>2023-03-17T23:59:59+00:00</lastmod>
   </url><url>
     <loc>/about/</loc>
@@ -155,22 +159,22 @@
     <loc>/moults/</loc>
     <lastmod>2023-03-17T02:00:29+00:00</lastmod>
   </url><url>
-    <loc>/posts/20230312_what-happened/</loc>
+    <loc>/blog/20230312_what-happened/</loc>
     <lastmod>2023-03-12T00:41:57+00:00</lastmod>
   </url><url>
     <loc>/friends/</loc>
     <lastmod>2023-03-12T00:38:32+00:00</lastmod>
   </url><url>
-    <loc>/posts/20230308_stacked-logs-02/</loc>
+    <loc>/blog/20230308_stacked-logs-02/</loc>
     <lastmod>2023-03-08T10:00:59+00:00</lastmod>
   </url><url>
-    <loc>/posts/20230305_jamais-vu/</loc>
+    <loc>/blog/20230305_jamais-vu/</loc>
     <lastmod>2023-03-05T22:42:49+00:00</lastmod>
   </url><url>
-    <loc>/posts/20230301_funny-things/</loc>
+    <loc>/blog/20230301_funny-things/</loc>
     <lastmod>2023-03-01T18:25:09+00:00</lastmod>
   </url><url>
-    <loc>/posts/20230223_sayounara-neko-box/</loc>
+    <loc>/blog/20230223_sayounara-neko-box/</loc>
     <lastmod>2023-02-23T20:38:55+00:00</lastmod>
   </url><url>
     <loc>/tags/%E8%AA%9E%E8%A8%80/</loc>
@@ -179,37 +183,37 @@
     <loc>/tags/%E8%BE%A9%E8%A7%A3/</loc>
     <lastmod>2023-02-21T21:15:21+00:00</lastmod>
   </url><url>
-    <loc>/posts/20230221_dialog-between-chizuko-ueno-and-quan-xixi/</loc>
+    <loc>/blog/20230221_dialog-between-chizuko-ueno-and-quan-xixi/</loc>
     <lastmod>2023-02-21T21:15:21+00:00</lastmod>
   </url><url>
     <loc>/categories/%E5%9B%9E%E6%94%B6%E7%AB%99/</loc>
     <lastmod>2023-02-18T20:50:42+00:00</lastmod>
   </url><url>
-    <loc>/posts/20230218_old-about/</loc>
+    <loc>/blog/20230218_old-about/</loc>
     <lastmod>2023-02-18T20:50:42+00:00</lastmod>
   </url><url>
-    <loc>/posts/20230216_stacked-logs-01/</loc>
+    <loc>/blog/20230216_stacked-logs-01/</loc>
     <lastmod>2023-02-16T21:52:31+00:00</lastmod>
   </url><url>
-    <loc>/posts/20230216_motivation-of-this-blog/</loc>
+    <loc>/blog/20230216_motivation-of-this-blog/</loc>
     <lastmod>2023-02-16T16:50:01+00:00</lastmod>
   </url><url>
-    <loc>/posts/20230216_old-links/</loc>
+    <loc>/blog/20230216_old-links/</loc>
     <lastmod>2023-02-16T09:33:09+00:00</lastmod>
   </url><url>
-    <loc>/posts/20230216_old-changelog/</loc>
+    <loc>/blog/20230216_old-changelog/</loc>
     <lastmod>2023-02-16T09:14:37+00:00</lastmod>
   </url><url>
-    <loc>/posts/20220826_cokernels/</loc>
+    <loc>/blog/20220826_cokernels/</loc>
     <lastmod>2022-08-26T22:08:26+00:00</lastmod>
   </url><url>
     <loc>/tags/%E5%A4%A9%E7%A5%9E%E5%8F%B3%E7%BF%BC/</loc>
     <lastmod>2022-08-26T22:08:26+00:00</lastmod>
   </url><url>
-    <loc>/posts/20220826_ewige-wiederkunft/</loc>
+    <loc>/blog/20220826_ewige-wiederkunft/</loc>
     <lastmod>2022-08-26T21:09:17+00:00</lastmod>
   </url><url>
-    <loc>/posts/20210917_everless/</loc>
+    <loc>/blog/20210917_everless/</loc>
     <lastmod>2021-09-17T05:26:00+00:00</lastmod>
   </url><url>
     <loc>/archive/</loc>

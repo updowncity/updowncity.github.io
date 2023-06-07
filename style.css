@@ -1,0 +1,10 @@
+
+/*
+a:not(a.title):hover{
+    border-bottom: 1px solid navy;
+    line-height: 20px;
+}
+ul.blog-posts li a:visited:hover{
+    border-bottom: 1px solid #333;
+    line-height: 20px;
+}

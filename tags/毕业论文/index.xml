@@ -8,39 +8,39 @@
     <lastBuildDate>Fri, 12 May 2023 16:29:55 +0800</lastBuildDate><atom:link href="/tags/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>提交终稿前源文件与终稿的PDF都搞丢了</title>
-      <link>/posts/20230512_source-code-of-my-theis-vanished-before-submitting-the-final-version/</link>
+      <link>/blog/20230512_source-code-of-my-theis-vanished-before-submitting-the-final-version/</link>
       <pubDate>Fri, 12 May 2023 16:29:55 +0800</pubDate>
       
-      <guid>/posts/20230512_source-code-of-my-theis-vanished-before-submitting-the-final-version/</guid>
+      <guid>/blog/20230512_source-code-of-my-theis-vanished-before-submitting-the-final-version/</guid>
       <description>&lt;p&gt;因为作死…详见下一篇[近况]。安装Ubuntu之前忘记备份。意料之外是又白嫖了一个月的WinEdt。现在正在生无可恋地对着初稿敲LaTeX代码。&lt;/p&gt;
 &lt;p&gt;初稿里有一个很明显的错误（系数问题…虽然很idiotic，但这个东西我的确&lt;strong&gt;一直以来都搞错了&lt;/strong&gt;，值得写篇blog（还没写…应该不会坑掉…）……有些东西读的时候会让人觉得trivial/wordy，然而这只是我们理解的不足。然而答辩组的老师们只看到了格式问题（首行缩进与标错的序号…）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>免責聲明寫像是在把寫錯的地方甩鍋給BBD</title>
-      <link>/posts/20230423_thesis-disclaimer/</link>
+      <link>/blog/20230423_thesis-disclaimer/</link>
       <pubDate>Sun, 23 Apr 2023 18:39:22 +0800</pubDate>
       
-      <guid>/posts/20230423_thesis-disclaimer/</guid>
+      <guid>/blog/20230423_thesis-disclaimer/</guid>
       <description>&lt;p&gt;应要求写了个免责声明：「本人并不声称内容具有原创性（No originality is claimed）」。然后感觉这个写得就好像是在把写错的地方全都甩锅给BBD。所以现在一点也不想检查了。（在毕业论文这件事上卡得太久，已经感到厌烦。这段时间没有看书，也没有写日记，我也变得很无趣。（所以先消失一段时间）所有的东西都是不可控的，我也无法重新拼凑出我自己。）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>所以字数统计规则到底是什么鬼</title>
-      <link>/posts/20230418_word-count/</link>
+      <link>/blog/20230418_word-count/</link>
       <pubDate>Tue, 18 Apr 2023 18:56:55 +0800</pubDate>
       
-      <guid>/posts/20230418_word-count/</guid>
+      <guid>/blog/20230418_word-count/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
       <title>LaTeX吐槽贴</title>
-      <link>/posts/20230409_fucking-latex/</link>
+      <link>/blog/20230409_fucking-latex/</link>
       <pubDate>Sun, 09 Apr 2023 11:17:33 +0800</pubDate>
       
-      <guid>/posts/20230409_fucking-latex/</guid>
+      <guid>/blog/20230409_fucking-latex/</guid>
       <description>&lt;p&gt;我觉得对自己所研究的事物热爱还是厌倦是因人而异的，但对系统的恨是universal的。（然而系统依旧存在着：…或许这也是我如此确信惯性是远比感情与意志更为本质与深刻的东西的原因吧，只有极少数时候人才能够挣脱重力而存在。）&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;DDL是第一生产力&lt;/strong&gt;&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -90,20 +90,20 @@ Lisp的写法可以让字母的摆放顺序和箭头版本的一致，转化的�
     
     <item>
       <title>當你在寫關於t-structure的內容時聽到一首shape of my heart</title>
-      <link>/posts/20230404_when-writing-thesis/</link>
+      <link>/blog/20230404_when-writing-thesis/</link>
       <pubDate>Tue, 04 Apr 2023 01:08:41 +0800</pubDate>
       
-      <guid>/posts/20230404_when-writing-thesis/</guid>
+      <guid>/blog/20230404_when-writing-thesis/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 </description>
     </item>
     
     <item>
       <title>我的論文消失了</title>
-      <link>/posts/20230319_my-thesis-vanished/</link>
+      <link>/blog/20230319_my-thesis-vanished/</link>
       <pubDate>Sun, 19 Mar 2023 23:45:35 +0000</pubDate>
       
-      <guid>/posts/20230319_my-thesis-vanished/</guid>
+      <guid>/blog/20230319_my-thesis-vanished/</guid>
       <description>&lt;p&gt;打開發現只剩下一片狼藉（頭文件）或許是按錯了熱鍵，或許是（空缺的主語）在提醒我不可以那樣為了寫論文停在原地。我現在對$\mathcal{D}$-module很好奇。（論文應該是建立在日常的積累之上的，而不是臨時生搬硬湊的。我其實是有筆記的，只是它們混亂到讓人窒息（事實上我很少碰它們）。因為過去的記錄太過混亂，所以無力去整理和搜索，每次只好再重寫一遍，這種重複又帶來新的混亂。）&lt;/p&gt;
 </description>
     </item>

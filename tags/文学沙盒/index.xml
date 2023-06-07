@@ -8,10 +8,10 @@
     <lastBuildDate>Wed, 22 Mar 2023 15:17:32 +0800</lastBuildDate><atom:link href="/tags/%E6%96%87%E5%AD%A6%E6%B2%99%E7%9B%92/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>记录Windows10解决GitHub访问问题的尝试</title>
-      <link>/posts/20230322_pin-github/</link>
+      <link>/blog/20230322_pin-github/</link>
       <pubDate>Wed, 22 Mar 2023 15:17:32 +0800</pubDate>
       
-      <guid>/posts/20230322_pin-github/</guid>
+      <guid>/blog/20230322_pin-github/</guid>
       <description>&lt;p&gt;Please note that this &lt;!-- raw HTML omitted --&gt;does not work at all.&lt;/p&gt;
 &lt;p&gt;before &lt;!-- raw HTML omitted --&gt;
 参考&lt;!-- raw HTML omitted --&gt;CSDN&lt;!-- raw HTML omitted --&gt;（这个网站使用代理时无法访问）
