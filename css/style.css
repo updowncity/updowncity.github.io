@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 :root {
   --color-light-fg-font-quote: #57606A;
   --color-primary: #b31b1b;
@@ -14,7 +15,13 @@
   --font-size-title: 1.500rem;
 }
 
-
+strong{
+  font-family: Lora, 'Microsoft Yahei', serif;
+}
+img.favicon{
+  border-radius: 32px;
+  
+}
 *, ::before, ::after {
   font-family: inherit;
   box-sizing: border-box;
@@ -46,7 +53,25 @@ body {
   align-items: center;
   background-color: rgb(240,240,240);
 }
+/*
+body {
+	background: linear-gradient(-45deg, rgb(230,230,230),rgb(240,240,240));
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+*/
 /* set up padding and margin of some main elements */
 .main-wrapper {
   margin-top: 3.00rem;
@@ -55,11 +80,15 @@ body {
 
 .main-wrapper { display: flex; flex-wrap: wrap; }
 .main-wrapper > * { height: fit-content; }
-
+/*
 .main { padding: 1.50rem; }
 .side { padding-left: 1.50rem; }
-.main { flex: 0 0 72%; width: 72%; }
+.main { flex: 0 0 50%; width: 50%; }
 .side { flex: 0 0 28%; width: 28%; }
+*/
+.main{width: 50%;padding: 1.50rem;}
+.side:not(.side .gallery){width: 25%;padding-right: 1.50rem;padding-left: 1.50rem;}
+.side .gallery{padding: 0;}
 .featured-image,
 .featured-image img,
 img{
@@ -73,8 +102,9 @@ img{
 }
 
 /* set light background */
+
 .header-wrapper,
-.footer,
+footer,
 .main,
 .side-recent,
 .side-categories,
@@ -83,6 +113,9 @@ img{
 .side-cw
 {
   background-color: white;
+  /*box-shadow: 	0px 0px 11px 1px rgba(0,0,0,0.14),
+		0px 0px 19px 14px rgba(0,0,0,0.03);
+  border:	1px solid rgba(0,0,0,0);*/
 }
 /* place header in the center of header-wrapper */
 .header-wrapper {
@@ -96,9 +129,6 @@ img{
   margin-bottom: 0;
 }
 
-.side-friends a{
-  font-weight: 600;
-}
 /********** set up break point **********/
 
                              .main-wrapper, .header { max-width: 1320px; }
@@ -129,7 +159,7 @@ img{
 }
 
 .header .menu { justify-content: center; align-items: center; }
-.header .site-title { text-align: left; line-height: 1.0em;padding-bottom: 10px;}
+.header .site-title { text-align: left; line-height: 1.0em;}
 @media (max-width: 767px) {
   .header .site-title {
     padding-top: 1.50rem;
@@ -152,9 +182,10 @@ img{
   font-family: var(--font-default);
   font-weight: 600;
 }
+/*
 .header .site-subtitle{
-  font-weight: 600;
-}
+  font-weight: 400;
+}*/
 /********** set up menus layout **********/
 
 /* menus and submenus, hover to display, and setup animation */
@@ -269,11 +300,12 @@ img{
 .list-item:last-child  { padding-bottom: 0;}
 
 .read-more{
-  border-bottom: solid 1px #000;
+  border-bottom: solid 1px #555;
   text-decoration: none;
   color: var(--color-fg-font-normal);
   text-align: right;
-  font-weight: 600;
+  color: #555;
+
 }
 .read-more:hover{
   border-bottom: none;
@@ -601,4 +633,22 @@ a.site-title:hover{
 
 strong{
   font-weight: 600;
+}
+
+.side-friends a.display{
+  font-size: 16px;
+  color: var(--color-primary);
+}
+.side-cw a,.side-friends a.regular{
+  color: var(--color-primary);
+}
+#archive .group .key{
+  font-size: 19px;
+}
+/*
+.side-recent li{
+  margin-bottom: 0;
+}*/
+.side-recent time{
+  color: #555;
 }
