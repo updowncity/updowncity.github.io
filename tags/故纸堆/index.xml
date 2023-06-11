@@ -2,131 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>故纸堆 on 你快樂嗎</title>
-    <link>/tags/%E6%95%85%E7%BA%B8%E5%A0%86/</link>
+    <link>https://updown.city/tags/%E6%95%85%E7%BA%B8%E5%A0%86/</link>
     <description>Recent content in 故纸堆 on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 06 Apr 2023 18:41:54 +0800</lastBuildDate><atom:link href="/tags/%E6%95%85%E7%BA%B8%E5%A0%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Apr 2023 18:41:54 +0800</lastBuildDate><atom:link href="https://updown.city/tags/%E6%95%85%E7%BA%B8%E5%A0%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>從頂欄脫落下來的About頁</title>
-      <link>/blog/20230406_archived-about-01/</link>
+      <link>https://updown.city/blog/20230406_archived-about-01/</link>
       <pubDate>Thu, 06 Apr 2023 18:41:54 +0800</pubDate>
       
-      <guid>/blog/20230406_archived-about-01/</guid>
-      <description>&lt;p&gt;你为什么要把它们摘下来。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;將我遺忘在海邊吧&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;date&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;ld&#34;&gt;2023-03-17 22:57:31&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;hidden&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;featured_image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&amp;amp;#34;/images/art.pixilart.com@e1732a4045e2bc7.gif&amp;amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;menu&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&amp;amp;#39;關於我&amp;amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;weight&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&amp;amp;#39;7&amp;amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;toc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;簡繁切換是手動進行的（因為我很在意文字的形狀……）&lt;/p&gt;
-&lt;p&gt;我從Waline管理員頁面是可以刪除評論的，所以如果某一天你想要從我所觸及到的世界徹底消失，抹除一切可見的痕跡，可以郵件聯繫我：&lt;code&gt;jamais-vu@tutanota.com&lt;/code&gt;。（就好像寫這樣一個聲明可以帶給訪客安心的感覺。你真的這麼想嗎。）&lt;/p&gt;
-&lt;p&gt;Powered by &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; with &lt;a href=&#34;https://github.com/mrmierzejewski/hugo-theme-console/&#34;&gt;Console Theme&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;留言&#34;&gt;留言 &lt;a href=&#34;#%e7%95%99%e8%a8%80&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;郵箱 &lt;code&gt;jamais-vu@tutanota.com&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;關鍵字&#34;&gt;關鍵字 &lt;a href=&#34;#%e9%97%9c%e9%8d%b5%e5%ad%97&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&lt;h3 id=&#34;ugly-blue&#34;&gt;&lt;code&gt;ugly-blue&lt;/code&gt; &lt;a href=&#34;#ugly-blue&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;code&gt;ugly-blue&lt;/code&gt;是一個只用了兩天就被換掉的自制hexo主題，其實它也沒有那麼醜，&lt;code&gt;ugly&lt;/code&gt;可以理解為前綴或語氣詞。它被換掉只是因為站長比較依戀默認主題的安心感。2023-03-20&lt;/p&gt;
-&lt;h3 id=&#34;蟲蛻&#34;&gt;蟲蛻 &lt;a href=&#34;#%e8%9f%b2%e8%9b%bb&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;站長的記憶力非常糟糕以至於經常感到生命是不連續的：如果將普通的睡眠（帶來的不連續）比作關機重啟，那麼這裡的不連續可以理解為各種原因帶來的文件丟失（有時這種丟失甚至是難以覺察的。）2023-03-20&lt;/p&gt;
-&lt;h3 id=&#34;站長是誰&#34;&gt;站長是誰 &lt;a href=&#34;#%e7%ab%99%e9%95%b7%e6%98%af%e8%aa%b0&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;按&lt;code&gt;Ctrl+C&lt;/code&gt;你會得到一個HTML文件（以及掉在旁邊的一個文件夾），站長就是這個鬼東西。2023-03-20&lt;/p&gt;
-&lt;h3 id=&#34;我是誰&#34;&gt;我是誰 &lt;a href=&#34;#%e6%88%91%e6%98%af%e8%aa%b0&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;前兩天我的校園卡丟了但沒有發現直到晚上打開洗澡用的企業微信發現裡面有一條消息讓我去指定的一棟宿舍樓去領回，去年的比這稍晚些的時候，學校通知打第三針疫苗然後我發現身份證已經像舊的眼鏡那樣被搞丟了。不過即便這兩件事情同時發生（也就是存在某個時間段我既找不到身份證也找不到校園卡），我也依舊能夠回到這裡（也就是你剛才下載的那個HTML文件（或許你不會真的下載它）的路。（我不是故意的……自然狀態下我的語言就是這個樣子的你在別處看到能夠閱讀的段落是因為我認真地進行了斷句和整理。）2023-03-20 (你同樣無法期待這個掉落過很多蟲蛻的作者會有一個固定的時間戳格式) 這段保留未經整理的形狀的文本可以作為我的sample。&lt;/p&gt;
-&lt;h3 id=&#34;你是誰&#34;&gt;你是誰 &lt;a href=&#34;#%e4%bd%a0%e6%98%af%e8%aa%b0&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果你想回答這個問題可以使用下面的留言板或者（如果Valine壞了）&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://lzx897.world&#34;&gt;隱藏&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://updown.city/blog/20230406_archived-about-01/</guid>
+      <description>你为什么要把它们摘下来。 title: 將我遺忘在海邊吧 date: 2023-03-17 22:57:31 hidden: true featured_image: &amp;amp;#34;/images/art.pixilart.com@e1732a4045e2bc7.gif&amp;amp;#34; menu: main: name: &amp;amp;#39;關於我&amp;amp;#39; weight: &amp;amp;#39;7&amp;amp;#39; toc: false 簡繁切換是手動進行的（因為我</description>
     </item>
     
     <item>
       <title>为什么我把这個又寫了一遍</title>
-      <link>/blog/20230404_homotopy-category/</link>
+      <link>https://updown.city/blog/20230404_homotopy-category/</link>
       <pubDate>Tue, 04 Apr 2023 22:14:07 +0800</pubDate>
       
-      <guid>/blog/20230404_homotopy-category/</guid>
+      <guid>https://updown.city/blog/20230404_homotopy-category/</guid>
       <description>&lt;p&gt;When working with complexes, many diagrams commute only up to homotopy. In order to have these diagrams actually commute, one need to work in a category where homotopy equivalences become isomorphisms.
 想到我在前面寫过一則關於homotopy category的札記，然後因為MathJaX配置問題一氣之下把它給刪了，現在只好重寫（……）
-先引用GTM281的記號：&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
+先引用GTM281的記號：&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>故纸堆系列#1</title>
-      <link>/blog/20230305_jamais-vu/</link>
+      <link>https://updown.city/blog/20230305_jamais-vu/</link>
       <pubDate>Sun, 05 Mar 2023 22:42:49 +0000</pubDate>
       
-      <guid>/blog/20230305_jamais-vu/</guid>
+      <guid>https://updown.city/blog/20230305_jamais-vu/</guid>
       <description>&lt;p&gt;翻箱倒柜找高中毕业证的时候在一堆作业纸里发现的。很明显它不是（现在的）我写的。我对这段文本的记忆就像那张高中毕业证一样已经不知道消失在哪里去了。无法根据笔记判断具体的时间。尽可能保留原状（无法彻底保留原状或者按照撰写的时间顺序录入文本：就连我自己也不知道怎么对付那些箭头（用电脑写东西的时候至少它们是排版友好的括号群…可这堆箭头……呃…）写完留学文书后处于一种精神被耗竭的状态，又一次陷入文本搬运与interface configuration这些机械行为的黑洞。无法忍受有人在我身后走来走去，只好把整个工作台搬到床上，每天和草稿纸睡在一起。我也不去图书馆自习，因为会经常有人从我旁边经过。真的很羡慕那些能够正常去图书馆或者自习室学习的人（不会轻易陷入痛苦不堪的状态），那些不会因为强迫行为交不上作业的人。从很久以前便是如此。
-或许我会重置它，赋予它（至少我觉得）更加有趣的解释。但毕竟它不是「我」写的。而我已经不再想要将过去一笔勾销。To be honest，录入这个东西的时候我真的很嫌弃它：没有check定义就乱写自己没有完全搞清楚的东西，名词党的臭毛病。&lt;/p&gt;
-&lt;p&gt;它是一部我从一个免费游戏网站上下载的单机RPG，介绍页面很普通，感觉作者很懒，但挺擅长画画的，人物立绘和CG预览都很好。下载量很低。
-最初我以为这部完成度如此高的游戏免费发布有些可惜，后来想到我和我的朋友们的写作：像乞讨一样恳求路人阅读我们的作品，我们可怜的生活报告。
-这位作者也是一样。他（也许是她）更擅长编程与故弄玄虚。我想他放出表现完成度的预览图是为了阻止网站管理员删除它。
-背景是一所无法判别是中学还是大学的学校，角色甚至没有名字，对话框上方只是「你」。我根本不知道要我做什么。游戏的标签是解密，以平淡的日常作为开端。
-很常见，很快就会出现吓人一跳的&lt;!-- raw HTML omitted --&gt;按键&lt;!-- raw HTML omitted --&gt;案件，比如同学的失踪或跳楼。
-它让我想到一些新浪潮的电影。极其琐碎的日常。我知道这部游戏来自一位十分钦佩的朋友，她称赞它，而她很少接触游戏，我一直觉得有些可惜。
-琐碎到令人感到作者对所处世界的厌恶。同一个房间里别人走来走去的声音令人作呕&lt;!-- raw HTML omitted --&gt;sancheck&lt;!-- raw HTML omitted --&gt;。
-自己肉体的存在
-「你」一天要诅咒你的肉体三十次
-牙膏从牙刷的刷毛上滑落
-中间有许多选择肢，比如去哪里，去教室，去图书馆，去上厕所，去宿舍，第一天无事发生
-这是我接触到的第一部将失眠的细节给描写出来的。无法快进或是存档，我几乎失去了耐心。终于，第2天，选择肢消失，更像是视觉小说，去这些地方的顺序也是固定的。一些细节分差，TRPG要素，也许是为了让游戏不会过分沉闷。第3天依旧，且没有快进，我只能快速敲击键盘。Endless
-第4天，消失的选择支重现
-第六天以后我不再玩了。
-在游戏评论区有位技术大佬称他拆了游戏包，在第2天以后以为是重复，TRPG要素，加上一些细微分差，随机，用有限模拟无穷，利用玩家缺乏耐心，不会有人玩到十天以后。而发现重复一般需要两千多天。它躺在我的硬盘里很久了，作者只是在模仿一些神经官能症患者的征状，比如刻板行为。
-后来我发现它可能并不是单机游戏。我对电脑一窍不通，但不想让别人的延伸触摸我硬盘这片处女地，每次它出故障都这样。从搜索引擎上找解决方法，而非求助他人。宁可失去所有存档，也不想面对好奇的询问，回答那些该死的问题。
-由此多少了解到用命令行检查网络使用情况的方法。游戏在联网方面做得很隐蔽。我感到诧异的地方是，当我断开网络连接以后它依旧可以连上。一个小把戏，修改图形界面的显示，移走按钮以欺骗我。
-也许它在窃取我的信息，也许我应该向网站管理员报告这件事，但无关紧要，一个孤独的偷窥狂。谁也〔看不懂这几个字写的是什么〕与开发者见面发生在&lt;/p&gt;</description>
+或许我会重置它，赋予它（至少我觉得）更加有趣的解释。但毕竟它不是「我」写的。而我已经不再想要将过去一笔勾销。To be honest，录入这个东西的时候我真的很嫌弃它：没有check定义就乱写自己没有完全搞清楚的东西，名词党的臭毛病。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>在消失的差異與鏡面的空白之間</title>
-      <link>/blog/20220826_cokernels/</link>
+      <link>https://updown.city/blog/20220826_cokernels/</link>
       <pubDate>Fri, 26 Aug 2022 22:08:26 +0000</pubDate>
       
-      <guid>/blog/20220826_cokernels/</guid>
+      <guid>https://updown.city/blog/20220826_cokernels/</guid>
       <description>&lt;p&gt;或許可以理解爲平行世界的一個小故事：不同於《神譴》，這裏路西法變成的是一個與伊薩爾年齡差不多的(美)少年：冒充的不再是那個不請自來的小屁頭，而是一個神祕的轉校生（當然名字依舊叫路西菲爾）。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;寫於2021年9月；&lt;/li&gt;
 &lt;li&gt;是一個不會填的坑：我已經不再是一年前寫下它的那個人，所以沒有資格隨意填補/破壞那個人留下的坑。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;「我小時候你是不是其實很討厭我，只是爲了裝風度才沒有明顯地表現出來？」&lt;/p&gt;
-&lt;p&gt;突然被這樣問，我不知道該怎樣回答。他小的時候我幾乎不認識他，只是由於他父親的緣故與他有過幾面之緣。見面也無非是和雷諾還有愛麗絲說些客套話，他過生日的時候按照慣例送些適合小孩子的禮物。具體是什麼早就想不起來了。&lt;/p&gt;
-&lt;p&gt;不過對最後一次見到他的情形我記得很深。那是在光暗三戰的最後，我去耶路撒冷的路上。他淋得溼透，等他父親回來，而我要做的是用摧毀整個耶路撒冷的方式結束戰爭，他的父親會和敵人一同被我殺死。當時不想對小孩子直接說他父親已經回不來了，讓他別再等下去。於是我告訴他，等泥坑被水填滿，他父親就會回來。&lt;/p&gt;
-&lt;p&gt;後來耶路撒冷變成蒸汽，我飛回聖浮里亞。毀滅一座城市無論是對於我還是對於耶和華而言都是極平常的事，耶和華修改他的新作時剛用硫磺和火讓索多瑪和蛾摩拉變成灰燼。那傢伙對偶像崇拜特別敏感，生怕被某個確鑿的形象取而代之。&lt;/p&gt;
-&lt;p&gt;從遠處看到他還站在水坑旁邊淋雨的時候，卻突然感受到了內疚，一種對於那時的我而言極爲陌生的情緒。後來也是如此，我所有的悔恨都來自於他。&lt;/p&gt;
-&lt;p&gt;回到光耀殿時我發現自己下意識地繞了很遠的路，不讓自己出現在那孩子的視野中。那個比喻再明顯不過，我不知道他究竟是沒有聽懂我說的話，還是什麼都已明瞭，卻選擇繼續他無望的期待。這個疑問一直沒有得到確認，因爲在那以後他就失蹤了。聖浮里亞沒有人去找他。彷彿他從未存在過，或者很久以前就已經死了。我查過米迦勒出生的年份，發現他的童年比我還要長，就好像註定會永遠留在童年一樣。他失蹤時看上去和我後來變成小孩住在伊撒爾家里時差不多大。出於這個原因，我對他感到有些親近。當時我以爲他死去了，只是聖浮里亞不想爲小孩子辦葬禮，就當成失蹤，因爲沒過多久『與神相似者』這個名字就變成了從創世以來便一直空缺着的稱號。&lt;/p&gt;
-&lt;p&gt;耶和華說米迦勒是祂的敗筆，在幼年階段卡了一千多年總是無法長出六翼，兩千多歲還是個愚癡的孩童。那時我還沒有發現耶和華與米迦勒之間真正的關聯，只預言到自己會和叫這個名字的天使有一段刻骨銘心的愛戀，最終的謀反時與他對峙並被他打敗，他成爲繼任天使長，之後的兩萬年我們的關係則處於偶爾在魔界偷情的狀態，再往後就越來越模糊了。&lt;/p&gt;
-&lt;p&gt;爲情所困的低級錯誤嗎？連個預言都比梅丹佐的笑話好笑不知道多少倍。&lt;/p&gt;
-&lt;p&gt;所有神族都習慣使然地對預言無動於衷，我也是直到出現反叛天界的念頭的時候才感到這種無動於衷有點奇怪。而我是除耶和華以外惟一掌握時間系魔法的神族，因此惟一的對手便是耶和華。當時我不會意識到這句話是多麼地有預言感。耶和華與我對峙時使用的身份就是那個被我一笑置之的預言里的米迦勒。&lt;/p&gt;
-&lt;p&gt;兩千多年後，耶和華突然變得遲鈍到像是腦子生鏽或者進水了，總是保持沉默，問什麼都是耶穌在回答。從當祂的副君開始，這是第一次出現五個月以來都沒人和我鬥嘴的情況。實在百無聊賴，我就去下層閒蕩。在希瑪發現希瑪人邋遢得無可救藥，在耶路撒冷發現耶路撒冷人比希瑪人還要無可救藥。三戰時只是在高空很遠地看到這座城市，上一次來這裡還只有荒原。我做夢也沒有想到接下來自己會住在耶路撒冷，以爲回去以後就再也不想來這鬼地方了。&lt;/p&gt;
-&lt;p&gt;然後我見到了眼睛像太陽一樣明亮的紅髮天使，是剛長成少年的米迦勒，依舊只有四翼。於是我收起一對翅膀跟在他後面，維持一段既不會被發現也不會跟丟的距離。他一定不願意見到我，雷諾的死法是天界的常識，他很清楚他父親是誰殺死的。&lt;/p&gt;
-&lt;p&gt;我就這樣跟了他一整天，他回家睡覺，我還不想回光耀殿，就在他住的小區里轉了一圈熟悉地形，又溜到他窗戶面前看一眼他睡覺的樣子，才回聖浮里亞。&lt;/p&gt;
-&lt;p&gt;第二天我就蹺了朝會溜去前一天很嫌棄的耶路撒冷，那是個晝夜交替的城市，我趕到時沒有錯過日出。米迦勒很能睡，一覺睡到中午，早飯和午飯作一頓吃。我在他屋頂的拐角蹲了一上午。下午他去小餐館打工，那鬼地方又臟又沒地方可藏，只好又等一個下午。後來我知道他並不缺錢，他從耶穌那裡得到祕密的經濟支持，但數額控制得剛好只夠他日常生活，談戀愛送禮物就得去打工。晚上他去書店，躲在一個老闆發現不了的角落偷看小黃書。他並不笨，佔據了整間書店惟一的理想死角。結果我險些被他和老闆同時發現。&lt;/p&gt;
-&lt;p&gt;第三天是耶和華的休息日，我旁觀了他和情人的約會。他現在的名字是『伊撒爾』，耶和華送給雅各的名字。或許那不是情人，只是他的同班同學。他們走遍中心城區的大街小巷，他從路邊攤買了些小禮物送给那女孩，聊的話題卻無外乎作業與考試。他很紧张，小心翼翼地搜索話題。有時他講的冷笑話只比梅丹佐略勝一籌，有時能逗得那個女孩咯咯直笑。傍晚在中心廣場分別後他進書店繼續看前一天晚上的小黃書。整個白天他們都只是在斷斷續續地聊天，沒有牽手也沒有接吻。這一天我經常莫名奇妙地陷入神遊，有時甚至兜帽掉下來都沒有意識到。於是伊撒爾發現他被跟蹤了，他檢查過兩遍門鎖和窗戶的插銷，把錢包摟在懷裡才關燈睡覺。&lt;/p&gt;
-&lt;p&gt;第四天耶穌杵在我門口，我不想和他吵架，只好去朝會，坐在莫名奇妙變成呆子的耶和華旁邊發呆。&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
       <title>樂不思蜀</title>
-      <link>/blog/20220826_ewige-wiederkunft/</link>
+      <link>https://updown.city/blog/20220826_ewige-wiederkunft/</link>
       <pubDate>Fri, 26 Aug 2022 21:09:17 +0000</pubDate>
       
-      <guid>/blog/20220826_ewige-wiederkunft/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>https://updown.city/blog/20220826_ewige-wiederkunft/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
       <title>因為一切快樂要求永恆</title>
-      <link>/blog/20210917_everless/</link>
+      <link>https://updown.city/blog/20210917_everless/</link>
       <pubDate>Fri, 17 Sep 2021 05:26:00 +0000</pubDate>
       
-      <guid>/blog/20210917_everless/</guid>
+      <guid>https://updown.city/blog/20210917_everless/</guid>
       <description>&lt;p&gt;搬运自&lt;a href=&#34;https://archiveofourown.org/works/41209500&#34;&gt;Ao3&lt;/a&gt;，metadata里的日期也手动调成2021年9月，17日选的是一个bloomsday（记下bloomsday具体日期的习惯到了2022就渐渐被遗忘了。）&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;寫於2021年9月的天神右翼同人；保持原樣直接上傳不敢亂改。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;我將所有無關緊要的記憶從身體里抽離，然後將黏稠的液塊封裝進路西法四年前送給我的水晶球里。當時我幾乎是逼問出了他的真名和住址，然後我們坐在公寓屋頂徹夜長談。裝載了單一軌跡的水晶球意外地清晰明亮，相比之下那些用來預測未來的空白水晶球就顯得晦暗模糊了。
-完成以後我感到一切都很完整，並沒有失去什麼。我似乎突發奇想地開始打掃起倉庫來，扔掉了些無關緊要的雜物。
-路西法變得很奇怪，我剛從下層天搬到聖浮里亞，就算認識他，也只不過是很小的時候因爲父親的緣故與他有過幾面之緣，他卻發瘋地敲我的門，說我丟棄了他所能獻上的最大一份美好。是很久以前的禮物嗎，我問他。他突然握住我的手腕，問我既然如此爲什麼還要留下這個。右手上有一條很陌生的銀鍊，是他以前送的禮物嗎，於是我摘下還給他，儘可能禮貌地向他解釋我絕對沒有偷他的東西，根本不知道銀鍊爲什麼會出現在我的手上。不知道他受了什麼刺激，作爲天國副君，整個世界幾乎都是他的，他隨時可以得到他想要的一切，不至於因爲丟了東西就找陌生人發瘋。他叫我『伊撒爾』。不認識，您找錯人了，我叫米迦勒·亞特拉，如果您需要找人，我願意效勞。話雖如此我只想儘快送客。沒記錯的話，路西法應該是我的頂頭上司，我真的不想剛來就冒犯他。他握得很緊，手腕很痛，我試圖後退，腦袋磕到了櫃門，慘叫一聲，在心底罵了句白癡房東。路西法見狀鬆開了我的手，試圖摸我的後腦，見我要躲就收回了手，只是站得離我很近，定定地看着我，眼眶通紅，臉色蒼白。我不知道他是快哭了還是快發瘋了。後來他搖搖晃晃地離開，在樓道里似乎沒站穩摔了一跤。很奇怪，他身上沒有酒味，所以應該不是喝多了。我就算天界第一呆，也不敢把副君殿下找錯人還表現得這麼丟臉的事說出去。&lt;/p&gt;
-&lt;p&gt;後來聽說路西法失蹤了，是他的追隨者之一阿撒茲勒在耶路撒冷一個犄角旮旯的小公寓里找到。據小道消息稱，當時他倒在地上昏迷不醒，手心里緊緊攥著一條和手腕上戴着的一模一樣的銀鍊。不知道這故事是不是口耳相傳中被添油加醋過。銀鍊的事應該是真的。但我真的沒偷他東西啊。&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;寫於2021年9月的天神右翼同人；保持原樣直接上傳不敢亂改。&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

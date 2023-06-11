@@ -2,110 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>毕业论文 on 你快樂嗎</title>
-    <link>/tags/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87/</link>
+    <link>https://updown.city/tags/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87/</link>
     <description>Recent content in 毕业论文 on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 12 May 2023 16:29:55 +0800</lastBuildDate><atom:link href="/tags/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 May 2023 16:29:55 +0800</lastBuildDate><atom:link href="https://updown.city/tags/%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>提交终稿前源文件与终稿的PDF都搞丢了</title>
-      <link>/blog/20230512_source-code-of-my-theis-vanished-before-submitting-the-final-version/</link>
+      <link>https://updown.city/blog/20230512_source-code-of-my-theis-vanished-before-submitting-the-final-version/</link>
       <pubDate>Fri, 12 May 2023 16:29:55 +0800</pubDate>
       
-      <guid>/blog/20230512_source-code-of-my-theis-vanished-before-submitting-the-final-version/</guid>
+      <guid>https://updown.city/blog/20230512_source-code-of-my-theis-vanished-before-submitting-the-final-version/</guid>
       <description>&lt;p&gt;因为作死…详见下一篇[近况]。安装Ubuntu之前忘记备份。意料之外是又白嫖了一个月的WinEdt。现在正在生无可恋地对着初稿敲LaTeX代码。&lt;/p&gt;
 &lt;p&gt;初稿里有一个很明显的错误（系数问题…虽然很idiotic，但这个东西我的确&lt;strong&gt;一直以来都搞错了&lt;/strong&gt;，值得写篇blog（还没写…应该不会坑掉…）……有些东西读的时候会让人觉得trivial/wordy，然而这只是我们理解的不足。然而答辩组的老师们只看到了格式问题（首行缩进与标错的序号…）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>免責聲明寫像是在把寫錯的地方甩鍋給BBD</title>
-      <link>/blog/20230423_thesis-disclaimer/</link>
+      <link>https://updown.city/blog/20230423_thesis-disclaimer/</link>
       <pubDate>Sun, 23 Apr 2023 18:39:22 +0800</pubDate>
       
-      <guid>/blog/20230423_thesis-disclaimer/</guid>
+      <guid>https://updown.city/blog/20230423_thesis-disclaimer/</guid>
       <description>&lt;p&gt;应要求写了个免责声明：「本人并不声称内容具有原创性（No originality is claimed）」。然后感觉这个写得就好像是在把写错的地方全都甩锅给BBD。所以现在一点也不想检查了。（在毕业论文这件事上卡得太久，已经感到厌烦。这段时间没有看书，也没有写日记，我也变得很无趣。（所以先消失一段时间）所有的东西都是不可控的，我也无法重新拼凑出我自己。）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>所以字数统计规则到底是什么鬼</title>
-      <link>/blog/20230418_word-count/</link>
+      <link>https://updown.city/blog/20230418_word-count/</link>
       <pubDate>Tue, 18 Apr 2023 18:56:55 +0800</pubDate>
       
-      <guid>/blog/20230418_word-count/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>https://updown.city/blog/20230418_word-count/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
       <title>LaTeX吐槽贴</title>
-      <link>/blog/20230409_fucking-latex/</link>
+      <link>https://updown.city/blog/20230409_fucking-latex/</link>
       <pubDate>Sun, 09 Apr 2023 11:17:33 +0800</pubDate>
       
-      <guid>/blog/20230409_fucking-latex/</guid>
-      <description>&lt;p&gt;我觉得对自己所研究的事物热爱还是厌倦是因人而异的，但对系统的恨是universal的。（然而系统依旧存在着：…或许这也是我如此确信惯性是远比感情与意志更为本质与深刻的东西的原因吧，只有极少数时候人才能够挣脱重力而存在。）&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;DDL是第一生产力&lt;/strong&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;看来是编辑器的锅。VSCode编译不出来我就换用TeXLive附带的TeXworks，结果还是不行。感觉今天这俩除了报错和转圈圈啥也不会。Texworks editor does not work at all unless I commented all commutative diagrams. 然后换了WinEdt。（很好用，就是太贵了。）&lt;/p&gt;
-&lt;p&gt;（偶然想到…&lt;/p&gt;
-&lt;p&gt;为什么所有的交换图都编译不出来了为什么所有的交换图都编译不出来了&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;% TODO
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;% - [ ] avoid/remove unnecessary inventions
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;% - [ ] check the order of propositions and footnotes
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;% - [ ] remove wordy footnotes
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;% - [ ] check missing explainations and definitions
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;% - [ ] check and remove ugly expressions
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;还是打不出sheaf Hom，不知道Hartshorne书上的那些是怎么弄出来的。凑了个显然不合格的&lt;code&gt;\mathscr{H}\kern -2pt \mathit{om}&lt;/code&gt;（把字体换成GTM281里的&lt;code&gt;\usepackage[mathscr]{euscript}&lt;/code&gt;）一开始写的是&lt;code&gt;2px&lt;/code&gt;，然后从pdftex换到xetex的时候就到处报错。（check了一下学校的文档发现要求西文字体是Times New Roman，默认的CMU系列和Times区别有点大，fontspec又不支持pdftex。这东西真的不适合脑子不好使的人（指我）&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;#居然可以这样写&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\def\-&lt;/span&gt;#1&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\mathscr&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;#1&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;\def\+&lt;/span&gt;#1&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\mathscr&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;#1&lt;span class=&#34;nb&#34;&gt;}^&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\bullet&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;疯狗乱咬人般的LaTeX吐槽。不过吐槽归吐槽，我也知道，由于强迫行为的影响，手写notes对我来说有时远比折腾LaTeX困难（……即便充满commutative diagram）。&lt;/p&gt;
-&lt;p&gt;谢天谢地有这两个符号：&lt;code&gt;\imath&lt;/code&gt;与&lt;code&gt;\jmath&lt;/code&gt;，输出是不带点的i与j：(\imath,\jmath)，可以用它们写immersion，用普通的(i,j)写index。&lt;/p&gt;
-&lt;p&gt;什么鬼，sheaf Hom 打不出来。网页上可以正常输出(\mathscr{Hom})与(\mathcal{Hom})，然而在我的编译器里，它们不支持小写字母：&lt;code&gt;\mathscr{Hom}&lt;/code&gt;只出现一个花体的H：$\mathscr{H}$；&lt;code&gt;\mathcal{Hom}&lt;/code&gt;会出现一坨这个东西&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;天下苦LaTeX也久矣。因为画不出标准版的TR4图，把它改写成了这个形状，虽然丑了点（后面会解释它到底丑到什么程度），但还算好记：
-沿用维基百科里的记号
-&lt;!-- raw HTML omitted --&gt;
-换一下morphisms的变量名
-&lt;!-- raw HTML omitted --&gt;
-对照
-$l=gm \leftrightsquigarrow b[1]=\beta’[1]\beta’’$&lt;!-- raw HTML omitted --&gt;
-$k=nf \leftrightsquigarrow  a[1]=\alpha’[1]\alpha’’$&lt;!-- raw HTML omitted --&gt;
-$ig=u[1]n \leftrightsquigarrow b’\beta’=a’\alpha’$&lt;!-- raw HTML omitted --&gt;
-$fj=mv \leftrightsquigarrow \beta’’ b’=\alpha’’ a’’$
-（还没检查有没有符号写错）
-（虽然搞丢太多次已经能记住了但每次检查好麻烦。）&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;前面那个改写真的很丑&lt;/strong&gt;（把符号弄得很乱）
-原版可以漂亮地用Lisp的括号记为
-&lt;code&gt;(- X Y)=: Z&#39;&lt;/code&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;code&gt;(- Y Z)=: X&#39;&lt;/code&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;code&gt;(- X Z)=: Y&#39;&lt;/code&gt;&lt;!-- raw HTML omitted --&gt;
-（不是标准语法…数学这里用不到quote所以把它视为变量名的一部分了，以及那个&lt;code&gt;=:&lt;/code&gt;是我实在找不到符号自己写的）
-所生成的$Z’\to Y’\to X’$也就是&lt;!-- raw HTML omitted --&gt;
-&lt;code&gt;(- (- X Y) (- X Z))=:(- Y Z)&lt;/code&gt;&lt;!-- raw HTML omitted --&gt;
-与$Y/X\to Z/X\simeq Z/Y$长得已经很像了，不过cofiber/cone可以标记特定的morphism，不再依赖于quotient预设。
-还有就是把(X[1])写成&lt;code&gt;-X&lt;/code&gt;，$Y\to Z\to X[1]$也就是&lt;!-- raw HTML omitted --&gt;&lt;code&gt;(- Y (- X Y))=: -X&lt;/code&gt;&lt;!-- raw HTML omitted --&gt;
-Lisp的写法可以让字母的摆放顺序和箭头版本的一致，转化的时候直接抄就可以了不用担心写反。&lt;/p&gt;
-&lt;p&gt;这个写法的缺陷在于对等宽字体的依赖：空格的作用是标记不同的语言原子，手写的话空格会看不清楚。
-尝试改了下，把&lt;code&gt;(- X Y)=: Z&#39;&lt;/code&gt;写成[-X:Y]&lt;!-- raw HTML omitted --&gt;u&lt;!-- raw HTML omitted --&gt;=:Z’，虽然用LaTeX字体写出来有点丑：$[-X:Y]_u=:Z’$，不过至少结构本身很好看。&lt;/p&gt;
-</description>
+      <guid>https://updown.city/blog/20230409_fucking-latex/</guid>
+      <description>我觉得对自己所研究的事物热爱还是厌倦是因人而异的，但对系统的恨是universal的。（然而系统依旧存在着：…或许这也是我如此确信惯性是远比</description>
     </item>
     
     <item>
       <title>當你在寫關於t-structure的內容時聽到一首shape of my heart</title>
-      <link>/blog/20230404_when-writing-thesis/</link>
+      <link>https://updown.city/blog/20230404_when-writing-thesis/</link>
       <pubDate>Tue, 04 Apr 2023 01:08:41 +0800</pubDate>
       
-      <guid>/blog/20230404_when-writing-thesis/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-</description>
+      <guid>https://updown.city/blog/20230404_when-writing-thesis/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>我的論文消失了</title>
-      <link>/blog/20230319_my-thesis-vanished/</link>
+      <link>https://updown.city/blog/20230319_my-thesis-vanished/</link>
       <pubDate>Sun, 19 Mar 2023 23:45:35 +0000</pubDate>
       
-      <guid>/blog/20230319_my-thesis-vanished/</guid>
-      <description>&lt;p&gt;打開發現只剩下一片狼藉（頭文件）或許是按錯了熱鍵，或許是（空缺的主語）在提醒我不可以那樣為了寫論文停在原地。我現在對$\mathcal{D}$-module很好奇。（論文應該是建立在日常的積累之上的，而不是臨時生搬硬湊的。我其實是有筆記的，只是它們混亂到讓人窒息（事實上我很少碰它們）。因為過去的記錄太過混亂，所以無力去整理和搜索，每次只好再重寫一遍，這種重複又帶來新的混亂。）&lt;/p&gt;
-</description>
+      <guid>https://updown.city/blog/20230319_my-thesis-vanished/</guid>
+      <description>打開發現只剩下一片狼藉（頭文件）或許是按錯了熱鍵，或許是（空缺的主語）在提醒我不可以那樣為了寫論文停在原地。我現在對$\mathcal{D}</description>
     </item>
     
   </channel>

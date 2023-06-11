@@ -2,129 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>日誌 on 你快樂嗎</title>
-    <link>/tags/%E6%97%A5%E8%AA%8C/</link>
+    <link>https://updown.city/tags/%E6%97%A5%E8%AA%8C/</link>
     <description>Recent content in 日誌 on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 06 Apr 2023 18:42:31 +0800</lastBuildDate><atom:link href="/tags/%E6%97%A5%E8%AA%8C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Apr 2023 18:42:31 +0800</lastBuildDate><atom:link href="https://updown.city/tags/%E6%97%A5%E8%AA%8C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>从顶栏脱落下来的changelog页</title>
-      <link>/blog/20230406_archived-changelog-02/</link>
+      <link>https://updown.city/blog/20230406_archived-changelog-02/</link>
       <pubDate>Thu, 06 Apr 2023 18:42:31 +0800</pubDate>
       
-      <guid>/blog/20230406_archived-changelog-02/</guid>
-      <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;title: 網站日誌
-date: 2023-03-18 22:41:49
-hidden: true
-featured_image: &amp;#34;/images/art.pixilart.com@e1732a4045e2bc7.gif&amp;#34;
-menu:
-  main:
-    name: &amp;#39;網站日誌&amp;#39;
-    weight: 5
-categories: “stack” &amp;lt;br&amp;gt;
-tags: [“碎碎念”, “网站”]
-2023-03-22
-
-从NameSilo买了域名`updown.city`（为了防止我删库跑路），比隔壁狗爹(GoDaddy)友好很多 ~~除非你很讨厌洋文~~
-
-2023-03-20
-
-搬家到Hugo（…因为快）
-
-放置了一个**加载非常缓慢且很可能除了报错什么也不会**的留言板；
-**备份**默认的字体配置（目前我只在后面加了微软雅黑（阻止衬线与等宽的中文fallback到宋体）。不过很难期待ugly-blue的作者会愿意认真考虑可读性问题。）
-
-2023-03-29
-
-通过沙盒回归旧的景观，缓慢搬运。果然我不喜欢我的「丑陋的忧郁」。`2023-03-19`
-第一次添加友链（又是丢失的时间戳，就像那些虫蜕。）
-把原本装在injector里的内容取出然后放入主题文件夹里的`head.ejs`（……因为landscape已经很久都没有更新了，我可以放心地改主题文件，无需考虑更新时我的配置被覆写什么的。）
-换掉了changelog页(为什么); （时间戳丢失）
-
-```yaml
----
-title: 装配记录
-date: 2023-03-12 02:28:47
----
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;写论文摸鱼的时候逛&lt;a href=&#34;https://hexo.io/themes/&#34;&gt;Hexo主题&lt;/a&gt;，始终没有找到合我心意的主题。于是动手制作这个临时被我命名为&lt;code&gt;ugly-blue&lt;/code&gt;的主题（原名是&lt;code&gt;ugly-html&lt;/code&gt;，但它并不是纯HTML所以就改成了现在这个「丑陋的忧郁」…另一个待选名称是&lt;code&gt;it-just-works&lt;/code&gt;，目前整个文件夹只有&lt;code&gt;2.47KB&lt;/code&gt;(……CSS什么的都被我喂进了&lt;code&gt;injector.js&lt;/code&gt;)……效果近似于破损的默认主题，但它至少是能用的。（…就像觉得perverse sheaf难听的人可以选择用hypersheaf这个名字）目前想做的是仿照Emacs默认主题配置按钮。
-加入了moults虫蜕页面，用来记录那些死去[?]并且被我遗忘的网站（或许某一天我会像说“太阳升起来了”一样说这些网站是属于我的…），想法来自disroot bin的&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;这条留言&lt;/a&gt;。我的记忆力有时相当糟糕，有时我甚至感到我的生命是不连续的。&lt;/p&gt;
-</description>
+      <guid>https://updown.city/blog/20230406_archived-changelog-02/</guid>
+      <description>title: 網站日誌 date: 2023-03-18 22:41:49 hidden: true featured_image: &amp;#34;/images/art.pixilart.com@e1732a4045e2bc7.gif&amp;#34; menu: main: name: &amp;#39;網站日誌&amp;#39; weight: 5 categories: “stack” &amp;lt;br&amp;gt; tags: [“碎碎念”, “网站”] 2023-03-22 从NameSilo买了域名`up</description>
     </item>
     
     <item>
       <title>從頂欄脫落下來的About頁</title>
-      <link>/blog/20230406_archived-about-01/</link>
+      <link>https://updown.city/blog/20230406_archived-about-01/</link>
       <pubDate>Thu, 06 Apr 2023 18:41:54 +0800</pubDate>
       
-      <guid>/blog/20230406_archived-about-01/</guid>
-      <description>&lt;p&gt;你为什么要把它们摘下来。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;將我遺忘在海邊吧&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;date&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;ld&#34;&gt;2023-03-17 22:57:31&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;hidden&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;featured_image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&amp;amp;#34;/images/art.pixilart.com@e1732a4045e2bc7.gif&amp;amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;menu&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&amp;amp;#39;關於我&amp;amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;weight&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&amp;amp;#39;7&amp;amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;toc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;簡繁切換是手動進行的（因為我很在意文字的形狀……）&lt;/p&gt;
-&lt;p&gt;我從Waline管理員頁面是可以刪除評論的，所以如果某一天你想要從我所觸及到的世界徹底消失，抹除一切可見的痕跡，可以郵件聯繫我：&lt;code&gt;jamais-vu@tutanota.com&lt;/code&gt;。（就好像寫這樣一個聲明可以帶給訪客安心的感覺。你真的這麼想嗎。）&lt;/p&gt;
-&lt;p&gt;Powered by &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; with &lt;a href=&#34;https://github.com/mrmierzejewski/hugo-theme-console/&#34;&gt;Console Theme&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;留言&#34;&gt;留言 &lt;a href=&#34;#%e7%95%99%e8%a8%80&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;郵箱 &lt;code&gt;jamais-vu@tutanota.com&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;關鍵字&#34;&gt;關鍵字 &lt;a href=&#34;#%e9%97%9c%e9%8d%b5%e5%ad%97&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&lt;h3 id=&#34;ugly-blue&#34;&gt;&lt;code&gt;ugly-blue&lt;/code&gt; &lt;a href=&#34;#ugly-blue&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;code&gt;ugly-blue&lt;/code&gt;是一個只用了兩天就被換掉的自制hexo主題，其實它也沒有那麼醜，&lt;code&gt;ugly&lt;/code&gt;可以理解為前綴或語氣詞。它被換掉只是因為站長比較依戀默認主題的安心感。2023-03-20&lt;/p&gt;
-&lt;h3 id=&#34;蟲蛻&#34;&gt;蟲蛻 &lt;a href=&#34;#%e8%9f%b2%e8%9b%bb&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;站長的記憶力非常糟糕以至於經常感到生命是不連續的：如果將普通的睡眠（帶來的不連續）比作關機重啟，那麼這裡的不連續可以理解為各種原因帶來的文件丟失（有時這種丟失甚至是難以覺察的。）2023-03-20&lt;/p&gt;
-&lt;h3 id=&#34;站長是誰&#34;&gt;站長是誰 &lt;a href=&#34;#%e7%ab%99%e9%95%b7%e6%98%af%e8%aa%b0&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;按&lt;code&gt;Ctrl+C&lt;/code&gt;你會得到一個HTML文件（以及掉在旁邊的一個文件夾），站長就是這個鬼東西。2023-03-20&lt;/p&gt;
-&lt;h3 id=&#34;我是誰&#34;&gt;我是誰 &lt;a href=&#34;#%e6%88%91%e6%98%af%e8%aa%b0&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;前兩天我的校園卡丟了但沒有發現直到晚上打開洗澡用的企業微信發現裡面有一條消息讓我去指定的一棟宿舍樓去領回，去年的比這稍晚些的時候，學校通知打第三針疫苗然後我發現身份證已經像舊的眼鏡那樣被搞丟了。不過即便這兩件事情同時發生（也就是存在某個時間段我既找不到身份證也找不到校園卡），我也依舊能夠回到這裡（也就是你剛才下載的那個HTML文件（或許你不會真的下載它）的路。（我不是故意的……自然狀態下我的語言就是這個樣子的你在別處看到能夠閱讀的段落是因為我認真地進行了斷句和整理。）2023-03-20 (你同樣無法期待這個掉落過很多蟲蛻的作者會有一個固定的時間戳格式) 這段保留未經整理的形狀的文本可以作為我的sample。&lt;/p&gt;
-&lt;h3 id=&#34;你是誰&#34;&gt;你是誰 &lt;a href=&#34;#%e4%bd%a0%e6%98%af%e8%aa%b0&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;如果你想回答這個問題可以使用下面的留言板或者（如果Valine壞了）&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;Disroot Bin&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://lzx897.world&#34;&gt;隱藏&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://updown.city/blog/20230406_archived-about-01/</guid>
+      <description>你为什么要把它们摘下来。 title: 將我遺忘在海邊吧 date: 2023-03-17 22:57:31 hidden: true featured_image: &amp;amp;#34;/images/art.pixilart.com@e1732a4045e2bc7.gif&amp;amp;#34; menu: main: name: &amp;amp;#39;關於我&amp;amp;#39; weight: &amp;amp;#39;7&amp;amp;#39; toc: false 簡繁切換是手動進行的（因為我</description>
     </item>
     
     <item>
       <title>貼一個醜醜的雨傘</title>
-      <link>/blog/20230317_emacs-initialization/</link>
+      <link>https://updown.city/blog/20230317_emacs-initialization/</link>
       <pubDate>Fri, 17 Mar 2023 23:59:59 +0000</pubDate>
       
-      <guid>/blog/20230317_emacs-initialization/</guid>
-      <description>&lt;p&gt;如果你發現我突然失蹤從網絡空間失蹤，&lt;del&gt;就像死了一樣&lt;/del&gt;留言板裡也沒有任何回應，那麼情況很可能是：我的狀態太糟糕了，只好把所有的文字觸鬚都蜷縮起來，臨時切斷我與我所愛的世界的聯繫，直到我能夠重新頂著發燙的腦袋出去。&lt;/p&gt;
-&lt;p&gt;默認主題landscape壞了：用了一整天的時間寫Hexo主題，然後整理好發佈到獨立的&lt;a href=&#34;ugly&#34;&gt;GitHub倉庫&lt;/a&gt;裡。從&lt;code&gt;ugly-blue&lt;/code&gt;（醜陋的憂鬱）這個名字就可以看出作者對世界的惡意。（最早的名字是&lt;code&gt;ugly-html&lt;/code&gt;，後來也想過&lt;code&gt;ugly-emacs-style&lt;/code&gt;（因為這個主題的終極目標(?)是仿製Emacs默認UI），也有一個比較友好的名字是&lt;code&gt;it-just-works&lt;/code&gt;（就像hypersheaf之於perverse sheaf…）。
-寫博客主題就像塗秘密花園。然而，最初用landscape時的那種安心感無論如何都已經不復存在了。某種意義上，我更願意使用別人製作好的東西，以削弱時光虛擲的負罪感（我終於寫出來了：這種負罪感本身的不堪使得它難以被文字所固定。它通常會滑向那句抽象廢話：我不想成為我自己。）&lt;/p&gt;
-&lt;p&gt;去年接觸Emacs是從入門到放棄，今年&lt;!-- raw HTML omitted --&gt;這位神人的文章&lt;!-- raw HTML omitted --&gt;重新觸發了我對Emacs的興趣（甚至開始想學Lisp）&lt;code&gt;2023-03-14&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;貼一個醜醜的雨傘 2023-03-19&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-</description>
+      <guid>https://updown.city/blog/20230317_emacs-initialization/</guid>
+      <description>如果你發現我突然失蹤從網絡空間失蹤，就像死了一樣留言板裡也沒有任何回應，那麼情況很可能是：我的狀態太糟糕了，只好把所有的文字觸鬚都蜷縮起來，</description>
     </item>
     
     <item>
       <title>部署失败</title>
-      <link>/blog/20230308_stacked-logs-02/</link>
+      <link>https://updown.city/blog/20230308_stacked-logs-02/</link>
       <pubDate>Wed, 08 Mar 2023 10:00:59 +0000</pubDate>
       
-      <guid>/blog/20230308_stacked-logs-02/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;&lt;code&gt;&amp;lt;blockquote&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-</description>
+      <guid>https://updown.city/blog/20230308_stacked-logs-02/</guid>
+      <description>&amp;lt;blockquote&amp;gt;</description>
     </item>
     
     <item>
       <title>标题找不到了</title>
-      <link>/blog/20230216_stacked-logs-01/</link>
+      <link>https://updown.city/blog/20230216_stacked-logs-01/</link>
       <pubDate>Thu, 16 Feb 2023 21:52:31 +0000</pubDate>
       
-      <guid>/blog/20230216_stacked-logs-01/</guid>
-      <description>&lt;p&gt;无意中点进一个叫墨滴的社区，然后看到一篇&lt;!-- raw HTML omitted --&gt;声讨Notepad++的文章&lt;!-- raw HTML omitted --&gt;。作者嫌弃Notepad++的政治倾向，不类似于我嫌弃同路人&lt;!-- raw HTML omitted --&gt;对那些ugly序结构的兴趣&lt;!-- raw HTML omitted --&gt;吗。2023-02-20 20:34&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-</description>
+      <guid>https://updown.city/blog/20230216_stacked-logs-01/</guid>
+      <description>无意中点进一个叫墨滴的社区，然后看到一篇声讨Notepad++的文章。作者嫌弃Notepad++的政治倾向，不类似于我嫌弃同路人对那些ugl</description>
     </item>
     
     <item>
       <title>關於寫博客的动机</title>
-      <link>/blog/20230216_motivation-of-this-blog/</link>
+      <link>https://updown.city/blog/20230216_motivation-of-this-blog/</link>
       <pubDate>Thu, 16 Feb 2023 16:50:01 +0000</pubDate>
       
-      <guid>/blog/20230216_motivation-of-this-blog/</guid>
+      <guid>https://updown.city/blog/20230216_motivation-of-this-blog/</guid>
       <description>&lt;p&gt;受到&lt;!-- raw HTML omitted --&gt;NekoBox&lt;!-- raw HTML omitted --&gt;站长的个人博客&lt;!-- raw HTML omitted --&gt;Light Cube&lt;!-- raw HTML omitted --&gt;的影响，又一次尝试建站。这回没有迷路，很快就配置成功了。或许是因为电脑里已经安装了依赖项（在过去那些半途而废的尝试里）。接下来就是多写点东西充实这个新的小窝。&lt;/p&gt;
 &lt;p&gt;我曾在用来记录网站配置更新的&lt;!-- raw HTML omitted --&gt;页面&lt;!-- raw HTML omitted --&gt;里写，无法理解我这样做的动机，就像一个偷东西被抓到的小孩子的辩解：「很久以前我就想做个人博客，可总是因为在配置过程中迷路而半途而废；目前无法解释这样做的动机（或许我只是想要与他人分享我所看到的世界（然而这种解释很可疑：因为它所基于的是对我来说非常陌生的感受，分享某样东西的愿望在我过去的生命中是经常被诋毁为虚荣心与优越感的（两个被赋予了道德指责的词语）;」&lt;/p&gt;
 &lt;p&gt;虽然只过了几个小时，但是此刻的心境已经与那时截然不同，现在的我可以很平静(?)地反问，为什么非要在某个熟悉的语言体系里找到可以再现这些陌生的欲望与感受的东西。或许是因为，下午的时候我终于搞清楚derived category到底是什么了。（这些数学发现有时会被我用来赋予自己在这个社会上如此存在着的正当性：当这个正当性不复存在的时候，等待我的就只有那个「关于禁闭与死亡的噩梦」。（为什么不用大家更熟悉的语言解释这个：你只是想要说服你自己，你依旧拥有继续活下去的资格。（到这里我似乎已经在谈论别的什么东西了。）&lt;/p&gt;

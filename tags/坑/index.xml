@@ -2,18 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>坑 on 你快樂嗎</title>
-    <link>/tags/%E5%9D%91/</link>
+    <link>https://updown.city/tags/%E5%9D%91/</link>
     <description>Recent content in 坑 on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 19 Mar 2023 03:55:00 +0000</lastBuildDate><atom:link href="/tags/%E5%9D%91/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Mar 2023 03:55:00 +0000</lastBuildDate><atom:link href="https://updown.city/tags/%E5%9D%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>虛構回憶</title>
-      <link>/blog/20230319_fictional-memory/</link>
+      <link>https://updown.city/blog/20230319_fictional-memory/</link>
       <pubDate>Sun, 19 Mar 2023 03:55:00 +0000</pubDate>
       
-      <guid>/blog/20230319_fictional-memory/</guid>
-      <description>&lt;p&gt;这是一个坑，备用小说标题。&lt;/p&gt;
-</description>
+      <guid>https://updown.city/blog/20230319_fictional-memory/</guid>
+      <description>这是一个坑，备用小说标题。</description>
     </item>
     
   </channel>

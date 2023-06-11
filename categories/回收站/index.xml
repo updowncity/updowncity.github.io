@@ -2,28 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>回收站 on 你快樂嗎</title>
-    <link>/categories/%E5%9B%9E%E6%94%B6%E7%AB%99/</link>
+    <link>https://updown.city/categories/%E5%9B%9E%E6%94%B6%E7%AB%99/</link>
     <description>Recent content in 回收站 on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 18 Feb 2023 20:50:42 +0000</lastBuildDate><atom:link href="/categories/%E5%9B%9E%E6%94%B6%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Feb 2023 20:50:42 +0000</lastBuildDate><atom:link href="https://updown.city/categories/%E5%9B%9E%E6%94%B6%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>旧的About页</title>
-      <link>/blog/20230218_old-about/</link>
+      <link>https://updown.city/blog/20230218_old-about/</link>
       <pubDate>Sat, 18 Feb 2023 20:50:42 +0000</pubDate>
       
-      <guid>/blog/20230218_old-about/</guid>
-      <description>&lt;p&gt;回收时间：&lt;code&gt;2023-05-25 0:14&lt;/code&gt;；
-发送时间：&lt;code&gt;2023-03-17 22:57&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;页面的文件名依旧是bupropion.md，我每天吃的安非他酮；旧的标题「将我遗忘在海边吧」来自安哲的《鹳鸟踟蹰》；曾经用过的另一个放置在网站标题「你快乐吗」下面的subtitle/description「带上蜡烛，我们去罗马干件大事」来自塔克夫斯基的《乡愁》，邮箱名jamais-vu@tutanota.com来自极乐迪斯科；「虫蜕」是我在disroot bin收到的一条&lt;a href=&#34;https://bin.disroot.org/?e6a810fa6d32102a#HJXSJDkGvmHgLPT1ZUMkzxmQqyLg9EmqPEeHrefN5Cta&#34;&gt;留言&lt;/a&gt;；&lt;/p&gt;
-&lt;h3 id=&#34;时间戳遗失&#34;&gt;时间戳遗失 &lt;a href=&#34;#%e6%97%b6%e9%97%b4%e6%88%b3%e9%81%97%e5%a4%b1&#34; class=&#34;anchor&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;标题：将我遗忘在海边吧&lt;/p&gt;
-&lt;p&gt;[常用]标签：&lt;/p&gt;
-&lt;p&gt;#文学沙盒 用于存放不负责任的思考与感受&lt;/p&gt;
-&lt;p&gt;此博客作案工具：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Visual Studio Code&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;突然想要放弃「您好，我也不知道我是谁」这个开场白。我是一个inverse/projective limit，虽然这句话适用于每一个人，但它对我来说格外清晰。2023-02-18&lt;/p&gt;
-</description>
+      <guid>https://updown.city/blog/20230218_old-about/</guid>
+      <description>回收时间：2023-05-25 0:14； 发送时间：2023-03-17 22:57 页面的文件名依旧是bupropion.md，我每天吃的安非他酮；旧的</description>
     </item>
     
   </channel>
