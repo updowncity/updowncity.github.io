@@ -5,8 +5,8 @@
   --color-fg-font-normal: black;
   --color-fg-tiny-line: #e0e0e0;
   --font-default: -apple-system, 
-  BlinkMacSystemFont, "Times New Roman", 'Segoe UI', "Microsoft YaHei", serif;
-  --fonts-serif: "Times New Roman", 'Microsoft Yahei', "Noto Serif CJK", serif;
+  BlinkMacSystemFont, Georgia, "Times New Roman", 'Segoe UI', "Microsoft YaHei", serif;
+  --fonts-serif: Georgia, "Times New Roman", 'Microsoft Yahei', "Noto Serif CJK", serif;
   --fonts-mono: Consolas, "Ubuntu Mono", "Microsoft Yahei", "Noto Sans Mono CJK", monospace;
   --len-1: 0.25rem;
   --len-2: 0.50rem;
@@ -113,9 +113,6 @@ footer,
 .side-cw
 {
   background-color: white;
-  /*box-shadow: 	0px 0px 11px 1px rgba(0,0,0,0.14),
-		0px 0px 19px 14px rgba(0,0,0,0.03);
-  border:	1px solid rgba(0,0,0,0);*/
 }
 /* place header in the center of header-wrapper */
 .header-wrapper {
@@ -229,8 +226,8 @@ footer,
   font-weight: 600;
 }
 
-.header a       { color: var(--color-fg-font-normal); text-decoration: none; }
-.header a:hover {color: var(--color-primary);}
+.header a       { color: var(--color-fg-font-normal); text-decoration: none; font-size: 15px;}
+/*.header a:hover {color: var(--color-primary);}
 /************************/
 /* set up footer layout */
 /************************/
@@ -256,7 +253,6 @@ footer,
 .footer { color: var(--color-fg-font-normal) }
 
 .footer a       { color: var(--color-primary); text-decoration: none; }
-.footer a:hover { color: var(--color-fav-3); }
 
 .footer img {
     display: inline;
@@ -285,7 +281,7 @@ footer,
   content: '#';
   color: #000;
 }
-.list-item .tips a:hover { color:#000;background-color: palegoldenrod; }
+/*.list-item .tips a:hover { color:#000;background-color: palegoldenrod; }*/
 .list-item .title { margin: var(--len-2) 0 var(--len-3) 0; }
 .list-item .tags > *,
 .list-item .categories > *
@@ -455,8 +451,9 @@ footer,
   margin-left: auto;
   margin-right: auto;
 }
+
 .content .anchor {
-  visibility: hidden;
+  visibility: visible;
   color: var(--color-primary);
 }
 .content h1:hover a,
@@ -487,9 +484,10 @@ footer,
   margin: 1.50rem auto;
 }
 #archive .group .key {
-  font-size: var(--font-size-5);
   margin-bottom: var(--len-2);
   font-family: var(--fonts-serif);
+  font-size: var(--font-size-default);
+  font-weight: 400;
 }
 #archive .group .value {
   display: block;
@@ -635,11 +633,8 @@ strong{
   font-weight: 600;
 }
 
-.side-friends a.display{
-  font-size: 16px;
-  color: var(--color-primary);
-}
-.side-cw a,.side-friends a.regular{
+
+.side-cw a,.side-friends a{
   color: var(--color-primary);
 }
 #archive .group .key{
