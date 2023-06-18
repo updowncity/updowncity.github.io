@@ -1032,8 +1032,8 @@ pre .php .xml {
   text-shadow: 1px 3px 3px rgba(0,0,0,0.5);
 }
 *::selection{
-  color: #fff;
-  background-color: #0078d7;
+  color: #000;
+  background-color: #79ffe1;
 }
 
 
