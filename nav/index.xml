@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Navs on 你快樂嗎</title>
+    <link>https://updown.city/nav/</link>
+    <description>Recent content in Navs on 你快樂嗎</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 18 Mar 2023 22:41:49 +0000</lastBuildDate><atom:link href="https://updown.city/nav/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日誌</title>
+      <link>https://updown.city/nav/changelog/</link>
+      <pubDate>Sat, 18 Mar 2023 22:41:49 +0000</pubDate>
+      
+      <guid>https://updown.city/nav/changelog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>關於</title>
+      <link>https://updown.city/nav/about/</link>
+      <pubDate>Fri, 17 Mar 2023 22:57:31 +0000</pubDate>
+      
+      <guid>https://updown.city/nav/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>友链</title>
+      <link>https://updown.city/nav/friends/</link>
+      <pubDate>Sun, 12 Mar 2023 00:38:32 +0000</pubDate>
+      
+      <guid>https://updown.city/nav/friends/</guid>
+      <description>歡迎留言s添加友鏈 this terrible chamber - yet eidetically you A blog - A的存文地</description>
+    </item>
+    
+  </channel>
+</rss>
