@@ -3,20 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://updown.city/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-11T19:19:59+08:00</lastmod>
     <priority>0</priority>
   </url><url>
     <loc>https://updown.city/blog/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2023-07-11T19:19:59+08:00</lastmod>
   </url><url>
-    <loc>https://updown.city/blog/markdown/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/markdown-syntax-guide/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/blog/syntax/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <loc>https://updown.city/init/</loc>
+    <lastmod>2023-07-11T19:19:59+08:00</lastmod>
   </url><url>
     <loc>https://updown.city/bear/</loc>
   </url>

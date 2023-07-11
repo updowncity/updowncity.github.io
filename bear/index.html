@@ -70,8 +70,7 @@
   nav a {
     margin-right: 10px;
   }
-  a{text-decoration: none;color:navy;}
-
+  
   textarea {
     width: 100%;
     font-size: 14px;
@@ -103,6 +102,7 @@
     white-space: pre-wrap;
     font-size: 12px;
     overflow-x: auto;
+	  font-family: Consolas, 'Microsoft Yahei', monospace;
   }
 
   div.highlight pre {
@@ -147,24 +147,32 @@
   }
 
    
-  time{font-family: 'Harriet Text', 'Times New Roman', Georgia, 'Microsoft Yahei', serif;}
+  time{
+	  font-style: normal;
+	  color: #333;}
+  a{
+	  text-decoration: none;
+	  color:navy;
+  }
   ::selection{
-  color: black;background-color: PaleGoldenRod;
-  small{font-size:14px;}
+    color: black;
+	  background-color: PaleGoldenRod;}
+  small{
+    font-size:14px;
+	}
+  nav a:hover{border-bottom: 1px solid navy;}
 </style>
-
 </head>
 
 <body>
-  <header><a href="/" class="title">
-  <h2>你快樂嗎</h2>
-</a>
-<nav><a href="/">默認</a>
+  <header>
+<nav><a href="/">默認[?]</a>
+
+<a href="/blog">目錄/時間軸</a>
+
+
 
 <a href="/bear/">[網站]日誌</a>
-
-
-<a href="/blog">目錄</a>
 
 </nav>
 </header>
@@ -178,8 +186,9 @@
 </p>
 
   </main>
-  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
-</footer>
+  <footer>
+<br>
+Contact: <a rel="me" href="https://m.cmx.im/@lzx">Mastodon</a></footer>
 
     
 </body>
