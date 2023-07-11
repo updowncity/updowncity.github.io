@@ -2,60 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://updown.city/blog/20230630_logs/</loc>
-    <lastmod>2023-06-30T23:53:44+08:00</lastmod>
+    <loc>https://updown.city/</loc>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url><url>
     <loc>https://updown.city/blog/</loc>
-    <lastmod>2023-06-30T23:53:44+08:00</lastmod>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://updown.city/</loc>
-    <lastmod>2023-06-30T23:53:44+08:00</lastmod>
+    <loc>https://updown.city/blog/markdown/</loc>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://updown.city/blog/20230630-thesis/</loc>
-    <lastmod>2023-06-30T23:42:40+08:00</lastmod>
+    <loc>https://updown.city/markdown-syntax-guide/</loc>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://updown.city/blog/20230630-changelogs-of-this-blog/</loc>
-    <lastmod>2023-06-30T23:31:11+08:00</lastmod>
+    <loc>https://updown.city/blog/syntax/</loc>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://updown.city/blog/20230327_nekobox-backup/</loc>
-    <lastmod>2023-03-27T14:49:57+08:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/tags/</loc>
-    <lastmod>2023-03-27T14:49:57+08:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/tags/%E5%9B%9E%E5%BF%86/</loc>
-    <lastmod>2023-03-27T14:49:57+08:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/nav/</loc>
-    <lastmod>2023-03-18T22:41:49+00:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/nav/changelog/</loc>
-    <lastmod>2023-03-18T22:41:49+00:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/nav/about/</loc>
-    <lastmod>2023-03-17T22:57:31+00:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/nav/friends/</loc>
-    <lastmod>2023-03-12T00:38:32+00:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/tags/%E6%95%85%E7%BA%B8%E5%A0%86/</loc>
-    <lastmod>2023-03-05T22:42:49+00:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/blog/20230305_jamais-vu/</loc>
-    <lastmod>2023-03-05T22:42:49+00:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/blog/20220826_cokernels/</loc>
-    <lastmod>2022-08-26T22:08:26+00:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/tags/%E5%A4%A9%E7%A5%9E%E5%8F%B3%E7%BF%BC/</loc>
-    <lastmod>2022-08-26T22:08:26+00:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/blog/20220826_ewige-wiederkunft/</loc>
-    <lastmod>2022-08-26T21:09:17+00:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/blog/20210917_everless/</loc>
-    <lastmod>2021-09-17T05:26:00+00:00</lastmod>
-  </url><url>
-    <loc>https://updown.city/categories/</loc>
+    <loc>https://updown.city/bear/</loc>
   </url>
 </urlset>

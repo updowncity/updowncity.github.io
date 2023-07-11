@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on 你快樂嗎</title>
-    <link>https://updown.city/blog/</link>
-    <description>Recent content in Blog on 你快樂嗎</description>
+    <title>syntax on 你快樂嗎</title>
+    <link>https://updown.city/blog/syntax/</link>
+    <description>Recent content in syntax on 你快樂嗎</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://updown.city/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://updown.city/blog/syntax/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown Syntax Guide</title>
       <link>https://updown.city/markdown-syntax-guide/</link>
